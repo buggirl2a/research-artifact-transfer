@@ -22,7 +22,7 @@ jobs:
           set -euo pipefail
           python - <<'PY'
           from pathlib import Path
-          import csv, json, math, re, statistics, shutil
+          import csv, json, shutil
 
           base=Path('release_mirror/D06-20260831')
           mf=base/'D06B_USGS_minimal_source'/'D04_species_manifest.csv'
@@ -31,13 +31,8 @@ jobs:
           if out.exists(): shutil.rmtree(out)
           out.mkdir(parents=True)
 
-          def clean(s):
-              return ' '.join((s or '').strip().split())
-          def norm(s):
-              return clean(s).casefold()
-          def is_species_name(s):
-              # Header metadata fields are first 9 columns; all later fields are taxa.
-              return bool(re.match(r'^[A-Z][A-Za-z-]+\s+.+', clean(s)))
+          def clean(s): return ' '.join((s or '').strip().split())
+          def norm(s): return clean(s).casefold()
           def present(v):
               t=clean(v)
               if not t: return False
@@ -47,28 +42,19 @@ jobs:
           with mf.open('r',encoding='utf-8-sig',newline='') as f:
               fia=list(csv.DictReader(f))
           with pa.open('r',encoding='utf-8-sig',newline='') as f:
-              reader=csv.reader(f)
-              hdr=next(reader)
-          meta=hdr[:9]
+              hdr=next(csv.reader(f))
           taxa=hdr[9:]
           tax_norm={norm(x):x for x in taxa}
 
-          rows=[]
-          exact_cols=[]
+          rows=[]; exact_cols=[]
           for r in fia:
               name=clean(r.get('scientific_name',''))
               match=tax_norm.get(norm(name),'')
-              status='exact' if match else 'unmatched'
-              rows.append({
-                  'SPCD':r.get('SPCD',''),
-                  'fia_name':name,
-                  'usgs_column':match,
-                  'match_status':status,
-                  'detected_eligible_plots':r.get('detected_eligible_plots',''),
-              })
+              rows.append({'SPCD':r.get('SPCD',''),'fia_name':name,'usgs_column':match,
+                           'match_status':'exact' if match else 'unmatched',
+                           'detected_eligible_plots':r.get('detected_eligible_plots','')})
               if match: exact_cols.append(match)
 
-          # Read only exact-matched columns plus COUNTRY once.
           col_index={x:i for i,x in enumerate(hdr)}
           cnt={x:{'US':0,'Canada':0,'other':0} for x in set(exact_cols)}
           country_values={}
@@ -76,54 +62,34 @@ jobs:
               rd=csv.reader(f); next(rd)
               cidx=col_index['COUNTRY']
               for rr in rd:
-                  country=clean(rr[cidx])
-                  country_values[country]=country_values.get(country,0)+1
+                  country=clean(rr[cidx]); country_values[country]=country_values.get(country,0)+1
                   cc=country.casefold()
-                  if cc in {'usa','us','united states','united states of america'}:
-                      bucket='US'
-                  elif cc in {'canada','can'}:
-                      bucket='Canada'
-                  else:
-                      bucket='other'
+                  bucket='US' if cc in {'usa','us','united states','united states of america'} else ('Canada' if cc in {'canada','can'} else 'other')
                   for sp in cnt:
                       if present(rr[col_index[sp]]): cnt[sp][bucket]+=1
 
           for r in rows:
               sp=r['usgs_column']
               if not sp: continue
-              d=cnt[sp]
-              den=d['US']+d['Canada']
-              r['US_occupied_grids']=d['US']
-              r['Canada_occupied_grids']=d['Canada']
-              r['other_occupied_grids']=d['other']
-              r['US_fraction_of_US_plus_Canada']=d['US']/den if den else ''
-              r['Canada_extension']='yes' if d['Canada']>0 else 'no'
+              d=cnt[sp]; den=d['US']+d['Canada']
+              r.update({'US_occupied_grids':d['US'],'Canada_occupied_grids':d['Canada'],'other_occupied_grids':d['other'],
+                        'US_fraction_of_US_plus_Canada':d['US']/den if den else '',
+                        'Canada_extension':'yes' if d['Canada']>0 else 'no'})
 
-          fields=['SPCD','fia_name','usgs_column','match_status','detected_eligible_plots',
-                  'US_occupied_grids','Canada_occupied_grids','other_occupied_grids',
-                  'US_fraction_of_US_plus_Canada','Canada_extension']
+          fields=['SPCD','fia_name','usgs_column','match_status','detected_eligible_plots','US_occupied_grids','Canada_occupied_grids','other_occupied_grids','US_fraction_of_US_plus_Canada','Canada_extension']
           with (out/'D06B_exact_crosswalk_and_range_fraction.csv').open('w',encoding='utf-8-sig',newline='') as f:
               w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore'); w.writeheader(); w.writerows(rows)
 
-          unmatched=[r for r in rows if r['match_status']=='unmatched']
+          unmatched=[{'SPCD':r['SPCD'],'fia_name':r['fia_name'],'detected_eligible_plots':r['detected_eligible_plots']} for r in rows if r['match_status']=='unmatched']
           with (out/'D06B_unmatched_names.csv').open('w',encoding='utf-8-sig',newline='') as f:
               w=csv.DictWriter(f,fieldnames=['SPCD','fia_name','detected_eligible_plots']);w.writeheader();w.writerows(unmatched)
 
           matched=[r for r in rows if r['match_status']=='exact' and r.get('US_fraction_of_US_plus_Canada')!='']
-          thresholds=[]
-          for t in (.70,.80,.90,.95):
-              thresholds.append({'threshold':t,'exact_matched_species_at_or_above':sum(float(r['US_fraction_of_US_plus_Canada'])>=t for r in matched)})
+          thresholds=[{'threshold':t,'exact_matched_species_at_or_above':sum(float(r['US_fraction_of_US_plus_Canada'])>=t for r in matched)} for t in (.70,.80,.90,.95)]
           with (out/'D06B_threshold_curve_exact_only.csv').open('w',encoding='utf-8-sig',newline='') as f:
               w=csv.DictWriter(f,fieldnames=['threshold','exact_matched_species_at_or_above']);w.writeheader();w.writerows(thresholds)
 
-          summary={
-              'fia_manifest_rows':len(fia),
-              'usgs_species_columns':len(taxa),
-              'exact_matches':sum(r['match_status']=='exact' for r in rows),
-              'unmatched':len(unmatched),
-              'country_values_and_grid_counts':country_values,
-              'threshold_curve_exact_only':thresholds,
-          }
+          summary={'fia_manifest_rows':len(fia),'usgs_species_columns':len(taxa),'exact_matches':sum(r['match_status']=='exact' for r in rows),'unmatched':len(unmatched),'country_values_and_grid_counts':country_values,'threshold_curve_exact_only':thresholds}
           (out/'D06B_EXACT_SUMMARY.json').write_text(json.dumps(summary,indent=2,ensure_ascii=False),encoding='utf-8')
           PY
       - name: Commit results
