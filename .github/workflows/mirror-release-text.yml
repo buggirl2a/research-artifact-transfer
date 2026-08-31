@@ -1,3 +1,4 @@
+# Q1 research artifact transfer: release text mirror
 name: Mirror release text artifacts
 
 on:
@@ -109,7 +110,6 @@ jobs:
                           m = {'name': info.filename, 'bytes': info.file_size, 'mirrored': False}
                           if rel is not None and rel.suffix.lower() in allowed and info.file_size <= max_text_bytes:
                               data = z.read(info)
-                              # Only mirror text that can be decoded; preserve exact bytes in checksum metadata.
                               try:
                                   data.decode('utf-8-sig')
                               except UnicodeDecodeError:
