@@ -1,0 +1,143 @@
+name: D06B USGS Table1 synonym closure
+
+on:
+  push:
+    paths:
+      - '.github/workflows/d06b-synonym-closure.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  synonym:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Resolve FIA accepted names against USGS Table 1 original/accepted names
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          from html.parser import HTMLParser
+          import csv, json, re, shutil, urllib.request
+
+          base=Path('release_mirror/D06-20260831')
+          mf=base/'D06B_USGS_minimal_source'/'D04_species_manifest.csv'
+          pa=base/'D06B_USGS_csv'/'Presence_Absence_of_Individual_Species_on_25km_Grid.csv'
+          out=base/'D06B_crosswalk_resolved'
+          if out.exists(): shutil.rmtree(out)
+          out.mkdir(parents=True)
+
+          TABLE_URL='https://pubs.usgs.gov/pp/p1650-g/table1.html'
+          req=urllib.request.Request(TABLE_URL,headers={'User-Agent':'Q1-D06-taxonomy-audit/1.0'})
+          html=urllib.request.urlopen(req,timeout=120).read().decode('utf-8','replace')
+          (out/'USGS_Table1_snapshot.html').write_text(html,encoding='utf-8')
+
+          class T(HTMLParser):
+              def __init__(self):
+                  super().__init__(); self.in_tr=False; self.in_cell=False; self.buf=[]; self.row=[]; self.rows=[]
+              def handle_starttag(self,tag,attrs):
+                  if tag=='tr': self.in_tr=True; self.row=[]
+                  elif tag in ('td','th') and self.in_tr: self.in_cell=True; self.buf=[]
+              def handle_data(self,data):
+                  if self.in_cell: self.buf.append(data)
+              def handle_endtag(self,tag):
+                  if tag in ('td','th') and self.in_cell:
+                      self.row.append(' '.join(''.join(self.buf).split())); self.in_cell=False
+                  elif tag=='tr' and self.in_tr:
+                      if self.row: self.rows.append(self.row)
+                      self.in_tr=False
+          p=T(); p.feed(html)
+          rows=p.rows
+
+          def clean(s): return ' '.join((s or '').strip().split())
+          def norm(s): return clean(s).casefold()
+          def strip_authorship(s):
+              # Table cells normally contain names without authors; keep conservative.
+              return clean(s)
+          # Locate rows with at least original + accepted name fields.
+          pairs=[]
+          for r in rows:
+              if len(r)<2: continue
+              orig=clean(r[0]); acc=clean(r[1])
+              if not orig or orig.lower().startswith('scientific name'): continue
+              if not re.match(r'^[A-Z][A-Za-z-]+\s+',orig): continue
+              if acc in {'—','-----',''}: acc=orig
+              # accepted cell may include normal taxon name only on this table.
+              pairs.append((orig,acc))
+          # Deduplicate preserving unique orig.
+          pair_by_orig={}
+          for orig,acc in pairs: pair_by_orig[orig]=acc
+
+          with mf.open('r',encoding='utf-8-sig',newline='') as f: fia=list(csv.DictReader(f))
+          with pa.open('r',encoding='utf-8-sig',newline='') as f: hdr=next(csv.reader(f))
+          taxa=hdr[9:]; taxset=set(taxa); taxnorm={norm(t):t for t in taxa}
+
+          # accepted name -> original columns actually present in release
+          acc_to_orig={}
+          for orig,acc in pair_by_orig.items():
+              if orig not in taxset: continue
+              acc_to_orig.setdefault(norm(acc),[]).append(orig)
+
+          # read grid counts once after determining mappings
+          maps=[]
+          for r in fia:
+              name=clean(r.get('scientific_name',''))
+              exact=taxnorm.get(norm(name))
+              if exact:
+                  maps.append({'SPCD':r.get('SPCD',''),'fia_name':name,'usgs_column':exact,'match_status':'exact','detected_eligible_plots':r.get('detected_eligible_plots','')})
+                  continue
+              cands=acc_to_orig.get(norm(name),[])
+              if len(cands)==1:
+                  maps.append({'SPCD':r.get('SPCD',''),'fia_name':name,'usgs_column':cands[0],'match_status':'accepted_name_to_usgs_original','detected_eligible_plots':r.get('detected_eligible_plots','')})
+              elif len(cands)>1:
+                  maps.append({'SPCD':r.get('SPCD',''),'fia_name':name,'usgs_column':'|'.join(cands),'match_status':'ambiguous_accepted_name','detected_eligible_plots':r.get('detected_eligible_plots','')})
+              else:
+                  maps.append({'SPCD':r.get('SPCD',''),'fia_name':name,'usgs_column':'','match_status':'unresolved','detected_eligible_plots':r.get('detected_eligible_plots','')})
+
+          resolved_cols=sorted({r['usgs_column'] for r in maps if r['match_status'] in {'exact','accepted_name_to_usgs_original'}})
+          idx={x:i for i,x in enumerate(hdr)}
+          cnt={x:{'US':0,'Canada':0} for x in resolved_cols}
+          with pa.open('r',encoding='utf-8-sig',newline='') as f:
+              rd=csv.reader(f); next(rd); cidx=idx['COUNTRY']
+              for rr in rd:
+                  cc=clean(rr[cidx]).casefold()
+                  bucket='US' if cc=='usa' else ('Canada' if cc=='canada' else None)
+                  if not bucket: continue
+                  for sp in resolved_cols:
+                      v=clean(rr[idx[sp]])
+                      try: hit=float(v)>0
+                      except: hit=v.casefold() in {'present','yes','true','p'}
+                      if hit: cnt[sp][bucket]+=1
+          for r in maps:
+              if r['match_status'] not in {'exact','accepted_name_to_usgs_original'}: continue
+              d=cnt[r['usgs_column']]; den=d['US']+d['Canada']
+              r['US_occupied_grids']=d['US'];r['Canada_occupied_grids']=d['Canada'];r['US_fraction_of_US_plus_Canada']=d['US']/den if den else '';r['Canada_extension']='yes' if d['Canada'] else 'no'
+
+          fields=['SPCD','fia_name','usgs_column','match_status','detected_eligible_plots','US_occupied_grids','Canada_occupied_grids','US_fraction_of_US_plus_Canada','Canada_extension']
+          with (out/'D06B_resolved_crosswalk_and_range_fraction.csv').open('w',encoding='utf-8-sig',newline='') as f:
+              w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore');w.writeheader();w.writerows(maps)
+          unresolved=[r for r in maps if r['match_status'] not in {'exact','accepted_name_to_usgs_original'}]
+          with (out/'D06B_unresolved_after_USGS_Table1.csv').open('w',encoding='utf-8-sig',newline='') as f:
+              w=csv.DictWriter(f,fieldnames=['SPCD','fia_name','match_status','detected_eligible_plots'],extrasaction='ignore');w.writeheader();w.writerows(unresolved)
+          matched=[r for r in maps if r['match_status'] in {'exact','accepted_name_to_usgs_original'} and r.get('US_fraction_of_US_plus_Canada')!='']
+          curve=[]
+          for t in (.70,.80,.90,.95): curve.append({'threshold':t,'resolved_species_at_or_above':sum(float(r['US_fraction_of_US_plus_Canada'])>=t for r in matched)})
+          with (out/'D06B_threshold_curve_resolved.csv').open('w',encoding='utf-8-sig',newline='') as f:
+              w=csv.DictWriter(f,fieldnames=['threshold','resolved_species_at_or_above']);w.writeheader();w.writerows(curve)
+          summary={'fia_manifest_rows':len(fia),'usgs_species_columns':len(taxa),'exact_matches':sum(r['match_status']=='exact' for r in maps),'accepted_name_to_original_matches':sum(r['match_status']=='accepted_name_to_usgs_original' for r in maps),'ambiguous':sum(r['match_status']=='ambiguous_accepted_name' for r in maps),'unresolved':sum(r['match_status']=='unresolved' for r in maps),'resolved_total':len(matched),'Canada_extension_yes':sum(r.get('Canada_extension')=='yes' for r in matched),'threshold_curve':curve,'USGS_table1_url':TABLE_URL}
+          (out/'D06B_RESOLVED_SUMMARY.json').write_text(json.dumps(summary,indent=2,ensure_ascii=False),encoding='utf-8')
+          PY
+      - name: Commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add release_mirror/D06-20260831/D06B_crosswalk_resolved
+          git commit -m 'D06B close FIA-USGS names using USGS Table 1' || exit 0
+          git push
