@@ -1,0 +1,150 @@
+name: Mirror release text artifacts
+
+on:
+  release:
+    types: [published, edited]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag to mirror; leave empty for latest release'
+        required: false
+        type: string
+  push:
+    paths:
+      - '.github/workflows/mirror-release-text.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve release tag
+        id: tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+          INPUT_TAG: ${{ inputs.tag }}
+          EVENT_TAG: ${{ github.event.release.tag_name }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -n "${EVENT_TAG:-}" ]]; then
+            TAG="$EVENT_TAG"
+          elif [[ -n "${INPUT_TAG:-}" ]]; then
+            TAG="$INPUT_TAG"
+          else
+            TAG="$(gh api "repos/${GITHUB_REPOSITORY}/releases/latest" --jq '.tag_name')"
+          fi
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "Mirroring release: $TAG"
+
+      - name: Download release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.tag.outputs.tag }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf _release_assets
+          mkdir -p _release_assets
+          gh release download "$TAG" --repo "$GITHUB_REPOSITORY" --dir _release_assets
+          ls -lah _release_assets
+
+      - name: Extract UTF-8/text audit artifacts safely
+        env:
+          TAG: ${{ steps.tag.outputs.tag }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, json, shutil, zipfile
+          import os
+
+          tag = os.environ['TAG']
+          src = Path('_release_assets')
+          dst = Path('release_mirror') / tag
+          if dst.exists():
+              shutil.rmtree(dst)
+          dst.mkdir(parents=True, exist_ok=True)
+
+          allowed = {'.csv','.tsv','.txt','.md','.json','.xml','.yml','.yaml','.py','.r','.ps1','.sh','.toml','.ini'}
+          max_text_bytes = 25 * 1024 * 1024
+          manifest = {'tag': tag, 'assets': []}
+
+          def sha256_bytes(b):
+              return hashlib.sha256(b).hexdigest()
+
+          def safe_rel(name):
+              p = Path(name)
+              if p.is_absolute() or '..' in p.parts:
+                  return None
+              return p
+
+          for asset in sorted(src.iterdir()):
+              if not asset.is_file():
+                  continue
+              raw = asset.read_bytes()
+              a = {
+                  'name': asset.name,
+                  'bytes': len(raw),
+                  'sha256': sha256_bytes(raw),
+                  'members': []
+              }
+              asset_dir = dst / asset.stem
+              asset_dir.mkdir(parents=True, exist_ok=True)
+
+              if asset.suffix.lower() == '.zip':
+                  with zipfile.ZipFile(asset) as z:
+                      for info in z.infolist():
+                          if info.is_dir():
+                              continue
+                          rel = safe_rel(info.filename)
+                          m = {'name': info.filename, 'bytes': info.file_size, 'mirrored': False}
+                          if rel is not None and rel.suffix.lower() in allowed and info.file_size <= max_text_bytes:
+                              data = z.read(info)
+                              # Only mirror text that can be decoded; preserve exact bytes in checksum metadata.
+                              try:
+                                  data.decode('utf-8-sig')
+                              except UnicodeDecodeError:
+                                  try:
+                                      data.decode('latin-1')
+                                  except UnicodeDecodeError:
+                                      data = None
+                              if data is not None:
+                                  out = asset_dir / rel
+                                  out.parent.mkdir(parents=True, exist_ok=True)
+                                  out.write_bytes(data)
+                                  m['mirrored'] = True
+                                  m['sha256'] = sha256_bytes(data)
+                          a['members'].append(m)
+              elif asset.suffix.lower() in allowed and len(raw) <= max_text_bytes:
+                  out = asset_dir / asset.name
+                  out.write_bytes(raw)
+                  a['members'].append({'name': asset.name, 'bytes': len(raw), 'mirrored': True, 'sha256': sha256_bytes(raw)})
+              manifest['assets'].append(a)
+
+          (dst / '_RELEASE_MIRROR_MANIFEST.json').write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding='utf-8')
+          PY
+
+      - name: Commit mirror
+        env:
+          TAG: ${{ steps.tag.outputs.tag }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "release_mirror/$TAG"
+          if git diff --cached --quiet; then
+            echo 'No mirror changes to commit.'
+            exit 0
+          fi
+          git commit -m "Mirror release text artifacts: $TAG"
+          git push
