@@ -1,0 +1,28 @@
+{
+  "fia_manifest_rows": 177,
+  "usgs_species_columns": 690,
+  "exact_matches": 133,
+  "unmatched": 44,
+  "country_values_and_grid_counts": {
+    "USA": 13756,
+    "CANADA": 14228
+  },
+  "threshold_curve_exact_only": [
+    {
+      "threshold": 0.7,
+      "exact_matched_species_at_or_above": 112
+    },
+    {
+      "threshold": 0.8,
+      "exact_matched_species_at_or_above": 108
+    },
+    {
+      "threshold": 0.9,
+      "exact_matched_species_at_or_above": 97
+    },
+    {
+      "threshold": 0.95,
+      "exact_matched_species_at_or_above": 89
+    }
+  ]
+}

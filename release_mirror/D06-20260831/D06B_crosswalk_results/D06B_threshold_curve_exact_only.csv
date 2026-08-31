@@ -1,0 +1,5 @@
+﻿threshold,exact_matched_species_at_or_above
+0.7,112
+0.8,108
+0.9,97
+0.95,89
