@@ -1,0 +1,178 @@
+﻿SPCD,scientific_name,common_name,detected_eligible_plots,large_tree_records,commonness_class,candidate_pool_detection_floor,detected_cells_25km,eligible_cells_25km,detected_cells_50km,eligible_cells_50km,detected_cells_75km,eligible_cells_75km
+316,Acer rubrum,red maple,8349,41417,common_top10,30,867,931,255,266,119,127
+621,Liriodendron tulipifera,yellow-poplar,5398,24146,common_top10,30,801,931,247,266,114,127
+802,Quercus alba,white oak,4378,14634,common_top10,30,773,931,243,266,112,127
+832,Quercus prinus,chestnut oak,3541,20293,common_top10,30,555,931,187,266,93,127
+833,Quercus rubra,northern red oak,3430,9153,common_top10,30,707,931,220,266,105,127
+762,Prunus serotina,black cherry,3345,10913,common_top10,30,777,931,245,266,116,127
+693,Nyssa sylvatica,blackgum,2967,6556,common_top10,30,709,931,230,266,111,127
+318,Acer saccharum,sugar maple,2916,12162,common_top10,30,512,931,161,266,84,127
+611,Liquidambar styraciflua,sweetgum,2709,12240,common_top10,30,431,931,147,266,79,127
+131,Pinus taeda,loblolly pine,2672,48239,common_top10,30,412,931,144,266,81,127
+403,Carya glabra,pignut hickory,2654,5833,,30,676,931,216,266,112,127
+531,Fagus grandifolia,American beech,2590,8366,,30,648,931,221,266,110,127
+372,Betula lenta,sweet birch,2365,9761,,30,391,931,131,266,67,127
+711,Oxydendrum arboreum,sourwood,2342,7313,,30,443,931,154,266,79,127
+837,Quercus velutina,black oak,2191,4123,,30,653,931,217,266,106,127
+806,Quercus coccinea,scarlet oak,2121,5860,,30,591,931,205,266,104,127
+409,Carya alba,mockernut hickory,2002,4157,,30,606,931,203,266,108,127
+132,Pinus virginiana,Virginia pine,1602,8608,,30,380,931,141,266,73,127
+129,Pinus strobus,eastern white pine,1561,6992,,30,336,931,129,266,67,127
+261,Tsuga canadensis,eastern hemlock,1383,6869,,30,326,931,120,266,66,127
+541,Fraxinus americana,white ash,1233,2646,,30,513,931,198,266,100,127
+68,Juniperus virginiana,eastern redcedar,1187,5049,,30,389,931,146,266,84,127
+407,Carya ovata,shagbark hickory,1141,2374,,30,463,931,178,266,97,127
+812,Quercus falcata,southern red oak,1037,2237,,30,384,931,136,266,72,127
+901,Robinia pseudoacacia,black locust,1023,2110,,30,404,931,162,266,86,127
+931,Sassafras albidum,sassafras,938,2184,,30,445,931,185,266,96,127
+972,Ulmus americana,American elm,924,1626,,30,452,931,205,266,110,127
+602,Juglans nigra,black walnut,909,1805,,30,455,931,192,266,99,127
+971,Ulmus alata,winged elm,777,1622,,30,253,931,90,266,53,127
+651,Magnolia acuminata,cucumbertree,726,1200,,30,267,931,102,266,62,127
+371,Betula alleghaniensis,yellow birch,721,3032,,30,188,931,85,266,49,127
+951,Tilia americana,American basswood,709,1886,,30,317,931,135,266,72,127
+356,Amelanchier spp.,serviceberry spp.,665,1158,,30,261,931,105,266,60,127
+110,Pinus echinata,shortleaf pine,638,1847,,30,252,931,109,266,61,127
+544,Fraxinus pennsylvanica,green ash,632,1724,,30,349,931,159,266,85,127
+731,Platanus occidentalis,American sycamore,631,1364,,30,372,931,176,266,100,127
+835,Quercus stellata,post oak,611,1136,,30,279,931,125,266,71,127
+591,Ilex opaca,American holly,592,1463,,30,220,931,91,266,60,127
+402,Carya cordiformis,bitternut hickory,571,1065,,30,359,931,171,266,96,127
+975,Ulmus rubra,slippery elm,552,872,,30,328,931,163,266,89,127
+701,Ostrya virginiana,eastern hophornbeam,511,885,,30,290,931,143,266,83,127
+827,Quercus nigra,water oak,494,1352,,30,180,931,73,266,41,127
+341,Ailanthus altissima,ailanthus,477,1329,,30,265,931,138,266,77,127
+391,Carpinus caroliniana,American hornbeam,467,879,,30,301,931,160,266,88,127
+462,Celtis occidentalis,hackberry,459,1153,intermediate10,30,212,931,114,266,75,127
+126,Pinus rigida,pitch pine,406,1120,intermediate10,30,161,931,77,266,45,127
+313,Acer negundo,boxelder,402,1002,intermediate10,30,256,931,140,266,86,127
+831,Quercus phellos,willow oak,395,717,intermediate10,30,215,931,90,266,52,127
+655,Magnolia fraseri,Fraser magnolia,379,894,intermediate10,30,109,931,47,266,27,127
+491,Cornus florida,flowering dogwood,366,469,intermediate10,30,256,931,145,266,83,127
+694,Nyssa biflora,swamp tupelo,346,2163,intermediate10,30,133,931,48,266,26,127
+826,Quercus muehlenbergii,chinkapin oak,313,692,intermediate10,30,137,931,69,266,41,127
+332,Aesculus flava,yellow buckeye,296,695,intermediate10,30,150,931,68,266,40,127
+521,Diospyros virginiana,common persimmon,278,392,intermediate10,30,197,931,114,266,66,127
+743,Populus grandidentata,bigtooth aspen,209,607,,30,147,931,76,266,48,127
+373,Betula nigra,river birch,201,556,,30,135,931,70,266,44,127
+471,Cercis canadensis,eastern redbud,201,275,,30,149,931,89,266,56,127
+123,Pinus pungens,Table Mountain pine,200,769,,30,77,931,37,266,23,127
+315,Acer pensylvanicum,striped maple,187,344,,30,97,931,53,266,35,127
+97,Picea rubens,red spruce,175,1807,,30,35,931,21,266,15,127
+712,Paulownia tomentosa,paulownia,158,268,,30,119,931,77,266,55,127
+813,Quercus pagoda,cherrybark oak,158,301,,30,89,931,54,266,34,127
+761,Prunus pensylvanica,pin cherry,151,511,,30,89,931,50,266,30,127
+128,Pinus serotina,pond pine,146,1210,,30,54,931,27,266,17,127
+221,Taxodium distichum,baldcypress,142,683,,30,78,931,42,266,26,127
+121,Pinus palustris,longleaf pine,137,1326,,30,46,931,25,266,15,127
+682,Morus rubra,red mulberry,135,163,,30,106,931,74,266,55,127
+922,Salix nigra,black willow,129,451,,30,107,931,74,266,54,127
+825,Quercus michauxii,swamp chestnut oak,126,234,,30,93,931,54,266,31,127
+653,Magnolia virginiana,sweetbay,123,319,,30,74,931,37,266,21,127
+820,Quercus laurifolia,laurel oak,111,290,,30,59,931,30,266,19,127
+746,Populus tremuloides,quaking aspen,109,423,,30,65,931,32,266,20,127
+660,Malus spp.,apple spp.,92,209,,30,77,931,56,266,41,127
+581,Halesia carolina,Carolina silverbell,90,214,,30,30,931,16,266,12,127
+461,Celtis laevigata,sugarberry,89,237,,30,64,931,43,266,29,127
+641,Maclura pomifera,Osage-orange,87,318,,30,48,931,31,266,28,127
+500,Crataegus spp.,hawthorn spp.,82,205,,30,66,931,43,266,31,127
+771,Prunus avium,sweet cherry,81,122,,30,68,931,52,266,32,127
+555,Gordonia lasianthus,loblolly-bay,77,471,,30,41,931,19,266,12,127
+552,Gleditsia triacanthos,honeylocust,68,107,,30,51,931,38,266,28,127
+691,Nyssa aquatica,water tupelo,62,731,,30,39,931,26,266,18,127
+721,Persea borbonia,redbay,59,275,,30,34,931,22,266,14,127
+824,Quercus marilandica,blackjack oak,59,138,,30,43,931,27,266,22,127
+317,Acer saccharinum,silver maple,57,177,,30,49,931,42,266,33,127
+91,Picea abies,Norway spruce,56,385,,30,45,931,32,266,24,127
+311,Acer barbatum,Florida maple,55,115,,30,35,931,22,266,14,127
+742,Populus deltoides,eastern cottonwood,54,135,,30,41,931,32,266,27,127
+834,Quercus shumardii,Shumard oak,49,76,,30,42,931,29,266,24,127
+546,Fraxinus quadrangulata,blue ash,48,170,,30,23,931,13,266,11,127
+125,Pinus resinosa,red pine,42,330,rarer10_above_engineering_floor,30,33,931,23,266,17,127
+830,Quercus palustris,pin oak,42,75,rarer10_above_engineering_floor,30,32,931,26,266,19,127
+345,Albizia julibrissin,mimosa,40,55,rarer10_above_engineering_floor,30,37,931,31,266,27,127
+375,Betula papyrifera,paper birch,37,113,rarer10_above_engineering_floor,30,24,931,13,266,10,127
+822,Quercus lyrata,overcup oak,36,89,rarer10_above_engineering_floor,30,32,931,26,266,19,127
+320,Acer platanoides,Norway maple,35,99,rarer10_above_engineering_floor,30,29,931,19,266,14,127
+130,Pinus sylvestris,Scotch pine,34,138,rarer10_above_engineering_floor,30,33,931,25,266,19,127
+6511,Persea palustris,swamp bay,34,146,rarer10_above_engineering_floor,30,20,931,15,266,12,127
+601,Juglans cinerea,butternut,31,40,rarer10_above_engineering_floor,30,30,931,28,266,24,127
+817,Quercus imbricaria,shingle oak,30,69,rarer10_above_engineering_floor,30,24,931,19,266,14,127
+43,Chamaecyparis thyoides,Atlantic white-cedar,28,126,,,22,931,17,266,12,127
+8421,Pyrus calleryana,Callery pear,28,57,,,23,931,21,266,17,127
+404,Carya illinoinensis,pecan,26,60,,,20,931,16,266,14,127
+819,Quercus laevis,turkey oak,26,86,,,14,931,8,266,6,127
+804,Quercus bicolor,swamp white oak,25,38,,,22,931,21,266,21,127
+410,Carya pallida,sand hickory,24,59,,,22,931,18,266,14,127
+935,Sorbus americana,American mountain-ash,22,66,,,12,931,10,266,7,127
+405,Carya laciniosa,shellbark hickory,20,32,,,18,931,16,266,12,127
+421,Castanea dentata,American chestnut,20,25,,,19,931,16,266,16,127
+314,Acer nigrum,black maple,18,46,,,17,931,15,266,14,127
+357,Amelanchier arborea,common serviceberry,18,38,,,15,931,6,266,7,127
+545,Fraxinus profunda,pumpkin ash,17,85,,,14,931,11,266,10,127
+681,Morus alba,white mulberry,17,21,,,17,931,17,266,15,127
+111,Pinus elliottii,slash pine,16,121,,,11,931,9,266,7,127
+379,Betula populifolia,gray birch,16,25,,,12,931,8,266,7,127
+222,Taxodium ascendens,pondcypress,15,78,,,14,931,10,266,6,127
+70,Larix spp.,larch spp.,15,96,,,12,931,10,266,7,127
+952,Tilia americana var. heterophylla,white basswood,14,43,,,11,931,8,266,7,127
+658,Magnolia tripetala,umbrella magnolia,13,19,,,12,931,11,266,9,127
+663,Malus coronaria,sweet crab apple,13,16,,,12,931,10,266,8,127
+993,Melia azedarach,Chinaberrytree,13,31,,,12,931,10,266,8,127
+367,Asimina triloba,pawpaw,12,16,,,12,931,11,266,12,127
+654,Magnolia macrophylla,bigleaf magnolia,12,20,,,11,931,8,266,8,127
+999,Tree unknown,other or unknown live tree,12,16,,,11,931,10,266,9,127
+838,Quercus virginiana,live oak,10,23,,,3,931,3,266,2,127
+16,Abies fraseri,Fraser fir,9,91,,,7,931,5,266,4,127
+401,Carya aquatica,water hickory,9,14,,,8,931,7,266,5,127
+840,Quercus margarettiae,dwarf post oak,9,14,,,6,931,5,266,3,127
+94,Picea glauca,white spruce,9,105,,,8,931,7,266,6,127
+96,Picea pungens,blue spruce,9,113,,,9,931,9,266,9,127
+262,Tsuga caroliniana,Carolina hemlock,8,15,,,7,931,6,266,5,127
+548,Fraxinus caroliniana,Carolina ash,8,46,,,8,931,7,266,7,127
+828,Quercus texana,Nuttall oak,7,10,,,6,931,5,266,3,127
+319,Acer spicatum,mountain maple,6,8,,,5,931,4,266,4,127
+412,Carya ovalis,red hickory,6,7,,,6,931,6,266,6,127
+481,Cladrastis kentukea,yellowwood,6,7,,,6,931,5,266,4,127
+652,Magnolia grandiflora,southern magnolia,6,13,,,6,931,6,266,6,127
+763,Prunus virginiana,chokecherry,6,10,,,6,931,6,266,6,127
+452,Catalpa speciosa,northern catalpa,5,5,,,5,931,4,266,5,127
+502,Crataegus mollis,downy hawthorn,4,7,,,4,931,4,266,4,127
+744,Populus heterophylla,swamp cottonwood,4,7,,,3,931,3,266,2,127
+8420,Pyrus spp.,pear spp.,4,5,,,4,931,4,266,4,127
+977,Ulmus thomasii,rock elm,4,6,,,4,931,4,266,4,127
+136,Pinus nigra,Austrian pine,3,31,,,3,931,3,266,3,127
+202,Pseudotsuga menziesii,Douglas-fir,3,5,,,3,931,3,266,3,127
+355,Alnus glutinosa,European alder,3,12,,,3,931,3,266,3,127
+451,Catalpa bignonioides,southern catalpa,3,3,,,3,931,3,266,3,127
+571,Gymnocladus dioicus,Kentucky coffeetree,3,3,,,3,931,3,266,3,127
+71,Larix laricina,tamarack,3,23,,,3,931,3,266,3,127
+766,Prunus americana,American plum,3,3,,,3,931,3,266,3,127
+809,Quercus ellipsoidalis,northern pin oak,3,4,,,3,931,3,266,3,127
+823,Quercus macrocarpa,bur oak,3,4,,,3,931,3,266,3,127
+842,Quercus incana,bluejack oak,3,3,,,3,931,3,266,3,127
+8423,Pyrus communis,common pear,3,8,,,3,931,3,266,3,127
+8427,Quercus acutissima,sawtooth oak,3,16,,,3,931,3,266,3,127
+501,Crataegus crus-galli,cockspur hawthorn,2,2,,,2,931,2,266,2,127
+543,Fraxinus nigra,black ash,2,4,,,2,931,2,266,2,127
+816,Quercus ilicifolia,scrub oak,2,2,,,2,931,2,266,2,127
+937,Sorbus decora,northern mountain-ash,2,2,,,2,931,2,266,2,127
+974,Ulmus pumila,Siberian elm,2,2,,,2,931,2,266,2,127
+105,Pinus banksiana,jack pine,1,1,,,1,931,1,266,1,127
+12,Abies balsamea,balsam fir,1,2,,,1,931,1,266,1,127
+15,Abies concolor,white fir,1,1,,,1,931,1,266,1,127
+241,Thuja occidentalis,northern white-cedar,1,1,,,1,931,1,266,1,127
+331,Aesculus glabra,Ohio buckeye,1,2,,,1,931,1,266,1,127
+350,Alnus spp.,alder spp.,1,6,,,1,931,1,266,1,127
+422,Castanea pumila,Allegheny chinkapin,1,1,,,1,931,1,266,1,127
+424,Castanea mollissima,Chinese chestnut,1,3,,,1,931,1,266,1,127
+551,Gleditsia aquatica,waterlocust,1,6,,,1,931,1,266,1,127
+561,Ginkgo biloba,ginkgo,1,7,,,1,931,1,266,1,127
+662,Malus angustifolia,southern crab apple,1,1,,,1,931,1,266,1,127
+67,Juniperus virginiana var. silicicola,southern redcedar,1,2,,,1,931,1,266,1,127
+722,Planera aquatica,planertree,1,3,,,1,931,1,266,1,127
+7328,Halesia tetraptera,mountain silverbell,1,1,,,1,931,1,266,1,127
+753,Populus nigra,Lombardy poplar,1,1,,,1,931,1,266,1,127
+760,Prunus spp.,Prunus,1,1,,,1,931,1,266,1,127
+921,Salix amygdaloides,peachleaf willow,1,1,,,1,931,1,266,1,127
+927,Salix alba,white willow,1,8,,,1,931,1,266,1,127

@@ -1,0 +1,109 @@
+{
+  "tag": "D06-20260831",
+  "assets": [
+    {
+      "name": "D06A_FIA_revisit_audit.zip",
+      "bytes": 252959,
+      "sha256": "559c00e54422c80c2e94005c804b8da9da37331fee8d76c59cadccadd5e2fda0",
+      "members": [
+        {
+          "name": "D06A_plot_pairs.csv",
+          "bytes": 1985260,
+          "mirrored": true,
+          "sha256": "be77165d23ef2d76dcbcec465a69c2a7f65fd7736177ce5b4faa38555849255c"
+        },
+        {
+          "name": "D06A_REPORT.md",
+          "bytes": 1262,
+          "mirrored": true,
+          "sha256": "61ad5860657e4df5c7658b82a9cf72e7d66b8e30cdee0fb572581880a347e674"
+        },
+        {
+          "name": "D06A_revisit_summary.csv",
+          "bytes": 912,
+          "mirrored": true,
+          "sha256": "37006aa5dfb342229166ef539d7140781d8683b8380d549e0c1b07ad9c64d033"
+        },
+        {
+          "name": "D06A_tree_link_counts.csv",
+          "bytes": 244,
+          "mirrored": true,
+          "sha256": "3ebc7f3034af17dd93ee16adfbaf9715e822cbf12022eaf3875af18e6554f42d"
+        },
+        {
+          "name": "D06A_year_pair_counts.csv",
+          "bytes": 2461,
+          "mirrored": true,
+          "sha256": "e088540a83ebbe6ec60ca04af23a63f99c72436d318afbce595b841f21c173cd"
+        },
+        {
+          "name": "SHA256SUMS.csv",
+          "bytes": 490,
+          "mirrored": true,
+          "sha256": "3bb343d10fa1824e71cbc11773b9877fa154a4addb442c737b1547fce710f19c"
+        }
+      ]
+    },
+    {
+      "name": "D06B_USGS_minimal_source.zip",
+      "bytes": 94547,
+      "sha256": "04456747c932799d2bba96501e3809f6909eaa388c09204bd3784655d16fcb27",
+      "members": [
+        {
+          "name": "D04_species_manifest.csv",
+          "bytes": 12519,
+          "mirrored": true,
+          "sha256": "f3e97df53894886023615adcda1dfa1639811415c0aabc203c59329b7d9525db"
+        },
+        {
+          "name": "D06B_USGS_file_inventory.csv",
+          "bytes": 1953,
+          "mirrored": true,
+          "sha256": "a95c28286e09fa74db991273446c1b29d8f50b060b6d0d2eda7a29b4f7480e8d"
+        },
+        {
+          "name": "DOWNLOAD_PLAN.txt",
+          "bytes": 158,
+          "mirrored": true,
+          "sha256": "ecafa5ee202f157781d850bb223d1609fc3f59fe84be75205f9d9d1d0edb9772"
+        },
+        {
+          "name": "sciencebase_item.json",
+          "bytes": 48853,
+          "mirrored": true,
+          "sha256": "76d3a376c457c9d611338e44fdd93f3843104130d18427f097217f47ecd453f2"
+        },
+        {
+          "name": "SHA256SUMS.csv",
+          "bytes": 925,
+          "mirrored": true,
+          "sha256": "353b6625cbf2c9d5f9d543ae99459747188c3c0f912b61b21102f848ce36fce2"
+        },
+        {
+          "name": "Thompson_and_others_2023_Atlas_data_release_data_dictionary.csv",
+          "bytes": 244256,
+          "mirrored": true,
+          "sha256": "8f84c402bdb7aabd7eab3e2e050c2f85b362b248a6aa877f4424a981768b6e05"
+        },
+        {
+          "name": "Thompson_and_others_2023_Atlas_data_release_metadata.txt",
+          "bytes": 131218,
+          "mirrored": true,
+          "sha256": "2a7a066a9106dddd5b9fa4bcff471d06199c329943c253794c5faee3a7896a52"
+        },
+        {
+          "name": "Thompson_and_others_2023_Atlas_data_release_metadata.xml",
+          "bytes": 122642,
+          "mirrored": true,
+          "sha256": "95d11e8cd13c68e6ca6b26662e8e5b965427039659b25041e2ec532b94e157d1"
+        },
+        {
+          "name": "Thompson_and_others_2023_Atlas_data_release_readme.txt",
+          "bytes": 21910,
+          "mirrored": true,
+          "sha256": "79032b1587b1249b1701c56974a6be8476630b3c2766da9f1096a2418d0610d1"
+        }
+      ]
+    }
+  ]
+}

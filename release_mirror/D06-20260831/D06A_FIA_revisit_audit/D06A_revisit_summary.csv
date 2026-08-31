@@ -1,0 +1,7 @@
+﻿state,target_window_plot_measurements_2017_2023,with_PREV_PLT_CN,prev_record_resolved,both_measurements_2017_2023,previous_before_2017,same_plot_status,both_accessible_forest,accessible_forest_gained,accessible_forest_lost,REMPER_n,REMPER_min,REMPER_q25,REMPER_median,REMPER_q75,REMPER_max,abs_accessible_prop_change_n,abs_accessible_prop_change_median,abs_accessible_prop_change_q75
+PA,4366,4363,4363,33,4330,4111,2657,217,23,4164,5.0,6.0,6.9,7.0,8.3,4363,0.0,0.0
+WV,2305,2275,2275,14,2261,2043,1725,214,9,2061,4.9,6.0,6.9,7.1,8.5,2275,0.0,5.00000000069889e-07
+VA,4696,4696,4696,1931,2765,4574,3115,82,38,4643,2.2,4.7,5.0,5.3,7.1,4696,0.0,0.0
+NC,5351,5350,5350,1397,3953,5206,3240,76,67,5322,3.0,5.5,6.2,7.8,10.2,5350,0.0,0.0
+TN,3800,3800,3800,87,3713,3680,2116,70,46,3765,3.7,6.4,7.1,7.9,10.6,3800,0.0,0.0
+ALL,20518,20484,20484,3462,17022,19614,12853,659,183,19955,2.2,5.3,6.2,7.0,10.6,20484,0.0,0.0

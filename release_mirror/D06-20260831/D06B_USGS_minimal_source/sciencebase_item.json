@@ -1,0 +1,789 @@
+{
+  "link": {
+    "rel": "self",
+    "url": "https://www.sciencebase.gov/catalog/item/620da87bd34e6c7e83ba9ba7"
+  },
+  "relatedItems": {
+    "link": {
+      "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=620da87bd34e6c7e83ba9ba7",
+      "rel": "related"
+    }
+  },
+  "id": "620da87bd34e6c7e83ba9ba7",
+  "identifiers": [
+    {
+      "type": "DOI",
+      "scheme": "https://www.sciencebase.gov/vocab/category/item/identifier",
+      "key": "doi:10.5066/P9FPD80E"
+    }
+  ],
+  "title": "A gridded database of the modern distributions of climate, woody plant taxa, and ecoregions for the continental United States and Canada",
+  "summary": "On the continental scale, climate is an important determinant of the distributions of plant taxa and ecoregions.  To quantify and depict the relations between specific climate variables and these distributions, we placed modern climate and plant taxa distribution data on an approximately 25-kilometer (km) equal-area grid with 27,984 points that cover Canada and the continental United States (Thompson and others, 2015).  The gridded climatic data include annual and monthly temperature and precipitation, as well as bioclimatic variables (growing degree days, mean temperatures of the coldest and warmest months, and a moisture index) based on 1961-1990 30-year mean values from the University of East Anglia (UK) Climatic Research Unit (CRU) [...]",
+  "body": "On the continental scale, climate is an important determinant of the distributions of plant taxa and ecoregions.&nbsp; To quantify and depict the relations between specific climate variables and these distributions, we placed modern climate and plant taxa distribution data on an approximately 25-kilometer (km) equal-area grid with 27,984 points that cover Canada and the continental United States (Thompson and others, 2015).&nbsp; The gridded climatic data include annual and monthly temperature and precipitation, as well as bioclimatic variables (growing degree days, mean temperatures of the coldest and warmest months, and a moisture index) based on 1961-1990 30-year mean values from the University of East Anglia (UK) Climatic Research Unit (CRU) CL 2.0 dataset (New and others, 2002), and absolute minimum and maximum temperatures for 1951-1980 interpolated from climate-station data (WeatherDisc Associates, 1989).&nbsp; As described below, these data were used to produce portions of the \"Atlas of relations between climatic parameters and distributions of important trees and shrubs in North America\" (hereafter referred to as \"the Atlas\"; Thompson and others, 1999a, 1999b, 2000, 2006, 2007, 2012a, 2015).&nbsp;The text in this&nbsp;Summary section is from the data release readme file.<br>\n<br>\n<strong>Evolution of the Atlas Over the 16 Years Between Volumes A &amp; B and G:</strong><br>\n&nbsp; &nbsp; &nbsp;The Atlas evolved through time as technology improved and our knowledge expanded.&nbsp; The climate data employed in the first five Atlas volumes were replaced by more standard and better documented data in the last two volumes (Volumes F and G; Thompson and others, 2012a, 2015).&nbsp; Similarly, the plant distribution data used in Volumes A through D (Thompson and others, 1999a, 1999b, 2000, 2006) were improved for the latter volumes.&nbsp; However, the digitized ecoregion boundaries used in Volume E (Thompson and others, 2007) remain unchanged.&nbsp; Also, as we and others used the data in Atlas Volumes A through E, we came to realize that the plant distribution and climate data for areas south of the US-Mexico border were not of sufficient quality or resolution for our needs and these data are not included in this data release.<br>\n<br>\n&nbsp; &nbsp; &nbsp;The data in this data release are provided in comma-separated values (.csv) files.&nbsp; We also provide netCDF (.nc) files containing the climate and bioclimatic data, grouped taxa and species presence-absence data, and ecoregion assignment data for each grid point (but not the country, state, province, and county assignment data for each grid point, which are available in the .csv files).&nbsp; The netCDF files contain updated Albers conical equal-area projection details and more precise grid-point locations.&nbsp; When the original approximately 25-km equal-area grid was created (ca. 1990), it was designed to be registered with existing data sets, and only 3 decimal places were recorded for the grid-point latitude and longitude values (these original 3-decimal place latitude and longitude values are in the .csv files).&nbsp; In addition, the Albers conical equal-area projection used for the grid was modified to match projection irregularities of the U.S. Forest Service atlases (e.g., Little, 1971, 1976, 1977) from which plant taxa distribution data were digitized.<br>\n<br>\n&nbsp; &nbsp; &nbsp;For the netCDF files, we have updated the Albers conical equal-area projection parameters and recalculated the grid-point latitudes and longitudes to 6 decimal places.&nbsp; The additional precision in the location data produces maximum differences between the 6-decimal place and the original 3-decimal place values of up to 0.00266 degrees longitude (approximately 143.8 m along the projection x-axis of the grid) and up to 0.00123 degrees latitude (approximately 84.2 m along the projection y-axis of the grid).&nbsp; The maximum straight-line distance between a three-decimal-point and six-decimal-point grid-point location is 144.2 m.&nbsp; Note that we have not regridded the elevation, climate, grouped taxa and species presence-absence data, or ecoregion data to the locations defined by the new 6-decimal place latitude and longitude data.&nbsp; For example, the climate data described in the Atlas publications were interpolated to the grid-point locations defined by the original 3-decimal place latitude and longitude values.&nbsp; Interpolating the data to the 6-decimal place latitude and longitude values would in many cases not result in changes to the reported values and for other grid points the changes would be small and insignificant.&nbsp; Similarly, if the digitized Little (1971, 1976, 1977) taxa distribution maps were regridded using the 6-decimal place latitude and longitude values, the changes to the gridded distributions would be minor, with a small number of grid points along the edge of a taxa's digitized distribution potentially changing value from taxa \"present\" to taxa \"absent\" (or vice versa).&nbsp; These changes should be considered within the spatial margin of error for the taxa distributions, which are based on hand-drawn maps with the distributions evidently generalized, or represented by a small, filled circle, and these distributions were subsequently hand digitized.&nbsp; Users wanting to use data that exactly match the data in the Atlas volumes should use the 3-decimal place latitude and longitude data provided in the .csv files in this data release to represent the center point of each grid cell.&nbsp; Users for whom an offset of up to 144.2 m from the original grid-point location is acceptable (e.g., users investigating continental-scale questions) or who want to easily visualize the data may want to use the data associated with the 6-decimal place latitude and longitude values in the netCDF files.<br>\n<br>\n&nbsp; &nbsp; &nbsp;The variable names in the netCDF files generally match those in the data release .csv files, except where the .csv file variable name contains a forward slash, colon, period, or comma (i.e., \"/\", \":\", \".\", or \",\").&nbsp; In the netCDF file variable short names, the forward slashes are replaced with an underscore symbol (i.e., \"_\") and the colons, periods, and commas are deleted.&nbsp; In the netCDF file variable long names, the punctuation in the name matches that in the .csv file variable names.&nbsp; The \"country\", \"state, province, or territory\", and \"county\" data in the .csv files are not included in the netCDF files.<br>\n<br>\n<br>\n<strong>DATA INCLUDED IN THIS RELEASE</strong><br>\nBelow we provide a summary of the data included in this data release.&nbsp; The individual variables included in the data release are listed in the accompanying metadata and data dictionary files.<br>\n<br>\n<em>1. Geographic scope</em><br>\nThe gridded data cover an area that we labelled as \"CANUSA\", which includes Canada and the USA (excluding Hawaii, Puerto Rico, and other oceanic islands).&nbsp; Note that the maps displayed in the Atlas volumes are cropped at their northern edge and do not display the full northern extent of the data included in this data release.<br>\n<br>\n<em>2. Elevation</em><br>\nThe elevation data were regridded from the ETOPO5 data set (National Geophysical Data Center, 1993).&nbsp; There were 35 coastal grid points in our CANUSA study area grid for which the regridded elevations were below sea level and these grid points were assigned missing elevation values (i.e., elevation = 9999).&nbsp; The grid points with missing elevation values occur in five coastal areas: (1) near San Diego (California, USA; 1 grid point), (2) Vancouver Island (British Columbia, Canada) and the Olympic Peninsula (Washington, USA; 2 grid points), (3) the Haida Gwaii (formerly Queen Charlotte Islands, British Columbia, Canada) and southeast Alaska (USA, 9 grid points), (4) the Canadian Arctic Archipelago (22 grid points), and (5) Newfoundland (Canada; 1 grid point).<br>\n<br>\n<em>3. Climate</em><br>\nThe gridded climatic data provided here are based on the 1961-1990 30-year mean values from the University of East Anglia (UK) Climatic Research Unit (CRU) CL 2.0 dataset (New and others, 2002), and include annual and monthly temperature and precipitation.&nbsp; The CRU CL 2.0 data were interpolated onto the approximately 25-km grid using geographically-weighted regression, incorporating local lapse-rate estimation and correction.&nbsp; Additional bioclimatic variables (growing degree days on a 5 degrees Celsius base, mean temperatures of the coldest and warmest months, and a moisture index calculated as actual evapotranspiration divided by potential evapotranspiration) were calculated using the interpolated CRU CL 2.0 data.&nbsp; Also included are absolute minimum and maximum temperatures for 1951-1980 interpolated in a similar fashion from climate-station data (WeatherDisc Associates, 1989).&nbsp; These climate and bioclimate data were used in Atlas volumes F and G (see Thompson and others, 2015, for a description of the methods used to create the gridded climate data).&nbsp; Note that for grid points with missing elevation values (i.e., elevation values equal to 9999), climate data were created using an elevation value of -120 meters.&nbsp; Users may want to exclude these climate data from their analyses (see the Usage Notes section&nbsp;in&nbsp;the data release readme file).<br>\n<br>\n<em>4. Plant distributions</em><br>\nThe gridded plant distribution data align with Atlas volume G (Thompson and others, 2015).&nbsp; Plant distribution data on the grid include 690 species, as well as 67 groups of related species and genera, and are based on U.S. Forest Service atlases (e.g., Little, 1971, 1976, 1977), regional atlases (e.g., Benson and Darrow, 1981), and new maps based on information available from herbaria and other online and published sources (for a list of sources, see Tables 3 and 4 in Thompson and others, 2015).&nbsp; See the \"Notes\" column in Table 1 (https://pubs.usgs.gov/pp/p1650-g/table1.html) and Table 2 (https://pubs.usgs.gov/pp/p1650-g/table2.html) in Thompson and others (2015) for important details regarding the species and grouped taxa distributions.<br>\n<br>\n<em>5. Ecoregions</em><br>\nThe ecoregion gridded data are the same as in Atlas volumes D and E (Thompson and others, 2006, 2007), and include three different systems, Bailey's ecoregions (Bailey, 1997, 1998), WWF's ecoregions (Ricketts and others, 1999), and Kuchler's potential natural vegetation regions (Kuchler, 1985), that are each based on distinctive approaches to categorizing ecoregions.&nbsp; For the Bailey and WWF ecoregions for North America and the Kuchler potential natural vegetation regions for the contiguous United States (i.e., the lower 48 states), data are provided for the Level I, Level II, and Level III ecoregion classification of each grid point.&nbsp; Level I ecoregions are the broadest ecoregion categories and generally cover relatively large areas (e.g., western forests).&nbsp; Level II ecoregions are subregions of the Level I ecoregions and are more specifically defined (e.g., needleleaf forests).&nbsp; Level III ecoregions are subregions of the Level II ecoregions (e.g., Great Basin pine forest [<em>Pinus</em>]) and generally cover relatively small areas.&nbsp; For the Kuchler potential natural vegetation regions in Alaska, Kuchler (1985) did not include Level I and Level II regions in his classification and so only Level III Kuchler regions for Alaska are included in this data release.&nbsp; Ecoregion and potential natural vegetation region names in this data release generally follow those used in Thompson and others (2006, 2007).<br>\n<br>\n<em>6. Estimation of climate from vegetation inventories</em><br>\nAs described in Atlas volume F (Thompson and others, 2012a) and Thompson and others (2012b), vegetation inventories (plant taxa present in a vegetation assemblage at a given site) can be used to estimate climatic parameters based on the identification of the range of a given parameter where all taxa in an assemblage overlap (i.e., the \"mutual climatic range\"; MCR).&nbsp; For the reconstruction of past climates from fossil or subfossil plant assemblages, we include matrices of 32 climatic and bioclimatic parameters versus occurrences or nonoccurrences for the same 690 species and 67 groups of related species and genera.&nbsp; See the Methods section of volume F for more details (https://pubs.usgs.gov/pp/p1650-f/Methods.html; https://pubs.usgs.gov/pp/p1650-f/DataTables.html).<br>\n<br>\n<strong>REFERENCES</strong><br>\n<br>\nBailey, R.G., 1997. Map: Ecoregions of North America (rev.), scale 1:15,000,000. U.S. Department of Agriculture Forest Service, Washington, D.C.<br>\n<br>\nBailey, R.G., 1998. Ecoregions map of North America: Explanatory note. Miscellaneous Publication 1548. U.S. Department of Agriculture Forest Service, Washington, D.C.<br>\n<br>\nBenson, L., and Darrow, R.A., 1981. Trees and shrubs of the southwestern deserts (3rd ed.). University of Arizona Press, 416 p.<br>\n<br>\nKuchler, A.W., 1985. Potential natural vegetation. National Atlas of the United States of America. U.S. Geological Survey. https://doi.org/10.3133/32574<br>\n<br>\nLittle, E.L., Jr., 1971. Atlas of United States trees, volume 1, Conifers and important hardwoods. U.S. Department of Agriculture Forest Service, Miscellaneous Publication 1146, Washington, D.C., 200 maps. https://doi.org/10.5962/bhl.title.130546<br>\n<br>\nLittle, E.L., Jr., 1976. Atlas of United States trees, volume 3, Minor western hardwoods. U.S. Department of Agriculture Forest Service, Miscellaneous Publication 1314, Washington, D.C., 210 maps. https://doi.org/10.5962/bhl.title.65782<br>\n<br>\nLittle, E.L., Jr., 1977. Atlas of United States trees, volume 4, Minor eastern hardwoods. U.S. Department of Agriculture Forest Service, Miscellaneous Publication 1342, Washington, D.C., 166 maps. https://doi.org/10.5962/bhl.title.65458<br>\n<br>\nNational Geophysical Data Center, 1993. National Geophysical Data Center, 5-minute gridded global relief data (ETOPO5), National Geophysical Data Center, NOAA. https://doi.org/10.7289/V5D798BF<br>\n<br>\nNew, M., Lister, D., Hulme, M., and Makin, I., 2002. A high-resolution data set of surface climate over global land areas. Climate Research 21, 1-25. https://doi.org/10.3354/cr021001<br>\n<br>\nRicketts, T.H., Dinerstein, E., Olson, D.M., Loucks, C.J., Eichbaum, W.M., DellaSala, D.A., Kavanagh, K.C., Hedao, P., Hurley, P.T., Carney, K.M., Abell, R.A., and Walters, S., 1999. Terrestrial ecoregions of North America: a conservation assessment. Island Press, Washington, D.C., 485 p.<br>\n<br>\nThompson, R.S., Anderson, K.H., and Bartlein, P.J., 1999a. Atlas of relations between climatic parameters and distributions of important trees and shrubs in North America -- Introduction and conifers. U.S. Geological Survey Professional Paper 1650-A, 269 p. https://doi.org/10.3133/pp1650AB (Online version: https://pubs.usgs.gov/pp/p1650-a/)<br>\n<br>\nThompson, R.S., Anderson, K.H., and Bartlein, P.J., 1999b. Atlas of relations between climatic parameters and distributions of important trees and shrubs in North America -- Hardwoods. U.S. Geological Survey Professional Paper 1650-B, 423 p. https://doi.org/10.3133/pp1650AB (Online version: https://pubs.usgs.gov/pp/p1650-b/)<br>\n<br>\nThompson, R.S., Anderson, K.H., Bartlein, P.J., and Smith, S.A., 2000. Atlas of relations between climatic parameters and distributions of important trees and shrubs in North America -- Additional conifers, hardwoods, and monocots. U.S. Geological Survey Professional Paper 1650-C, 386 p. https://doi.org/10.3133/pp1650C<br>\n<br>\nThompson, R.S., Anderson, K.H., Strickland, L.E., Shafer, S.L., Pelltier, R.T., and Bartlein, P.J., 2006. Atlas of relations between climatic parameters and distributions of important trees and shrubs in North America -- Alaska species and ecoregions. U.S. Geological Survey Professional Paper 1650-D. https://doi.org/10.3133/pp1650D (Online version: https://pubs.usgs.gov/pp/p1650-d/)<br>\n<br>\nThompson, R.S., Anderson, K.H., Pelltier, R.T., Shafer, S.L., and Bartlein, P.J., 2007. Atlas of relations between climatic parameters and distributions of important trees and shrubs in North America -- Ecoregions of North America. U.S. Geological Survey Professional Paper 1650-E. https://doi.org/10.3133/pp1650E (Online version: https://pubs.usgs.gov/pp/p1650-e/)<br>\n<br>\nThompson, R.S., Anderson, K.H., Pelltier, R.T., Strickland, L.E., Shafer, S.L., and Bartlein, P.J., 2012a. Atlas of relations between climatic parameters and distributions of important trees and shrubs in North America -- Modern data for climatic estimation from vegetation inventories. U.S. Geological Survey Professional Paper 1650-F, CD-ROM. https://doi.org/10.3133/pp1650F (Online version: https://pubs.usgs.gov/pp/p1650-f/)<br>\n<br>\nThompson, R.S., Anderson, K.H., Pelltier, R.T., Strickland, L.E., Bartlein, P.J., and Shafer, S.L., 2012b. Quantitative estimation of climatic parameters from vegetation data in North America by the mutual climatic range technique. Quaternary Science Reviews, v. 51, p. 18\u201339. https://doi.org/10.1016/j.quascirev.2012.07.003<br>\n<br>\nThompson, R.S., Anderson, K.H., Pelltier, R.T., Strickland, L.E., Shafer, S.L., Bartlein, P.J., and McFadden, A.K., 2015. Atlas of relations between climatic parameters and distributions of important trees and shrubs in North America -- Revisions for all taxa from the United States and Canada and new taxa from the western United States. U.S. Geological Survey Professional Paper 1650-G. https://doi.org/10.3133/pp1650G (Online version: https://pubs.usgs.gov/pp/p1650-g/)<br>\n<br>\nWeatherDisc Associates, 1989. World WeatherDisc, version 1.0. Seattle, Washington, WeatherDisc Associates, CD-ROM.",
+  "citation": "Thompson, R.S., Anderson, K.H., Pelltier, R.T., Strickland, L.E., Shafer, S.L., and Bartlein, P.J., 2023, A gridded database of the modern distributions of climate, woody plant taxa, and ecoregions for the continental United States and Canada: U.S. Geological Survey data release, https://doi.org/10.5066/P9FPD80E.",
+  "purpose": "The gridded data provided here are used for quantifying and depicting the relations between climate variables and distributions of woody plant taxa and ecoregions in North America. This information supports studies in: ecology and forestry; the reconstruction of past climate from plant macrofossil assemblages; and, the estimation of potential distributions of plants and ecoregions under climate change scenarios.",
+  "provenance": {
+    "dateCreated": "2022-02-17T01:44:27Z",
+    "lastUpdated": "2023-09-03T05:07:04Z"
+  },
+  "hasChildren": false,
+  "parentId": "5474ec49e4b04d7459a7eab2",
+  "contacts": [
+    {
+      "name": "Robert S Thompson",
+      "oldPartyId": 10368,
+      "type": "Contact",
+      "contactType": "person",
+      "onlineResource": "https://usgs.gov/staff-profiles/bob-thompson",
+      "email": "rthompson@usgs.gov",
+      "active": true,
+      "jobTitle": "EMERITUS GEOLOGIST",
+      "personalTitle": "Dr.",
+      "firstName": "Robert",
+      "middleName": "S",
+      "lastName": "Thompson",
+      "organization": {
+        "displayText": "Geosciences and Environmental Change Science Center"
+      },
+      "primaryLocation": {
+        "name": "Robert S Thompson/GD/USGS/DOI - Primary Location",
+        "building": "DFC Bldg 25",
+        "buildingCode": "KAE",
+        "officePhone": "3032365347",
+        "faxPhone": "3032365349",
+        "streetAddress": {
+          "line1": "W 6th Ave Kipling St",
+          "city": "Lakewood",
+          "state": "CO",
+          "zip": "80225",
+          "country": "US"
+        },
+        "mailAddress": {}
+      },
+      "orcId": "0000-0001-9287-2954"
+    },
+    {
+      "name": "Robert S Thompson",
+      "oldPartyId": 10368,
+      "type": "Author",
+      "contactType": "person",
+      "onlineResource": "https://usgs.gov/staff-profiles/bob-thompson",
+      "email": "rthompson@usgs.gov",
+      "active": true,
+      "jobTitle": "EMERITUS GEOLOGIST",
+      "personalTitle": "Dr.",
+      "firstName": "Robert",
+      "middleName": "S",
+      "lastName": "Thompson",
+      "organization": {
+        "displayText": "Geosciences and Environmental Change Science Center"
+      },
+      "primaryLocation": {
+        "name": "Robert S Thompson/GD/USGS/DOI - Primary Location",
+        "building": "DFC Bldg 25",
+        "buildingCode": "KAE",
+        "officePhone": "3032365347",
+        "faxPhone": "3032365349",
+        "streetAddress": {
+          "line1": "W 6th Ave Kipling St",
+          "city": "Lakewood",
+          "state": "CO",
+          "zip": "80225",
+          "country": "US"
+        },
+        "mailAddress": {}
+      },
+      "orcId": "0000-0001-9287-2954"
+    },
+    {
+      "name": "Katherine Anderson",
+      "oldPartyId": 15063,
+      "type": "Author",
+      "contactType": "person",
+      "email": "katherine.anderson@colorado.edu",
+      "active": true,
+      "firstName": "Kathy",
+      "lastName": "Anderson",
+      "organization": {},
+      "primaryLocation": {
+        "streetAddress": {},
+        "mailAddress": {}
+      }
+    },
+    {
+      "name": "Richard T Pelltier",
+      "oldPartyId": 7969,
+      "type": "Author",
+      "contactType": "person",
+      "onlineResource": "https://usgs.gov/staff-profiles/richard-pelltier",
+      "email": "rtpelltier@usgs.gov",
+      "active": true,
+      "jobTitle": "Geographer",
+      "personalTitle": "Mr.",
+      "firstName": "Richard",
+      "middleName": "T",
+      "lastName": "Pelltier",
+      "organization": {
+        "displayText": "Geosciences and Environmental Change Science Center"
+      },
+      "primaryLocation": {
+        "name": "Richard T Pelltier/GD/USGS/DOI - Primary Location",
+        "building": "DFC Bldg 25",
+        "buildingCode": "KAE",
+        "officePhone": "3032365808",
+        "faxPhone": "3032365349",
+        "streetAddress": {
+          "line1": "W 6th Ave Kipling St",
+          "city": "Lakewood",
+          "state": "CO",
+          "zip": "80225",
+          "country": "US"
+        },
+        "mailAddress": {}
+      }
+    },
+    {
+      "name": "Laura E Strickland",
+      "oldPartyId": 10031,
+      "type": "Author",
+      "contactType": "person",
+      "onlineResource": "https://usgs.gov/staff-profiles/laura-strickland",
+      "email": "lstrickland@usgs.gov",
+      "active": true,
+      "jobTitle": "Geologist",
+      "firstName": "Laura",
+      "middleName": "E",
+      "lastName": "Strickland",
+      "organization": {
+        "displayText": "Geosciences and Environmental Change Science Center"
+      },
+      "primaryLocation": {
+        "name": "Laura E Strickland/GD/USGS/DOI - Primary Location",
+        "building": "DFC Bldg 25",
+        "buildingCode": "KAE",
+        "officePhone": "3032365302",
+        "faxPhone": "3032365349",
+        "streetAddress": {
+          "line1": "W 6th Ave Kipling St",
+          "city": "Lakewood",
+          "state": "CO",
+          "zip": "80225",
+          "country": "US"
+        },
+        "mailAddress": {}
+      }
+    },
+    {
+      "name": "Sarah L Shafer",
+      "oldPartyId": 9334,
+      "type": "Author",
+      "contactType": "person",
+      "onlineResource": "https://usgs.gov/staff-profiles/sarah-shafer",
+      "email": "sshafer@usgs.gov",
+      "active": true,
+      "jobTitle": "Research Geologist",
+      "firstName": "Sarah",
+      "lastName": "Shafer",
+      "organization": {
+        "displayText": "Geosciences and Environmental Change Science Center"
+      },
+      "primaryLocation": {
+        "name": "Sarah Shafer/GD/USGS/DOI - Primary Location",
+        "building": "Corvallis Res Group - OR St Univ Coopagr",
+        "buildingCode": "WGG",
+        "officePhone": "5417500946",
+        "faxPhone": "5417588806",
+        "streetAddress": {
+          "line1": "3731 SW Jefferson Way",
+          "city": "Corvallis",
+          "state": "OR",
+          "zip": "97333",
+          "country": "US"
+        },
+        "mailAddress": {
+          "line1": "3731 SW Jefferson Way",
+          "city": "Corvallis",
+          "state": "OR",
+          "zip": "97333",
+          "country": "US"
+        }
+      },
+      "orcId": "0000-0003-3739-2637"
+    },
+    {
+      "name": "Patrick J Bartlein",
+      "oldPartyId": 56475,
+      "type": "Author",
+      "contactType": "person",
+      "description": "Record created from UCRB Mendeley data.",
+      "firstName": "Patrick",
+      "middleName": "J",
+      "lastName": "Bartlein",
+      "organization": {},
+      "primaryLocation": {
+        "streetAddress": {},
+        "mailAddress": {}
+      }
+    },
+    {
+      "name": "Richard T Pelltier",
+      "oldPartyId": 7969,
+      "type": "Metadata Contact",
+      "contactType": "person",
+      "onlineResource": "https://usgs.gov/staff-profiles/richard-pelltier",
+      "email": "rtpelltier@usgs.gov",
+      "active": true,
+      "jobTitle": "Geographer",
+      "personalTitle": "Mr.",
+      "firstName": "Richard",
+      "middleName": "T",
+      "lastName": "Pelltier",
+      "organization": {
+        "displayText": "Geosciences and Environmental Change Science Center"
+      },
+      "primaryLocation": {
+        "name": "Richard T Pelltier/GD/USGS/DOI - Primary Location",
+        "building": "DFC Bldg 25",
+        "buildingCode": "KAE",
+        "officePhone": "3032365808",
+        "faxPhone": "3032365349",
+        "streetAddress": {
+          "line1": "W 6th Ave Kipling St",
+          "city": "Lakewood",
+          "state": "CO",
+          "zip": "80225",
+          "country": "US"
+        },
+        "mailAddress": {}
+      }
+    },
+    {
+      "name": "U.S. Geological Survey",
+      "oldPartyId": 18139,
+      "type": "Publisher",
+      "contactType": "organization",
+      "onlineResource": "http://www.usgs.gov/",
+      "active": true,
+      "aliases": [
+        "{\"name\":\"USGS\"}",
+        "{\"name\":\"Geological Survey (U.S.)\"}",
+        "{\"name\":\"U.S. GEOLOGICAL SURVEY\"}"
+      ],
+      "fbmsCodes": [
+        "GG00000000"
+      ],
+      "logoUrl": "http://my.usgs.gov/static-cache/images/dataOwner/v1/logosMed/USGSLogo.gif",
+      "smallLogoUrl": "http://my.usgs.gov/static-cache/images/dataOwner/v1/logosSmall/USGSLogo.gif",
+      "organization": {},
+      "primaryLocation": {
+        "name": "U.S. Geological Survey - Location",
+        "streetAddress": {},
+        "mailAddress": {}
+      }
+    },
+    {
+      "name": "U.S. Geological Survey - ScienceBase",
+      "oldPartyId": 70157,
+      "type": "Distributor",
+      "contactType": "organization",
+      "onlineResource": "https://www.sciencebase.gov",
+      "email": "sciencebase@usgs.gov",
+      "organization": {},
+      "primaryLocation": {
+        "name": "U.S. Geological Survey - ScienceBase - Location",
+        "officePhone": "18882758747",
+        "streetAddress": {},
+        "mailAddress": {
+          "line1": "Denver Federal Center",
+          "line2": "Building 810",
+          "mailStopCode": "302",
+          "city": "Denver",
+          "state": "CO",
+          "zip": "80225",
+          "country": "United States"
+        }
+      }
+    },
+    {
+      "name": "Geosciences and Environmental Change Science Center",
+      "oldPartyId": 17387,
+      "type": "SDC Data Owner",
+      "contactType": "organization",
+      "active": true,
+      "organization": {},
+      "primaryLocation": {
+        "name": "Denver Federal Center - DFC Bldg 25 [KAE]",
+        "streetAddress": {},
+        "mailAddress": {}
+      }
+    },
+    {
+      "name": "Ecosystems",
+      "type": "USGS Mission Area",
+      "contactType": "organization",
+      "organization": {
+        "directoryId": "17044",
+        "displayText": "Ecosystems"
+      },
+      "primaryLocation": {
+        "streetAddress": {},
+        "mailAddress": {}
+      }
+    }
+  ],
+  "webLinks": [
+    {
+      "type": "Related_Primary_Publication",
+      "typeLabel": "Related Primary Publication",
+      "uri": "https://pubs.usgs.gov/pp/p1650-d/",
+      "title": "Thompson, R.S., Anderson, K.H., Strickland, L.E., Shafer, S.L., Pelltier, R.T., and Bartlein, P.J., 2006. Atlas of relations between climatic parameters and distributions of important trees and shrubs in North America -- Alaska species and ecoregions. U.S. Geological Survey Professional Paper 1650-D. https://doi.org/10.3133/pp1650D",
+      "hidden": false
+    },
+    {
+      "type": "Related_Primary_Publication",
+      "typeLabel": "Related Primary Publication",
+      "uri": "https://pubs.usgs.gov/pp/p1650-e/",
+      "title": "Thompson, R.S., Anderson, K.H., Pelltier, R.T., Shafer, S.L., and Bartlein, P.J., 2007. Atlas of relations between climatic parameters and distributions of important trees and shrubs in North America -- Ecoregions of North America. U.S. Geological Survey Professional Paper 1650-E. https://doi.org/10.3133/pp1650E",
+      "hidden": false
+    },
+    {
+      "type": "Related_Primary_Publication",
+      "typeLabel": "Related Primary Publication",
+      "uri": "https://pubs.usgs.gov/pp/p1650-f/",
+      "title": "Thompson, R.S., Anderson, K.H., Pelltier, R.T., Strickland, L.E., Shafer, S.L., and Bartlein, P.J., 2012. Atlas of relations between climatic parameters and distributions of important trees and shrubs in North America -- Modern data for climatic estimation from vegetation inventories. U.S. Geological Survey Professional Paper 1650-F, CD-ROM. https://doi.org/10.3133/pp1650F",
+      "hidden": false
+    },
+    {
+      "type": "Related_Primary_Publication",
+      "typeLabel": "Related Primary Publication",
+      "uri": "https://pubs.usgs.gov/pp/p1650-g/",
+      "title": "Thompson, R.S., Anderson, K.H., Pelltier, R.T., Strickland, L.E., Shafer, S.L., Bartlein, P.J., and McFadden, A.K., 2015. Atlas of relations between climatic parameters and distributions of important trees and shrubs in North America -- Revisions for all taxa from the United States and Canada and new taxa from the western United States. U.S. Geological Survey Professional Paper 1650-G. https://doi.org/10.3133/pp1650G",
+      "hidden": false
+    },
+    {
+      "type": "Related_Primary_Publication",
+      "typeLabel": "Related Primary Publication",
+      "uri": "https://doi.org/10.3133/pp1650G",
+      "title": "Thompson, R.S., Anderson, K.H., Pelltier, R.T., Strickland, L.E., Shafer, S.L., Bartlein, P.J., and McFadden, A.K., 2015, Atlas of relations between climatic parameters and distributions of important trees and shrubs in North America: U.S. Geological Survey &lt;i&gt;Revisions for all taxa from the United States and Canada and new taxa from the western United States&lt;/i&gt; Professional Paper, https://doi.org/10.3133/pp1650G.",
+      "hidden": false
+    }
+  ],
+  "browseCategories": [
+    "Data"
+  ],
+  "systemTypes": [
+    "Data Release"
+  ],
+  "tags": [
+    {
+      "type": "Harvest Set",
+      "name": "USGS Science Data Catalog (SDC)"
+    },
+    {
+      "type": "USGS Scientific Topic Keyword",
+      "name": "Botany"
+    },
+    {
+      "type": "USGS Scientific Topic Keyword",
+      "name": "Climatology"
+    },
+    {
+      "type": "USGS Scientific Topic Keyword",
+      "name": "Geography"
+    }
+  ],
+  "dates": [
+    {
+      "type": "Start",
+      "dateString": "1951",
+      "label": "Start Date"
+    },
+    {
+      "type": "End",
+      "dateString": "2015",
+      "label": "End Date"
+    },
+    {
+      "type": "Publication",
+      "dateString": "2023-06-21",
+      "label": "Publication Date"
+    }
+  ],
+  "files": [
+    {
+      "cuid": null,
+      "key": null,
+      "bucket": null,
+      "published": false,
+      "node": null,
+      "name": "Thompson_and_others_2023_Atlas_data_release_metadata.xml",
+      "title": "",
+      "contentType": "application/fgdc+xml",
+      "contentEncoding": null,
+      "pathOnDisk": "__disk__e5/32/88/e53288de0e4fbbede2fac4d9e315076265ee85c4",
+      "processed": false,
+      "processToken": null,
+      "imageWidth": null,
+      "imageHeight": null,
+      "size": 122642,
+      "dateUploaded": "2023-06-21T18:41:59Z",
+      "originalMetadata": true,
+      "useForPreview": false,
+      "movedToS3": false,
+      "s3Object": null,
+      "checksum": {
+        "value": "51659624c61e18c3a9c1944d14943319",
+        "type": "MD5"
+      },
+      "url": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__e5%2F32%2F88%2Fe53288de0e4fbbede2fac4d9e315076265ee85c4",
+      "downloadUri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__e5%2F32%2F88%2Fe53288de0e4fbbede2fac4d9e315076265ee85c4",
+      "viewUri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__e5%2F32%2F88%2Fe53288de0e4fbbede2fac4d9e315076265ee85c4&allowOpen=true",
+      "metadataHtmlViewUri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__e5%2F32%2F88%2Fe53288de0e4fbbede2fac4d9e315076265ee85c4&transform=1"
+    },
+    {
+      "cuid": null,
+      "key": null,
+      "bucket": null,
+      "published": false,
+      "node": null,
+      "name": "Thompson_and_others_2023_Atlas_data_release_metadata.txt",
+      "title": "",
+      "contentType": "text/plain",
+      "contentEncoding": null,
+      "pathOnDisk": "__disk__4b/48/ab/4b48abecdf964667e508dea6816db74ee54e8447",
+      "processed": false,
+      "processToken": null,
+      "imageWidth": null,
+      "imageHeight": null,
+      "size": 131218,
+      "dateUploaded": "2023-06-21T17:45:23Z",
+      "originalMetadata": false,
+      "useForPreview": false,
+      "movedToS3": false,
+      "s3Object": null,
+      "checksum": {
+        "value": "294c9e04ebfcd9edae72cba28072611b",
+        "type": "MD5"
+      },
+      "url": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__4b%2F48%2Fab%2F4b48abecdf964667e508dea6816db74ee54e8447",
+      "downloadUri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__4b%2F48%2Fab%2F4b48abecdf964667e508dea6816db74ee54e8447",
+      "viewUri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__4b%2F48%2Fab%2F4b48abecdf964667e508dea6816db74ee54e8447&allowOpen=true"
+    },
+    {
+      "cuid": null,
+      "key": null,
+      "bucket": null,
+      "published": false,
+      "node": null,
+      "name": "Thompson_and_others_2023_Atlas_data_release_readme.txt",
+      "title": "",
+      "contentType": "text/plain",
+      "contentEncoding": null,
+      "pathOnDisk": "__disk__94/66/c2/9466c24cbb2b06f68dde7d0f49f572e65571890c",
+      "processed": false,
+      "processToken": null,
+      "imageWidth": null,
+      "imageHeight": null,
+      "size": 21910,
+      "dateUploaded": "2023-06-21T17:45:32Z",
+      "originalMetadata": false,
+      "useForPreview": false,
+      "movedToS3": false,
+      "s3Object": null,
+      "checksum": {
+        "value": "9fdc1d0321480f1f710692bd9fe4eb35",
+        "type": "MD5"
+      },
+      "url": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__94%2F66%2Fc2%2F9466c24cbb2b06f68dde7d0f49f572e65571890c",
+      "downloadUri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__94%2F66%2Fc2%2F9466c24cbb2b06f68dde7d0f49f572e65571890c",
+      "viewUri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__94%2F66%2Fc2%2F9466c24cbb2b06f68dde7d0f49f572e65571890c&allowOpen=true"
+    },
+    {
+      "cuid": null,
+      "key": null,
+      "bucket": null,
+      "published": false,
+      "node": null,
+      "name": "Thompson_and_others_2023_Atlas_data_release_data_dictionary.csv",
+      "title": "",
+      "contentType": "text/csv",
+      "contentEncoding": null,
+      "pathOnDisk": "__disk__d8/dc/91/d8dc914d4d403709c6ff292be592ccdc8dfe109f",
+      "processed": false,
+      "processToken": null,
+      "imageWidth": null,
+      "imageHeight": null,
+      "size": 244256,
+      "dateUploaded": "2023-06-21T17:45:49Z",
+      "originalMetadata": false,
+      "useForPreview": false,
+      "movedToS3": false,
+      "s3Object": null,
+      "checksum": {
+        "value": "90989483e173dab68f910d35673e41a7",
+        "type": "MD5"
+      },
+      "url": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__d8%2Fdc%2F91%2Fd8dc914d4d403709c6ff292be592ccdc8dfe109f",
+      "downloadUri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__d8%2Fdc%2F91%2Fd8dc914d4d403709c6ff292be592ccdc8dfe109f",
+      "viewUri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__d8%2Fdc%2F91%2Fd8dc914d4d403709c6ff292be592ccdc8dfe109f&allowOpen=true"
+    },
+    {
+      "cuid": null,
+      "key": null,
+      "bucket": null,
+      "published": false,
+      "node": null,
+      "name": "Thompson_and_others_2023_Atlas_data_release_csv_files.zip",
+      "title": "",
+      "contentType": "application/zip",
+      "contentEncoding": null,
+      "pathOnDisk": "__disk__4d/61/f7/4d61f78c120e863a4f4cae3d12d71deaa36fbc89",
+      "processed": false,
+      "processToken": null,
+      "imageWidth": null,
+      "imageHeight": null,
+      "size": 3843561,
+      "dateUploaded": "2023-06-21T17:46:16Z",
+      "originalMetadata": false,
+      "useForPreview": false,
+      "movedToS3": false,
+      "s3Object": null,
+      "checksum": {
+        "value": "a17f650aaaaa0a7d255841e9281d5615",
+        "type": "MD5"
+      },
+      "url": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__4d%2F61%2Ff7%2F4d61f78c120e863a4f4cae3d12d71deaa36fbc89",
+      "downloadUri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__4d%2F61%2Ff7%2F4d61f78c120e863a4f4cae3d12d71deaa36fbc89"
+    },
+    {
+      "cuid": null,
+      "key": null,
+      "bucket": null,
+      "published": false,
+      "node": null,
+      "name": "Thompson_and_others_2023_Atlas_data_release_netCDF_files.zip",
+      "title": "",
+      "contentType": "application/zip",
+      "contentEncoding": null,
+      "pathOnDisk": "__disk__71/b3/f6/71b3f6f38ab79f6228ad6b8e08128273c4b8606c",
+      "processed": false,
+      "processToken": null,
+      "imageWidth": null,
+      "imageHeight": null,
+      "size": 12790836,
+      "dateUploaded": "2023-06-21T17:46:55Z",
+      "originalMetadata": false,
+      "useForPreview": false,
+      "movedToS3": false,
+      "s3Object": null,
+      "checksum": {
+        "value": "a94aa41030647488942d1f93a0e3ab80",
+        "type": "MD5"
+      },
+      "url": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__71%2Fb3%2Ff6%2F71b3f6f38ab79f6228ad6b8e08128273c4b8606c",
+      "downloadUri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__71%2Fb3%2Ff6%2F71b3f6f38ab79f6228ad6b8e08128273c4b8606c"
+    },
+    {
+      "cuid": null,
+      "key": null,
+      "bucket": null,
+      "published": false,
+      "node": null,
+      "name": "Thompson_and_others_2023_Atlas_data_release_MCR_weights.zip",
+      "title": "",
+      "contentType": "application/zip",
+      "contentEncoding": null,
+      "pathOnDisk": "__disk__b1/3f/43/b13f43414802836dfc81a3ad63ddce8f86696fc0",
+      "processed": false,
+      "processToken": null,
+      "imageWidth": null,
+      "imageHeight": null,
+      "size": 907892,
+      "dateUploaded": "2023-06-21T17:47:07Z",
+      "originalMetadata": false,
+      "useForPreview": false,
+      "movedToS3": false,
+      "s3Object": null,
+      "checksum": {
+        "value": "5b30abd016ece474cc2b78354b18590c",
+        "type": "MD5"
+      },
+      "url": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__b1%2F3f%2F43%2Fb13f43414802836dfc81a3ad63ddce8f86696fc0",
+      "downloadUri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__b1%2F3f%2F43%2Fb13f43414802836dfc81a3ad63ddce8f86696fc0"
+    },
+    {
+      "cuid": null,
+      "key": null,
+      "bucket": null,
+      "published": false,
+      "node": null,
+      "name": "Pinus_ponderosa_cropped_figure.png",
+      "title": "",
+      "contentType": "image/png",
+      "contentEncoding": null,
+      "pathOnDisk": "__disk__89/fc/79/89fc79372d1cf7f2fbad54ce0e608b6b5b58b674",
+      "processed": false,
+      "processToken": null,
+      "imageWidth": 1926,
+      "imageHeight": 1464,
+      "size": 396380,
+      "dateUploaded": "2023-06-21T17:47:32Z",
+      "originalMetadata": false,
+      "useForPreview": false,
+      "movedToS3": false,
+      "s3Object": null,
+      "checksum": {
+        "value": "e9167f914579e6f71ebd133bda8ab80d",
+        "type": "MD5"
+      },
+      "url": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__89%2Ffc%2F79%2F89fc79372d1cf7f2fbad54ce0e608b6b5b58b674",
+      "downloadUri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__89%2Ffc%2F79%2F89fc79372d1cf7f2fbad54ce0e608b6b5b58b674",
+      "viewUri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__89%2Ffc%2F79%2F89fc79372d1cf7f2fbad54ce0e608b6b5b58b674&width=1926&height=1464",
+      "previewImage": {
+        "thumbnail": {
+          "uri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__89%2Ffc%2F79%2F89fc79372d1cf7f2fbad54ce0e608b6b5b58b674&width=150&height=114",
+          "width": 150,
+          "height": 114
+        },
+        "small": {
+          "uri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__89%2Ffc%2F79%2F89fc79372d1cf7f2fbad54ce0e608b6b5b58b674&width=350&height=266",
+          "width": 350,
+          "height": 266
+        },
+        "medium": {
+          "uri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__89%2Ffc%2F79%2F89fc79372d1cf7f2fbad54ce0e608b6b5b58b674&width=580&height=441",
+          "width": 580,
+          "height": 441
+        },
+        "large": {
+          "uri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__89%2Ffc%2F79%2F89fc79372d1cf7f2fbad54ce0e608b6b5b58b674&width=1000&height=760",
+          "width": 1000,
+          "height": 760
+        }
+      }
+    }
+  ],
+  "distributionLinks": [
+    {
+      "uri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7",
+      "title": "Download Attached Files",
+      "type": "downloadLink",
+      "typeLabel": "Download Link",
+      "rel": "alternate",
+      "name": "Agriddeddatabas.zip",
+      "files": [
+        {
+          "name": "Thompson_and_others_2023_Atlas_data_release_metadata.xml",
+          "title": "",
+          "contentType": "application/fgdc+xml",
+          "size": 122642,
+          "checksum": {
+            "value": "51659624c61e18c3a9c1944d14943319",
+            "type": "MD5"
+          }
+        },
+        {
+          "name": "Thompson_and_others_2023_Atlas_data_release_metadata.txt",
+          "title": "",
+          "contentType": "text/plain",
+          "size": 131218,
+          "checksum": {
+            "value": "294c9e04ebfcd9edae72cba28072611b",
+            "type": "MD5"
+          }
+        },
+        {
+          "name": "Thompson_and_others_2023_Atlas_data_release_readme.txt",
+          "title": "",
+          "contentType": "text/plain",
+          "size": 21910,
+          "checksum": {
+            "value": "9fdc1d0321480f1f710692bd9fe4eb35",
+            "type": "MD5"
+          }
+        },
+        {
+          "name": "Thompson_and_others_2023_Atlas_data_release_data_dictionary.csv",
+          "title": "",
+          "contentType": "text/csv",
+          "size": 244256,
+          "checksum": {
+            "value": "90989483e173dab68f910d35673e41a7",
+            "type": "MD5"
+          }
+        },
+        {
+          "name": "Thompson_and_others_2023_Atlas_data_release_csv_files.zip",
+          "title": "",
+          "contentType": "application/zip",
+          "size": 3843561,
+          "checksum": {
+            "value": "a17f650aaaaa0a7d255841e9281d5615",
+            "type": "MD5"
+          }
+        },
+        {
+          "name": "Thompson_and_others_2023_Atlas_data_release_netCDF_files.zip",
+          "title": "",
+          "contentType": "application/zip",
+          "size": 12790836,
+          "checksum": {
+            "value": "a94aa41030647488942d1f93a0e3ab80",
+            "type": "MD5"
+          }
+        },
+        {
+          "name": "Thompson_and_others_2023_Atlas_data_release_MCR_weights.zip",
+          "title": "",
+          "contentType": "application/zip",
+          "size": 907892,
+          "checksum": {
+            "value": "5b30abd016ece474cc2b78354b18590c",
+            "type": "MD5"
+          }
+        },
+        {
+          "name": "Pinus_ponderosa_cropped_figure.png",
+          "title": "",
+          "contentType": "image/png",
+          "size": 396380,
+          "checksum": {
+            "value": "e9167f914579e6f71ebd133bda8ab80d",
+            "type": "MD5"
+          }
+        }
+      ]
+    }
+  ],
+  "previewImage": {
+    "from": "attachedFile",
+    "original": {
+      "uri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__89%2Ffc%2F79%2F89fc79372d1cf7f2fbad54ce0e608b6b5b58b674",
+      "viewUri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__89%2Ffc%2F79%2F89fc79372d1cf7f2fbad54ce0e608b6b5b58b674&width=1926&height=1464",
+      "viewUrl": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?deprecated=__use__viewUri__instead__&f=__disk__89%2Ffc%2F79%2F89fc79372d1cf7f2fbad54ce0e608b6b5b58b674&width=1926&height=1464",
+      "width": 1926,
+      "height": 1464,
+      "size": 396380
+    },
+    "thumbnail": {
+      "uri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__89%2Ffc%2F79%2F89fc79372d1cf7f2fbad54ce0e608b6b5b58b674&width=150&height=114",
+      "width": 150,
+      "height": 114
+    },
+    "small": {
+      "uri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__89%2Ffc%2F79%2F89fc79372d1cf7f2fbad54ce0e608b6b5b58b674&width=350&height=266",
+      "width": 350,
+      "height": 266
+    },
+    "medium": {
+      "uri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__89%2Ffc%2F79%2F89fc79372d1cf7f2fbad54ce0e608b6b5b58b674&width=580&height=441",
+      "width": 580,
+      "height": 441
+    },
+    "large": {
+      "uri": "https://www.sciencebase.gov/catalog/file/get/620da87bd34e6c7e83ba9ba7?f=__disk__89%2Ffc%2F79%2F89fc79372d1cf7f2fbad54ce0e608b6b5b58b674&width=1000&height=760",
+      "width": 1000,
+      "height": 760
+    }
+  }
+}

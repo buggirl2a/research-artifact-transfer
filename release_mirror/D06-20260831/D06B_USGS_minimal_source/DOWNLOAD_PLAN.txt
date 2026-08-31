@@ -1,0 +1,5 @@
+ScienceBase item: 620da87bd34e6c7e83ba9ba7
+All files listed: 8
+Candidate text/CSV files: 4
+Candidate total bytes: 520026
+Safety ceiling bytes: 262144000
