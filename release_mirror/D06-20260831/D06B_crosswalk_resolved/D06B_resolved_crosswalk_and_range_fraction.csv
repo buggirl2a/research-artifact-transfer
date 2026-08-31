@@ -1,0 +1,178 @@
+﻿SPCD,fia_name,usgs_column,match_status,detected_eligible_plots,US_occupied_grids,Canada_occupied_grids,US_fraction_of_US_plus_Canada,Canada_extension
+316,Acer rubrum,Acer rubrum,exact,8349,3939,889,0.8158657829328915,yes
+621,Liriodendron tulipifera,Liriodendron tulipifera,exact,5398,2304,25,0.9892657793044225,yes
+802,Quercus alba,Quercus alba,exact,4378,3656,91,0.9757139044568989,yes
+832,Quercus prinus,Quercus prinus,exact,3541,1172,24,0.979933110367893,yes
+833,Quercus rubra,Quercus rubra,exact,3430,3554,771,0.8217341040462428,yes
+762,Prunus serotina,Prunus serotina,exact,3345,4380,291,0.9377007064868337,yes
+693,Nyssa sylvatica,Nyssa sylvatica,exact,2967,2920,20,0.9931972789115646,yes
+318,Acer saccharum,Acer saccharum,exact,2916,2506,898,0.736192714453584,yes
+611,Liquidambar styraciflua,Liquidambar styraciflua,exact,2709,2098,0,1.0,no
+131,Pinus taeda,Pinus taeda,exact,2672,1287,0,1.0,no
+403,Carya glabra,Carya glabra,exact,2654,2890,15,0.9948364888123924,yes
+531,Fagus grandifolia,Fagus grandifolia,exact,2590,2851,513,0.8475029726516052,yes
+372,Betula lenta,Betula lenta,exact,2365,749,8,0.9894319682959049,yes
+711,Oxydendrum arboreum,Oxydendrum arboreum,exact,2342,1090,0,1.0,no
+837,Quercus velutina,Quercus velutina,exact,2191,3391,38,0.9889180519101779,yes
+806,Quercus coccinea,Quercus coccinea,exact,2121,1399,0,1.0,no
+409,Carya alba,,unresolved,2002,,,,
+132,Pinus virginiana,Pinus virginiana,exact,1602,796,0,1.0,no
+129,Pinus strobus,Pinus strobus,exact,1561,1531,1232,0.5541078537821209,yes
+261,Tsuga canadensis,Tsuga canadensis,exact,1383,1288,502,0.7195530726256983,yes
+541,Fraxinus americana,Fraxinus americana,exact,1233,3714,550,0.8710131332082551,yes
+68,Juniperus virginiana,Juniperus virginiana,exact,1187,4077,120,0.9714081486776269,yes
+407,Carya ovata,Carya ovata,exact,1141,2942,81,0.9732054250744294,yes
+812,Quercus falcata,Quercus falcata,exact,1037,2003,0,1.0,no
+901,Robinia pseudoacacia,Robinia pseudoacacia,exact,1023,653,0,1.0,no
+931,Sassafras albidum,Sassafras albidum,exact,938,3205,27,0.9916460396039604,yes
+972,Ulmus americana,Ulmus americana,exact,924,6078,1702,0.7812339331619538,yes
+602,Juglans nigra,Juglans nigra,exact,909,3420,35,0.9898697539797395,yes
+971,Ulmus alata,Ulmus alata,exact,777,1810,0,1.0,no
+651,Magnolia acuminata,Magnolia acuminata,exact,726,739,1,0.9986486486486487,yes
+371,Betula alleghaniensis,Betula alleghaniensis,exact,721,1352,918,0.5955947136563877,yes
+951,Tilia americana,Tilia americana,exact,709,2815,499,0.8494266747133373,yes
+356,Amelanchier spp.,,unresolved,665,,,,
+110,Pinus echinata,Pinus echinata,exact,638,1645,0,1.0,no
+544,Fraxinus pennsylvanica,Fraxinus pennsylvanica,exact,632,5946,1364,0.813406292749658,yes
+731,Platanus occidentalis,Platanus occidentalis,exact,631,3717,40,0.989353207346287,yes
+835,Quercus stellata,Quercus stellata,exact,611,3195,0,1.0,no
+591,Ilex opaca,Ilex opaca,exact,592,1839,0,1.0,no
+402,Carya cordiformis,Carya cordiformis,exact,571,3657,94,0.9749400159957344,yes
+975,Ulmus rubra,Ulmus rubra,exact,552,3918,280,0.9333015721772272,yes
+701,Ostrya virginiana,Ostrya virginiana,exact,511,3912,579,0.8710754843019372,yes
+827,Quercus nigra,Quercus nigra,exact,494,1575,0,1.0,no
+341,Ailanthus altissima,,unresolved,477,,,,
+391,Carpinus caroliniana,Carpinus caroliniana,exact,467,3541,217,0.9422565194252261,yes
+462,Celtis occidentalis,Celtis occidentalis,exact,459,3073,37,0.9881028938906753,yes
+126,Pinus rigida,Pinus rigida,exact,406,712,2,0.9971988795518207,yes
+313,Acer negundo,Acer negundo,exact,402,5506,893,0.8604469448351305,yes
+831,Quercus phellos,Quercus phellos,exact,395,1500,0,1.0,no
+655,Magnolia fraseri,Magnolia fraseri,exact,379,117,0,1.0,no
+491,Cornus florida,Cornus florida,exact,366,2884,26,0.99106529209622,yes
+694,Nyssa biflora,,unresolved,346,,,,
+826,Quercus muehlenbergii,Quercus muehlenbergii,exact,313,2552,36,0.9860896445131375,yes
+332,Aesculus flava,Aesculus octandra,accepted_name_to_usgs_original,296,380,0,1.0,no
+521,Diospyros virginiana,Diospyros virginiana,exact,278,2870,0,1.0,no
+743,Populus grandidentata,Populus grandidentata,exact,209,1844,1184,0.6089828269484808,yes
+373,Betula nigra,Betula nigra,exact,201,2132,0,1.0,no
+471,Cercis canadensis,Cercis canadensis,exact,201,3029,0,1.0,no
+123,Pinus pungens,Pinus pungens,exact,200,132,0,1.0,no
+315,Acer pensylvanicum,Acer pensylvanicum,exact,187,625,492,0.5595344673231871,yes
+97,Picea rubens,Picea rubens,exact,175,280,319,0.4674457429048414,yes
+712,Paulownia tomentosa,,unresolved,158,,,,
+813,Quercus pagoda,,unresolved,158,,,,
+761,Prunus pensylvanica,Prunus pensylvanica,exact,151,1435,5311,0.2127186480877557,yes
+128,Pinus serotina,Pinus serotina,exact,146,465,0,1.0,no
+221,Taxodium distichum,Taxodium distichum,exact,142,1311,0,1.0,no
+121,Pinus palustris,Pinus palustris,exact,137,773,0,1.0,no
+682,Morus rubra,Morus rubra,exact,135,4163,8,0.9980819947254855,yes
+922,Salix nigra,Salix nigra,exact,129,4963,48,0.9904210736379964,yes
+825,Quercus michauxii,Quercus michauxii,exact,126,1427,0,1.0,no
+653,Magnolia virginiana,Magnolia virginiana,exact,123,1036,0,1.0,no
+820,Quercus laurifolia,Quercus laurifolia,exact,111,768,0,1.0,no
+746,Populus tremuloides,Populus tremuloides,exact,109,3148,7708,0.2899778924097273,yes
+660,Malus spp.,,unresolved,92,,,,
+581,Halesia carolina,Halesia carolina,exact,90,309,0,1.0,no
+461,Celtis laevigata,Celtis laevigata,exact,89,2421,0,1.0,no
+641,Maclura pomifera,Maclura pomifera,exact,87,175,0,1.0,no
+500,Crataegus spp.,,unresolved,82,,,,
+771,Prunus avium,,unresolved,81,,,,
+555,Gordonia lasianthus,Gordonia lasianthus,exact,77,337,0,1.0,no
+552,Gleditsia triacanthos,Gleditsia triacanthos,exact,68,2594,0,1.0,no
+691,Nyssa aquatica,Nyssa aquatica,exact,62,689,0,1.0,no
+721,Persea borbonia,Persea borbonia,exact,59,720,0,1.0,no
+824,Quercus marilandica,Quercus marilandica,exact,59,2757,0,1.0,no
+317,Acer saccharinum,Acer saccharinum,exact,57,3500,228,0.9388412017167382,yes
+91,Picea abies,,unresolved,56,,,,
+311,Acer barbatum,Acer barbatum,exact,55,633,0,1.0,no
+742,Populus deltoides,Populus deltoides,exact,54,5366,383,0.9333797182118629,yes
+834,Quercus shumardii,Quercus shumardii,exact,49,2206,0,1.0,no
+546,Fraxinus quadrangulata,Fraxinus quadrangulata,exact,48,516,0,1.0,no
+125,Pinus resinosa,Pinus resinosa,exact,42,750,1007,0.42686397268070575,yes
+830,Quercus palustris,Quercus palustris,exact,42,1352,8,0.9941176470588236,yes
+345,Albizia julibrissin,,unresolved,40,,,,
+375,Betula papyrifera,Betula papyrifera,exact,37,2130,7960,0.21110009910802774,yes
+822,Quercus lyrata,Quercus lyrata,exact,36,1358,0,1.0,no
+320,Acer platanoides,,unresolved,35,,,,
+130,Pinus sylvestris,,unresolved,34,,,,
+6511,Persea palustris,,unresolved,34,,,,
+601,Juglans cinerea,Juglans cinerea,exact,31,1978,188,0.9132040627885504,yes
+817,Quercus imbricaria,Quercus imbricaria,exact,30,987,0,1.0,no
+43,Chamaecyparis thyoides,Chamaecyparis thyoides,exact,28,208,0,1.0,no
+8421,Pyrus calleryana,,unresolved,28,,,,
+404,Carya illinoinensis,Carya illinoensis,accepted_name_to_usgs_original,26,1000,0,1.0,no
+819,Quercus laevis,Quercus laevis,exact,26,560,0,1.0,no
+804,Quercus bicolor,Quercus bicolor,exact,25,1270,36,0.9724349157733537,yes
+410,Carya pallida,Carya pallida,exact,24,646,0,1.0,no
+935,Sorbus americana,Sorbus americana,exact,22,582,2230,0.2069701280227596,yes
+405,Carya laciniosa,Carya laciniosa,exact,20,882,4,0.9954853273137697,yes
+421,Castanea dentata,Castanea dentata,exact,20,1131,27,0.9766839378238342,yes
+314,Acer nigrum,Acer nigrum,exact,18,1372,102,0.9308005427408412,yes
+357,Amelanchier arborea,Amelanchier arborea,exact,18,3436,704,0.8299516908212561,yes
+545,Fraxinus profunda,Fraxinus profunda,exact,17,246,0,1.0,no
+681,Morus alba,,unresolved,17,,,,
+111,Pinus elliottii,Pinus elliottii,exact,16,379,0,1.0,no
+379,Betula populifolia,Betula populifolia,exact,16,374,265,0.5852895148669797,yes
+222,Taxodium ascendens,,unresolved,15,,,,
+70,Larix spp.,,unresolved,15,,,,
+952,Tilia americana var. heterophylla,Tilia heterophylla,accepted_name_to_usgs_original,14,833,0,1.0,no
+658,Magnolia tripetala,Magnolia tripetala,exact,13,277,0,1.0,no
+663,Malus coronaria,Malus coronaria,exact,13,613,33,0.9489164086687306,yes
+993,Melia azedarach,,unresolved,13,,,,
+367,Asimina triloba,Asimina triloba,exact,12,2355,16,0.9932517924926192,yes
+654,Magnolia macrophylla,Magnolia macrophylla,exact,12,231,0,1.0,no
+999,Tree unknown,,unresolved,12,,,,
+838,Quercus virginiana,Quercus virginiana,exact,10,757,0,1.0,no
+16,Abies fraseri,Abies fraseri,exact,9,3,0,1.0,no
+401,Carya aquatica,Carya aquatica,exact,9,987,0,1.0,no
+840,Quercus margarettiae,,unresolved,9,,,,
+94,Picea glauca,Picea glauca,exact,9,1456,8489,0.14640522875816994,yes
+96,Picea pungens,Picea pungens,exact,9,127,0,1.0,no
+262,Tsuga caroliniana,Tsuga caroliniana,exact,8,27,0,1.0,no
+548,Fraxinus caroliniana,Fraxinus caroliniana,exact,8,661,0,1.0,no
+828,Quercus texana,Quercus nuttallii,accepted_name_to_usgs_original,7,406,0,1.0,no
+319,Acer spicatum,Acer spicatum,exact,6,1057,2043,0.34096774193548385,yes
+412,Carya ovalis,,unresolved,6,,,,
+481,Cladrastis kentukea,Cladrastis kentukea,exact,6,74,0,1.0,no
+652,Magnolia grandiflora,Magnolia grandiflora,exact,6,582,0,1.0,no
+763,Prunus virginiana,Prunus virginiana,exact,6,4583,4282,0.5169768753525099,yes
+452,Catalpa speciosa,,unresolved,5,,,,
+502,Crataegus mollis,,unresolved,4,,,,
+744,Populus heterophylla,Populus heterophylla,exact,4,314,0,1.0,no
+8420,Pyrus spp.,,unresolved,4,,,,
+977,Ulmus thomasii,Ulmus thomasii,exact,4,1047,140,0.8820556023588879,yes
+136,Pinus nigra,,unresolved,3,,,,
+202,Pseudotsuga menziesii,Pseudotsuga menziesii,exact,3,1024,519,0.6636422553467272,yes
+355,Alnus glutinosa,,unresolved,3,,,,
+451,Catalpa bignonioides,,unresolved,3,,,,
+571,Gymnocladus dioicus,Gymnocladus dioicus,exact,3,1070,1,0.9990662931839402,yes
+71,Larix laricina,Larix laricina,exact,3,1409,7353,0.16080803469527505,yes
+766,Prunus americana,Prunus americana,exact,3,3586,70,0.9808533916849015,yes
+809,Quercus ellipsoidalis,Quercus ellipsoidalis,exact,3,430,3,0.9930715935334873,yes
+823,Quercus macrocarpa,Quercus macrocarpa,exact,3,3088,597,0.8379918588873813,yes
+842,Quercus incana,Quercus incana,exact,3,587,0,1.0,no
+8423,Pyrus communis,,unresolved,3,,,,
+8427,Quercus acutissima,,unresolved,3,,,,
+501,Crataegus crus-galli,,unresolved,2,,,,
+543,Fraxinus nigra,Fraxinus nigra,exact,2,1486,1437,0.50838179952104,yes
+816,Quercus ilicifolia,Quercus ilicifolia,exact,2,309,0,1.0,no
+937,Sorbus decora,Sorbus decora,exact,2,228,3289,0.06482797839067388,yes
+974,Ulmus pumila,,unresolved,2,,,,
+105,Pinus banksiana,Pinus banksiana,exact,1,374,4296,0.08008565310492505,yes
+12,Abies balsamea,Abies balsamea,exact,1,688,4256,0.13915857605177995,yes
+15,Abies concolor,Abies concolor,exact,1,261,0,1.0,no
+241,Thuja occidentalis,Thuja occidentalis,exact,1,738,1682,0.3049586776859504,yes
+331,Aesculus glabra,Aesculus glabra,exact,1,1400,0,1.0,no
+350,Alnus spp.,,unresolved,1,,,,
+422,Castanea pumila,Castanea pumila,exact,1,1340,0,1.0,no
+424,Castanea mollissima,,unresolved,1,,,,
+551,Gleditsia aquatica,Gleditsia aquatica,exact,1,431,0,1.0,no
+561,Ginkgo biloba,,unresolved,1,,,,
+662,Malus angustifolia,Malus angustifolia,exact,1,630,0,1.0,no
+67,Juniperus virginiana var. silicicola,Juniperus silicicola,accepted_name_to_usgs_original,1,207,0,1.0,no
+722,Planera aquatica,Planera aquatica,exact,1,635,0,1.0,no
+7328,Halesia tetraptera,,unresolved,1,,,,
+753,Populus nigra,,unresolved,1,,,,
+760,Prunus spp.,,unresolved,1,,,,
+921,Salix amygdaloides,Salix amygdaloides,exact,1,3840,1178,0.7652451175767238,yes
+927,Salix alba,,unresolved,1,,,,

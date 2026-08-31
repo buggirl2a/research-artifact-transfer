@@ -1,0 +1,29 @@
+{
+  "fia_manifest_rows": 177,
+  "usgs_species_columns": 690,
+  "exact_matches": 133,
+  "accepted_name_to_original_matches": 5,
+  "ambiguous": 0,
+  "unresolved": 39,
+  "resolved_total": 138,
+  "Canada_extension_yes": 72,
+  "threshold_curve": [
+    {
+      "threshold": 0.7,
+      "resolved_species_at_or_above": 117
+    },
+    {
+      "threshold": 0.8,
+      "resolved_species_at_or_above": 113
+    },
+    {
+      "threshold": 0.9,
+      "resolved_species_at_or_above": 102
+    },
+    {
+      "threshold": 0.95,
+      "resolved_species_at_or_above": 94
+    }
+  ],
+  "USGS_table1_url": "https://pubs.usgs.gov/pp/p1650-g/table1.html"
+}
