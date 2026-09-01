@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "zip": "C:\\range_paper\\10_archive\\tax_v01\\Q1_TAXON_RANGE_REPRODUCIBLE_v01.zip",
+  "zip_bytes": 1216903,
+  "zip_sha256": "64f0f2c050161c67ceca0022837a3aa85a517f4410f8aba9ecd1685bb7b10ec3",
+  "package_directory": "C:\\range_paper\\10_archive\\tax_v01\\package",
+  "frozen_output_directory": "C:\\range_paper\\04_derived\\tax"
+}

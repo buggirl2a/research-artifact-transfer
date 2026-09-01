@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "source_freeze_verification": {
+    "manifest_status": "PASS",
+    "manifest_entry_count": 48,
+    "hash_list_entry_count": 49,
+    "old_zip_bytes": 1216903,
+    "old_zip_sha256": "64f0f2c050161c67ceca0022837a3aa85a517f4410f8aba9ecd1685bb7b10ec3",
+    "verification_failures": []
+  },
+  "checks": [
+    {
+      "check": "row_count:Q1_TAXON_RANGE_MASTER_v01.csv",
+      "expected": 396,
+      "observed": 396,
+      "status": "PASS"
+    },
+    {
+      "check": "row_count:Q1_TAXON_CODE_AGGREGATION_v01.csv",
+      "expected": 354,
+      "observed": 354,
+      "status": "PASS"
+    },
+    {
+      "check": "row_count:Q1_WCVP_NATIVE_DISTRIBUTION_LONG_v01.csv",
+      "expected": 9429,
+      "observed": 9429,
+      "status": "PASS"
+    },
+    {
+      "check": "row_count:Q1_GLOBAL_RANGE_FLAGS_v01.csv",
+      "expected": 354,
+      "observed": 354,
+      "status": "PASS"
+    },
+    {
+      "check": "row_count:Q1_USGS_NAME_CLOSURE_v01.csv",
+      "expected": 360,
+      "observed": 360,
+      "status": "PASS"
+    },
+    {
+      "check": "row_count:Q1_USGS_LAYER_RECONSTRUCTION_REVIEW_v01.csv",
+      "expected": 98,
+      "observed": 98,
+      "status": "PASS"
+    },
+    {
+      "check": "row_count:Q1_DRC_PROTOCOL_v01.csv",
+      "expected": 354,
+      "observed": 354,
+      "status": "PASS"
+    },
+    {
+      "check": "row_count:Q1_TAXONOMY_AMBIGUOUS_UNRESOLVED_QUEUE_v01.csv",
+      "expected": 10,
+      "observed": 10,
+      "status": "PASS"
+    },
+    {
+      "check": "row_count:Q1_TAXON_RANGE_UNRESOLVED_v01.csv",
+      "expected": 107,
+      "observed": 107,
+      "status": "PASS"
+    },
+    {
+      "check": "row_count:Q1_TAXON_RANGE_EVIDENCE_v01.csv",
+      "expected": 1038,
+      "observed": 1038,
+      "status": "PASS"
+    },
+    {
+      "check": "row_count:Q1_TAXON_RANGE_QC_v01.csv",
+      "expected": 24,
+      "observed": 24,
+      "status": "PASS"
+    },
+    {
+      "check": "byte_identical:Q1_TAXON_CODE_AGGREGATION_v01.csv",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check": "byte_identical:Q1_USGS_NAME_CLOSURE_v01.csv",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check": "byte_identical:Q1_DRC_PROTOCOL_v01.csv",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check": "frozen_D08B_QC_all_PASS",
+      "expected": 24,
+      "observed": 24,
+      "status": "PASS"
+    },
+    {
+      "check": "original_freeze_manifest_verified",
+      "expected": 48,
+      "observed": 48,
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_recompute_not_run",
+      "expected": false,
+      "observed": false,
+      "status": "PASS"
+    }
+  ]
+}

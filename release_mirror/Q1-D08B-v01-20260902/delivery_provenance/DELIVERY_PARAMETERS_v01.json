@@ -1,0 +1,17 @@
+{
+  "delivery_name": "Q1_D08B_MAINLINE_AUDIT_DELIVERY_v01",
+  "operation": "immutable_audit_delivery_reorganization_only",
+  "source_freeze_relative_path": "10_archive/tax_v01",
+  "scientific_recompute": false,
+  "taxonomy_or_distribution_judgment_modified": false,
+  "taxonomy_queue_filter": "mapping_class in {AMBIGUOUS, UNRESOLVED}",
+  "expected_taxonomy_queue_rows": 10,
+  "expected_wcvp_level3_rows": 9429,
+  "zip_member_timestamp": "2026-09-02T00:00:00",
+  "prohibited_actions": [
+    "D08C",
+    "FIA_TREE_merge",
+    "Little_layer_merge",
+    "real_Q1_analysis"
+  ]
+}

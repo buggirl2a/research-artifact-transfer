@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "checks": {
+    "required_outputs_present": true,
+    "master_396_rows": true,
+    "master_codes_unique": true,
+    "analysis_species_354_rows": true,
+    "distribution_9429_rows": true,
+    "global_flags_one_per_species": true,
+    "global_flags_no_unknown_USCA": true,
+    "qc_24_pass_0_fail": true,
+    "workbook_is_valid_zip": true,
+    "postimport_formula_error_scan_zero": true,
+    "no_canonical_layer_on_review_cases": true,
+    "no_more_than_one_canonical_layer_per_species": true,
+    "workbook_internal_zip_test": true
+  },
+  "summary": {
+    "engineering_status": "PASS",
+    "candidate_fia_codes": 396,
+    "codes_resolved_to_accepted_analysis_species": 370,
+    "unique_accepted_analysis_species": 354,
+    "mapping_class_counts": {
+      "ACCEPTED_INFRASPECIES_TO_PARENT_SPECIES": 8,
+      "ACCEPTED_SPECIES": 328,
+      "AMBIGUOUS": 5,
+      "GENUS_OR_NON_SPECIES_AGGREGATE": 14,
+      "HYBRID_OR_NOTHOTAXON": 2,
+      "SYNONYM_TO_ACCEPTED_INFRASPECIES_TO_PARENT_SPECIES": 7,
+      "SYNONYM_TO_ACCEPTED_SPECIES": 27,
+      "UNRESOLVED": 5
+    },
+    "species_confirmed_native_outside_USA_Canada": 171,
+    "species_global_flag_unknown": 0,
+    "usgs_mapping_class_counts": {
+      "AMBIGUOUS": 2,
+      "MULTIPLE_OTHER_LAYERS": 6,
+      "SINGLE_OFFICIAL_ALIAS_LAYER": 24,
+      "SINGLE_SPECIES_LAYER": 243,
+      "UNRESOLVED": 79
+    },
+    "usgs_single_layer_species": 262,
+    "usgs_review_required_species": 92,
+    "drc_fia_codes": 35,
+    "dbh_fia_codes": 361,
+    "analysis_species_drc_only": 34,
+    "analysis_species_dbh_only": 320,
+    "analysis_species_mixed_dbh_drc": 0,
+    "wcvp_distribution_rows_retained": 9429,
+    "atlas_table1_rows_parsed": 690,
+    "qc_pass": 24,
+    "qc_fail": 0,
+    "elapsed_seconds": 22.623
+  },
+  "range_true_counts": {
+    "confirmed_native_CONUS": 307,
+    "confirmed_native_Canada": 110,
+    "confirmed_native_Alaska": 20,
+    "confirmed_native_Mexico": 118,
+    "confirmed_native_Central_America": 20,
+    "confirmed_native_outside_USA_Canada": 171,
+    "confirmed_native_outside_North_America": 55,
+    "transcontinental_circumboreal_global_extension_flag": 60,
+    "introduced_in_CONUS_audit_flag": 90,
+    "extinct_native_outside_primary_CONUS_domain_flag": 3,
+    "doubtful_native_outside_primary_CONUS_domain_flag": 1
+  },
+  "required_outputs": [
+    "Q1_TAXON_RANGE_MASTER_v01.csv",
+    "Q1_ANALYSIS_SPECIES_MASTER_v01.csv",
+    "Q1_WCVP_NATIVE_DISTRIBUTION_LONG_v01.csv",
+    "Q1_GLOBAL_RANGE_FLAGS_v01.csv",
+    "Q1_USGS_NAME_LAYER_MAP_v01.csv",
+    "Q1_USGS_LAYER_RECONSTRUCTION_REVIEW_v01.csv",
+    "Q1_DRC_DBH_MASTER_v01.csv",
+    "Q1_TAXON_RANGE_UNRESOLVED_v01.csv",
+    "Q1_TAXON_RANGE_EVIDENCE_v01.csv",
+    "Q1_TAXON_RANGE_QC_v01.csv",
+    "Q1_TAXON_RANGE_MAINLINE_AUDIT_v01.xlsx",
+    "README.md"
+  ]
+}

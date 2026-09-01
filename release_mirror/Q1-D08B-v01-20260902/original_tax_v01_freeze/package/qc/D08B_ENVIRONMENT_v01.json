@@ -1,0 +1,8 @@
+{
+  "generated_local": "2026-09-02T04:48:20.289962+08:00",
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "executable": "C:\\Users\\bug_g\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "cwd": "C:\\range_paper",
+  "command": "C:\\range_paper\\06_src\\tax_v01\\build_taxon_range_master_v01.py"
+}
