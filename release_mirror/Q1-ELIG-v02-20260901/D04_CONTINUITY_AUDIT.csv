@@ -1,0 +1,7 @@
+﻿check,n_records_checked,n_failures,status,detail
+d04_source_sha256,1,0,PASS,4604e4e288881a89cc0c98476a40a806c8e14005ec50815c95a79c2becd63683
+epsg5070_projection_against_D04_output,14750,0,PASS,tolerance=0.0015 m against D04 three-decimal output
+cell_id_25km_against_D04_output,14750,0,PASS,"fixed EPSG:5070 origin (0,0); floor index"
+cell_id_50km_against_D04_output,14750,0,PASS,"fixed EPSG:5070 origin (0,0); floor index"
+cell_id_75km_against_D04_output,14750,0,PASS,"fixed EPSG:5070 origin (0,0); floor index"
+ab_split_against_D04_output,14750,0,PASS,D04_SHA256_STATE_P2PANEL_ALTERNATION_V1

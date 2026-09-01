@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-09-02T01:36:50+08:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+  "analysis_runtime": {
+    "executable": "C:\\Users\\bug_g\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "sqlite": "3.53.1"
+  },
+  "figure_runtime": {
+    "executable": "C:\\Python\\Python312\\python.exe",
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "matplotlib": "3.10.9",
+    "sqlite": "3.49.1"
+  },
+  "workbook_runtime": {
+    "node_executable": "C:\\Users\\bug_g\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+    "node_version": "v24.19.0",
+    "artifact_tool_package": "@oai/artifact-tool",
+    "artifact_tool_version": "2.8.52"
+  },
+  "locale": {
+    "timezone_env": null,
+    "filesystem_encoding": "utf-8",
+    "default_encoding": "utf-8"
+  }
+}

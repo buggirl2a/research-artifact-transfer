@@ -1,0 +1,49 @@
+{
+  "engineering_status": "PASS",
+  "outcome_blind_protocol_violation": false,
+  "primary_measurements": 115725,
+  "spatial_primary_measurements": 115725,
+  "observed_fia_taxa": 396,
+  "species_grain_rows": 1188,
+  "fold_metric_rows": 2376,
+  "usgs_exact_matches": 269,
+  "frontier_rows": 4860,
+  "trace_rows": 204,
+  "grain_summary": [
+    {
+      "grain_km": 25,
+      "primary_eligible_plots": 115725,
+      "sampled_cells": 10051,
+      "candidate_species_level_taxa": 396,
+      "species_each_fold_ge5_detection_cells": 275,
+      "species_each_fold_ge10_detection_cells": 253,
+      "species_each_fold_ge10_positive_plots": 257,
+      "species_each_fold_ge20_positive_plots": 229,
+      "note": "Descriptive breadth only; no final grain or threshold selected"
+    },
+    {
+      "grain_km": 50,
+      "primary_eligible_plots": 115725,
+      "sampled_cells": 2970,
+      "candidate_species_level_taxa": 396,
+      "species_each_fold_ge5_detection_cells": 275,
+      "species_each_fold_ge10_detection_cells": 246,
+      "species_each_fold_ge10_positive_plots": 257,
+      "species_each_fold_ge20_positive_plots": 229,
+      "note": "Descriptive breadth only; no final grain or threshold selected"
+    },
+    {
+      "grain_km": 75,
+      "primary_eligible_plots": 115725,
+      "sampled_cells": 1441,
+      "candidate_species_level_taxa": 396,
+      "species_each_fold_ge5_detection_cells": 269,
+      "species_each_fold_ge10_detection_cells": 241,
+      "species_each_fold_ge10_positive_plots": 257,
+      "species_each_fold_ge20_positive_plots": 229,
+      "note": "Descriptive breadth only; no final grain or threshold selected"
+    }
+  ],
+  "outcome_audit_status": "PASS",
+  "elapsed_seconds": 1500.8033454418182
+}

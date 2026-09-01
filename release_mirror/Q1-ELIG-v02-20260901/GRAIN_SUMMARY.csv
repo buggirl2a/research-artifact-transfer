@@ -1,0 +1,4 @@
+﻿grain_km,primary_eligible_plots,sampled_cells,candidate_species_level_taxa,species_each_fold_ge5_detection_cells,species_each_fold_ge10_detection_cells,species_each_fold_ge10_positive_plots,species_each_fold_ge20_positive_plots,note
+25,115725,10051,396,275,253,257,229,Descriptive breadth only; no final grain or threshold selected
+50,115725,2970,396,275,246,257,229,Descriptive breadth only; no final grain or threshold selected
+75,115725,1441,396,269,241,257,229,Descriptive breadth only; no final grain or threshold selected

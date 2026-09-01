@@ -1,0 +1,253 @@
+{
+  "outputPath": "C:\\range_paper\\05_qc\\elig_v02\\Q1_ELIGIBILITY_CENSUS_AUDIT_v0_2.xlsx",
+  "sheetInspection": {
+    "recordCount": 16,
+    "truncated": false,
+    "metadata": {
+      "revision": "jzh2oj",
+      "target": {
+        "id": "wb/ydmxa2",
+        "beforeLines": 0,
+        "afterLines": 0
+      },
+      "kind": {
+        "requested": "sheet",
+        "tokens": [
+          "sheet"
+        ]
+      },
+      "include": {
+        "requested": "id,name",
+        "tokens": [
+          "id",
+          "name"
+        ]
+      },
+      "exclude": {
+        "tokens": []
+      },
+      "notices": []
+    }
+  },
+  "formulaInspection": {
+    "recordCount": 1,
+    "truncated": false,
+    "metadata": {
+      "revision": "7u2jea",
+      "target": {
+        "id": "wb/9cu9rv",
+        "beforeLines": 0,
+        "afterLines": 0
+      },
+      "kind": {
+        "requested": "match",
+        "tokens": [
+          "match"
+        ]
+      },
+      "include": {
+        "tokens": []
+      },
+      "exclude": {
+        "tokens": []
+      },
+      "notices": []
+    }
+  },
+  "formulaErrorScanStatus": "PASS",
+  "formulaErrorHits": [],
+  "traceIdentifierAudit": [
+    [
+      "​74340699010538",
+      "​1097572185290487"
+    ],
+    [
+      "​247105163010661",
+      "​511232313126144"
+    ],
+    [
+      "​65155927010538",
+      "​1191496003290487"
+    ]
+  ],
+  "sheetCellCounts": [
+    {
+      "sheetName": "Summary",
+      "rows": 19,
+      "columns": 6,
+      "cells": 114
+    },
+    {
+      "sheetName": "Grain Summary",
+      "rows": 4,
+      "columns": 9,
+      "cells": 36
+    },
+    {
+      "sheetName": "Species Grain",
+      "rows": 1189,
+      "columns": 61,
+      "cells": 72529
+    },
+    {
+      "sheetName": "Fold Metrics",
+      "rows": 2377,
+      "columns": 20,
+      "cells": 47540
+    },
+    {
+      "sheetName": "AB Summary",
+      "rows": 57,
+      "columns": 9,
+      "cells": 513
+    },
+    {
+      "sheetName": "AB Strata",
+      "rows": 241,
+      "columns": 13,
+      "cells": 3133
+    },
+    {
+      "sheetName": "Grid Audit",
+      "rows": 4,
+      "columns": 22,
+      "cells": 88
+    },
+    {
+      "sheetName": "USGS Range",
+      "rows": 270,
+      "columns": 30,
+      "cells": 8100
+    },
+    {
+      "sheetName": "Taxonomy",
+      "rows": 397,
+      "columns": 10,
+      "cells": 3970
+    },
+    {
+      "sheetName": "Frontiers",
+      "rows": 4861,
+      "columns": 11,
+      "cells": 53471
+    },
+    {
+      "sheetName": "Objective Flags",
+      "rows": 397,
+      "columns": 16,
+      "cells": 6352
+    },
+    {
+      "sheetName": "Protocol Flags",
+      "rows": 397,
+      "columns": 10,
+      "cells": 3970
+    },
+    {
+      "sheetName": "Trace Sample",
+      "rows": 205,
+      "columns": 17,
+      "cells": 3485
+    },
+    {
+      "sheetName": "Input Audit",
+      "rows": 12,
+      "columns": 7,
+      "cells": 84
+    },
+    {
+      "sheetName": "USGS Semantics",
+      "rows": 698,
+      "columns": 8,
+      "cells": 5584
+    },
+    {
+      "sheetName": "QC Checks",
+      "rows": 32,
+      "columns": 6,
+      "cells": 192
+    }
+  ],
+  "previews": [
+    {
+      "sheetName": "Summary",
+      "range": "A1:N20",
+      "fileName": "Summary.png"
+    },
+    {
+      "sheetName": "Grain Summary",
+      "range": "A1:I4",
+      "fileName": "Grain_Summary.png"
+    },
+    {
+      "sheetName": "Species Grain",
+      "range": "A1:J24",
+      "fileName": "Species_Grain.png"
+    },
+    {
+      "sheetName": "Fold Metrics",
+      "range": "A1:J24",
+      "fileName": "Fold_Metrics.png"
+    },
+    {
+      "sheetName": "AB Summary",
+      "range": "A1:I24",
+      "fileName": "AB_Summary.png"
+    },
+    {
+      "sheetName": "AB Strata",
+      "range": "A1:J24",
+      "fileName": "AB_Strata.png"
+    },
+    {
+      "sheetName": "Grid Audit",
+      "range": "A1:J4",
+      "fileName": "Grid_Audit.png"
+    },
+    {
+      "sheetName": "USGS Range",
+      "range": "A1:J24",
+      "fileName": "USGS_Range.png"
+    },
+    {
+      "sheetName": "Taxonomy",
+      "range": "A1:J24",
+      "fileName": "Taxonomy.png"
+    },
+    {
+      "sheetName": "Frontiers",
+      "range": "A1:J24",
+      "fileName": "Frontiers.png"
+    },
+    {
+      "sheetName": "Objective Flags",
+      "range": "A1:J24",
+      "fileName": "Objective_Flags.png"
+    },
+    {
+      "sheetName": "Protocol Flags",
+      "range": "A1:J24",
+      "fileName": "Protocol_Flags.png"
+    },
+    {
+      "sheetName": "Trace Sample",
+      "range": "A1:J24",
+      "fileName": "Trace_Sample.png"
+    },
+    {
+      "sheetName": "Input Audit",
+      "range": "A1:G12",
+      "fileName": "Input_Audit.png"
+    },
+    {
+      "sheetName": "USGS Semantics",
+      "range": "A1:H24",
+      "fileName": "USGS_Semantics.png"
+    },
+    {
+      "sheetName": "QC Checks",
+      "range": "A1:F24",
+      "fileName": "QC_Checks.png"
+    }
+  ]
+}

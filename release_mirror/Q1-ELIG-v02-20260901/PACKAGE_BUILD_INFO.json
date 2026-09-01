@@ -1,0 +1,12 @@
+{
+  "package_name": "Q1_ELIGIBILITY_CENSUS_v0_2",
+  "scope": "outcome-blind Q1 eligibility census only",
+  "raw_data_embedded": false,
+  "raw_retrieval_basis": "Frozen local paths, sizes, and SHA-256 values in results/INPUT_AUDIT.csv and controls/",
+  "authoritative_result_csvs": "results/*.csv",
+  "analysis_entry_point": "source/eligibility_census.py",
+  "verification_entry_point": "source/verify_outputs.py",
+  "workbook_entry_point": "source/build_audit_workbook.mjs",
+  "package_manifest_rule": "PACKAGE_MANIFEST_SHA256.csv hashes every payload member except itself; ZIP hash is stored outside the ZIP.",
+  "scientific_boundary": "No real-Q1 effects, final grain, final threshold, or final species cohort."
+}

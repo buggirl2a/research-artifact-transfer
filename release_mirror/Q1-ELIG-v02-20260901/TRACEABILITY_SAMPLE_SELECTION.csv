@@ -1,0 +1,13 @@
+﻿detection_band,fia_species_code,scientific_name,n_detection_plots_total,selection_basis
+HIGH_DETECTION,316,Acer rubrum,29146,qualifying detection-plot count only; deterministic ties by FIA species code
+HIGH_DETECTION,131,Pinus taeda,16390,qualifying detection-plot count only; deterministic ties by FIA species code
+HIGH_DETECTION,611,Liquidambar styraciflua,14950,qualifying detection-plot count only; deterministic ties by FIA species code
+HIGH_DETECTION,802,Quercus alba,14722,qualifying detection-plot count only; deterministic ties by FIA species code
+MIDDLE_DETECTION,43,Chamaecyparis thyoides,108,qualifying detection-plot count only; deterministic ties by FIA species code
+MIDDLE_DETECTION,840,Quercus margarettiae,108,qualifying detection-plot count only; deterministic ties by FIA species code
+MIDDLE_DETECTION,320,Acer platanoides,104,qualifying detection-plot count only; deterministic ties by FIA species code
+MIDDLE_DETECTION,42,Chamaecyparis nootkatensis,114,qualifying detection-plot count only; deterministic ties by FIA species code
+LOW_DETECTION,52,Cupressus bakeri,1,qualifying detection-plot count only; deterministic ties by FIA species code
+LOW_DETECTION,60,Juniperus flaccida,1,qualifying detection-plot count only; deterministic ties by FIA species code
+LOW_DETECTION,350,Alnus spp.,1,qualifying detection-plot count only; deterministic ties by FIA species code
+LOW_DETECTION,406,Carya myristiciformis,1,qualifying detection-plot count only; deterministic ties by FIA species code

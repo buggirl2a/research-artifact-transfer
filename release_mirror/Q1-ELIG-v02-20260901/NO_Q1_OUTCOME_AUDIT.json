@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-09-02T01:21:21+08:00",
+  "real_Q1_model_fitted": false,
+  "geometry_gain_computed": false,
+  "R1_R2_compared": false,
+  "abundance_geometry_used_for_selection": false,
+  "significance_test_run": false,
+  "outcome_based_species_filtering": false,
+  "hard_detection_treated_as_latent_support_truth": false,
+  "prohibited_output_column_hits": [],
+  "status": "PASS"
+}
