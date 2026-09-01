@@ -1,0 +1,11 @@
+{
+  "zip_path": "C:\\range_paper\\10_archive\\elig_v02\\Q1_ELIGIBILITY_CENSUS_v0_2_REPRODUCIBLE.zip",
+  "zip_size_bytes": 2738865,
+  "zip_sha256": "c291b224018422ee732d8b71fbbacdb69aff88a7dd1ccffaec82c88d1590f5ba",
+  "zip_member_count": 70,
+  "manifest_payload_rows": 69,
+  "manifest_hash_mismatches": 0,
+  "zip_crc_test": "PASS",
+  "member_name_set": "PASS",
+  "status": "PASS"
+}

@@ -1,0 +1,42 @@
+{
+  "contract": "00_control\\D08B1_TAXONOMY_USGS_BRIDGE_CONTRACT_v02.md",
+  "input_freeze": "00_control\\D08B1_INPUT_FREEZE_v02.md",
+  "taxonomy_patch_codes": [
+    "143",
+    "363",
+    "372",
+    "744",
+    "820",
+    "822",
+    "840",
+    "6511",
+    "6955",
+    "8355",
+    "8563"
+  ],
+  "ordinary_patch_codes": [
+    "363",
+    "372",
+    "744",
+    "820",
+    "822",
+    "840",
+    "8355",
+    "8563"
+  ],
+  "author_normalization": "Unicode NFC; whitespace collapse; lossless removal of spacing around period/comma/parentheses; no fuzzy matching",
+  "conus_region_codes_l2": [
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78"
+  ],
+  "not_applicable_rule": "confirmed_native_CONUS=FALSE and introduced_in_CONUS_audit_flag=TRUE and no resolved Atlas row",
+  "review_only_rule": "multiple/shared/infraspecific/Notes/unresolved cases have no canonical layer",
+  "real_q1": "HOLD",
+  "fia_tree_merge": "HOLD",
+  "little_union": "HOLD",
+  "external_range_search": "HOLD"
+}

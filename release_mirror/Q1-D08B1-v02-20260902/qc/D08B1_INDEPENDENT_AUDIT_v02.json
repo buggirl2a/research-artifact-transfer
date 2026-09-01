@@ -1,0 +1,184 @@
+{
+  "status": "PASS",
+  "check_count": 25,
+  "checks": [
+    {
+      "check": "required_files_present",
+      "status": "PASS",
+      "expected": [],
+      "observed": []
+    },
+    {
+      "check": "true_code_map_396",
+      "status": "PASS",
+      "expected": [
+        396,
+        396
+      ],
+      "observed": [
+        396,
+        396
+      ]
+    },
+    {
+      "check": "fia_raw_names_preserved",
+      "status": "PASS",
+      "expected": 396,
+      "observed": 396
+    },
+    {
+      "check": "eight_ordinary_corrections_exact",
+      "status": "PASS",
+      "expected": 8,
+      "observed": 8
+    },
+    {
+      "check": "6511_unplaced_no_analysis",
+      "status": "PASS",
+      "expected": [
+        "",
+        "Unplaced"
+      ],
+      "observed": [
+        "",
+        "Unplaced"
+      ]
+    },
+    {
+      "check": "6955_unknown",
+      "status": "PASS",
+      "expected": [
+        "UNRESOLVED",
+        ""
+      ],
+      "observed": [
+        "UNRESOLVED",
+        ""
+      ]
+    },
+    {
+      "check": "143_hybrid_noncore",
+      "status": "PASS",
+      "expected": "ACCEPTED_HYBRID_NONCORE absent ordinary master",
+      "observed": "ACCEPTED_HYBRID_NONCORE"
+    },
+    {
+      "check": "ordinary_species_valid",
+      "status": "PASS",
+      "expected": 361,
+      "observed": 361
+    },
+    {
+      "check": "distribution_final_ids_only",
+      "status": "PASS",
+      "expected": 9648,
+      "observed": 9648
+    },
+    {
+      "check": "native_semantics",
+      "status": "PASS",
+      "expected": 0,
+      "observed": 0
+    },
+    {
+      "check": "unchanged_distribution_exact",
+      "status": "PASS",
+      "expected": 9425,
+      "observed": 9425
+    },
+    {
+      "check": "hybrid_evidence_separate",
+      "status": "PASS",
+      "expected": 4,
+      "observed": 4
+    },
+    {
+      "check": "hybrid_audit_explicit",
+      "status": "PASS",
+      "expected": 3,
+      "observed": 3
+    },
+    {
+      "check": "review_rows_unselected",
+      "status": "PASS",
+      "expected": 0,
+      "observed": 0
+    },
+    {
+      "check": "review_file_complete",
+      "status": "PASS",
+      "expected": 69,
+      "observed": 69
+    },
+    {
+      "check": "nonnative_not_applicable_supported",
+      "status": "PASS",
+      "expected": 47,
+      "observed": 47
+    },
+    {
+      "check": "abies_grandis_repaired",
+      "status": "PASS",
+      "expected": "SINGLE_SPECIES_LAYER",
+      "observed": "SINGLE_SPECIES_LAYER"
+    },
+    {
+      "check": "cross_stage_v01_review_coverage",
+      "status": "PASS",
+      "expected": 92,
+      "observed": 92
+    },
+    {
+      "check": "prior_nonzero_no_silent_loss",
+      "status": "PASS",
+      "expected": 7,
+      "observed": 7
+    },
+    {
+      "check": "drc_species_rows",
+      "status": "PASS",
+      "expected": 361,
+      "observed": 361
+    },
+    {
+      "check": "builder_qc_all_pass",
+      "status": "PASS",
+      "expected": [
+        31,
+        {
+          "PASS": 31
+        }
+      ],
+      "observed": [
+        31,
+        {
+          "PASS": 31
+        }
+      ]
+    },
+    {
+      "check": "workbook_formula_scan",
+      "status": "PASS",
+      "expected": "matched 0 entries",
+      "observed": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "check": "workbook_zip_integrity",
+      "status": "PASS",
+      "expected": null,
+      "observed": null
+    },
+    {
+      "check": "no_real_q1_fields",
+      "status": "PASS",
+      "expected": [],
+      "observed": []
+    },
+    {
+      "check": "prohibited_operations_absent",
+      "status": "PASS",
+      "expected": [],
+      "observed": []
+    }
+  ]
+}

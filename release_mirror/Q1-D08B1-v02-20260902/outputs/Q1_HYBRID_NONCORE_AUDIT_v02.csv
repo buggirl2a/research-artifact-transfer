@@ -1,0 +1,4 @@
+fia_species_code,fia_name_raw,mapping_class,matched_wcvp_id,matched_wcvp_name,matched_wcvp_author,accepted_hybrid_id,accepted_hybrid_name,accepted_hybrid_author,accepted_hybrid_status,ordinary_analysis_species_id,core_status,supplementary_sensitivity_candidate_flag,distribution_audit_row_count,audit_note
+143,Pinus monophylla var. fallax,ACCEPTED_HYBRID_NONCORE,380213,Pinus monophylla var. fallax,(Little) Silba,3317681,Pinus × kohae,Frankis,Accepted,,ACCEPTED_HYBRID_NONCORE,1,4,Accepted hybrid/non-core object; excluded from ordinary accepted-species master.
+929,Salix x sepulcralis,HYBRID_OR_NOTHOTAXON,,,,,,,,,HYBRID_OR_NOTHOTAXON_NONCORE,0,0,Hybrid marker or WCVP artificial-hybrid evidence; no ordinary accepted-species assignment.
+8313,Populus x canadensis,HYBRID_OR_NOTHOTAXON,,,,,,,,,HYBRID_OR_NOTHOTAXON_NONCORE,0,0,Hybrid marker or WCVP artificial-hybrid evidence; no ordinary accepted-species assignment.

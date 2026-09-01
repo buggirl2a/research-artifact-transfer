@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "fia_code_rows": 396,
+  "ordinary_analysis_code_rows": 377,
+  "ordinary_analysis_species": 361,
+  "newly_resolved_ordinary_species": 8,
+  "newly_resolved_species_ids": [
+    "21443",
+    "166659",
+    "173587",
+    "173795",
+    "173863",
+    "2480191",
+    "2646755",
+    "2917593"
+  ],
+  "accepted_hybrid_noncore_codes": 1,
+  "wcvp_level3_rows_v01": 9429,
+  "wcvp_level3_rows_v02_ordinary": 9648,
+  "hybrid_distribution_audit_rows": 4,
+  "usgs_mapping_class_counts": {
+    "AMBIGUOUS": 2,
+    "MULTIPLE_OTHER_LAYERS": 5,
+    "NOT_APPLICABLE_CONUS_NONNATIVE": 47,
+    "SINGLE_OFFICIAL_ALIAS_LAYER": 21,
+    "SINGLE_SPECIES_LAYER": 234,
+    "UNRESOLVED": 52
+  },
+  "usgs_review_required_species": 64,
+  "usgs_canonical_single_species": 250,
+  "usgs_not_applicable_conus_nonnative_species": 47,
+  "cross_stage_rows": 123,
+  "prior_exact_nonzero_v01_unresolved_rows": 7,
+  "mandatory_qc_pass": 31,
+  "mandatory_qc_fail": 0,
+  "prohibited_actions_executed": []
+}

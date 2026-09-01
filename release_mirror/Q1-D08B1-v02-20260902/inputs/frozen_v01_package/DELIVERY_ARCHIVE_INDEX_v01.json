@@ -1,0 +1,20 @@
+{
+  "delivery_directory": "Q1_D08B_MAINLINE_AUDIT_DELIVERY_v01",
+  "delivery_directory_file_count": 74,
+  "source_freeze_verification": {
+    "manifest_status": "PASS",
+    "manifest_entry_count": 48,
+    "hash_list_entry_count": 49,
+    "old_zip_bytes": 1216903,
+    "old_zip_sha256": "64f0f2c050161c67ceca0022837a3aa85a517f4410f8aba9ecd1685bb7b10ec3",
+    "verification_failures": []
+  },
+  "zip_filename": "Q1_D08B_MAINLINE_AUDIT_DELIVERY_v01.zip",
+  "zip_bytes": 2748725,
+  "zip_sha256": "5ad4b94f5e3775db86c1b7d806dae3ec7888a13ad85af933b436e4eba2483c96",
+  "zip_member_count": 74,
+  "fixed_member_timestamp": "2026-09-02T00:00:00",
+  "zip_verification": "PASS",
+  "zip_sha256_sidecar": "Q1_D08B_MAINLINE_AUDIT_DELIVERY_v01.zip.sha256",
+  "status": "PASS"
+}

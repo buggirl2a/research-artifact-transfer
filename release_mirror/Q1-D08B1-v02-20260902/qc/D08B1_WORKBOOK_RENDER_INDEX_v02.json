@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "sheets_rendered": 16,
+  "rendered": [
+    {
+      "sheet_name": "Summary",
+      "preview_path": "C:/range_paper/99_tmp/tax_v02_work/xlsx_builder/qc/WORKBOOK_PREVIEWS_v02/Summary.png",
+      "range": "A1:H20"
+    },
+    {
+      "sheet_name": "Code Map",
+      "preview_path": "C:/range_paper/99_tmp/tax_v02_work/xlsx_builder/qc/WORKBOOK_PREVIEWS_v02/Code_Map.png",
+      "range": "A1:L25"
+    },
+    {
+      "sheet_name": "Corrections",
+      "preview_path": "C:/range_paper/99_tmp/tax_v02_work/xlsx_builder/qc/WORKBOOK_PREVIEWS_v02/Corrections.png",
+      "range": "A1:L12"
+    },
+    {
+      "sheet_name": "Analysis Species",
+      "preview_path": "C:/range_paper/99_tmp/tax_v02_work/xlsx_builder/qc/WORKBOOK_PREVIEWS_v02/Analysis_Species.png",
+      "range": "A1:L25"
+    },
+    {
+      "sheet_name": "Hybrid Audit",
+      "preview_path": "C:/range_paper/99_tmp/tax_v02_work/xlsx_builder/qc/WORKBOOK_PREVIEWS_v02/Hybrid_Audit.png",
+      "range": "A1:L4"
+    },
+    {
+      "sheet_name": "Hybrid Dist",
+      "preview_path": "C:/range_paper/99_tmp/tax_v02_work/xlsx_builder/qc/WORKBOOK_PREVIEWS_v02/Hybrid_Dist.png",
+      "range": "A1:L5"
+    },
+    {
+      "sheet_name": "Global Range",
+      "preview_path": "C:/range_paper/99_tmp/tax_v02_work/xlsx_builder/qc/WORKBOOK_PREVIEWS_v02/Global_Range.png",
+      "range": "A1:L25"
+    },
+    {
+      "sheet_name": "USGS Closure",
+      "preview_path": "C:/range_paper/99_tmp/tax_v02_work/xlsx_builder/qc/WORKBOOK_PREVIEWS_v02/USGS_Closure.png",
+      "range": "A1:L25"
+    },
+    {
+      "sheet_name": "USGS Review",
+      "preview_path": "C:/range_paper/99_tmp/tax_v02_work/xlsx_builder/qc/WORKBOOK_PREVIEWS_v02/USGS_Review.png",
+      "range": "A1:L25"
+    },
+    {
+      "sheet_name": "Cross Stage",
+      "preview_path": "C:/range_paper/99_tmp/tax_v02_work/xlsx_builder/qc/WORKBOOK_PREVIEWS_v02/Cross_Stage.png",
+      "range": "A1:L25"
+    },
+    {
+      "sheet_name": "DRC Protocol",
+      "preview_path": "C:/range_paper/99_tmp/tax_v02_work/xlsx_builder/qc/WORKBOOK_PREVIEWS_v02/DRC_Protocol.png",
+      "range": "A1:L25"
+    },
+    {
+      "sheet_name": "QC",
+      "preview_path": "C:/range_paper/99_tmp/tax_v02_work/xlsx_builder/qc/WORKBOOK_PREVIEWS_v02/QC.png",
+      "range": "A1:G25"
+    },
+    {
+      "sheet_name": "Unresolved",
+      "preview_path": "C:/range_paper/99_tmp/tax_v02_work/xlsx_builder/qc/WORKBOOK_PREVIEWS_v02/Unresolved.png",
+      "range": "A1:K25"
+    },
+    {
+      "sheet_name": "Evidence",
+      "preview_path": "C:/range_paper/99_tmp/tax_v02_work/xlsx_builder/qc/WORKBOOK_PREVIEWS_v02/Evidence.png",
+      "range": "A1:I25"
+    },
+    {
+      "sheet_name": "WCVP Level3",
+      "preview_path": "C:/range_paper/99_tmp/tax_v02_work/xlsx_builder/qc/WORKBOOK_PREVIEWS_v02/WCVP_Level3.png",
+      "range": "A1:L25"
+    },
+    {
+      "sheet_name": "Taxon Master",
+      "preview_path": "C:/range_paper/99_tmp/tax_v02_work/xlsx_builder/qc/WORKBOOK_PREVIEWS_v02/Taxon_Master.png",
+      "range": "A1:L25"
+    }
+  ]
+}
