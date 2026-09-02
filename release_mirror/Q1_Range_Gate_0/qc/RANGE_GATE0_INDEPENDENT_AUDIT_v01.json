@@ -1,0 +1,244 @@
+{
+  "audit_type": "independent_output_only",
+  "version": "v01",
+  "status": "PASS",
+  "input_files_read": [
+    "C:\\range_paper\\99_tmp\\range_gate0_v01\\outputs\\Q1_RANGE_GATE0_SPECIES_CLASSIFICATION_v01.csv",
+    "C:\\range_paper\\99_tmp\\range_gate0_v01\\outputs\\Q1_RANGE_GATE0_SUMMARY_v01.csv",
+    "C:\\range_paper\\99_tmp\\range_gate0_v01\\outputs\\Q1_RANGE_GATE0_DECISION_QUEUE_v01.csv",
+    "C:\\range_paper\\99_tmp\\range_gate0_v01\\outputs\\Q1_RANGE_GATE0_FAIL_EXTRA_NA_v01.csv",
+    "C:\\range_paper\\99_tmp\\range_gate0_v01\\outputs\\RANGE_GATE0_RESULT_NOTE_v01.md",
+    "C:\\range_paper\\99_tmp\\range_gate0_v01\\qc\\Q1_RANGE_GATE0_QC_v01.csv",
+    "C:\\range_paper\\99_tmp\\range_gate0_v01\\qc\\RANGE_GATE0_BOUNDARY_AUDIT_v01.json"
+  ],
+  "authority_or_scientific_input_files_read": [],
+  "check_count": 25,
+  "pass_count": 25,
+  "class_counts_recomputed": {
+    "FAIL_EXTRA_NA": 30,
+    "BORDERLINE_SOUTH": 1,
+    "BORDERLINE_MEXICO": 94,
+    "RETAIN_USCA_AUDIT": 86,
+    "PASS_COARSE": 101,
+    "UNKNOWN": 0
+  },
+  "checks": [
+    {
+      "check_id": "IA001",
+      "description": "Required output/QC files exist",
+      "status": "PASS",
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check_id": "IA002",
+      "description": "Classification has exactly 312 rows",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "IA003",
+      "description": "Species IDs are unique",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "IA004",
+      "description": "All six summary classes occur exactly once",
+      "status": "PASS",
+      "actual": [
+        "FAIL_EXTRA_NA",
+        "BORDERLINE_SOUTH",
+        "BORDERLINE_MEXICO",
+        "RETAIN_USCA_AUDIT",
+        "PASS_COARSE",
+        "UNKNOWN"
+      ],
+      "expected": [
+        "FAIL_EXTRA_NA",
+        "BORDERLINE_SOUTH",
+        "BORDERLINE_MEXICO",
+        "RETAIN_USCA_AUDIT",
+        "PASS_COARSE",
+        "UNKNOWN"
+      ]
+    },
+    {
+      "check_id": "IA005",
+      "description": "Classification counts equal summary counts",
+      "status": "PASS",
+      "actual": {
+        "BORDERLINE_MEXICO": 94,
+        "RETAIN_USCA_AUDIT": 86,
+        "FAIL_EXTRA_NA": 30,
+        "PASS_COARSE": 101,
+        "BORDERLINE_SOUTH": 1
+      },
+      "expected": {
+        "FAIL_EXTRA_NA": 30,
+        "BORDERLINE_SOUTH": 1,
+        "BORDERLINE_MEXICO": 94,
+        "RETAIN_USCA_AUDIT": 86,
+        "PASS_COARSE": 101,
+        "UNKNOWN": 0
+      }
+    },
+    {
+      "check_id": "IA006",
+      "description": "Summary counts total 312",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "IA007",
+      "description": "Summary percentages close to 100 after rounding",
+      "status": "PASS",
+      "actual": 100.000001,
+      "expected": 100
+    },
+    {
+      "check_id": "IA008",
+      "description": "Every row has a valid class",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "IA009",
+      "description": "Every row route matches class",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "IA010",
+      "description": "All candidates are frozen confirmed native CONUS",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "IA011",
+      "description": "All final-cohort flags are zero",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "IA012",
+      "description": "USA+Canada audit flags exactly match RETAIN class",
+      "status": "PASS",
+      "actual": 86,
+      "expected": 86
+    },
+    {
+      "check_id": "IA013",
+      "description": "External audit flags exactly match frozen review classes",
+      "status": "PASS",
+      "actual": 95,
+      "expected": 95
+    },
+    {
+      "check_id": "IA014",
+      "description": "Decision queue has only and all frozen queue classes",
+      "status": "PASS",
+      "actual": 181,
+      "expected": 181
+    },
+    {
+      "check_id": "IA015",
+      "description": "FAIL file has only and all FAIL_EXTRA_NA",
+      "status": "PASS",
+      "actual": 30,
+      "expected": 30
+    },
+    {
+      "check_id": "IA016",
+      "description": "PASS_COARSE has no compatible Class 1-4 flag",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check_id": "IA017",
+      "description": "FAIL_EXTRA_NA has explicit frozen evidence",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check_id": "IA018",
+      "description": "Every row has reason/evidence/route",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "IA019",
+      "description": "Source QC has no failed check",
+      "status": "PASS",
+      "actual": 22,
+      "expected": 22
+    },
+    {
+      "check_id": "IA020",
+      "description": "Boundary audit reports no prohibited operation",
+      "status": "PASS",
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check_id": "IA021",
+      "description": "Boundary allowed-input list is explicit",
+      "status": "PASS",
+      "actual": 9,
+      "expected": ">=9"
+    },
+    {
+      "check_id": "IA022",
+      "description": "Output source hashes are constant across rows",
+      "status": "PASS",
+      "actual": [
+        1,
+        1
+      ],
+      "expected": [
+        1,
+        1
+      ]
+    },
+    {
+      "check_id": "IA023",
+      "description": "Administrative evidence includes no numerical inference claim",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "IA024",
+      "description": "Result note declares STOP",
+      "status": "PASS",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check_id": "IA025",
+      "description": "Every output file has a computable SHA-256",
+      "status": "PASS",
+      "actual": 7,
+      "expected": 7
+    }
+  ],
+  "output_hashes": {
+    "Q1_RANGE_GATE0_SPECIES_CLASSIFICATION_v01.csv": "243978406cb913c13898b333671000c30592079d076ef8b995822a1684f8a8cd",
+    "Q1_RANGE_GATE0_SUMMARY_v01.csv": "c44eddbcd6fe0c884856786d1fa4ab036f6c1f01956177697bda5eb83d741c05",
+    "Q1_RANGE_GATE0_DECISION_QUEUE_v01.csv": "f9c066bbf25de8dca122d90446aab579f22052ab9c0de4412be616c8567016c1",
+    "Q1_RANGE_GATE0_FAIL_EXTRA_NA_v01.csv": "328ceb72d649e0788f2c019c5f6884ef0f318e1ba5059d8bf5de6cfadbd8eef5",
+    "RANGE_GATE0_RESULT_NOTE_v01.md": "ef49b993bf8ac2579e8ab1b3d555a4c3486fdd9147c2df423b4bdf2bc4ed8f7e",
+    "Q1_RANGE_GATE0_QC_v01.csv": "dd33418d361e809aafc21882bda85cf62f66e07336bdc41f497bf4a2bf3a9ef0",
+    "RANGE_GATE0_BOUNDARY_AUDIT_v01.json": "0fcf698532055891921f86ac02808dbfa4f86752ee08cb714a674fdee99cf50d"
+  }
+}

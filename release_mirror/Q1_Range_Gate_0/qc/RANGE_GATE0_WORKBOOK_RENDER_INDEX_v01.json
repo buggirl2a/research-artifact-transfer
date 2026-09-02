@@ -1,0 +1,37 @@
+[
+  {
+    "sheet_name": "Summary",
+    "range": "A1:H18",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v01/qc/WORKBOOK_PREVIEWS_v01/Summary.png"
+  },
+  {
+    "sheet_name": "Classification",
+    "range": "A1:L24",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v01/qc/WORKBOOK_PREVIEWS_v01/Classification.png"
+  },
+  {
+    "sheet_name": "Class Summary",
+    "range": "A1:D7",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v01/qc/WORKBOOK_PREVIEWS_v01/Class_Summary.png"
+  },
+  {
+    "sheet_name": "Decision Queue",
+    "range": "A1:L24",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v01/qc/WORKBOOK_PREVIEWS_v01/Decision_Queue.png"
+  },
+  {
+    "sheet_name": "Fail Extra NA",
+    "range": "A1:L24",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v01/qc/WORKBOOK_PREVIEWS_v01/Fail_Extra_NA.png"
+  },
+  {
+    "sheet_name": "QC",
+    "range": "A1:E23",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v01/qc/WORKBOOK_PREVIEWS_v01/QC.png"
+  },
+  {
+    "sheet_name": "Input Hash Audit",
+    "range": "A1:F12",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v01/qc/WORKBOOK_PREVIEWS_v01/Input_Hash_Audit.png"
+  }
+]

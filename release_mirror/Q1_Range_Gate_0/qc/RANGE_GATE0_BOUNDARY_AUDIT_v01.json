@@ -1,0 +1,22 @@
+{
+  "version": "v01",
+  "allowed_inputs": [
+    "C:\\range_paper\\03_doc\\RANGE_GATE0_INPUTS_v01\\Q1_WORK_REQUEST_RANGE_GATE0_WHOLE_RANGE_COMPLETENESS_COARSE_SCREEN_v01_20260903.md",
+    "C:\\range_paper\\03_doc\\RANGE_GATE0_INPUTS_v01\\Q1_TAXON_RANGE_D08B1_CORRECTED_REPRODUCIBLE_v02.zip",
+    "C:\\range_paper\\03_doc\\RANGE_GATE0_INPUTS_v01\\Q1_TAXON_RANGE_D08B1_CORRECTED_REPRODUCIBLE_v02.zip.sha256",
+    "C:\\range_paper\\03_doc\\RANGE_GATE0_INPUTS_v01\\d08b1_v02_authority\\Q1_ANALYSIS_SPECIES_MASTER_v02.csv",
+    "C:\\range_paper\\03_doc\\RANGE_GATE0_INPUTS_v01\\d08b1_v02_authority\\Q1_GLOBAL_RANGE_FLAGS_v02.csv",
+    "C:\\range_paper\\03_doc\\RANGE_GATE0_INPUTS_v01\\d08b1_v02_authority\\Q1_WCVP_NATIVE_DISTRIBUTION_LONG_v02.csv",
+    "C:\\range_paper\\00_control\\RANGE_GATE0_CONTRACT_v01.md",
+    "C:\\range_paper\\00_control\\RANGE_GATE0_INPUT_FREEZE_v01.md",
+    "C:\\range_paper\\06_src\\range_gate0_v01\\parameters_range_gate0_v01.json"
+  ],
+  "network_access_used": false,
+  "little_layer_content_read": false,
+  "fia_outcome_or_eligibility_read": false,
+  "d08c2_run": false,
+  "external_range_search_run": false,
+  "geometry_or_area_inference_run": false,
+  "real_q1_run": false,
+  "final_species_cohort_selected": false
+}

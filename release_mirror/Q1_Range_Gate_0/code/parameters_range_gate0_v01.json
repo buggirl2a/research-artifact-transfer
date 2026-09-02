@@ -1,0 +1,33 @@
+{
+  "version": "v01",
+  "date": "2026-09-03",
+  "contract_sha256": "908e91da5cca2029b1f26a1594bb07486d2f3ee0ac407bb409f3b28376588d97",
+  "input_freeze_sha256": "53509e82097e0db0ab560ec2f8ba70138263bfe06f9eb0660a28120b60a385e2",
+  "expected_analysis_species_master_rows": 361,
+  "expected_conus_native_candidate_pool": 312,
+  "classification_precedence": [
+    "FAIL_EXTRA_NA",
+    "BORDERLINE_SOUTH",
+    "BORDERLINE_MEXICO",
+    "RETAIN_USCA_AUDIT",
+    "PASS_COARSE",
+    "UNKNOWN"
+  ],
+  "conus_region_codes_l2": ["73", "74", "75", "76", "77", "78"],
+  "canada_region_codes_l2": ["71", "72"],
+  "canada_area_codes_l3": ["NUN", "NWT", "YUK"],
+  "alaska_area_code_l3": "ASK",
+  "mexico_region_code_l2": "79",
+  "central_america_region_code_l2": "80",
+  "north_america_continent_code_l1": "7",
+  "north_america_additional_region_codes_l2": ["80", "81"],
+  "future_usca_little_audit_classes": ["RETAIN_USCA_AUDIT"],
+  "future_external_range_audit_classes": ["BORDERLINE_SOUTH", "BORDERLINE_MEXICO", "UNKNOWN"],
+  "final_cohort_flag": 0,
+  "numerical_area_or_geometry_threshold": null,
+  "external_network_sources": "PROHIBITED",
+  "little_layer_content": "PROHIBITED",
+  "fia_outcome_or_eligibility": "PROHIBITED",
+  "d08c2": "HOLD",
+  "real_q1": "HOLD"
+}

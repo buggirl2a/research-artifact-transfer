@@ -1,0 +1,7 @@
+Range Gate 0 v01 build completed.
+Authority: frozen D08B1 v02 local package and copied authoritative members only.
+Rules: precommitted RANGE_GATE0_CONTRACT_v01.md; no post-count changes.
+Prohibited operations invoked: none.
+Rows: master=361, candidates=312, evidence=9648.
+Class counts: {"BORDERLINE_MEXICO": 94, "BORDERLINE_SOUTH": 1, "FAIL_EXTRA_NA": 30, "PASS_COARSE": 101, "RETAIN_USCA_AUDIT": 86, "UNKNOWN": 0}
+QC: 22/22 PASS.

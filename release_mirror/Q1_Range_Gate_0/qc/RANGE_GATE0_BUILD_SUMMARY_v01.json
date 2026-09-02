@@ -1,0 +1,20 @@
+{
+  "execution_status": "PASS",
+  "master_rows": 361,
+  "candidate_rows": 312,
+  "long_evidence_rows": 9648,
+  "class_counts": {
+    "FAIL_EXTRA_NA": 30,
+    "BORDERLINE_SOUTH": 1,
+    "BORDERLINE_MEXICO": 94,
+    "RETAIN_USCA_AUDIT": 86,
+    "PASS_COARSE": 101,
+    "UNKNOWN": 0
+  },
+  "unknown_reason_counts": {},
+  "reconciliation_status_counts": {
+    "MATCH": 312
+  },
+  "qc_pass_count": 22,
+  "qc_check_count": 22
+}
