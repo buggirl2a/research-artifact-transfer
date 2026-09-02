@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "v01_scientific_status": "MAINLINE_CONTRACT_SEMANTICS_FAIL / COMPUTATIONAL_EXECUTION_PASS",
+  "baseline_tree_digest": "a415cbc84b66f6d0bf01c4cfaab3449e9e49e872bed7464cf2d71a29f65e9100",
+  "observed_tree_digest": "a415cbc84b66f6d0bf01c4cfaab3449e9e49e872bed7464cf2d71a29f65e9100",
+  "file_records": 76,
+  "v01_zip_sha256": "ec99bf40ca5a22ae856ec8228b053fedf959af64675fc1cc5d99b4827fb0aafd",
+  "v01_classification_sha256": "243978406cb913c13898b333671000c30592079d076ef8b995822a1684f8a8cd",
+  "v01_files_modified": false
+}

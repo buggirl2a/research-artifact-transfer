@@ -1,0 +1,7 @@
+Fresh v02 corrected build completed from D08B1 v02 authority only.
+v01 classification read before v02 scientific freeze: NO.
+Transcontinental flag routing authority: DIAGNOSTIC ONLY / ZERO.
+Rows: master=361, candidates=312, evidence=9648.
+Class counts: {"BORDERLINE_MEXICO": 94, "BORDERLINE_OTHER_NA": 21, "FAIL_EXTRA_NA": 10, "PASS_COARSE": 101, "RETAIN_USCA_AUDIT": 86, "UNKNOWN": 0}
+QC: 31/31 PASS.
+Prohibited operations invoked: none.

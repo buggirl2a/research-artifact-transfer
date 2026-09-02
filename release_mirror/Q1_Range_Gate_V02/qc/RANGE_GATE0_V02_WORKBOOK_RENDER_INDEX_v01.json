@@ -1,0 +1,62 @@
+[
+  {
+    "sheet_name": "Summary",
+    "range": "A1:H19",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v02_corrected/qc/WORKBOOK_PREVIEWS_v01/Summary.png"
+  },
+  {
+    "sheet_name": "Classification",
+    "range": "A1:L24",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v02_corrected/qc/WORKBOOK_PREVIEWS_v01/Classification.png"
+  },
+  {
+    "sheet_name": "Class Summary",
+    "range": "A1:D7",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v02_corrected/qc/WORKBOOK_PREVIEWS_v01/Class_Summary.png"
+  },
+  {
+    "sheet_name": "Decision Queue",
+    "range": "A1:L24",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v02_corrected/qc/WORKBOOK_PREVIEWS_v01/Decision_Queue.png"
+  },
+  {
+    "sheet_name": "Fail Extra NA",
+    "range": "A1:L11",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v02_corrected/qc/WORKBOOK_PREVIEWS_v01/Fail_Extra_NA.png"
+  },
+  {
+    "sheet_name": "Delta Audit",
+    "range": "A1:L24",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v02_corrected/qc/WORKBOOK_PREVIEWS_v01/Delta_Audit.png"
+  },
+  {
+    "sheet_name": "Delta Summary",
+    "range": "A1:D7",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v02_corrected/qc/WORKBOOK_PREVIEWS_v01/Delta_Summary.png"
+  },
+  {
+    "sheet_name": "Build QC",
+    "range": "A1:E24",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v02_corrected/qc/WORKBOOK_PREVIEWS_v01/Build_QC.png"
+  },
+  {
+    "sheet_name": "Delta QC",
+    "range": "A1:E16",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v02_corrected/qc/WORKBOOK_PREVIEWS_v01/Delta_QC.png"
+  },
+  {
+    "sheet_name": "Input Hash Audit",
+    "range": "A1:F12",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v02_corrected/qc/WORKBOOK_PREVIEWS_v01/Input_Hash_Audit.png"
+  },
+  {
+    "sheet_name": "v01 Immutability",
+    "range": "A1:E24",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v02_corrected/qc/WORKBOOK_PREVIEWS_v01/v01_Immutability.png"
+  },
+  {
+    "sheet_name": "Semantic Fixtures",
+    "range": "A1:H8",
+    "preview_path": "C:/range_paper/99_tmp/range_gate0_v02_corrected/qc/WORKBOOK_PREVIEWS_v01/Semantic_Fixtures.png"
+  }
+]

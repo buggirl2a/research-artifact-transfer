@@ -1,0 +1,16 @@
+check_id,description,expected,actual,status
+DQ001,Frozen v02 classification hash unchanged before/after delta,d0ff6281d3e5a8aa2cb1438fd70cc2650163b6c512ffe8299c24d3555ddfcb64,d0ff6281d3e5a8aa2cb1438fd70cc2650163b6c512ffe8299c24d3555ddfcb64,PASS
+DQ002,v01 classification hash matches immutable baseline,243978406cb913c13898b333671000c30592079d076ef8b995822a1684f8a8cd,243978406cb913c13898b333671000c30592079d076ef8b995822a1684f8a8cd,PASS
+DQ003,v01 full-tree digest matches pre-v02 immutability sentinel,a415cbc84b66f6d0bf01c4cfaab3449e9e49e872bed7464cf2d71a29f65e9100,a415cbc84b66f6d0bf01c4cfaab3449e9e49e872bed7464cf2d71a29f65e9100,PASS
+DQ004,v01 immutable snapshot file count,76,76,PASS
+DQ005,Both classifications contain 312 unique identical IDs,312,312,PASS
+DQ006,Delta contains one row per species,312,312,PASS
+DQ007,All names match between v01 and v02,312,312,PASS
+DQ008,Every changed row is attributable only to corrected semantics,21,21,PASS
+DQ009,Every v01 FAIL move has outside-NA FALSE and transcontinental TRUE,20,20,PASS
+DQ010,No v02 FAIL has outside-NA FALSE,0,0,PASS
+DQ011,Every v01 BORDERLINE_SOUTH row maps to corrected BORDERLINE_OTHER_NA,1,1,PASS
+DQ012,v01 status label present on all delta rows,312,312,PASS
+DQ013,Delta was computed only after v02 scientific freeze note exists,True,True,PASS
+DQ014,No v01 file was written,READ_ONLY,READ_ONLY,PASS
+DQ015,Transition summary totals 312,312,312,PASS

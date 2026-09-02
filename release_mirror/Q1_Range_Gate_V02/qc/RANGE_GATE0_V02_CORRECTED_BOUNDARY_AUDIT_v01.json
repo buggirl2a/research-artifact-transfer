@@ -1,0 +1,27 @@
+{
+  "version": "v02_corrected_v01",
+  "allowed_scientific_inputs": [
+    "C:\\range_paper\\03_doc\\RANGE_GATE0_V02_CORRECTED_INPUTS_v01\\Q1_WORK_REQUEST_RANGE_GATE0_v02_CORRECTED_GEOGRAPHIC_SEMANTICS_20260903.md",
+    "C:\\range_paper\\03_doc\\RANGE_GATE0_V02_CORRECTED_INPUTS_v01\\Q1_TAXON_RANGE_D08B1_CORRECTED_REPRODUCIBLE_v02.zip",
+    "C:\\range_paper\\03_doc\\RANGE_GATE0_V02_CORRECTED_INPUTS_v01\\Q1_TAXON_RANGE_D08B1_CORRECTED_REPRODUCIBLE_v02.zip.sha256",
+    "C:\\range_paper\\03_doc\\RANGE_GATE0_V02_CORRECTED_INPUTS_v01\\d08b1_v02_authority\\Q1_ANALYSIS_SPECIES_MASTER_v02.csv",
+    "C:\\range_paper\\03_doc\\RANGE_GATE0_V02_CORRECTED_INPUTS_v01\\d08b1_v02_authority\\Q1_GLOBAL_RANGE_FLAGS_v02.csv",
+    "C:\\range_paper\\03_doc\\RANGE_GATE0_V02_CORRECTED_INPUTS_v01\\d08b1_v02_authority\\Q1_WCVP_NATIVE_DISTRIBUTION_LONG_v02.csv",
+    "C:\\range_paper\\00_control\\RANGE_GATE0_V02_CORRECTED_CONTRACT_v01.md",
+    "C:\\range_paper\\00_control\\RANGE_GATE0_V02_CORRECTED_INPUT_FREEZE_v01.md",
+    "C:\\range_paper\\06_src\\range_gate0_v02_corrected\\parameters_range_gate0_v02_corrected_v01.json"
+  ],
+  "v01_classification_read_for_v02_construction": false,
+  "network_access_used": false,
+  "little_layer_content_read": false,
+  "fia_tree_or_outcome_read": false,
+  "d08c1_or_d08c2_eligibility_read": false,
+  "support_detection_or_abundance_read": false,
+  "r1_r2_world0_paired_null_prediction_read": false,
+  "external_range_search_run": false,
+  "geometry_area_share_span_component_inference_run": false,
+  "taxonomy_repair_run": false,
+  "final_species_cohort_selected": false,
+  "d08c2_run": false,
+  "real_q1_run": false
+}

@@ -1,0 +1,32 @@
+check_id,description,expected,actual,status
+QC001,"Frozen request, D08B1 authority, members, and controls hash-match",11,11,PASS
+QC002,Accepted master is exactly 361 unique species,361,361,PASS
+QC003,Global range flags join one-to-one to master,361,361,PASS
+QC004,Candidate universe is exactly 312 unique confirmed-native-CONUS species,312,312,PASS
+QC005,Every candidate has exactly one valid v02 class,312,312,PASS
+QC006,Every candidate route matches corrected class,312,312,PASS
+QC007,Class counts sum exactly to 312,312,312,PASS
+QC008,No FAIL_EXTRA_NA is caused solely by transcontinental diagnostic,0,0,PASS
+QC009,Every FAIL_EXTRA_NA has explicit frozen extra-North-America evidence,0,0,PASS
+QC010,Transcontinental field is diagnostic-only on every row,312,312,PASS
+QC011,Transcontinental independent trigger was never used,0,0,PASS
+QC012,Mandatory semantic regression fixture: Magnolia virginiana,BORDERLINE_OTHER_NA,BORDERLINE_OTHER_NA,PASS
+QC013,Mandatory semantic regression fixture: Ostrya virginiana,BORDERLINE_OTHER_NA,BORDERLINE_OTHER_NA,PASS
+QC014,Mandatory semantic regression fixture: Quercus rugosa,BORDERLINE_OTHER_NA,BORDERLINE_OTHER_NA,PASS
+QC015,Mandatory semantic regression fixture: Sorbus decora,BORDERLINE_OTHER_NA,BORDERLINE_OTHER_NA,PASS
+QC016,Mandatory semantic regression fixture: Pinus banksiana,RETAIN_USCA_AUDIT,RETAIN_USCA_AUDIT,PASS
+QC017,Mandatory semantic regression fixture: Populus balsamifera,FAIL_EXTRA_NA,FAIL_EXTRA_NA,PASS
+QC018,Mandatory semantic regression fixture: Pinus balfouriana,PASS_COARSE,PASS_COARSE,PASS
+QC019,PASS_COARSE has no corrected Class 1-4 routing flag,0,0,PASS
+QC020,Decision queue contains only/all corrected review classes,201,201,PASS
+QC021,FAIL ledger contains only/all FAIL_EXTRA_NA,10,10,PASS
+QC022,Future USA+Canada/Little flag follows corrected contract,86,86,PASS
+QC023,Future external audit flag follows corrected contract,115,115,PASS
+QC024,All final-cohort flags are zero,0,0,PASS
+QC025,No numerical area/geometry threshold exists,,,PASS
+QC026,No v01 classification was read to construct v02,NONE,NONE,PASS
+QC027,No external/network source used,NONE,NONE,PASS
+QC028,No Little layer content or reconstructed geometry used,NONE,NONE,PASS
+QC029,"No FIA outcome, D08C eligibility, support/detection, abundance, R1/R2, World 0, paired-null, predictions, or real-Q1 data read",NONE,NONE,PASS
+QC030,Corrected contract hash remained frozen after class counts,882846adf6c9d1ade35f2e30da265d58d1856af5fbe20e73108cc889b3780b43,882846adf6c9d1ade35f2e30da265d58d1856af5fbe20e73108cc889b3780b43,PASS
+QC031,Output is deterministically sorted by analysis_species_id,SORTED,SORTED,PASS

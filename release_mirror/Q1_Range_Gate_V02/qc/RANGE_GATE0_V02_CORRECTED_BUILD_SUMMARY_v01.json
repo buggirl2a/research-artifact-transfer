@@ -1,0 +1,22 @@
+{
+  "execution_status": "PASS",
+  "master_rows": 361,
+  "candidate_rows": 312,
+  "long_evidence_rows": 9648,
+  "class_counts": {
+    "FAIL_EXTRA_NA": 10,
+    "BORDERLINE_OTHER_NA": 21,
+    "BORDERLINE_MEXICO": 94,
+    "RETAIN_USCA_AUDIT": 86,
+    "PASS_COARSE": 101,
+    "UNKNOWN": 0
+  },
+  "unknown_reason_counts": {},
+  "reconciliation_status_counts": {
+    "MATCH": 312
+  },
+  "transcontinental_diagnostic_true_count": 30,
+  "transcontinental_independent_trigger_count": 0,
+  "qc_pass_count": 31,
+  "qc_check_count": 31
+}

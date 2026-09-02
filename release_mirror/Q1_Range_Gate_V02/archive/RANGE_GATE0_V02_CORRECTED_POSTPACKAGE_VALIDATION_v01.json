@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "package_name": "Q1_RANGE_GATE0_V02_CORRECTED_GEOGRAPHIC_SEMANTICS_REPRODUCIBLE_v01",
+  "package_directory": "C:\\range_paper\\10_archive\\range_gate0_v02_corrected\\Q1_RANGE_GATE0_V02_CORRECTED_GEOGRAPHIC_SEMANTICS_REPRODUCIBLE_v01",
+  "zip_path": "C:\\range_paper\\10_archive\\range_gate0_v02_corrected\\Q1_RANGE_GATE0_V02_CORRECTED_GEOGRAPHIC_SEMANTICS_REPRODUCIBLE_v01.zip",
+  "zip_size_bytes": 9107991,
+  "zip_sha256": "717767f71216bca5fca3e7d43762c7fa026e7e799be162d05a68d3ab45bf4d50",
+  "sidecar_path": "C:\\range_paper\\10_archive\\range_gate0_v02_corrected\\Q1_RANGE_GATE0_V02_CORRECTED_GEOGRAPHIC_SEMANTICS_REPRODUCIBLE_v01.zip.sha256",
+  "validation_check_count": 10,
+  "validation_pass_count": 10,
+  "v01_tree_digest_after_packaging": "a415cbc84b66f6d0bf01c4cfaab3449e9e49e872bed7464cf2d71a29f65e9100",
+  "checks": [
+    {
+      "check": "zip_integrity",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "zip_member_count",
+      "status": "PASS",
+      "actual": 62,
+      "expected": 62
+    },
+    {
+      "check": "stage_checksum_ledger",
+      "status": "PASS",
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check": "sidecar_matches_zip",
+      "status": "PASS",
+      "actual": "717767f71216bca5fca3e7d43762c7fa026e7e799be162d05a68d3ab45bf4d50",
+      "expected": "717767f71216bca5fca3e7d43762c7fa026e7e799be162d05a68d3ab45bf4d50"
+    },
+    {
+      "check": "frozen_core_copied_byte_for_byte",
+      "status": "PASS",
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check": "v01_classification_copy_exact",
+      "status": "PASS",
+      "actual": "243978406cb913c13898b333671000c30592079d076ef8b995822a1684f8a8cd",
+      "expected": "243978406cb913c13898b333671000c30592079d076ef8b995822a1684f8a8cd"
+    },
+    {
+      "check": "v01_full_tree_still_immutable",
+      "status": "PASS",
+      "actual": [
+        76,
+        "a415cbc84b66f6d0bf01c4cfaab3449e9e49e872bed7464cf2d71a29f65e9100"
+      ],
+      "expected": [
+        76,
+        "a415cbc84b66f6d0bf01c4cfaab3449e9e49e872bed7464cf2d71a29f65e9100"
+      ]
+    },
+    {
+      "check": "independent_output_audit_PASS",
+      "status": "PASS",
+      "actual": "PASS",
+      "expected": "PASS"
+    },
+    {
+      "check": "workbook_validation_PASS",
+      "status": "PASS",
+      "actual": "PASS",
+      "expected": "PASS"
+    },
+    {
+      "check": "delta_present_in_package",
+      "status": "PASS",
+      "actual": true,
+      "expected": true
+    }
+  ]
+}

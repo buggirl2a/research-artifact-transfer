@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "workbook": "C:\\range_paper\\99_tmp\\range_gate0_v02_corrected\\outputs\\Q1_RANGE_GATE0_V02_CORRECTED_MAINLINE_AUDIT_v01.xlsx",
+  "check_count": 11,
+  "pass_count": 11,
+  "checks": [
+    {
+      "check": "workbook_exists",
+      "status": "PASS",
+      "actual": "C:\\range_paper\\99_tmp\\range_gate0_v02_corrected\\outputs\\Q1_RANGE_GATE0_V02_CORRECTED_MAINLINE_AUDIT_v01.xlsx",
+      "expected": "existing file"
+    },
+    {
+      "check": "workbook_nonempty",
+      "status": "PASS",
+      "actual": 162512,
+      "expected": ">10000"
+    },
+    {
+      "check": "xlsx_zip_integrity",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "sheet_names_and_order",
+      "status": "PASS",
+      "actual": [
+        "Summary",
+        "Classification",
+        "Class Summary",
+        "Decision Queue",
+        "Fail Extra NA",
+        "Delta Audit",
+        "Delta Summary",
+        "Build QC",
+        "Delta QC",
+        "Input Hash Audit",
+        "v01 Immutability",
+        "Semantic Fixtures"
+      ],
+      "expected": [
+        "Summary",
+        "Classification",
+        "Class Summary",
+        "Decision Queue",
+        "Fail Extra NA",
+        "Delta Audit",
+        "Delta Summary",
+        "Build QC",
+        "Delta QC",
+        "Input Hash Audit",
+        "v01 Immutability",
+        "Semantic Fixtures"
+      ]
+    },
+    {
+      "check": "worksheet_member_count",
+      "status": "PASS",
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "formula_error_scan_zero",
+      "status": "PASS",
+      "actual": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+      "expected": "matched 0 entries"
+    },
+    {
+      "check": "summary_cached_execution_pass",
+      "status": "PASS",
+      "actual": "PASS",
+      "expected": "PASS"
+    },
+    {
+      "check": "summary_cached_input_closure",
+      "status": "PASS",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "fixture_sheet_contains_all_named_cases",
+      "status": "PASS",
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "all_sheets_rendered",
+      "status": "PASS",
+      "actual": [
+        "Summary",
+        "Classification",
+        "Class Summary",
+        "Decision Queue",
+        "Fail Extra NA",
+        "Delta Audit",
+        "Delta Summary",
+        "Build QC",
+        "Delta QC",
+        "Input Hash Audit",
+        "v01 Immutability",
+        "Semantic Fixtures"
+      ],
+      "expected": [
+        "Summary",
+        "Classification",
+        "Class Summary",
+        "Decision Queue",
+        "Fail Extra NA",
+        "Delta Audit",
+        "Delta Summary",
+        "Build QC",
+        "Delta QC",
+        "Input Hash Audit",
+        "v01 Immutability",
+        "Semantic Fixtures"
+      ]
+    },
+    {
+      "check": "all_previews_nonempty",
+      "status": "PASS",
+      "actual": 12,
+      "expected": 12
+    }
+  ]
+}

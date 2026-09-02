@@ -1,0 +1,370 @@
+{
+  "audit_type": "independent_output_only_final",
+  "status": "PASS",
+  "authority_or_v01_files_read": [],
+  "check_count": 35,
+  "pass_count": 35,
+  "class_counts_recomputed": {
+    "FAIL_EXTRA_NA": 10,
+    "BORDERLINE_OTHER_NA": 21,
+    "BORDERLINE_MEXICO": 94,
+    "RETAIN_USCA_AUDIT": 86,
+    "PASS_COARSE": 101,
+    "UNKNOWN": 0
+  },
+  "changed_row_count_recomputed": 21,
+  "transition_counts_recomputed": {
+    "BORDERLINE_MEXICO->BORDERLINE_MEXICO|NO": 94,
+    "BORDERLINE_SOUTH->BORDERLINE_OTHER_NA|YES": 1,
+    "FAIL_EXTRA_NA->BORDERLINE_OTHER_NA|YES": 20,
+    "FAIL_EXTRA_NA->FAIL_EXTRA_NA|NO": 10,
+    "PASS_COARSE->PASS_COARSE|NO": 101,
+    "RETAIN_USCA_AUDIT->RETAIN_USCA_AUDIT|NO": 86
+  },
+  "checks": [
+    {
+      "check_id": "FA001",
+      "description": "Frozen core output hashes remain exact",
+      "status": "PASS",
+      "actual": {
+        "Q1_RANGE_GATE0_V02_CORRECTED_SPECIES_CLASSIFICATION_v01.csv": "d0ff6281d3e5a8aa2cb1438fd70cc2650163b6c512ffe8299c24d3555ddfcb64",
+        "Q1_RANGE_GATE0_V02_CORRECTED_SUMMARY_v01.csv": "6fff3e6f9c90957e1c652c00691b1bf2437ef8f5f7253fb48ec266336fa92205",
+        "Q1_RANGE_GATE0_V02_CORRECTED_DECISION_QUEUE_v01.csv": "da944cc5c7d035cd15cad49df76c620e1169dc18136703c16355a3a4e2bab69c",
+        "Q1_RANGE_GATE0_V02_CORRECTED_FAIL_EXTRA_NA_v01.csv": "3f819a334126cbc2c66a05a3016db9ba310eb6fe9d065c4a9d15fb54408ecf2d"
+      },
+      "expected": {
+        "Q1_RANGE_GATE0_V02_CORRECTED_SPECIES_CLASSIFICATION_v01.csv": "d0ff6281d3e5a8aa2cb1438fd70cc2650163b6c512ffe8299c24d3555ddfcb64",
+        "Q1_RANGE_GATE0_V02_CORRECTED_SUMMARY_v01.csv": "6fff3e6f9c90957e1c652c00691b1bf2437ef8f5f7253fb48ec266336fa92205",
+        "Q1_RANGE_GATE0_V02_CORRECTED_DECISION_QUEUE_v01.csv": "da944cc5c7d035cd15cad49df76c620e1169dc18136703c16355a3a4e2bab69c",
+        "Q1_RANGE_GATE0_V02_CORRECTED_FAIL_EXTRA_NA_v01.csv": "3f819a334126cbc2c66a05a3016db9ba310eb6fe9d065c4a9d15fb54408ecf2d"
+      }
+    },
+    {
+      "check_id": "FA002",
+      "description": "Classification has exactly 312 unique IDs",
+      "status": "PASS",
+      "actual": [
+        312,
+        312
+      ],
+      "expected": [
+        312,
+        312
+      ]
+    },
+    {
+      "check_id": "FA003",
+      "description": "All six corrected classes occur in frozen summary order",
+      "status": "PASS",
+      "actual": [
+        "FAIL_EXTRA_NA",
+        "BORDERLINE_OTHER_NA",
+        "BORDERLINE_MEXICO",
+        "RETAIN_USCA_AUDIT",
+        "PASS_COARSE",
+        "UNKNOWN"
+      ],
+      "expected": [
+        "FAIL_EXTRA_NA",
+        "BORDERLINE_OTHER_NA",
+        "BORDERLINE_MEXICO",
+        "RETAIN_USCA_AUDIT",
+        "PASS_COARSE",
+        "UNKNOWN"
+      ]
+    },
+    {
+      "check_id": "FA004",
+      "description": "Summary counts equal classification counts",
+      "status": "PASS",
+      "actual": {
+        "FAIL_EXTRA_NA": 10,
+        "BORDERLINE_OTHER_NA": 21,
+        "BORDERLINE_MEXICO": 94,
+        "RETAIN_USCA_AUDIT": 86,
+        "PASS_COARSE": 101,
+        "UNKNOWN": 0
+      },
+      "expected": {
+        "BORDERLINE_MEXICO": 94,
+        "RETAIN_USCA_AUDIT": 86,
+        "FAIL_EXTRA_NA": 10,
+        "PASS_COARSE": 101,
+        "BORDERLINE_OTHER_NA": 21
+      }
+    },
+    {
+      "check_id": "FA005",
+      "description": "Counts total exactly 312",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "FA006",
+      "description": "Routes exactly follow corrected class map",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "FA007",
+      "description": "No transcontinental-only Class 1",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check_id": "FA008",
+      "description": "Every Class 1 has explicit corrected reason",
+      "status": "PASS",
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check_id": "FA009",
+      "description": "Transcontinental semantic role diagnostic-only throughout",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "FA010",
+      "description": "Transcontinental independent triggers zero",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check_id": "FA011",
+      "description": "No obsolete transcontinental sufficient reason",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check_id": "FA012",
+      "description": "Mandatory regression fixture Magnolia virginiana",
+      "status": "PASS",
+      "actual": "BORDERLINE_OTHER_NA",
+      "expected": "BORDERLINE_OTHER_NA"
+    },
+    {
+      "check_id": "FA013",
+      "description": "Mandatory regression fixture Ostrya virginiana",
+      "status": "PASS",
+      "actual": "BORDERLINE_OTHER_NA",
+      "expected": "BORDERLINE_OTHER_NA"
+    },
+    {
+      "check_id": "FA014",
+      "description": "Mandatory regression fixture Quercus rugosa",
+      "status": "PASS",
+      "actual": "BORDERLINE_OTHER_NA",
+      "expected": "BORDERLINE_OTHER_NA"
+    },
+    {
+      "check_id": "FA015",
+      "description": "Mandatory regression fixture Sorbus decora",
+      "status": "PASS",
+      "actual": "BORDERLINE_OTHER_NA",
+      "expected": "BORDERLINE_OTHER_NA"
+    },
+    {
+      "check_id": "FA016",
+      "description": "Mandatory regression fixture Pinus banksiana",
+      "status": "PASS",
+      "actual": "RETAIN_USCA_AUDIT",
+      "expected": "RETAIN_USCA_AUDIT"
+    },
+    {
+      "check_id": "FA017",
+      "description": "Mandatory regression fixture Populus balsamifera",
+      "status": "PASS",
+      "actual": "FAIL_EXTRA_NA",
+      "expected": "FAIL_EXTRA_NA"
+    },
+    {
+      "check_id": "FA018",
+      "description": "Mandatory regression fixture Pinus balfouriana",
+      "status": "PASS",
+      "actual": "PASS_COARSE",
+      "expected": "PASS_COARSE"
+    },
+    {
+      "check_id": "FA019",
+      "description": "Decision queue is exact",
+      "status": "PASS",
+      "actual": 201,
+      "expected": 201
+    },
+    {
+      "check_id": "FA020",
+      "description": "FAIL ledger is exact",
+      "status": "PASS",
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check_id": "FA021",
+      "description": "All future audit flags follow corrected contract",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "FA022",
+      "description": "All final-cohort flags zero",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check_id": "FA023",
+      "description": "Delta contains exact 312 species",
+      "status": "PASS",
+      "actual": [
+        312,
+        312
+      ],
+      "expected": [
+        312,
+        312
+      ]
+    },
+    {
+      "check_id": "FA024",
+      "description": "Delta transition summary exactly recomputes",
+      "status": "PASS",
+      "actual": {
+        "BORDERLINE_MEXICO->BORDERLINE_MEXICO|NO": 94,
+        "BORDERLINE_SOUTH->BORDERLINE_OTHER_NA|YES": 1,
+        "FAIL_EXTRA_NA->BORDERLINE_OTHER_NA|YES": 20,
+        "FAIL_EXTRA_NA->FAIL_EXTRA_NA|NO": 10,
+        "PASS_COARSE->PASS_COARSE|NO": 101,
+        "RETAIN_USCA_AUDIT->RETAIN_USCA_AUDIT|NO": 86
+      },
+      "expected": {
+        "BORDERLINE_MEXICO->BORDERLINE_MEXICO|NO": 94,
+        "BORDERLINE_SOUTH->BORDERLINE_OTHER_NA|YES": 1,
+        "FAIL_EXTRA_NA->BORDERLINE_OTHER_NA|YES": 20,
+        "FAIL_EXTRA_NA->FAIL_EXTRA_NA|NO": 10,
+        "PASS_COARSE->PASS_COARSE|NO": 101,
+        "RETAIN_USCA_AUDIT->RETAIN_USCA_AUDIT|NO": 86
+      }
+    },
+    {
+      "check_id": "FA025",
+      "description": "Every changed row has PASS semantic attribution",
+      "status": "PASS",
+      "actual": 21,
+      "expected": 21
+    },
+    {
+      "check_id": "FA026",
+      "description": "Changed transitions are only corrected semantic transitions",
+      "status": "PASS",
+      "actual": [
+        [
+          "BORDERLINE_SOUTH",
+          "BORDERLINE_OTHER_NA"
+        ],
+        [
+          "FAIL_EXTRA_NA",
+          "BORDERLINE_OTHER_NA"
+        ]
+      ],
+      "expected": [
+        [
+          "BORDERLINE_SOUTH",
+          "BORDERLINE_OTHER_NA"
+        ],
+        [
+          "FAIL_EXTRA_NA",
+          "BORDERLINE_OTHER_NA"
+        ]
+      ]
+    },
+    {
+      "check_id": "FA027",
+      "description": "All moved v01 FAIL rows were outside-NA FALSE/transcontinental TRUE",
+      "status": "PASS",
+      "actual": 20,
+      "expected": 20
+    },
+    {
+      "check_id": "FA028",
+      "description": "All delta rows preserve v01 scientific status label",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "FA029",
+      "description": "Build QC all PASS",
+      "status": "PASS",
+      "actual": 31,
+      "expected": 31
+    },
+    {
+      "check_id": "FA030",
+      "description": "Delta QC all PASS",
+      "status": "PASS",
+      "actual": 15,
+      "expected": 15
+    },
+    {
+      "check_id": "FA031",
+      "description": "Core independent audit PASS",
+      "status": "PASS",
+      "actual": "PASS",
+      "expected": "PASS"
+    },
+    {
+      "check_id": "FA032",
+      "description": "v01 immutability audit PASS",
+      "status": "PASS",
+      "actual": {
+        "status": "PASS",
+        "v01_scientific_status": "MAINLINE_CONTRACT_SEMANTICS_FAIL / COMPUTATIONAL_EXECUTION_PASS",
+        "baseline_tree_digest": "a415cbc84b66f6d0bf01c4cfaab3449e9e49e872bed7464cf2d71a29f65e9100",
+        "observed_tree_digest": "a415cbc84b66f6d0bf01c4cfaab3449e9e49e872bed7464cf2d71a29f65e9100",
+        "file_records": 76,
+        "v01_zip_sha256": "ec99bf40ca5a22ae856ec8228b053fedf959af64675fc1cc5d99b4827fb0aafd",
+        "v01_classification_sha256": "243978406cb913c13898b333671000c30592079d076ef8b995822a1684f8a8cd",
+        "v01_files_modified": false
+      },
+      "expected": "PASS / no files modified"
+    },
+    {
+      "check_id": "FA033",
+      "description": "Boundary reports no prohibited operation",
+      "status": "PASS",
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check_id": "FA034",
+      "description": "Result note states STOP and corrected interpretation",
+      "status": "PASS",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check_id": "FA035",
+      "description": "No class count is represented as a threshold target",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    }
+  ],
+  "output_hashes": {
+    "Q1_RANGE_GATE0_V02_CORRECTED_SPECIES_CLASSIFICATION_v01.csv": "d0ff6281d3e5a8aa2cb1438fd70cc2650163b6c512ffe8299c24d3555ddfcb64",
+    "Q1_RANGE_GATE0_V02_CORRECTED_SUMMARY_v01.csv": "6fff3e6f9c90957e1c652c00691b1bf2437ef8f5f7253fb48ec266336fa92205",
+    "Q1_RANGE_GATE0_V02_CORRECTED_DECISION_QUEUE_v01.csv": "da944cc5c7d035cd15cad49df76c620e1169dc18136703c16355a3a4e2bab69c",
+    "Q1_RANGE_GATE0_V02_CORRECTED_FAIL_EXTRA_NA_v01.csv": "3f819a334126cbc2c66a05a3016db9ba310eb6fe9d065c4a9d15fb54408ecf2d",
+    "Q1_RANGE_GATE0_V01_TO_V02_CORRECTED_DELTA_AUDIT_v01.csv": "5de5d05a47fc74a53a7c7da920f85568df79e72df407a779086473ee0c7a9ee4",
+    "Q1_RANGE_GATE0_V01_TO_V02_CORRECTED_DELTA_SUMMARY_v01.csv": "fcfce280e64868bf02dd7af0f4e0247265cdb6bebeb71de52b5347f521d51b2c",
+    "RANGE_GATE0_V02_CORRECTED_RESULT_NOTE_v01.md": "892f911886f253b61712d8348db52246b75ff8c8684c0de6674faa0c0c6115c9"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "audit_type": "independent_output_only_core_prefreeze",
+  "status": "PASS",
+  "authority_or_v01_files_read": [],
+  "check_count": 30,
+  "pass_count": 30,
+  "class_counts_recomputed": {
+    "FAIL_EXTRA_NA": 10,
+    "BORDERLINE_OTHER_NA": 21,
+    "BORDERLINE_MEXICO": 94,
+    "RETAIN_USCA_AUDIT": 86,
+    "PASS_COARSE": 101,
+    "UNKNOWN": 0
+  },
+  "checks": [
+    {
+      "check_id": "IA001",
+      "description": "Classification rows exactly 312",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "IA002",
+      "description": "Classification IDs unique",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "IA003",
+      "description": "Six summary rows in frozen order",
+      "status": "PASS",
+      "actual": [
+        "FAIL_EXTRA_NA",
+        "BORDERLINE_OTHER_NA",
+        "BORDERLINE_MEXICO",
+        "RETAIN_USCA_AUDIT",
+        "PASS_COARSE",
+        "UNKNOWN"
+      ],
+      "expected": [
+        "FAIL_EXTRA_NA",
+        "BORDERLINE_OTHER_NA",
+        "BORDERLINE_MEXICO",
+        "RETAIN_USCA_AUDIT",
+        "PASS_COARSE",
+        "UNKNOWN"
+      ]
+    },
+    {
+      "check_id": "IA004",
+      "description": "Summary counts equal recomputed counts",
+      "status": "PASS",
+      "actual": {
+        "FAIL_EXTRA_NA": 10,
+        "BORDERLINE_OTHER_NA": 21,
+        "BORDERLINE_MEXICO": 94,
+        "RETAIN_USCA_AUDIT": 86,
+        "PASS_COARSE": 101,
+        "UNKNOWN": 0
+      },
+      "expected": {
+        "BORDERLINE_MEXICO": 94,
+        "RETAIN_USCA_AUDIT": 86,
+        "FAIL_EXTRA_NA": 10,
+        "PASS_COARSE": 101,
+        "BORDERLINE_OTHER_NA": 21
+      }
+    },
+    {
+      "check_id": "IA005",
+      "description": "Counts sum to 312",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "IA006",
+      "description": "Each class has exact frozen route",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "IA007",
+      "description": "All species remain confirmed-native CONUS",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "IA008",
+      "description": "No transcontinental-only Class 1",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check_id": "IA009",
+      "description": "Every Class 1 has explicit extra-NA reason",
+      "status": "PASS",
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check_id": "IA010",
+      "description": "Transcontinental semantic role diagnostic-only on all rows",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "IA011",
+      "description": "Transcontinental trigger use equals zero",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check_id": "IA012",
+      "description": "Semantic regression fixture Magnolia virginiana",
+      "status": "PASS",
+      "actual": "BORDERLINE_OTHER_NA",
+      "expected": "BORDERLINE_OTHER_NA"
+    },
+    {
+      "check_id": "IA013",
+      "description": "Semantic regression fixture Ostrya virginiana",
+      "status": "PASS",
+      "actual": "BORDERLINE_OTHER_NA",
+      "expected": "BORDERLINE_OTHER_NA"
+    },
+    {
+      "check_id": "IA014",
+      "description": "Semantic regression fixture Quercus rugosa",
+      "status": "PASS",
+      "actual": "BORDERLINE_OTHER_NA",
+      "expected": "BORDERLINE_OTHER_NA"
+    },
+    {
+      "check_id": "IA015",
+      "description": "Semantic regression fixture Sorbus decora",
+      "status": "PASS",
+      "actual": "BORDERLINE_OTHER_NA",
+      "expected": "BORDERLINE_OTHER_NA"
+    },
+    {
+      "check_id": "IA016",
+      "description": "Semantic regression fixture Pinus banksiana",
+      "status": "PASS",
+      "actual": "RETAIN_USCA_AUDIT",
+      "expected": "RETAIN_USCA_AUDIT"
+    },
+    {
+      "check_id": "IA017",
+      "description": "Semantic regression fixture Populus balsamifera",
+      "status": "PASS",
+      "actual": "FAIL_EXTRA_NA",
+      "expected": "FAIL_EXTRA_NA"
+    },
+    {
+      "check_id": "IA018",
+      "description": "Semantic regression fixture Pinus balfouriana",
+      "status": "PASS",
+      "actual": "PASS_COARSE",
+      "expected": "PASS_COARSE"
+    },
+    {
+      "check_id": "IA019",
+      "description": "PASS_COARSE has no corrected Class 1-4 routing flag",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check_id": "IA020",
+      "description": "Decision queue exact ID set",
+      "status": "PASS",
+      "actual": 201,
+      "expected": 201
+    },
+    {
+      "check_id": "IA021",
+      "description": "FAIL ledger exact ID set",
+      "status": "PASS",
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check_id": "IA022",
+      "description": "USA+Canada audit flags exact",
+      "status": "PASS",
+      "actual": 86,
+      "expected": 86
+    },
+    {
+      "check_id": "IA023",
+      "description": "External audit flags exact",
+      "status": "PASS",
+      "actual": 115,
+      "expected": 115
+    },
+    {
+      "check_id": "IA024",
+      "description": "All final-cohort flags zero",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check_id": "IA025",
+      "description": "Every row has reason/evidence/route",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "IA026",
+      "description": "Source build QC all PASS",
+      "status": "PASS",
+      "actual": 31,
+      "expected": 31
+    },
+    {
+      "check_id": "IA027",
+      "description": "Boundary has no prohibited operation",
+      "status": "PASS",
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check_id": "IA028",
+      "description": "Evidence text declares no area/share/severity/geometry inference",
+      "status": "PASS",
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "check_id": "IA029",
+      "description": "Reason TRANSCONTINENTAL_EXTENSION absent",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check_id": "IA030",
+      "description": "Classification sorted by numeric species ID",
+      "status": "PASS",
+      "actual": "SORTED",
+      "expected": "SORTED"
+    }
+  ]
+}
