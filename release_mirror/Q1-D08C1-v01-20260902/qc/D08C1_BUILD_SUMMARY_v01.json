@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "analysis_species": 361,
+  "qualifying_unique_tree_rows": 2483143,
+  "ordinary_accepted_species_tree_rows": 2477511,
+  "nonanalysis_tree_rows": 5632,
+  "primary_measurements": 115725,
+  "spatial_primary_measurements": 115725,
+  "census_rows": 6498,
+  "native_state_audit_rows": 17328,
+  "code_aggregation_rows": 377,
+  "nonanalysis_code_rows": 19,
+  "frontier_rows": 30,
+  "survivor_queue_rows": 231,
+  "trace_rows": 204,
+  "qc_checks": 23,
+  "runtime_seconds": 378.0981192588806,
+  "prohibited_operations_performed": []
+}

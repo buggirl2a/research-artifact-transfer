@@ -1,0 +1,7 @@
+﻿grain_km,census_view,n_analysis_species_total,n_species_with_any_detection,n_core_eligible_species,n_species_each_fold_ge10_detected_cells,n_core_eligible_species_each_fold_ge10_detected_cells,n_species_each_fold_ge15_detected_cells,n_core_eligible_species_each_fold_ge15_detected_cells,n_species_each_fold_ge20_detected_cells,n_core_eligible_species_each_fold_ge20_detected_cells
+25,ALL_CONUS_OBSERVED,361,361,312,238,223,222,208,214,200
+25,WCVP_CONFIRMED_NATIVE_STATE,361,311,312,222,222,208,208,200,200
+50,ALL_CONUS_OBSERVED,361,361,312,231,216,219,205,204,191
+50,WCVP_CONFIRMED_NATIVE_STATE,361,311,312,215,215,205,205,191,191
+75,ALL_CONUS_OBSERVED,361,361,312,227,213,210,196,189,176
+75,WCVP_CONFIRMED_NATIVE_STATE,361,311,312,212,212,196,196,175,175

@@ -1,0 +1,184 @@
+{
+  "status": "PASS",
+  "check_count": 19,
+  "checks": [
+    {
+      "check": "required_outputs_present",
+      "status": "PASS",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "check": "complete_unique_census_keys",
+      "status": "PASS",
+      "observed": [
+        6498,
+        6498,
+        361
+      ],
+      "expected": [
+        6498,
+        6498,
+        361
+      ]
+    },
+    {
+      "check": "state_crosswalk_exact_and_single_authorized_alias",
+      "status": "PASS",
+      "observed": [
+        47,
+        [
+          {
+            "fia_state_code": "44",
+            "fia_state_ab": "RI",
+            "fia_state_name": "Rhode Island",
+            "wcvp_area_code_l3": "RHO",
+            "wcvp_area_name": "Rhode I.",
+            "mapping_type": "AUTHORIZED_EXPLICIT_ALIAS",
+            "fuzzy_matching_used": "0",
+            "status": "PASS"
+          }
+        ]
+      ],
+      "expected": "47 exact + RI/RHO alias"
+    },
+    {
+      "check": "input_audit_all_pass",
+      "status": "PASS",
+      "observed": {
+        "PASS": 23
+      },
+      "expected": {
+        "PASS": 23
+      }
+    },
+    {
+      "check": "builder_qc_all_pass",
+      "status": "PASS",
+      "observed": {
+        "PASS": 23
+      },
+      "expected": {
+        "PASS": 23
+      }
+    },
+    {
+      "check": "ordinary_code_to_species_record_reconciliation",
+      "status": "PASS",
+      "observed": [
+        2477511,
+        2477511
+      ],
+      "expected": [
+        2477511,
+        2477511
+      ]
+    },
+    {
+      "check": "nonanalysis_record_reconciliation",
+      "status": "PASS",
+      "observed": 5632,
+      "expected": 5632
+    },
+    {
+      "check": "A_B_add_to_ALL_for_additive_metrics",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "native_view_subset_all_metrics",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "core_ineligible_species_have_empty_native_view",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "native_state_audit_complete",
+      "status": "PASS",
+      "observed": 17328,
+      "expected": 17328
+    },
+    {
+      "check": "state_evidence_classes_closed",
+      "status": "PASS",
+      "observed": [
+        "CONFIRMED_CURRENT_NATIVE",
+        "EXPLICIT_INTRODUCED",
+        "NO_CONFIRMED_NATIVE_OR_INTRODUCED_ROW"
+      ],
+      "expected": [
+        "CONFIRMED_CURRENT_NATIVE",
+        "EXPLICIT_INTRODUCED",
+        "NO_CONFIRMED_NATIVE_OR_INTRODUCED_ROW"
+      ]
+    },
+    {
+      "check": "RI_alias_has_no_status_inference",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "frontier_counts_monotone",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "frontier_not_selected",
+      "status": "PASS",
+      "observed": [
+        30,
+        0
+      ],
+      "expected": [
+        30,
+        0
+      ]
+    },
+    {
+      "check": "survivor_queue_exact_union",
+      "status": "PASS",
+      "observed": [
+        231,
+        231,
+        []
+      ],
+      "expected": [
+        231,
+        231,
+        []
+      ]
+    },
+    {
+      "check": "queue_contains_no_Little_information",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "trace_sample_native_and_twelve_species",
+      "status": "PASS",
+      "observed": [
+        12,
+        0
+      ],
+      "expected": [
+        12,
+        0
+      ]
+    },
+    {
+      "check": "no_Q1_or_prohibited_operation",
+      "status": "PASS",
+      "observed": [],
+      "expected": []
+    }
+  ]
+}

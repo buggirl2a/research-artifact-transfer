@@ -1,0 +1,2 @@
+fia_state_code,fia_state_ab,fia_state_name,wcvp_area_code_l3,wcvp_area_name,exact_full_name_match,wcvp_level3_row_count,prior_primary_measurements,prior_fold_A_measurements,prior_fold_B_measurements,status,required_action
+44,RI,Rhode Island,RHO,Rhode I.,0,85,130,67,63,STOP_MAINLINE_DECISION_REQUIRED,FREEZE_EXPLICIT_ALIAS_OR_CLASSIFICATION_RULE

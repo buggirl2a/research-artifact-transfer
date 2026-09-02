@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "preflight_stop": true,
+  "real_Q1_model_fitted": false,
+  "geometry_gain_computed": false,
+  "R1_R2_compared": false,
+  "abundance_geometry_used_for_selection": false,
+  "significance_test_run": false,
+  "outcome_based_species_filtering": false,
+  "little_status_used_for_filtering": false,
+  "little_layer_merged": false,
+  "external_range_search_run": false,
+  "final_threshold_selected": false
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "sheet_name": "Summary",
+    "range": "A1:K24",
+    "preview_path": "C:/range_paper/99_tmp/d08c1_v01/qc/WORKBOOK_PREVIEWS_v01/Summary.png"
+  },
+  {
+    "sheet_name": "Grain Summary",
+    "range": "A1:K7",
+    "preview_path": "C:/range_paper/99_tmp/d08c1_v01/qc/WORKBOOK_PREVIEWS_v01/Grain_Summary.png"
+  },
+  {
+    "sheet_name": "50km Frontiers",
+    "range": "A1:K26",
+    "preview_path": "C:/range_paper/99_tmp/d08c1_v01/qc/WORKBOOK_PREVIEWS_v01/50km_Frontiers.png"
+  },
+  {
+    "sheet_name": "Survivor Queue",
+    "range": "A1:M26",
+    "preview_path": "C:/range_paper/99_tmp/d08c1_v01/qc/WORKBOOK_PREVIEWS_v01/Survivor_Queue.png"
+  },
+  {
+    "sheet_name": "Census",
+    "range": "A1:N26",
+    "preview_path": "C:/range_paper/99_tmp/d08c1_v01/qc/WORKBOOK_PREVIEWS_v01/Census.png"
+  },
+  {
+    "sheet_name": "Native State",
+    "range": "A1:N26",
+    "preview_path": "C:/range_paper/99_tmp/d08c1_v01/qc/WORKBOOK_PREVIEWS_v01/Native_State.png"
+  },
+  {
+    "sheet_name": "Code Aggregation",
+    "range": "A1:N26",
+    "preview_path": "C:/range_paper/99_tmp/d08c1_v01/qc/WORKBOOK_PREVIEWS_v01/Code_Aggregation.png"
+  },
+  {
+    "sheet_name": "Nonanalysis",
+    "range": "A1:N20",
+    "preview_path": "C:/range_paper/99_tmp/d08c1_v01/qc/WORKBOOK_PREVIEWS_v01/Nonanalysis.png"
+  },
+  {
+    "sheet_name": "State Crosswalk",
+    "range": "A1:H26",
+    "preview_path": "C:/range_paper/99_tmp/d08c1_v01/qc/WORKBOOK_PREVIEWS_v01/State_Crosswalk.png"
+  },
+  {
+    "sheet_name": "A-B Split",
+    "range": "A1:M26",
+    "preview_path": "C:/range_paper/99_tmp/d08c1_v01/qc/WORKBOOK_PREVIEWS_v01/A_B_Split.png"
+  },
+  {
+    "sheet_name": "Domain Grid",
+    "range": "A1:N4",
+    "preview_path": "C:/range_paper/99_tmp/d08c1_v01/qc/WORKBOOK_PREVIEWS_v01/Domain_Grid.png"
+  },
+  {
+    "sheet_name": "Lineage",
+    "range": "A1:L2",
+    "preview_path": "C:/range_paper/99_tmp/d08c1_v01/qc/WORKBOOK_PREVIEWS_v01/Lineage.png"
+  },
+  {
+    "sheet_name": "QC",
+    "range": "A1:E24",
+    "preview_path": "C:/range_paper/99_tmp/d08c1_v01/qc/WORKBOOK_PREVIEWS_v01/QC.png"
+  },
+  {
+    "sheet_name": "Input Audit",
+    "range": "A1:G24",
+    "preview_path": "C:/range_paper/99_tmp/d08c1_v01/qc/WORKBOOK_PREVIEWS_v01/Input_Audit.png"
+  },
+  {
+    "sheet_name": "Trace Sample",
+    "range": "A1:N26",
+    "preview_path": "C:/range_paper/99_tmp/d08c1_v01/qc/WORKBOOK_PREVIEWS_v01/Trace_Sample.png"
+  }
+]

@@ -1,0 +1,171 @@
+{
+  "audit_id": "D08C1_FINAL_PREPACKAGE_AUDIT_v01",
+  "date": "2026-09-02",
+  "mode": "read-only validation of frozen analytical outputs; no analysis rerun",
+  "status": "PASS",
+  "check_count": 25,
+  "checks": [
+    {
+      "check": "row_count::Q1_D08C1_SPECIES_GRAIN_CENSUS_v01.csv",
+      "status": "PASS",
+      "observed": 6498,
+      "expected": 6498
+    },
+    {
+      "check": "row_count::Q1_D08C1_GRAIN_SUMMARY_v01.csv",
+      "status": "PASS",
+      "observed": 6,
+      "expected": 6
+    },
+    {
+      "check": "row_count::Q1_D08C1_50KM_FRONTIERS_v01.csv",
+      "status": "PASS",
+      "observed": 30,
+      "expected": 30
+    },
+    {
+      "check": "row_count::Q1_D08C1_AB_SPLIT_AUDIT_v01.csv",
+      "status": "PASS",
+      "observed": 240,
+      "expected": 240
+    },
+    {
+      "check": "row_count::Q1_D08C1_DOMAIN_GRID_AUDIT_v01.csv",
+      "status": "PASS",
+      "observed": 3,
+      "expected": 3
+    },
+    {
+      "check": "row_count::Q1_D08C1_NATIVE_STATE_AUDIT_v01.csv",
+      "status": "PASS",
+      "observed": 17328,
+      "expected": 17328
+    },
+    {
+      "check": "row_count::Q1_D08C1_CODE_AGGREGATION_AUDIT_v01.csv",
+      "status": "PASS",
+      "observed": 377,
+      "expected": 377
+    },
+    {
+      "check": "row_count::Q1_D08C1_NONANALYSIS_CODE_AUDIT_v01.csv",
+      "status": "PASS",
+      "observed": 19,
+      "expected": 19
+    },
+    {
+      "check": "row_count::Q1_D08C1_LITTLE_REVIEW_SURVIVOR_QUEUE_v01.csv",
+      "status": "PASS",
+      "observed": 231,
+      "expected": 231
+    },
+    {
+      "check": "row_count::Q1_D08C1_STATE_CROSSWALK_AUDIT_v01.csv",
+      "status": "PASS",
+      "observed": 48,
+      "expected": 48
+    },
+    {
+      "check": "row_count::Q1_D08C1_TRACEABILITY_SAMPLE_v01.csv",
+      "status": "PASS",
+      "observed": 204,
+      "expected": 204
+    },
+    {
+      "check": "row_count::Q1_D08C1_QC_v01.csv",
+      "status": "PASS",
+      "observed": 23,
+      "expected": 23
+    },
+    {
+      "check": "workbook_zip_integrity",
+      "status": "PASS",
+      "observed": true,
+      "expected": true
+    },
+    {
+      "check": "frozen_workbook_sha256",
+      "status": "PASS",
+      "observed": "dd36759aba79b5f8d641c80dc658506deb80581c694bcfa45a2176c7c3ccf454",
+      "expected": "dd36759aba79b5f8d641c80dc658506deb80581c694bcfa45a2176c7c3ccf454"
+    },
+    {
+      "check": "build_status",
+      "status": "PASS",
+      "observed": "PASS",
+      "expected": "PASS"
+    },
+    {
+      "check": "independent_audit_19_of_19",
+      "status": "PASS",
+      "observed": {
+        "status": "PASS",
+        "check_count": 19
+      },
+      "expected": {
+        "status": "PASS",
+        "check_count": 19
+      }
+    },
+    {
+      "check": "no_Q1_audit",
+      "status": "PASS",
+      "observed": {
+        "status": "PASS",
+        "prohibited_operations_performed": []
+      },
+      "expected": {
+        "status": "PASS",
+        "prohibited_operations_performed": []
+      }
+    },
+    {
+      "check": "workbook_formula_error_scan_zero",
+      "status": "PASS",
+      "observed": true,
+      "expected": true
+    },
+    {
+      "check": "workbook_preview_count",
+      "status": "PASS",
+      "observed": 15,
+      "expected": 15
+    },
+    {
+      "check": "D08B1_authority_sha256::Q1_FIA_CODE_TO_ANALYSIS_SPECIES_v02.csv",
+      "status": "PASS",
+      "observed": "d19db4f15c2f5f3f328d39bbc9ad17486a384de509253ff0c237ee25ab481cdd",
+      "expected": "d19db4f15c2f5f3f328d39bbc9ad17486a384de509253ff0c237ee25ab481cdd"
+    },
+    {
+      "check": "D08B1_authority_sha256::Q1_ANALYSIS_SPECIES_MASTER_v02.csv",
+      "status": "PASS",
+      "observed": "6f69874ab02723b3489aa4f3cbfb5aba188147400efdf170f27ad699d6368cb0",
+      "expected": "6f69874ab02723b3489aa4f3cbfb5aba188147400efdf170f27ad699d6368cb0"
+    },
+    {
+      "check": "D08B1_authority_sha256::Q1_GLOBAL_RANGE_FLAGS_v02.csv",
+      "status": "PASS",
+      "observed": "dc64778032ed9bd301bfc7c14818fc3ba71a3b2621bb4e8b33ec558ecdf3d16d",
+      "expected": "dc64778032ed9bd301bfc7c14818fc3ba71a3b2621bb4e8b33ec558ecdf3d16d"
+    },
+    {
+      "check": "D08B1_authority_sha256::Q1_WCVP_NATIVE_DISTRIBUTION_LONG_v02.csv",
+      "status": "PASS",
+      "observed": "559a2d6f7b0d67ad886468a2c0098e117c824f196f0a85d3bb7d99c466649017",
+      "expected": "559a2d6f7b0d67ad886468a2c0098e117c824f196f0a85d3bb7d99c466649017"
+    },
+    {
+      "check": "D08B1_authority_sha256::Q1_DRC_PROTOCOL_v02.csv",
+      "status": "PASS",
+      "observed": "d49059c3131258aae09b240387cca6a0f53be3a057470338304c3de3b3b8b952",
+      "expected": "d49059c3131258aae09b240387cca6a0f53be3a057470338304c3de3b3b8b952"
+    },
+    {
+      "check": "state_alias_freeze_sha256",
+      "status": "PASS",
+      "observed": "d450e7b9b635c34db7e60ec0964a7f4ca3f24e4e7e58f8f1725691bcff3f7dda",
+      "expected": "d450e7b9b635c34db7e60ec0964a7f4ca3f24e4e7e58f8f1725691bcff3f7dda"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "contract_id": "Q1_D08C1_FIA_ACCEPTED_SPECIES_ELIGIBILITY_v01",
+  "measurement_year_min": 2017,
+  "measurement_year_max": 2023,
+  "plot_status_cd": 1,
+  "condition_status_cd": 1,
+  "condition_proportion_rule": "CONDPROP_UNADJ > 0",
+  "tree_status_cd": 1,
+  "dia_min_inches": 5.0,
+  "tree_unique_key": "TREE.CN",
+  "grains_km": [25, 50, 75],
+  "primary_grain_km": 50,
+  "projection_epsg": 5070,
+  "grid_origin_m": [0.0, 0.0],
+  "split_seed": "D04_FIA_GEOMETRY_RECOVERABILITY_V1",
+  "split_rule_id": "D04_SHA256_STATE_P2PANEL_ALTERNATION_V1",
+  "lineage_rule_id": "PREV_PLT_CN_ONE_LATEST_ELIGIBLE_2017_2023_V1",
+  "excluded_primary_state_codes": [2, 15, 60, 64, 66, 68, 69, 70, 72, 78],
+  "authorized_state_aliases": [
+    {
+      "fia_state_code": 44,
+      "fia_state_ab": "RI",
+      "fia_state_name": "Rhode Island",
+      "wcvp_area_code_l3": "RHO",
+      "wcvp_area_name": "Rhode I."
+    }
+  ],
+  "census_views": ["ALL_CONUS_OBSERVED", "WCVP_CONFIRMED_NATIVE_STATE"],
+  "fold_scopes": ["ALL", "A", "B"],
+  "support_connectivity": "4-neighbor rook adjacency",
+  "span_metric": "bounding-box diagonal over fixed-grid cell centers, km",
+  "frontier_detected_cells_each_fold": [10, 15, 20],
+  "frontier_positive_plots_each_fold": [10, 20, 30, 50, 100],
+  "survivor_queue_detected_cells_each_fold": 10,
+  "request_sha256": "8b8aaa99cc121f23c0f9ffa87998ceb43200b0cf8ed76d4a452e61ee7e5036c1",
+  "rhode_island_decision_sha256": "72111e6d9a7340256f7a7008a9f275614653f7e1aa25aed0745a1f9dc903e8c8",
+  "d08b1_authority_hashes": {
+    "Q1_FIA_CODE_TO_ANALYSIS_SPECIES_v02.csv": "d19db4f15c2f5f3f328d39bbc9ad17486a384de509253ff0c237ee25ab481cdd",
+    "Q1_ANALYSIS_SPECIES_MASTER_v02.csv": "6f69874ab02723b3489aa4f3cbfb5aba188147400efdf170f27ad699d6368cb0",
+    "Q1_GLOBAL_RANGE_FLAGS_v02.csv": "dc64778032ed9bd301bfc7c14818fc3ba71a3b2621bb4e8b33ec558ecdf3d16d",
+    "Q1_WCVP_NATIVE_DISTRIBUTION_LONG_v02.csv": "559a2d6f7b0d67ad886468a2c0098e117c824f196f0a85d3bb7d99c466649017",
+    "Q1_DRC_PROTOCOL_v02.csv": "d49059c3131258aae09b240387cca6a0f53be3a057470338304c3de3b3b8b952"
+  },
+  "raw_archive_sha256": "ec2e4caf2a92e6079c20483f4a5f08d5ec2e7c31f498045237896a6df7e1565e",
+  "d04_source_sha256": "4604e4e288881a89cc0c98476a40a806c8e14005ec50815c95a79c2becd63683",
+  "real_q1_authorized": false,
+  "little_operations_authorized": false,
+  "external_search_authorized": false
+}

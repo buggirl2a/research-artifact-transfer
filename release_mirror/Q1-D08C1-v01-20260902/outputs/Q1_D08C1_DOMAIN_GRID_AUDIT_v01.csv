@@ -1,0 +1,4 @@
+﻿projection,origin_x,origin_y,grain_km,n_cells_total,n_cells_with_eligible_plots,n_unique_physical_plot_lineages,n_primary_measurements,n_spatial_primary_measurements,parent_mapping_check,parent_mapping_failures,boundary_domain_mask,grid_recentered_on_national_data,status
+NAD83 / CONUS Albers equal-area (EPSG:5070 ellipsoidal D04 implementation),0.0,0.0,25,10051,10051,115725,115725,115725,PASS,0,CONUS 48 + DC if present; sampled fixed-grid cells contain >=1 primary eligible FIA measurement,0,PASS
+NAD83 / CONUS Albers equal-area (EPSG:5070 ellipsoidal D04 implementation),0.0,0.0,50,2970,2970,115725,115725,115725,PASS,0,CONUS 48 + DC if present; sampled fixed-grid cells contain >=1 primary eligible FIA measurement,0,PASS
+NAD83 / CONUS Albers equal-area (EPSG:5070 ellipsoidal D04 implementation),0.0,0.0,75,1441,1441,115725,115725,115725,PASS,0,CONUS 48 + DC if present; sampled fixed-grid cells contain >=1 primary eligible FIA measurement,0,PASS
