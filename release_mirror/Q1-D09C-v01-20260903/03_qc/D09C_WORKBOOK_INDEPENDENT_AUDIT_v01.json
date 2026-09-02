@@ -1,0 +1,218 @@
+{
+  "audit_id": "D09C_WORKBOOK_INDEPENDENT_AUDIT_v01",
+  "date": "2026-09-02",
+  "status": "PASS",
+  "check_count": 11,
+  "failed": [],
+  "workbook": "C:\\range_paper\\99_tmp\\d09c_v01\\outputs\\Q1_D09C_MAINLINE_AUDIT_v01.xlsx",
+  "workbook_bytes": 428551,
+  "workbook_sha256": "e6fdb1017c5abd6701d77ce3389478b1be52bf6b4c4542473da2ff4302186dc1",
+  "checks": [
+    {
+      "check": "xlsx_container_integrity",
+      "status": "PASS",
+      "observed": null,
+      "expected": null
+    },
+    {
+      "check": "worksheet_set_exact",
+      "status": "PASS",
+      "observed": [
+        "Calibration",
+        "Candidates",
+        "EVALID Components",
+        "Frame Audit",
+        "Frame Summary",
+        "Input Audit",
+        "Large Ledger Index",
+        "Lineage",
+        "QC",
+        "SQL Ledger",
+        "Summary",
+        "Table Access",
+        "Top Partitions"
+      ],
+      "expected": [
+        "Calibration",
+        "Candidates",
+        "EVALID Components",
+        "Frame Audit",
+        "Frame Summary",
+        "Input Audit",
+        "Large Ledger Index",
+        "Lineage",
+        "QC",
+        "SQL Ledger",
+        "Summary",
+        "Table Access",
+        "Top Partitions"
+      ]
+    },
+    {
+      "check": "worksheet_data_row_counts_match_csv",
+      "status": "PASS",
+      "observed": {
+        "Frame Summary": 2,
+        "Frame Audit": 96,
+        "EVALID Components": 96,
+        "Candidates": 960,
+        "Top Partitions": 96,
+        "Lineage": 96,
+        "Calibration": 368,
+        "Input Audit": 27,
+        "Table Access": 8,
+        "SQL Ledger": 8,
+        "QC": 19
+      },
+      "expected": {
+        "Frame Summary": 2,
+        "Frame Audit": 96,
+        "EVALID Components": 96,
+        "Candidates": 960,
+        "Top Partitions": 96,
+        "Lineage": 96,
+        "Calibration": 368,
+        "Input Audit": 27,
+        "Table Access": 8,
+        "SQL Ledger": 8,
+        "QC": 19
+      }
+    },
+    {
+      "check": "summary_execution_formula",
+      "status": "PASS",
+      "observed": "=IF(COUNTIF('QC'!$B$2:$B$20,\"FAIL\")=0,\"PASS\",\"FAIL\")",
+      "expected": "=IF(COUNTIF('QC'!$B$2:$B$20,\"FAIL\")=0,\"PASS\",\"FAIL\")"
+    },
+    {
+      "check": "summary_feasibility_formula",
+      "status": "PASS",
+      "observed": "=IF(COUNTIF('Frame Summary'!$H$2:$H$3,\"FAIL\")>0,\"FAIL\",\"PASS\")",
+      "expected": "=IF(COUNTIF('Frame Summary'!$H$2:$H$3,\"FAIL\")>0,\"FAIL\",\"PASS\")"
+    },
+    {
+      "check": "summary_stop_boundaries",
+      "status": "PASS",
+      "observed": [
+        "NOT SELECTED",
+        "NONE"
+      ],
+      "expected": [
+        "NOT SELECTED",
+        "NONE"
+      ]
+    },
+    {
+      "check": "identifier_text_formulas_preserve_leading_zeros_and_64bit_ids",
+      "status": "PASS",
+      "observed": {
+        "Frame Audit!C2": "=\"01\"",
+        "Frame Audit!G2": "=\"012022\"",
+        "EVALID Components!B2": "=\"01\"",
+        "EVALID Components!F2": "=\"012022\"",
+        "EVALID Components!G2": "=\"1263005816290487\"",
+        "EVALID Components!I2": "=\"1263004985290487\"",
+        "EVALID Components!K2": "=\"1263004974290487\""
+      },
+      "expected": {
+        "Frame Audit!C2": "=\"01\"",
+        "Frame Audit!G2": "=\"012022\"",
+        "EVALID Components!B2": "=\"01\"",
+        "EVALID Components!F2": "=\"012022\"",
+        "EVALID Components!G2": "=\"1263005816290487\"",
+        "EVALID Components!I2": "=\"1263004985290487\"",
+        "EVALID Components!K2": "=\"1263004974290487\""
+      }
+    },
+    {
+      "check": "large_ledger_index_hashes_rows_bytes",
+      "status": "PASS",
+      "observed": [
+        [
+          "D09C_PANEL_SUBPANEL_YEAR_LEDGER_v01.csv",
+          65233,
+          19854516,
+          "dc4844e1cfca17f708f06f983f0cecfcc29b484a404c9bf1238aaeb46ddf6279"
+        ],
+        [
+          "D09C_TI_FOLD_WEIGHT_AUDIT_v01.csv",
+          9472,
+          3706953,
+          "511eae3576d80f20665676eca28a524b5006f1cc058ad33cd484bbd47ede0b6a"
+        ],
+        [
+          "D09C_MA_FOLD_WEIGHT_AUDIT_v01.csv",
+          23680,
+          8929790,
+          "882321e3f5f3ed9fcc2b2df4cbfec3a0e9a35cf141d65484acf86a92b872c25e"
+        ]
+      ],
+      "expected": [
+        [
+          "D09C_PANEL_SUBPANEL_YEAR_LEDGER_v01.csv",
+          65233,
+          19854516,
+          "dc4844e1cfca17f708f06f983f0cecfcc29b484a404c9bf1238aaeb46ddf6279"
+        ],
+        [
+          "D09C_TI_FOLD_WEIGHT_AUDIT_v01.csv",
+          9472,
+          3706953,
+          "511eae3576d80f20665676eca28a524b5006f1cc058ad33cd484bbd47ede0b6a"
+        ],
+        [
+          "D09C_MA_FOLD_WEIGHT_AUDIT_v01.csv",
+          23680,
+          8929790,
+          "882321e3f5f3ed9fcc2b2df4cbfec3a0e9a35cf141d65484acf86a92b872c25e"
+        ]
+      ]
+    },
+    {
+      "check": "all_worksheets_rendered",
+      "status": "PASS",
+      "observed": 13,
+      "expected": 13
+    },
+    {
+      "check": "all_rendered_previews_present_nonempty",
+      "status": "PASS",
+      "observed": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "expected": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "check": "formula_error_scan_zero",
+      "status": "PASS",
+      "observed": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+      "expected": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    }
+  ]
+}

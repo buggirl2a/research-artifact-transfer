@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-02",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "python_executable": "C:\\Python\\Python312\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "sqlite": "3.49.1",
+  "pyproj": "3.7.2",
+  "projection": "EPSG:5070",
+  "database_open_mode": "read-only URI + PRAGMA query_only=ON",
+  "database_path": "C:\\range_paper\\99_tmp\\elig_v02\\SQLite_FIADB_ENTIRE.db",
+  "database_bytes": 71565119488,
+  "allowed_tables": [
+    "PLOT",
+    "POP_ESTN_UNIT",
+    "POP_EVAL",
+    "POP_EVAL_GRP",
+    "POP_EVAL_TYP",
+    "POP_PLOT_STRATUM_ASSGN",
+    "POP_STRATUM",
+    "SURVEY"
+  ],
+  "accessed_tables": [
+    "PLOT",
+    "POP_ESTN_UNIT",
+    "POP_EVAL",
+    "POP_EVAL_GRP",
+    "POP_EVAL_TYP",
+    "POP_PLOT_STRATUM_ASSGN",
+    "POP_STRATUM",
+    "SURVEY"
+  ],
+  "denied_read_attempts": []
+}

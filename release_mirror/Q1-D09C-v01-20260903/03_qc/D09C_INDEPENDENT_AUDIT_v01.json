@@ -1,0 +1,313 @@
+{
+  "audit_id": "D09C_INDEPENDENT_OUTPUT_AUDIT_v01",
+  "date": "2026-09-02",
+  "status": "PASS",
+  "mode": "output-only verification; no FIADB query and no species data",
+  "check_count": 25,
+  "checks": [
+    {
+      "check": "required_outputs_present",
+      "status": "PASS",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "check": "input_audit_all_pass",
+      "status": "PASS",
+      "observed": {
+        "PASS": 27
+      },
+      "expected": {
+        "PASS": 27
+      }
+    },
+    {
+      "check": "builder_qc_all_pass",
+      "status": "PASS",
+      "observed": {
+        "PASS": 19
+      },
+      "expected": {
+        "PASS": 19
+      }
+    },
+    {
+      "check": "temporal_rows_96_and_48_each",
+      "status": "PASS",
+      "observed": [
+        96,
+        {
+          "T1": 48,
+          "T2": 48
+        }
+      ],
+      "expected": [
+        96,
+        {
+          "T1": 48,
+          "T2": 48
+        }
+      ]
+    },
+    {
+      "check": "frozen_local_frame_failures_exact",
+      "status": "PASS",
+      "observed": [
+        [
+          "T1",
+          "CA"
+        ],
+        [
+          "T2",
+          "CA"
+        ],
+        [
+          "T2",
+          "OR"
+        ],
+        [
+          "T2",
+          "WA"
+        ]
+      ],
+      "expected": [
+        [
+          "T1",
+          "CA"
+        ],
+        [
+          "T2",
+          "CA"
+        ],
+        [
+          "T2",
+          "OR"
+        ],
+        [
+          "T2",
+          "WA"
+        ]
+      ]
+    },
+    {
+      "check": "both_nationwide_frames_fail_without_substitution",
+      "status": "PASS",
+      "observed": {
+        "T1": "FAIL",
+        "T2": "FAIL"
+      },
+      "expected": {
+        "T1": "FAIL",
+        "T2": "FAIL"
+      }
+    },
+    {
+      "check": "evalid_membership_not_guessed",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "texas_actual_component_closure",
+      "status": "PASS",
+      "observed": [
+        [
+          "T1",
+          "482201",
+          "8"
+        ],
+        [
+          "T2",
+          "482301",
+          "8"
+        ]
+      ],
+      "expected": [
+        [
+          "T1",
+          "482201",
+          "8"
+        ],
+        [
+          "T2",
+          "482301",
+          "8"
+        ]
+      ]
+    },
+    {
+      "check": "candidate_rows_960_ten_per_state_frame",
+      "status": "PASS",
+      "observed": [
+        960,
+        96,
+        [
+          10
+        ]
+      ],
+      "expected": [
+        960,
+        96,
+        [
+          10
+        ]
+      ]
+    },
+    {
+      "check": "p2panel_never_split",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "no_final_partition_selected",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "lexicographic_top_ranking_reproduces",
+      "status": "PASS",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "check": "rankable_top_state_frames_92",
+      "status": "PASS",
+      "observed": 92,
+      "expected": 92
+    },
+    {
+      "check": "top_crossfold_lineage_overlap_zero",
+      "status": "PASS",
+      "observed": {
+        "0": 92
+      },
+      "expected": {
+        "0": 92
+      }
+    },
+    {
+      "check": "lineage_exceptions_explicitly_closed",
+      "status": "PASS",
+      "observed": [
+        96,
+        {
+          "0": 96
+        }
+      ],
+      "expected": [
+        96,
+        {
+          "0": 96
+        }
+      ]
+    },
+    {
+      "check": "panel_ledger_contains_zero_representation_rows",
+      "status": "PASS",
+      "observed": 366,
+      "expected": ">0 explicit zeros"
+    },
+    {
+      "check": "ti_fold_rows_match_build",
+      "status": "PASS",
+      "observed": 9472,
+      "expected": 9472
+    },
+    {
+      "check": "ma_fold_rows_match_build",
+      "status": "PASS",
+      "observed": 23680,
+      "expected": 23680
+    },
+    {
+      "check": "no_full_expns_reused_in_ti_or_ma",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "constant_response_calibration_identity_pass",
+      "status": "PASS",
+      "observed": {
+        "PASS": 368
+      },
+      "expected": {
+        "PASS": 368
+      }
+    },
+    {
+      "check": "calibration_rows_368",
+      "status": "PASS",
+      "observed": 368,
+      "expected": 368
+    },
+    {
+      "check": "table_access_exact_whitelist",
+      "status": "PASS",
+      "observed": [
+        "PLOT",
+        "POP_ESTN_UNIT",
+        "POP_EVAL",
+        "POP_EVAL_GRP",
+        "POP_EVAL_TYP",
+        "POP_PLOT_STRATUM_ASSGN",
+        "POP_STRATUM",
+        "SURVEY"
+      ],
+      "expected": [
+        "PLOT",
+        "POP_ESTN_UNIT",
+        "POP_EVAL",
+        "POP_EVAL_GRP",
+        "POP_EVAL_TYP",
+        "POP_PLOT_STRATUM_ASSGN",
+        "POP_STRATUM",
+        "SURVEY"
+      ]
+    },
+    {
+      "check": "sql_ledger_no_prohibited_marker",
+      "status": "PASS",
+      "observed": {
+        "0": 8
+      },
+      "expected": {
+        "0": 8
+      }
+    },
+    {
+      "check": "no_q1_or_downstream_operation",
+      "status": "PASS",
+      "observed": {
+        "status": "PASS",
+        "species_identity_or_outcome_read": false,
+        "species_used_for_partition_ranking": false,
+        "d08c2_run": false,
+        "range_gate_0_run": false,
+        "little_or_usgs_processed": false,
+        "external_range_search_run": false,
+        "final_partition_selected": false,
+        "final_temporal_frame_selected": false,
+        "final_estimator_selected": false,
+        "final_threshold_or_species_cohort_selected": false,
+        "real_q1_run": false,
+        "prohibited_operations": []
+      },
+      "expected": "all operation flags false"
+    },
+    {
+      "check": "execution_and_design_status_distinguished",
+      "status": "PASS",
+      "observed": [
+        "PASS",
+        "FAIL"
+      ],
+      "expected": [
+        "PASS",
+        "FAIL"
+      ]
+    }
+  ]
+}

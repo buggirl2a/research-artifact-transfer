@@ -1,0 +1,3 @@
+frame_id,state_rows,pass_states,conditional_states,fail_states,fail_state_abbrs,conditional_state_abbrs,frame_status,frame_selected_by_d09c
+T1,48,46,1,1,CA,WV,FAIL,0
+T2,48,44,1,3,CA;OR;WA,WV,FAIL,0

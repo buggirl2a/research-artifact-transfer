@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "execution_status": "PASS",
+  "nationwide_design_feasibility": "FAIL",
+  "frame_status": {
+    "T1": "FAIL",
+    "T2": "FAIL"
+  },
+  "state_frame_rows": 96,
+  "candidate_rows": 960,
+  "rankable_top_state_frames": 92,
+  "panel_subpanel_year_rows": 65233,
+  "lineage_audit_rows": 96,
+  "ti_weight_rows": 9472,
+  "ma_weight_rows": 23680,
+  "calibration_rows": 368,
+  "selected_unique_evalids": 89,
+  "selected_assignment_rows": 582410,
+  "duplicate_assignment_keys": 0,
+  "conflicting_assignment_keys": 0,
+  "unmatched_plot_assignments": 0,
+  "broken_stratum_assignments": 0,
+  "state_mismatch_assignments": 0,
+  "T1_missing_state_groups": "CA",
+  "T2_missing_state_groups": "CA;OR;WA",
+  "species_outcome_tables_read": [],
+  "final_partition_selected": false,
+  "runtime_seconds": 35.563
+}

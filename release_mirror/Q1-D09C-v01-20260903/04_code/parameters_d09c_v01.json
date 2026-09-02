@@ -1,0 +1,44 @@
+{
+  "contract_id": "Q1_D09C_SPECIES_BLIND_REPORTING_STATE_PANEL_FOLD_AUDIT_v01",
+  "date": "2026-09-02",
+  "state_universe": "48 contiguous States from frozen D09B State ledger",
+  "frames": {
+    "T1": {"default_reporting_year": 2022, "exceptions": {}},
+    "T2": {"default_reporting_year": 2023, "exceptions": {"MT": 2022, "NM": 2022, "UT": 2022}}
+  },
+  "required_evaluation_type": "EXPVOL",
+  "allowed_fiadb_tables": [
+    "POP_EVAL_GRP",
+    "POP_EVAL_TYP",
+    "POP_EVAL",
+    "POP_ESTN_UNIT",
+    "POP_STRATUM",
+    "POP_PLOT_STRATUM_ASSGN",
+    "PLOT",
+    "SURVEY"
+  ],
+  "p2panel_values": [1, 2, 3, 4, 5],
+  "fold_a_panel_count": 2,
+  "fold_b_panel_count": 3,
+  "candidate_count_per_state_frame": 10,
+  "subpanel_is_fold_atom": false,
+  "projection_epsg": 5070,
+  "grid_size_m": 50000,
+  "grid_origin_m": [0.0, 0.0],
+  "calibration_relative_tolerance": 1e-8,
+  "ma_calibration_panel_weights": "equal within fold (1/k), audit only",
+  "ranking_keys": [
+    "missing_parent_area_any_acres",
+    "design_block_representation_imbalance",
+    "temporal_center_abs_diff_years",
+    "plot_cell_imbalance",
+    "fold_A_panel_id"
+  ],
+  "sample_size_or_precision_threshold": null,
+  "final_partition_authorized": false,
+  "d08c2_authorized": false,
+  "range_gate_0_authorized": false,
+  "little_usgs_authorized": false,
+  "external_range_search_authorized": false,
+  "real_q1_authorized": false
+}

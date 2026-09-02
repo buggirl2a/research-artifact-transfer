@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "species_identity_or_outcome_read": false,
+  "species_used_for_partition_ranking": false,
+  "d08c2_run": false,
+  "range_gate_0_run": false,
+  "little_or_usgs_processed": false,
+  "external_range_search_run": false,
+  "final_partition_selected": false,
+  "final_temporal_frame_selected": false,
+  "final_estimator_selected": false,
+  "final_threshold_or_species_cohort_selected": false,
+  "real_q1_run": false,
+  "prohibited_operations": []
+}
