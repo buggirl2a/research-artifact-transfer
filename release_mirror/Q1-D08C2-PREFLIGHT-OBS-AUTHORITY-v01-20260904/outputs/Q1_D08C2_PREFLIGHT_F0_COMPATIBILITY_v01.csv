@@ -1,0 +1,53 @@
+﻿CHECK,STATECD,TARGET,OBSERVED,STATUS,DETAILS
+T2_PLOT_TEMPORAL_COVERAGE,1,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,4,2023,2023,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,5,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,6,2023,2021,FAIL,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,8,2023,2023,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,9,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,10,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,12,2023,2024,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,13,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,16,2023,2023,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,17,2023,2024,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,18,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,19,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,20,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,21,2023,2023,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,22,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,23,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,24,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,25,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,26,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,27,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,28,2023,2024,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,29,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,30,2022,2022,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,31,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,32,2023,2023,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,33,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,34,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,35,2022,2022,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,36,2023,2024,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,37,2023,2024,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,38,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,39,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,40,2023,2024,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,41,2023,2022,FAIL,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,42,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,44,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,45,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,46,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,47,2023,2023,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,48,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,49,2022,2022,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,50,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,51,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,53,2023,2022,FAIL,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,54,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,55,2023,2025,PASS,Species-blind structural check only
+T2_PLOT_TEMPORAL_COVERAGE,56,2023,2023,PASS,Species-blind structural check only
+SPECIAL_2023_EXPVOL_EVALID_PRESENT,6,62301,POP_EVAL=False;POP_PLOT_STRATUM_ASSGN=False,FAIL,CA
+SPECIAL_2023_EXPVOL_EVALID_PRESENT,41,412301,POP_EVAL=False;POP_PLOT_STRATUM_ASSGN=False,FAIL,OR
+SPECIAL_2023_EXPVOL_EVALID_PRESENT,53,532301,POP_EVAL=False;POP_PLOT_STRATUM_ASSGN=False,FAIL,WA
+F0_EXACT_EVALID_CROSSCHECK,,,,NOT_APPLICABLE,No explicit numeric EVALID column found in selected two F0 members; no EVALID was guessed.

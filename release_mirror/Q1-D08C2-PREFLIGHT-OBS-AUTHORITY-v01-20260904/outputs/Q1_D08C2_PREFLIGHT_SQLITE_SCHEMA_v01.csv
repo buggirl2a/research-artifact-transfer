@@ -1,0 +1,49 @@
+﻿TABLE,FIELD,PRESENT,TABLE_PRESENT,ROLE
+PLOT,CN,YES,YES,plot-visit identity / foreign-key anchor
+PLOT,STATECD,YES,YES,operational state-domain linkage
+PLOT,INVYR,YES,YES,F0 temporal membership
+PLOT,P2PANEL,YES,YES,frozen A/B whole-panel linkage
+PLOT,PLOT_STATUS_CD,YES,YES,plot-level sampled vs nonsampled status
+PLOT,PLOT_NONSAMPLE_REASN_CD,YES,YES,plot-level nonsampling reason
+PLOT,DESIGNCD,YES,YES,plot design / protocol identity
+PLOT,MANUAL,YES,YES,field-guide/protocol version identity
+PLOT,MACRO_BREAKPOINT_DIA,YES,YES,optional macroplot diameter threshold / effort metadata
+COND,PLT_CN,YES,YES,condition-to-plot linkage
+COND,CONDID,YES,YES,condition identity / TREE linkage
+COND,COND_STATUS_CD,YES,YES,accessible forest vs nonforest/water/nonsampled
+COND,COND_NONSAMPLE_REASN_CD,YES,YES,condition-level nonsampling reason
+COND,PROP_BASIS,YES,YES,subplot vs macroplot proportion basis
+COND,CONDPROP_UNADJ,YES,YES,sampled condition proportion / effort metadata
+COND,SUBPPROP_UNADJ,YES,YES,subplot condition proportion / effort metadata
+COND,MACRPROP_UNADJ,YES,YES,macroplot condition proportion / effort metadata
+SUBPLOT,PLT_CN,YES,YES,sample element to plot linkage
+SUBPLOT,SUBP,YES,YES,subplot identity / TREE linkage
+SUBPLOT,SUBP_STATUS_CD,YES,YES,direct sample-element sampled/nonsampled status
+SUBPLOT,POINT_NONSAMPLE_REASN_CD,YES,YES,sample-element nonsampling reason
+SUBPLOT,SUBPCOND,YES,YES,subplot-center condition linkage
+SUBPLOT,MACRCOND,YES,YES,macroplot-center condition linkage when macroplot measured
+SUBPLOT,CONDLIST,YES,YES,conditions intersecting subplot/macroplot
+TREE,CN,YES,YES,tree-record identity
+TREE,PLT_CN,YES,YES,positive encounter to plot linkage
+TREE,STATECD,YES,YES,state linkage / audit
+TREE,INVYR,YES,YES,temporal linkage / audit
+TREE,CONDID,YES,YES,positive encounter to condition linkage
+TREE,SUBP,YES,YES,positive encounter to sample element linkage
+TREE,SPCD,YES,YES,raw FIA taxon identity for frozen D08B1 mapping
+TREE,STATUSCD,YES,YES,live-tree target-state membership
+TREE,DIA,YES,YES,>=5-in DBH/DRC target-state membership
+TREE,TPA_UNADJ,YES,YES,downstream abundance estimator input; NOT D08C2 eligibility threshold
+POP_EVAL,CN,YES,YES,F0 design/linkage support
+POP_EVAL,EVALID,YES,YES,F0 design/linkage support
+POP_EVAL,STATECD,YES,YES,F0 design/linkage support
+POP_PLOT_STRATUM_ASSGN,CN,YES,YES,F0 design/linkage support
+POP_PLOT_STRATUM_ASSGN,STRATUM_CN,YES,YES,F0 design/linkage support
+POP_PLOT_STRATUM_ASSGN,PLT_CN,YES,YES,F0 design/linkage support
+POP_PLOT_STRATUM_ASSGN,STATECD,YES,YES,F0 design/linkage support
+POP_PLOT_STRATUM_ASSGN,INVYR,YES,YES,F0 design/linkage support
+POP_PLOT_STRATUM_ASSGN,EVALID,YES,YES,F0 design/linkage support
+POP_STRATUM,CN,YES,YES,F0 design/linkage support
+POP_STRATUM,ESTN_UNIT_CN,YES,YES,F0 design/linkage support
+POP_STRATUM,EVALID,YES,YES,F0 design/linkage support
+POP_ESTN_UNIT,CN,YES,YES,F0 design/linkage support
+POP_ESTN_UNIT,EVALID,YES,YES,F0 design/linkage support

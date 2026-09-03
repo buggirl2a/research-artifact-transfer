@@ -1,0 +1,23 @@
+﻿CHECK,STATUS,BLOCKING,DETAILS
+asset:FIA_ENTIRE_SQLITE_RAW_ZIP,PASS,NO,size=15351832599; sha256=ec2e4caf2a92e6079c20483f4a5f08d5ec2e7c31f498045237896a6df7e1565e
+asset:FIADB_DATABASE_GUIDE_v9.4,PASS,NO,size=26525698; sha256=ec735ead3852ba6dbb65cb7257b4f8e0795d4c641be4d625ed81ce64eeba2833
+asset:FIA_NATIONAL_FIELD_GUIDE_v9.5,PASS,NO,size=20208916; sha256=09279b80db8b4d516599f621b7bda851fcf727825eeecfe93bc65d6071a2d1e7
+asset:F0_D09C_FINAL_PACKAGE,PASS,NO,size=22496593; sha256=07cb461121c71ef46990fea3e0cf9d8f139fd873234b9f57910ff10c7c33752f
+f0_member:02_outputs/Q1_D09C_T2_FINAL_RULE_SELECTED_PARTITIONS_v02.csv,FAIL,YES,Member missing from F0 package
+f0_member:02_outputs/Q1_D09C_T2_FINAL_FOLD_SPECIFIC_TI_DESIGN_v02.csv,FAIL,YES,Member missing from F0 package
+FIA_ZIP_MEMBER,PASS,NO,name=SQLite_FIADB_ENTIRE.db; uncompressed_bytes=71565119488; crc32=a2bc6055
+FIA_SQLITE_EXTRACTION,RUNNING,NO,Extracting immutable raw ZIP member to 99_tmp: C:\range_paper\99_tmp\d08c2_preflight_observational_authority_v01\source_cache\SQLite_FIADB_ENTIRE.db
+FIA_SQLITE_EXTRACTION,PASS,NO,Extracted working copy; sha256=d2935fa9e2c7dd754fbdd8151ba2f093675e3772fefe260336daa308adcaeb72
+fields:PLOT,PASS,NO,All 9 minimum fields present
+fields:COND,PASS,NO,All 8 minimum fields present
+fields:SUBPLOT,PASS,NO,All 7 minimum fields present
+fields:TREE,PASS,NO,All 10 minimum fields present
+fields:POP_EVAL,PASS,NO,All 3 minimum fields present
+fields:POP_PLOT_STRATUM_ASSGN,PASS,NO,All 6 minimum fields present
+fields:POP_STRATUM,PASS,NO,All 3 minimum fields present
+fields:POP_ESTN_UNIT,PASS,NO,All 2 minimum fields present
+SQLITE_SCHEMA_AND_F0_STRUCTURAL_COMPATIBILITY,FAIL,YES,No species-level eligibility or outcome values were queried
+NO_SPECIES_LEVEL_ELIGIBILITY_READ,PASS,NO,Script contains no accepted-species list and no SPCD-specific query; TREE is schema/temporal asset only.
+NO_GRID_GENERATION,PASS,NO,"No grid is read, generated, or selected by this preflight."
+NO_NETWORK_ACQUISITION,PASS,NO,No web/network download code is executed.
+CENTRAL_REGISTRY_NOT_MODIFIED,PASS,NO,Only a proposed REGISTRY_DELTA is written under task output.
