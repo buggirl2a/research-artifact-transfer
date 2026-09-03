@@ -1,0 +1,25 @@
+{
+  "audit_id": "Q1_FIA_AUTHORITY_CLOSURE_QC_v01",
+  "date": "2026-09-03",
+  "scope": "official-source authority closure only",
+  "status": "PASS",
+  "target_count": 4,
+  "statuses": {
+    "CA2022": "OFFICIAL_UNAVAILABLE_CONFIRMED",
+    "CA2023": "OFFICIAL_AVAILABLE_REPRODUCIBLE",
+    "OR2023": "OFFICIAL_AVAILABLE_REPRODUCIBLE",
+    "WA2023": "OFFICIAL_AVAILABLE_REPRODUCIBLE"
+  },
+  "checks": {
+    "official_sources_only": "PASS",
+    "four_targets_present": "PASS",
+    "no_component_evalid_guessing": "PASS",
+    "no_large_raw_download": "PASS",
+    "no_q1_analysis": "PASS",
+    "no_d09c_rerun": "PASS",
+    "no_t1_t2_selection": "PASS"
+  },
+  "raw_official_files_downloaded": 0,
+  "large_asset_note": "PNW CA/OR/WA SQLite is page-reported as 1.1 GB and only through CA2021, OR2022, WA2022; not downloaded.",
+  "stop": true
+}
