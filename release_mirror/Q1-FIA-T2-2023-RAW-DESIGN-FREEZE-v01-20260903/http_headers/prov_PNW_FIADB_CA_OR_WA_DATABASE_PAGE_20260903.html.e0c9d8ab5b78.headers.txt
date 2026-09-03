@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Request-URL: https://research.fs.usda.gov/pnw/products/dataandtools/pnw-fiadb-forest-inventory-and-analysis-databases
+Final-URL: https://research.fs.usda.gov/pnw/products/dataandtools/pnw-fiadb-forest-inventory-and-analysis-databases
+Retrieved-At-UTC: 2026-09-03T07:22:42.4098983Z
+Retrieved-At-Local: 2026-09-03T15:22:42.4098983+08:00
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Drupal-Dynamic-Cache: MISS
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Vary: Cookie, Accept-Encoding
+X-Generator: Drupal 11 (https://www.drupal.org)
+Permissions-Policy: interest-cohort=(), web-share=()
+X-Drupal-Cache: HIT
+x-azure-ref: 20260903T072242Z-17d8f65779ctjrqjhS1PHXeqkw000000238g000000003p2w
+X-Cache: TCP_MISS
+x-fd-int-roxy-purgeid: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Cache-Control: public, max-age=10800
+Date: Thu, 03 Sep 2026 07:22:42 GMT
+ETag: "1788417388"
+X-Powered-By: PHP/8.3.21
+Content-language: en
+Content-Type: text/html; charset=utf-8
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Thu, 03 Sep 2026 06:36:28 GMT

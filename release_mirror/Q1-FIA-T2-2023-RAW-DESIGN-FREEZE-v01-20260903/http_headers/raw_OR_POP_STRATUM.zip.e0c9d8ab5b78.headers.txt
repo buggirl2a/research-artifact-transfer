@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Request-URL: https://apps.fs.usda.gov/fia/datamart/CSV/OR_POP_STRATUM.zip
+Final-URL: https://apps.fs.usda.gov/fia/datamart/CSV/OR_POP_STRATUM.zip
+Retrieved-At-UTC: 2026-09-03T07:20:39.2725910Z
+Retrieved-At-Local: 2026-09-03T15:20:39.2725910+08:00
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Accept-Ranges: bytes
+Date: Thu, 03 Sep 2026 07:20:38 GMT
+ETag: "2c8739d1713add1:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+Content-Length: 235280
+Content-Type: application/x-zip-compressed
+Last-Modified: Wed, 02 Sep 2026 00:27:20 GMT

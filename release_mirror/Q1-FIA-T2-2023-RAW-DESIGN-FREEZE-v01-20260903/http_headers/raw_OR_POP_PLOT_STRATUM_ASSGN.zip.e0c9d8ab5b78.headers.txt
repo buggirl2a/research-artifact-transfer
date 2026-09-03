@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Request-URL: https://apps.fs.usda.gov/fia/datamart/CSV/OR_POP_PLOT_STRATUM_ASSGN.zip
+Final-URL: https://apps.fs.usda.gov/fia/datamart/CSV/OR_POP_PLOT_STRATUM_ASSGN.zip
+Retrieved-At-UTC: 2026-09-03T07:20:41.5402822Z
+Retrieved-At-Local: 2026-09-03T15:20:41.5402822+08:00
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Accept-Ranges: bytes
+Date: Thu, 03 Sep 2026 07:20:41 GMT
+ETag: "25bf37d0713add1:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+Content-Length: 6064878
+Content-Type: application/x-zip-compressed
+Last-Modified: Wed, 02 Sep 2026 00:27:19 GMT

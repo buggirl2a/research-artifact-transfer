@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Request-URL: https://apps.fs.usda.gov/fia/datamart/CSV/OR_SURVEY.zip
+Final-URL: https://apps.fs.usda.gov/fia/datamart/CSV/OR_SURVEY.zip
+Retrieved-At-UTC: 2026-09-03T07:22:00.7280334Z
+Retrieved-At-Local: 2026-09-03T15:22:00.7280334+08:00
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Accept-Ranges: bytes
+Date: Thu, 03 Sep 2026 07:22:00 GMT
+ETag: "be525efd713add1:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+Content-Length: 1958
+Content-Type: application/x-zip-compressed
+Last-Modified: Wed, 02 Sep 2026 00:28:34 GMT

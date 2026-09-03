@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Request-URL: https://apps.fs.usda.gov/fia/datamart/CSV/CA_POP_ESTN_UNIT.zip
+Final-URL: https://apps.fs.usda.gov/fia/datamart/CSV/CA_POP_ESTN_UNIT.zip
+Retrieved-At-UTC: 2026-09-03T07:16:45.7534003Z
+Retrieved-At-Local: 2026-09-03T15:16:45.7528944+08:00
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Accept-Ranges: bytes
+Date: Thu, 03 Sep 2026 07:16:45 GMT
+ETag: "1c7a801f473add1:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+Content-Length: 1884
+Content-Type: application/x-zip-compressed
+Last-Modified: Tue, 01 Sep 2026 19:21:43 GMT

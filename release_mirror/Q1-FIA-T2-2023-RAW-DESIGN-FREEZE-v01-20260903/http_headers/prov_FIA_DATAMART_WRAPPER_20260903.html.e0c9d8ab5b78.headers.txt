@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Request-URL: https://apps.fs.usda.gov/fia/datamart/datamart.html
+Final-URL: https://apps.fs.usda.gov/fia/datamart/datamart.html
+Retrieved-At-UTC: 2026-09-03T07:22:48.0604450Z
+Retrieved-At-Local: 2026-09-03T15:22:48.0604450+08:00
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Accept-Ranges: bytes
+Date: Thu, 03 Sep 2026 07:22:48 GMT
+ETag: "04fbdac4fccd81:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+Content-Length: 752
+Content-Type: text/html
+Last-Modified: Mon, 19 Sep 2022 17:45:58 GMT

@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Request-URL: https://apps.fs.usda.gov/fiadb-api/fullreport/parameters/wc
+Final-URL: https://apps.fs.usda.gov/fiadb-api/fullreport/parameters/wc
+Retrieved-At-UTC: 2026-09-03T07:22:36.7981314Z
+Retrieved-At-Local: 2026-09-03T15:22:36.7981314+08:00
+Connection: keep-alive
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+Content-Security-Policy: frame-ancestors 'self'
+X-Frame-Options: SAMEORIGIN
+Vary: Cookie
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Date: Thu, 03 Sep 2026 07:22:37 GMT
+Set-Cookie: evalidator.session=eyJwZ1RpdGxlIjoid2MgVGFibGUifQ.apkgPQ.HnfEe3FCEvYUw44Sc3IT394IXlE; Secure; HttpOnly; Path=/
+Content-Length: 343899
+Content-Type: text/html; charset=utf-8

@@ -1,0 +1,674 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>FIADB-API & EVALIDator User Documentation </title>
+    <link rel="stylesheet" href="/fiadb-api/static/css/index.css">
+    <link rel="shortcut icon" href="/fiadb-api/static/favicon.ico">
+    <!-- ==================================================================== -->
+    <!-- ==================================================================== -->
+    <!-- Javascript - Check values - start -->
+    <!-- ==================================================================== -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                i[r].q = i[r].q || []
+                i[r].q.push(arguments);
+            }
+            i[r].l = 1 * new Date();
+            a = s.createElement(o);
+            m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-49128391-1', 'auto');
+        ga('send', 'pageview');
+        // Popup window code
+        function newPopup(url) {
+            var pageUrl = location.href
+
+            if (pageUrl.startsWith('https://apps.fs.usda.gov/') || pageUrl.startsWith('https://dev.wrk.fs.usda.gov/'))
+                    url = '../fiadb-api/' + url;
+                else // local dev path
+                    url = '../' + url;
+            window.open(
+                url, 'popUpWindow', 'height=500,width=700,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes'
+            );
+        }
+    </script>
+    <style>
+        h2 {
+            color: blue;
+            margin: 0;
+        }
+
+        table {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+
+        td,th {
+            border: 1px solid;
+            padding: 5px;
+        }
+        th{
+            text-align: left;
+            font-weight: normal;
+            width: 10px;
+        }
+        .endpointDiv {
+            padding-bottom: 20px;
+        }
+
+        .endpointDef {
+            padding-left: 20px;
+        }
+
+        #fullreportExamples {
+            padding: 20px;
+            min-width: fit-content;
+        }
+    </style>
+    <style>
+        
+
+        /* Style the tab */
+        .tab {
+            display: block;
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+            height: 50px;
+            transition-property: background-color;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        .tab button:focus {
+            background-color: #ddd;
+            border: 3px solid yellow;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="usa-logo" id="logo">
+        
+        <img src="/fiadb-api/static/images/USDA_FS_SignatureLogoWithText.png" alt="USDA Logo | Forest Service U.S. Department of Agriculture logo"
+             class="agency-logo-img">
+    </div>
+    <div>
+        <h1>FIADB-API & EVALIDator User Documentation</h1>
+        <p style="color:darkred;font-weight: bold;">***This page is under construction. Additional content will be added
+            until all endpoints are fully documented.***</p>
+    </div>
+    <p>
+    <a href="/fiadb-api/evalidator?newForm=True" aria-label="EVALIDator | Step 1 of 5">EVALIDator</a>
+    <a href="JavaScript:newPopup('static/pdf/EVALIDator_User_Guide-v2.1.pdf');" aria-label="static/pdf/EVALIDator_User_Guide-v2.1.pdf (Opens new window)" style="margin-left: 10px;"><b>EVALIDator User Guide</b></a>
+    </p>
+    <p>Documentation for the Urban FIADB-API can be found here: <a class="full-report-link" data-link="/urban">/urban</a></p>
+</div>
+<div id="contentBody">
+    <div>
+        <p>The FIADB-API and EVALIDator web applications were designed to simplify the generation of population estimates
+            and their associated sampling errors from data in the Forest Inventory and Analysis database (FIADB)</p>
+        <div>
+            <div class="endpointDiv">
+                <h2>/fullreport</h2>
+                <div class='endpointDef'>
+                    <p>The <strong>fullreport</strong> endpoint is the primary FIA Phase 2 estimate access point for
+                        FIADB-API. <br>
+                        Parameters selected in the EVALIDator interface are submitted to <strong>fullreport</strong>
+                        which then returns the relevant estimates</p>
+                    <p>NOTE! <strong>BOLDED</strong> parameters with an asterisk(*) indicate they are required. All others are optional</p>
+                    <h3>Parameter Descriptions</h3>
+                    <table title="Parameter descriptions">
+                        <tbody>
+                        <tr>
+                            <th scope="row"><strong>lat*</strong></th>
+                            <td><strong> FOR CIRCULAR ESTIMATES ONLY * - Otherwise not required</strong><br>
+                                The latitude in decimal degrees for a circular estimate centroid
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><strong>lon*</strong></th>
+                            <td><strong> FOR CIRCULAR ESTIMATES ONLY * - Otherwise not required </strong><br>
+                                The longitude in decimal degrees for a circular estimate centroid
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><strong>radius*</strong></th>
+                            <td><strong> FOR CIRCULAR ESTIMATES ONLY * - Otherwise not required </strong><br>
+                                The radius in miles for a circular estimate
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><strong>wc*</strong></th>
+                            <td>Evaluation group code(s) for inventory(ies) of interest. <br>
+                                Typically consists of the state FIPS code concatenated with the 4 digit inventory year.
+                                <br>
+                                e.g. 102020 would indicate the Delaware 2020 inventory. <br>
+                                Valid values can be found in the "EVALID" column here: <a
+                                        class="full-report-link"
+                                        data-link="/fullreport/parameters/wc"
+                                        target="_blank"
+                                        rel="noopener"
+                                    >/fullreport/parameters/wc</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><strong>snum*</strong></th>
+                            <td>The estimate attribute number or description of interest. <br>
+                                Used as the numerator for ratio estimates. <br>
+                                Users can use values either from the numeric "ATTRIBUTE_NBR", or the text
+                                "ATTRIBUTE_DESCR" found here:<a
+                                        class="full-report-link"
+                                        data-link="/fullreport/parameters/snum"
+                                        target="_blank" rel="noopener"
+                                        >/fullreport/parameters/snum</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><strong>rselected*</strong></th>
+                            <td>Row estimate grouping definition, translates to rows in traditional EVALIDator table
+                                format. <br>
+                                Valid values can be found in the "LABEL_VAR" column here:<a
+                                        class="full-report-link"
+                                        data-link="/fullreport/parameters/rselected"
+                                        target="_blank" rel="noopener">/fullreport/parameters/rselected</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><strong>cselected*</strong></th>
+                            <td>Column estimate grouping definition, translates to columns in traditional EVALIDator
+                                table format. <br>
+                                Valid values can be found in the "LABEL_VAR" column here:<a
+                                        class="full-report-link"
+                                        data-link="/fullreport/parameters/cselected"
+                                        target="_blank" rel="noopener">/fullreport/parameters/cselected</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">pselected</th>
+                            <td>Page estimate grouping definition, translates to pages in traditional EVALIDator table
+                                format. <br>
+                                Valid values can be found in the "LABEL_VAR" column here:<a
+                                        class="full-report-link"
+                                        data-link="/fullreport/parameters/pselected"
+                                        target="_blank" rel="noopener">/fullreport/parameters/pselected</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">rtime</th>
+                            <td>Row grouping temporal basis<br>
+                                Temporal basis for row grouping definition. <br>
+                                Only used in area change, growth, removals, and mortality estimates as these are based
+                                on plot-revisits.<br>
+                                Allows users to base groupings on relevant status either from the first or from the
+                                second plot visit.<br>
+                                Valid options are: <br>
+                                CURRENT (default)<br>
+                                PREVIOUS<br>
+                                CURRENT IF AVAILABLE ELSE PREVIOUS<br>
+                                PREVIOUS IF AVAILABLE ELSE CURRENT<br>
+                                ACCOUNTING<br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">ctime</th>
+                            <td>Column grouping temporal basis<br>
+                                Temporal basis for row grouping definition. <br>
+                                Only used in area change, growth, removals, and mortality estimates as these are based
+                                on plot-revisits.<br>
+                                Allows users to base groupings on relevant status either from the first or from the
+                                second plot visit.<br>
+                                Valid options are: <br>
+                                CURRENT (default)<br>
+                                PREVIOUS<br>
+                                CURRENT IF AVAILABLE ELSE PREVIOUS<br>
+                                PREVIOUS IF AVAILABLE ELSE CURRENT<br>
+                                ACCOUNTING<br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">ptime</th>
+                            <td>Page grouping temporal basis<br>
+                                Temporal basis for row grouping definition. <br>
+                                Only used in area change, growth, removals, and mortality estimates as these are based
+                                on plot-revisits.<br>
+                                Allows users to base groupings on relevant status either from the first or from the
+                                second plot visit.<br>
+                                Valid options are: <br>
+                                CURRENT (default)<br>
+                                PREVIOUS<br>
+                                CURRENT IF AVAILABLE ELSE PREVIOUS<br>
+                                PREVIOUS IF AVAILABLE ELSE CURRENT<br>
+                                ACCOUNTING<br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">sdenom</th>
+                            <td>The ratio denominator estimate attribute number or description of interest. <br>
+                                Users can use values either from the numeric "ATTRIBUTE_NBR", or the text
+                                "ATTRIBUTE_DESCR" found here:<a
+                                        class="full-report-link"
+                                        data-link="/fullreport/parameters/snum"
+                                        target="_blank" rel="noopener">/fullreport/parameters/snum</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">strFilter</th>
+                            <td>SQL filter string with or without leading 'and'. E.g. "COND.OWNCD = 40" or "AND
+                                TREE.CCLCD in (1,2,3)"
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">wf</th>
+                            <td>SQL filter applied to non-ratio estimates - deprecated in favor of 'strFilter' but
+                                maintained for back-compatibility
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">wnum</th>
+                            <td>SQL filter applied to ratio estimate numerators only</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">wnumdenom</th>
+                            <td>SQL filter applied to ratio estimate numerators and denominators - deprecated in favor of
+                                'strFilter' but maintained for back-compatibility
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">estOnly</th>
+                            <td>A value of <strong>Y</strong> returns only the grouped estimates without totals or
+                                subtotals.<br>
+                                Note the behavior of this parameter has changed from the previous version of the API.
+                                Error estimates are now reported for all estimates.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">FIAorRPA</th>
+                            <td>Select between FIA or RPA definition of forest land. <br>
+                                Valid options are: <br>
+                                <strong>FIADEF*</strong> (default)<br>
+                                <strong>RPADEF*</strong><br>
+                                More information on the RPA definition can be found here:<a
+                                        class="full-report-link"
+                                        data-link="/static/html/RPA_forest_filter.html"
+                                        target="_blank" rel="noopener">/static/html/RPA_forest_filter.html</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">outputFormat</th>
+                            <td>Desired output format for estimate returns.<br>
+                                Valid options are:<br>
+                                <strong>HTML*</strong> - legacy EVALIDator page/row/column cross-tabulated format - this
+                                is the default<br>
+                                <strong>NHTML*</strong> - flat table of estimate values<br>
+                                <strong>JSON*</strong> - legacy EVALIDator page/row/column JSON<br>
+                                <strong>NJSON*</strong> - flat formatted JSON estimate values with metadata<br>
+                                <strong>XML*</strong> - legacy EVALIDator page/row/column XML format<br>
+                                <strong>NXML*</strong> - flat formatted XML estimate values with metadata<br>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div class="endpointDiv">
+                    <h2>/fullreport/parameters/&lt;fullreport parameter name&gt;</h2>
+                    <div class="endpointDef">
+                        <p>Adding a fullreport parameter name to the end of this endpoint will bring up a dictionary
+                            containing valid values and context for each classed parameter used in the fullreport
+                            endpoint<br>
+                            E.g. <a class="full-report-link"
+                                    data-link="/fullreport/parameters/snum"
+                                    target="_blank" rel="noopener">/fullreport/parameters/snum</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="fullreportExamples">
+                    <h3>/fullreport use examples</h3>
+                    <!-- Tab links -->
+                    <div class="tab">
+                        <button class="tablinks" onclick="openTab(event, 'PyGet')" id="PyGetButton">Python GET</button>
+                        <button class="tablinks" onclick="openTab(event, 'PyPost')">Python POST</button>
+                        <button class="tablinks" onclick="openTab(event, 'RGet')">R GET</button>
+                        <button class="tablinks" onclick="openTab(event, 'RPost')">R POST</button>
+                        
+                    </div>
+
+                    <!-- Tab content -->
+                    <div id="PyGet" class="tabcontent">
+                        <pre>
+<code display="block">
+import requests
+import pandas as pd
+
+
+# this function will accept a FIADB-API fullreport URL and return dataframes for the estimates as well as subtotals, and totals where available.
+def fiadb_api_GET(url):
+    # make request
+    resp = requests.get(url)
+    # parse response to json
+    data = resp.json()
+
+    # create output dictionary and populate it with estimate data frames
+    outDict = {}
+    # append estimates
+    outDict['estimates'] = pd.DataFrame(data['estimates'])
+
+    # append subtotals and totals if present
+    if 'subtotals' in data.keys():
+        subT = {}
+        for i in data['subtotals'].keys():
+            subT[i] = pd.DataFrame(data['subtotals'][i])
+        outDict['subtotals'] = subT
+        outDict['totals'] = pd.DataFrame(data['totals'])
+
+    # append metadata
+    outDict['metadata'] = data['metadata']
+    return outDict
+
+
+# example of usage
+url = "https://apps.fs.usda.gov/fiadb-api/fullreport?rselected=Land%20Use%20-%20Major&cselected=Land%20use&snum=79&wc=102020&outputFormat=NJSON"
+getData = fiadb_api_GET(url=url)
+
+# estimate data frame
+getData['estimates']
+
+# list of subtotal data frames
+getData['subtotals']
+
+# totals data frame
+getData['totals']
+
+# list all estimate metadata elements
+getData['metadata'].keys()
+
+# access metadata elements
+getData['metadata']
+</code>
+</pre>
+                    </div>
+
+                    <div id="PyPost" class="tabcontent">
+                        <pre>
+<code display="block">
+import requests
+import pandas as pd
+
+
+# this function will accept a FIADB-API fullreport URL and return dataframes for the estimates as well as subtotals, and totals where available.
+def fiadb_api_POST(parameterDictionary):
+    # make request
+    resp = requests.post(r"https://apps.fs.usda.gov/fiadb-api/fullreport",data=parameterDictionary)
+    # parse response to json
+    data = resp.json()
+
+    # create output dictionary and populate it with estimate data frames
+    outDict = {}
+    # append estimates
+    outDict['estimates'] = pd.DataFrame(data['estimates'])
+
+    # append subtotals and totals if present
+    if 'subtotals' in data.keys():
+        subT = {}
+        for i in data['subtotals'].keys():
+            subT[i] = pd.DataFrame(data['subtotals'][i])
+        outDict['subtotals'] = subT
+        outDict['totals'] = pd.DataFrame(data['totals'])
+
+    # append metadata
+    outDict['metadata'] = data['metadata']
+    return outDict
+
+
+# example of usage
+requestParameters = {'snum':2, 'wc':102020, 'rselected':'County code and name', 'cselected':'Land Use - Major', 'outputFormat':'NJSON'}
+getData = fiadb_api_POST(parameterDictionary=requestParameters)
+
+# estimate data frame
+getData['estimates']
+
+# list of subtotal data frames
+getData['subtotals']
+
+# totals data frame
+getData['totals']
+
+# list all estimate metadata elements
+getData['metadata'].keys()
+
+# access metadata elements
+getData['metadata']['sql']
+</code>
+</pre>
+                    </div>
+
+                    <div id="RGet" class="tabcontent">
+                        <pre>
+<code display="block">
+library(httr)  #Tools for Working with URLs and HTTP
+
+# this function will help format retrieved estimates into a more readable data frame
+format_estimate = function(respList) {
+
+  return(as.data.frame(do.call(rbind, respList)))
+
+}
+
+# this function will accept a FIADB-API fullreport URL and return dataframes for the estimates as well as subtotals, and totals where available.
+fiadb_api_GET = function(url){
+
+  # make request
+  resp <- httr::GET(url=url)
+  # parse response from JSON to R list
+  respObj <- httr::content(resp, "parsed", encoding = "ISO-8859-1")
+
+  # create empty output list
+  outputList = list()
+
+  # add estimates data frame to output list
+  if (! is.null(respObj$estimates)) {
+      outputList$estimates <- format_estimate(respObj$estimates)
+  } else  {
+      print("Problem with URL or API. No estimate returned.")
+      return(list())
+  }
+
+
+  #Use lapply to break apart subtotal list, then call sapply to format with names
+  if (! is.null(respObj$subtotals))
+        outputList$subtotals <- sapply(lapply(respObj$subtotals, "["),
+                                       format_estimate, simplify = F, USE.NAMES = T)
+
+  # totals data frame
+  if (! is.null(respObj$totals))
+    outputList$totals <- format_estimate(respObj$totals)
+
+
+  # add estimate metadata, doesn't need to be reformatted
+  if (! is.null(respObj$metadata)) outputList$metadata <- respObj$metadata
+
+  return(outputList)
+}
+
+# example of usage
+url <- "https://apps.fs.usda.gov/fiadb-api/fullreport?rselected=Land%20Use%20-%20Major&cselected=Land%20use&snum=79&wc=102020&outputFormat=NJSON"
+getData <- fiadb_api_GET(url=url)
+
+# estimate data frame
+getData$estimates
+
+# list of subtotal data frames
+getData$subtotals
+
+# totals data frame
+getData$totals
+
+# list of estimate metadata elements
+getData$metadata
+
+# access SQL used the generate estimates
+getData$metadata$sql
+
+</code>
+</pre>
+                    </div>
+
+                    <div id="RPost" class="tabcontent">
+                        library(httr)  #Tools for Working with URLs and HTTP
+
+# this function will help format retrieved estimates into a more readable data frame
+format_estimate = function(respList) {
+
+  return(as.data.frame(do.call(rbind, respList)))
+
+}
+
+# this function will accept a FIADB-API fullreport URL+arguments and return a data frame with estimates and metadata
+fiadb_api_POST <- function(postURL, argList) {
+
+  # make request
+  resp <- httr::POST(url = postURL, body = argList, encode = "form")
+
+  # parse response from JSON to R list
+  respObj <- httr::content(resp, "parsed", encoding = "ISO-8859-1")
+
+  # create empty output list
+  outputList <- list()
+
+  # add estimates data frame to output list
+  if (!is.null(respObj$estimates)) {
+    outputList$estimates <- format_estimate(respObj$estimates)
+  } else {
+    print("Problem with URL or API. No estimate returned.")
+    return(list())
+  }
+
+  #Use lapply to break apart subtotal list, then call sapply to format with names
+  if (!is.null(respObj$subtotals))
+    outputList$subtotals <- sapply(lapply(respObj$subtotals, "["),
+                                   format_estimate, simplify = F, USE.NAMES = T)
+
+  # totals data frame
+  if (!is.null(respObj$totals))
+    outputList$totals <- format_estimate(respObj$totals)
+
+
+  # add estimate metadata, doesn't need to be reformatted
+  if (!is.null(respObj$metadata)) outputList$metadata <- respObj$metadata
+
+  return(outputList)
+}
+
+# example of usage
+
+# create a list of parameter values
+postURL <- "https://apps.fs.usda.gov/fiadb-api/fullreport"
+argList = list(snum = 2, wc = 102020, rselected = 'County code and name', cselected = 'Land Use - Major', outputFormat = 'NJSON')
+
+# submit list to POST request function
+postData = fiadb_api_POST(postURL, argList)
+
+# estimate data frame
+postData$estimates
+
+# subtotals data frame(s)
+postData$subtotals
+
+# totals data frame
+postData$totals
+
+# list of estimate metadata elements
+postData$metadata
+names(postData$metadata)
+                    </div>
+
+                    
+                    
+                    
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div style="text-align:center; width:100%; font-size: 0.75em; padding-top:20px;"><p>Email issues or comments to: <a
+        href="mailto:SM.FS.FIA.Digital@usda.gov">SM.FS.FIA.Digital@usda.gov</a></p></div>
+</body>
+<script  src="/fiadb-api/static/js/evalidator_utils.js"></script>
+<script>
+    function openTab(evt, tabName) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    document.getElementById("PyGetButton").click();
+    console.log("running script");
+    populateDynamicAnchorLinks();
+
+</script>
+
+</html>

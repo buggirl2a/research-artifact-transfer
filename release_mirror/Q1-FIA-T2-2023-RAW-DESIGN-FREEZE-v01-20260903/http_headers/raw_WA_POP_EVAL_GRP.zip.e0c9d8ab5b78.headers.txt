@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Request-URL: https://apps.fs.usda.gov/fia/datamart/CSV/WA_POP_EVAL_GRP.zip
+Final-URL: https://apps.fs.usda.gov/fia/datamart/CSV/WA_POP_EVAL_GRP.zip
+Retrieved-At-UTC: 2026-09-03T07:22:03.0572712Z
+Retrieved-At-Local: 2026-09-03T15:22:03.0572712+08:00
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Accept-Ranges: bytes
+Date: Thu, 03 Sep 2026 07:22:03 GMT
+ETag: "b0235c70823add1:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+Content-Length: 793
+Content-Type: application/x-zip-compressed
+Last-Modified: Wed, 02 Sep 2026 02:26:19 GMT

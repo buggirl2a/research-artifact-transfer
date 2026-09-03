@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Request-URL: https://apps.fs.usda.gov/fiadb-api
+Final-URL: https://apps.fs.usda.gov/fiadb-api
+Retrieved-At-UTC: 2026-09-03T07:22:32.4771390Z
+Retrieved-At-Local: 2026-09-03T15:22:32.4771390+08:00
+Connection: keep-alive
+Content-Security-Policy: frame-ancestors 'self'
+X-Frame-Options: SAMEORIGIN
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Date: Thu, 03 Sep 2026 07:22:32 GMT
+Content-Length: 27844
+Content-Type: text/html; charset=utf-8

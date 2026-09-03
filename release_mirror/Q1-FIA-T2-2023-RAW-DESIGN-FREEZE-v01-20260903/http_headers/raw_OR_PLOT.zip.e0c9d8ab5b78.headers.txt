@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Request-URL: https://apps.fs.usda.gov/fia/datamart/CSV/OR_PLOT.zip
+Final-URL: https://apps.fs.usda.gov/fia/datamart/CSV/OR_PLOT.zip
+Retrieved-At-UTC: 2026-09-03T07:21:47.5926586Z
+Retrieved-At-Local: 2026-09-03T15:21:47.5926586+08:00
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Accept-Ranges: bytes
+Date: Thu, 03 Sep 2026 07:21:47 GMT
+ETag: "91ac79f713add1:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+Content-Length: 1462284
+Content-Type: application/x-zip-compressed
+Last-Modified: Wed, 02 Sep 2026 00:25:57 GMT

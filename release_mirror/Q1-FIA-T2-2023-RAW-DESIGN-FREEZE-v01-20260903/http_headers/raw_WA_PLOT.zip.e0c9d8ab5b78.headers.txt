@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Request-URL: https://apps.fs.usda.gov/fia/datamart/CSV/WA_PLOT.zip
+Final-URL: https://apps.fs.usda.gov/fia/datamart/CSV/WA_PLOT.zip
+Retrieved-At-UTC: 2026-09-03T07:22:26.3955960Z
+Retrieved-At-Local: 2026-09-03T15:22:26.3950551+08:00
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Accept-Ranges: bytes
+Date: Thu, 03 Sep 2026 07:22:26 GMT
+ETag: "40b5d4f823add1:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+Content-Length: 848326
+Content-Type: application/x-zip-compressed
+Last-Modified: Wed, 02 Sep 2026 02:25:24 GMT

@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Request-URL: https://apps.fs.usda.gov/fiadb-api/fiadb_update_history?statecd=06,41,53
+Final-URL: https://apps.fs.usda.gov/fiadb-api/fiadb_update_history?statecd=06,41,53
+Retrieved-At-UTC: 2026-09-03T07:22:39.9635430Z
+Retrieved-At-Local: 2026-09-03T15:22:39.9635430+08:00
+Connection: keep-alive
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+Content-Security-Policy: frame-ancestors 'self'
+X-Frame-Options: SAMEORIGIN
+Vary: Cookie
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Date: Thu, 03 Sep 2026 07:22:40 GMT
+Set-Cookie: evalidator.session=eyJwZ1RpdGxlIjoiRklBREIgVXBkYXRlIEhpc3RvcnkifQ.apkgQA.FMmf-V8ZPu1IkSokoKnr12AhWC4; Secure; HttpOnly; Path=/
+Content-Length: 21347
+Content-Type: text/html; charset=utf-8

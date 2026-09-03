@@ -1,0 +1,7 @@
+﻿"check_id","status","details"
+"SOURCE_MANIFEST_EXISTS","PASS","C:\range_paper\02_raw\fia_t2_2023_raw_design_v01\manifests\TRANSFER_MANIFEST_v01.csv"
+"COMPACT_ROWS_SELECTED","PASS","selected=54"
+"SOURCE_HASH_AND_SIZE_VERIFIED","PASS","failures=0"
+"UNIQUE_SAFE_RELATIVE_PATHS","PASS","unique=54; selected=54"
+"RAW_TABLE_ZIPS_NOT_STAGED","PASS","raw_selected=0"
+"SCIENTIFIC_SCOPE_UNCHANGED","PASS","Transport-only copy/hash/manifest generation; no raw extraction or scientific analysis."

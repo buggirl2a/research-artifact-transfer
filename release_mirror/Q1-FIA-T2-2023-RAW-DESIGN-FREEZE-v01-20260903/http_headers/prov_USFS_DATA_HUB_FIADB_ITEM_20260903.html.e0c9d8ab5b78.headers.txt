@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Request-URL: https://data-usfs.hub.arcgis.com/documents/usfs::forest-inventory-and-analysis-database
+Final-URL: https://data-usfs.hub.arcgis.com/documents/usfs::forest-inventory-and-analysis-database
+Retrieved-At-UTC: 2026-09-03T07:22:56.2268087Z
+Retrieved-At-Local: 2026-09-03T15:22:56.2268087+08:00
+Connection: keep-alive
+Strict-Transport-Security: max-age=31536000, max-age=31536000
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests
+Date: Thu, 03 Sep 2026 07:22:56 GMT
+ETag: W/"ed53-eRUAIayr5xoplj3ry2U/SzmLe5Q"
+Content-Length: 60755
+Content-Type: text/html; charset=utf-8
