@@ -1,0 +1,42 @@
+﻿2026-09-04T02:40:08.1219506+08:00 [INFO] [7fa884dff808] BEGIN D08C2_CAORWA_OBSERVATIONAL_GAP_CLOSURE_v01. New observational root=C:\range_paper\02_raw\fia_t2_2023_observational_gap_v01
+2026-09-04T02:40:08.1385391+08:00 [INFO] [7fa884dff808] Scope guard: nine FIA DataMart ZIPs only; no PLOT re-download; no national SQLite; no Little/GBIF; no D08C2/species analysis.
+2026-09-04T02:40:08.1385391+08:00 [INFO] [7fa884dff808] RAW start CA|TREE -> C:\range_paper\02_raw\fia_t2_2023_observational_gap_v01\raw_table_zips\CA_TREE.zip
+2026-09-04T02:40:08.1556964+08:00 [INFO] [7fa884dff808] GET attempt 1/4: https://apps.fs.usda.gov/fia/datamart/CSV/CA_TREE.zip
+2026-09-04T02:41:14.1946426+08:00 [INFO] [7fa884dff808] RAW frozen CA|TREE bytes=73216041 sha256=47dffdd7b366a70bff05034f6dc1005050f06ed4e95890ad81b809a45373f3ff
+2026-09-04T02:41:14.1956407+08:00 [INFO] [7fa884dff808] RAW start CA|COND -> C:\range_paper\02_raw\fia_t2_2023_observational_gap_v01\raw_table_zips\CA_COND.zip
+2026-09-04T02:41:14.1976417+08:00 [INFO] [7fa884dff808] GET attempt 1/4: https://apps.fs.usda.gov/fia/datamart/CSV/CA_COND.zip
+2026-09-04T02:41:17.7319947+08:00 [INFO] [7fa884dff808] RAW frozen CA|COND bytes=2450836 sha256=acb6fa7269882846467a53678f39c23f1bc48710f18b879822539be5ff5d9625
+2026-09-04T02:41:17.7339993+08:00 [INFO] [7fa884dff808] RAW start CA|SUBPLOT -> C:\range_paper\02_raw\fia_t2_2023_observational_gap_v01\raw_table_zips\CA_SUBPLOT.zip
+2026-09-04T02:41:17.7339993+08:00 [INFO] [7fa884dff808] GET attempt 1/4: https://apps.fs.usda.gov/fia/datamart/CSV/CA_SUBPLOT.zip
+2026-09-04T02:41:20.9258501+08:00 [INFO] [7fa884dff808] RAW frozen CA|SUBPLOT bytes=2032729 sha256=0d8623bbc9bc4dd81cbdde32e4eee3cf1b31b49b409eb8a7dd727aaf98dd93d3
+2026-09-04T02:41:20.9258501+08:00 [INFO] [7fa884dff808] RAW start OR|TREE -> C:\range_paper\02_raw\fia_t2_2023_observational_gap_v01\raw_table_zips\OR_TREE.zip
+2026-09-04T02:41:20.9258501+08:00 [INFO] [7fa884dff808] GET attempt 1/4: https://apps.fs.usda.gov/fia/datamart/CSV/OR_TREE.zip
+2026-09-04T02:43:19.4685842+08:00 [INFO] [7fa884dff808] RAW frozen OR|TREE bytes=130963119 sha256=4a1c225208c30f3e27b0976797cdd07acef52a8defae32a745098707e2147629
+2026-09-04T02:43:19.4706366+08:00 [INFO] [7fa884dff808] RAW start OR|COND -> C:\range_paper\02_raw\fia_t2_2023_observational_gap_v01\raw_table_zips\OR_COND.zip
+2026-09-04T02:43:19.4726450+08:00 [INFO] [7fa884dff808] GET attempt 1/4: https://apps.fs.usda.gov/fia/datamart/CSV/OR_COND.zip
+2026-09-04T02:43:25.7242538+08:00 [INFO] [7fa884dff808] RAW frozen OR|COND bytes=3529265 sha256=58f1a9dfe77761c219464dc6c6ee738df3d33d0f63769bf36a13ce557048b8cd
+2026-09-04T02:43:25.7242538+08:00 [INFO] [7fa884dff808] RAW start OR|SUBPLOT -> C:\range_paper\02_raw\fia_t2_2023_observational_gap_v01\raw_table_zips\OR_SUBPLOT.zip
+2026-09-04T02:43:25.7242538+08:00 [INFO] [7fa884dff808] GET attempt 1/4: https://apps.fs.usda.gov/fia/datamart/CSV/OR_SUBPLOT.zip
+2026-09-04T02:43:28.8759224+08:00 [INFO] [7fa884dff808] RAW frozen OR|SUBPLOT bytes=2023449 sha256=9435bd92fd4fdfd0c3799ed834fd003f4119e36da23d8bccc0536628effc2636
+2026-09-04T02:43:28.8796328+08:00 [INFO] [7fa884dff808] RAW start WA|TREE -> C:\range_paper\02_raw\fia_t2_2023_observational_gap_v01\raw_table_zips\WA_TREE.zip
+2026-09-04T02:43:28.8796328+08:00 [INFO] [7fa884dff808] GET attempt 1/4: https://apps.fs.usda.gov/fia/datamart/CSV/WA_TREE.zip
+2026-09-04T02:44:42.6394827+08:00 [INFO] [7fa884dff808] RAW frozen WA|TREE bytes=86979872 sha256=0a8eabf74da2a4c8b72b4f966cf365cfb00a7fa919feea80064472b1ab68a848
+2026-09-04T02:44:42.6394827+08:00 [INFO] [7fa884dff808] RAW start WA|COND -> C:\range_paper\02_raw\fia_t2_2023_observational_gap_v01\raw_table_zips\WA_COND.zip
+2026-09-04T02:44:42.6584261+08:00 [INFO] [7fa884dff808] GET attempt 1/4: https://apps.fs.usda.gov/fia/datamart/CSV/WA_COND.zip
+2026-09-04T02:44:45.7430320+08:00 [INFO] [7fa884dff808] RAW frozen WA|COND bytes=2023936 sha256=68638f30517ccd9ac59c106632e0e7865d50b1eb14e76e491be408509e35fefb
+2026-09-04T02:44:45.7430320+08:00 [INFO] [7fa884dff808] RAW start WA|SUBPLOT -> C:\range_paper\02_raw\fia_t2_2023_observational_gap_v01\raw_table_zips\WA_SUBPLOT.zip
+2026-09-04T02:44:45.7430320+08:00 [INFO] [7fa884dff808] GET attempt 1/4: https://apps.fs.usda.gov/fia/datamart/CSV/WA_SUBPLOT.zip
+2026-09-04T02:44:48.3305896+08:00 [INFO] [7fa884dff808] RAW frozen WA|SUBPLOT bytes=1038606 sha256=fb8916f34f3ff1bdb3e4c2789fcd872d0584992640ea225ffae80874a401298a
+2026-09-04T02:44:48.6034688+08:00 [INFO] [7fa884dff808] Building species-blind frozen F0 plot authority for CA EVALID=62301
+2026-09-04T02:45:06.9934328+08:00 [INFO] [7fa884dff808] Species-blind streaming linkage profile CA TREE
+2026-09-04T02:46:07.6164162+08:00 [INFO] [7fa884dff808] Species-blind streaming linkage profile CA COND
+2026-09-04T02:46:13.3345771+08:00 [INFO] [7fa884dff808] Species-blind streaming linkage profile CA SUBPLOT
+2026-09-04T02:46:26.0242853+08:00 [INFO] [7fa884dff808] Building species-blind frozen F0 plot authority for OR EVALID=412301
+2026-09-04T02:46:45.5999106+08:00 [INFO] [7fa884dff808] Species-blind streaming linkage profile OR TREE
+2026-09-04T02:48:39.1209275+08:00 [INFO] [7fa884dff808] Species-blind streaming linkage profile OR COND
+2026-09-04T02:48:45.7659441+08:00 [INFO] [7fa884dff808] Species-blind streaming linkage profile OR SUBPLOT
+2026-09-04T02:48:58.2409730+08:00 [INFO] [7fa884dff808] Building species-blind frozen F0 plot authority for WA EVALID=532301
+2026-09-04T02:49:09.8306630+08:00 [INFO] [7fa884dff808] Species-blind streaming linkage profile WA TREE
+2026-09-04T02:50:20.3107935+08:00 [INFO] [7fa884dff808] Species-blind streaming linkage profile WA COND
+2026-09-04T02:50:23.7144657+08:00 [INFO] [7fa884dff808] Species-blind streaming linkage profile WA SUBPLOT
+2026-09-04T02:50:29.9447632+08:00 [INFO] [7fa884dff808] END D08C2_CAORWA_OBSERVATIONAL_GAP_CLOSURE_v01 final_status=GAP_CLOSED_READY_FOR_MAINLINE_D08C2_CONTRACT_FREEZE raw_assets=9/9 schema_rows=9 linkage_rows=12
