@@ -1,0 +1,39 @@
+{
+  "contract_id": "Q1_D09C_T2_FINAL_DESIGN_CORRECTION_CONTRACT_v02",
+  "nationwide_status": "PASS_READY_FOR_MAINLINE_FINAL_D09C_AUDIT",
+  "repair_class_selected_state_counts": {
+    "R0": 47,
+    "R2": 1
+  },
+  "r2_trigger_states": [
+    "WV"
+  ],
+  "wv_partner_unit": "4",
+  "wv_partner_status": "UNIQUE_MINIMUM_PUBLIC_PLOT_CENTROID_DISTANCE",
+  "selected_state_count": 48,
+  "ti_closed_state_count": 48,
+  "ma_state_counts": {
+    "COMPLETE": 16,
+    "PARTIAL": 32
+  },
+  "ca_or_wa_changed_states": [
+    "CA",
+    "OR",
+    "WA"
+  ],
+  "or_mismatch_rows": 4,
+  "wv_coordinate_evidence_rows": 18,
+  "repair_ledger_rows": 480,
+  "ti_rows": 5752,
+  "qc_status_counts": {
+    "PASS": 18
+  },
+  "runtime_seconds": 7.994,
+  "sqlite_tables_read": [
+    "PLOT",
+    "POP_ESTN_UNIT",
+    "POP_PLOT_STRATUM_ASSGN"
+  ],
+  "prohibited_data_read": [],
+  "downstream_tasks_run": []
+}

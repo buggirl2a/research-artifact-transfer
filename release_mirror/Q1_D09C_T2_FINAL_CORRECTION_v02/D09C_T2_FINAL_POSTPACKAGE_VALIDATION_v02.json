@@ -1,0 +1,15 @@
+{
+  "validation_id": "D09C_T2_FINAL_POSTPACKAGE_VALIDATION_v02",
+  "date": "2026-09-03",
+  "status": "PASS",
+  "nationwide_status": "PASS_READY_FOR_MAINLINE_FINAL_D09C_AUDIT",
+  "zip_path": "C:\\range_paper\\10_archive\\d09c_t2_final_correction_v02\\Q1_D09C_T2_FINAL_CORRECTION_REPRODUCIBLE_v02.zip",
+  "zip_size_bytes": 22496593,
+  "zip_sha256": "07cb461121c71ef46990fea3e0cf9d8f139fd873234b9f57910ff10c7c33752f",
+  "deterministic_rebuild_identical": true,
+  "manifested_member_count": 27,
+  "manifested_members_verified": 27,
+  "sha256sums_member_verified": true,
+  "predecessor_v01_embedded_sha256": "25f361eeeddbe02fd2f93d2daa0b0e974926a8d97965505a3bec37a65388ea7e",
+  "species_or_outcome_data_in_package": false
+}

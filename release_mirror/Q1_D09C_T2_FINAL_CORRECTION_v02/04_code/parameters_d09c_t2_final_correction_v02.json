@@ -1,0 +1,36 @@
+{
+  "contract_id": "Q1_D09C_T2_FINAL_DESIGN_CORRECTION_CONTRACT_v02",
+  "contract_sha256": "ee3d958d15e74bc54a1b8fc91b2870bf4eb89304f1ed684f980dd8bd4a9fe351",
+  "predecessor_zip_sha256": "25f361eeeddbe02fd2f93d2daa0b0e974926a8d97965505a3bec37a65388ea7e",
+  "repair_class_order": ["R0", "R1", "R2", "R3"],
+  "repair_class_selection": "select only within the lowest available valid class; repair magnitude never enters balance",
+  "within_class_ranking": [
+    "area_weighted_effective_block_imbalance",
+    "max_effective_block_imbalance",
+    "area_weighted_estimation_unit_imbalance",
+    "absolute_fold_A_plot_share_minus_0_4",
+    "temporal_center_abs_diff_years",
+    "temporal_distribution_l1_distance",
+    "temporal_sd_abs_diff_years",
+    "ascending_A_panel_tuple"
+  ],
+  "wv_sparse_eu": {"evalid": 542301, "estimation_unit": 3, "semantic_class_pattern": "^Inland Census Water Unit [0-9]+$"},
+  "partner_resolution": {
+    "stage_1": "unique same semantic class",
+    "stage_2_if_multiple": "unique minimum haversine distance between full-frame public-coordinate arithmetic centroids",
+    "distance_tolerance": null,
+    "tie_rule": "exact tie is ambiguous",
+    "unit_number_used": false,
+    "plot_count_used": false,
+    "area_used": false,
+    "balance_used": false,
+    "time_used": false,
+    "species_or_outcome_used": false
+  },
+  "merged_domain_rule": "merge sparse EU and resolved partner before candidate construction; one common coarsened block for both folds; preserve all source strata and area",
+  "calibration_relative_tolerance": 1e-8,
+  "primary_estimator": "fold-specific TI",
+  "ma_role": "sensitivity feasibility only",
+  "full_evaluation_expns_reuse_allowed": false,
+  "prohibited_data": ["TREE", "species identity/outcome", "abundance", "detection", "occupancy", "D08C2", "range/Little", "R1/R2", "World 0", "traits", "phylogeny", "climate", "real Q1"]
+}

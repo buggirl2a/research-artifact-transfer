@@ -1,0 +1,4 @@
+state_abbr,component_evalid,v01_candidate_id,v01_A_panels,v01_B_panels,v01_repair_class,v01_coarsened_eu_count,v01_balance,v02_candidate_id,v02_A_panels,v02_B_panels,v02_repair_class,v02_coarsened_eu_count,v02_balance,candidate_changed,rerank_reason
+CA,62301,T2_CA_A2-4_B1-3-5,2-4,1-3-5,R1,1,0.0700900575104396,T2_CA_A2-3_B1-4-5,2-3,1-4-5,R0,0,0.14638941730152,YES,R0 is selected before any R1 balance comparison; within R0 the frozen balance/time/tie tuple applies
+OR,412301,T2_OR_A4-5_B1-2-3,4-5,1-2-3,R1,1,0.057621201926595124,T2_OR_A1-2_B3-4-5,1-2,3-4-5,R0,0,0.10279675276756536,YES,R0 is selected before any R1 balance comparison; within R0 the frozen balance/time/tie tuple applies
+WA,532301,T2_WA_A1-3_B2-4-5,1-3,2-4-5,R1,2,0.03771843808593887,T2_WA_A4-5_B1-2-3,4-5,1-2-3,R0,0,0.13000905451819605,YES,R0 is selected before any R1 balance comparison; within R0 the frozen balance/time/tie tuple applies

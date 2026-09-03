@@ -1,0 +1,164 @@
+{
+  "audit_id": "D09C_T2_FINAL_INDEPENDENT_VALIDATION_v02",
+  "date": "2026-09-03",
+  "mode": "output-only independent verification; no FIADB query and no species data",
+  "status": "PASS",
+  "check_count": 14,
+  "checks": [
+    {
+      "check": "required_row_counts",
+      "status": "PASS",
+      "observed": {
+        "ledger": 480,
+        "selected": 48,
+        "rerank": 3,
+        "trigger": 48,
+        "merged": 10,
+        "or": 4
+      },
+      "expected": {
+        "ledger": 480,
+        "selected": 48,
+        "rerank": 3,
+        "trigger": 48,
+        "merged": 10,
+        "or": 4
+      }
+    },
+    {
+      "check": "ten_candidates_each",
+      "status": "PASS",
+      "observed": 48,
+      "expected": 48
+    },
+    {
+      "check": "repair_hierarchy_and_rank_reproduce",
+      "status": "PASS",
+      "observed": "all states",
+      "expected": "lowest valid class then exact within-class tuple"
+    },
+    {
+      "check": "selected_class_counts",
+      "status": "PASS",
+      "observed": {
+        "R0": 47,
+        "R2": 1
+      },
+      "expected": {
+        "R0": 47,
+        "R2": 1
+      }
+    },
+    {
+      "check": "ca_or_wa_reranked_to_r0",
+      "status": "PASS",
+      "observed": [
+        "CA",
+        "OR",
+        "WA"
+      ],
+      "expected": [
+        "CA",
+        "OR",
+        "WA"
+      ]
+    },
+    {
+      "check": "r2_trigger_only_wv",
+      "status": "PASS",
+      "observed": [
+        "WV"
+      ],
+      "expected": [
+        "WV"
+      ]
+    },
+    {
+      "check": "wv_partner_unique_by_frozen_rule",
+      "status": "PASS",
+      "observed": [
+        [
+          "4",
+          "110.03491339195445",
+          "YES"
+        ],
+        [
+          "2",
+          "211.57943439553924",
+          "NO"
+        ]
+      ],
+      "expected": "Unit 4 unique minimum among same-class Units 2 and 4"
+    },
+    {
+      "check": "partner_selection_forbidden_metrics_absent",
+      "status": "PASS",
+      "observed": "all rows",
+      "expected": "NO"
+    },
+    {
+      "check": "partner_coordinate_evidence_reproduces",
+      "status": "PASS",
+      "observed": {
+        "rows": 18,
+        "distances": {
+          "2": 211.57943439553924,
+          "4": 110.03491339195445
+        }
+      },
+      "expected": {
+        "units": [
+          "2",
+          "3",
+          "4"
+        ],
+        "rows": 18
+      }
+    },
+    {
+      "check": "wv_all_ten_r2_candidates_valid",
+      "status": "PASS",
+      "observed": 10,
+      "expected": 10
+    },
+    {
+      "check": "ti_nationwide_area_closure",
+      "status": "PASS",
+      "observed": {
+        "states": 48,
+        "rows": 5752
+      },
+      "expected": {
+        "states": 48,
+        "folds": 2
+      }
+    },
+    {
+      "check": "or_four_retained",
+      "status": "PASS",
+      "observed": [
+        "24470021010900",
+        "24385743010900",
+        "24385837010900",
+        "24359830010900"
+      ],
+      "expected": "four unique resolved retained records"
+    },
+    {
+      "check": "builder_qc_all_pass",
+      "status": "PASS",
+      "observed": {
+        "PASS": 18
+      },
+      "expected": {
+        "PASS": 18
+      }
+    },
+    {
+      "check": "status_ready_for_mainline",
+      "status": "PASS",
+      "observed": "PASS_READY_FOR_MAINLINE_FINAL_D09C_AUDIT",
+      "expected": "PASS_READY_FOR_MAINLINE_FINAL_D09C_AUDIT"
+    }
+  ]
+}

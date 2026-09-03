@@ -1,0 +1,11 @@
+{
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "network_access": false,
+  "database_mode": "read-only; SQLite authorizer whitelist",
+  "sqlite_tables_read": [
+    "PLOT",
+    "POP_ESTN_UNIT",
+    "POP_PLOT_STRATUM_ASSGN"
+  ]
+}

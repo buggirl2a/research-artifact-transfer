@@ -1,0 +1,49 @@
+state_fips,state_abbr,state_name,component_evalid,final_repair_class,final_candidate_id,final_A_panels,final_B_panels,final_rank_within_admissible_class,native_missing_parent_poststrata,within_eu_symmetric_coarsening_used,sparse_eu_fallback_used,sparse_eu_partner,population_area_preserved_100pct,fold_specific_ti_closed,ma_sensitivity_feasibility,final_state_status,mainline_final_acceptance,selection_reason
+01,AL,Alabama,12301,R0,T2_AL_A3-4_B1-2-5,3-4,1-2-5,1,0,0,0,,1,YES,COMPLETE,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+05,AR,Arkansas,52301,R0,T2_AR_A1-2_B3-4-5,1-2,3-4-5,1,0,0,0,,1,YES,COMPLETE,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+04,AZ,Arizona,42301,R0,T2_AZ_A1-3_B2-4-5,1-3,2-4-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+06,CA,California,62301,R0,T2_CA_A2-3_B1-4-5,2-3,1-4-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+08,CO,Colorado,82301,R0,T2_CO_A2-4_B1-3-5,2-4,1-3-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+09,CT,Connecticut,92301,R0,T2_CT_A4-5_B1-2-3,4-5,1-2-3,1,0,0,0,,1,YES,COMPLETE,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+10,DE,Delaware,102301,R0,T2_DE_A3-5_B1-2-4,3-5,1-2-4,1,0,0,0,,1,YES,COMPLETE,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+12,FL,Florida,122301,R0,T2_FL_A3-4_B1-2-5,3-4,1-2-5,1,0,0,0,,1,YES,COMPLETE,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+13,GA,Georgia,132301,R0,T2_GA_A3-5_B1-2-4,3-5,1-2-4,1,0,0,0,,1,YES,COMPLETE,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+19,IA,Iowa,192301,R0,T2_IA_A1-4_B2-3-5,1-4,2-3-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+16,ID,Idaho,162301,R0,T2_ID_A1-4_B2-3-5,1-4,2-3-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+17,IL,Illinois,172301,R0,T2_IL_A3-5_B1-2-4,3-5,1-2-4,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+18,IN,Indiana,182301,R0,T2_IN_A3-5_B1-2-4,3-5,1-2-4,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+20,KS,Kansas,202301,R0,T2_KS_A1-5_B2-3-4,1-5,2-3-4,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+21,KY,Kentucky,212301,R0,T2_KY_A2-3_B1-4-5,2-3,1-4-5,1,0,0,0,,1,YES,COMPLETE,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+22,LA,Louisiana,222301,R0,T2_LA_A3-5_B1-2-4,3-5,1-2-4,1,0,0,0,,1,YES,COMPLETE,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+25,MA,Massachusetts,252301,R0,T2_MA_A2-4_B1-3-5,2-4,1-3-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+24,MD,Maryland,242301,R0,T2_MD_A1-5_B2-3-4,1-5,2-3-4,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+23,ME,Maine,232301,R0,T2_ME_A1-5_B2-3-4,1-5,2-3-4,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+26,MI,Michigan,262301,R0,T2_MI_A2-4_B1-3-5,2-4,1-3-5,1,0,0,0,,1,YES,COMPLETE,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+27,MN,Minnesota,272301,R0,T2_MN_A2-3_B1-4-5,2-3,1-4-5,1,0,0,0,,1,YES,COMPLETE,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+29,MO,Missouri,292301,R0,T2_MO_A4-5_B1-2-3,4-5,1-2-3,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+28,MS,Mississippi,282301,R0,T2_MS_A4-5_B1-2-3,4-5,1-2-3,1,0,0,0,,1,YES,COMPLETE,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+30,MT,Montana,302201,R0,T2_MT_A2-4_B1-3-5,2-4,1-3-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+37,NC,North Carolina,372301,R0,T2_NC_A4-5_B1-2-3,4-5,1-2-3,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+38,ND,North Dakota,382301,R0,T2_ND_A1-5_B2-3-4,1-5,2-3-4,1,0,0,0,,1,YES,COMPLETE,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+31,NE,Nebraska,312301,R0,T2_NE_A1-5_B2-3-4,1-5,2-3-4,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+33,NH,New Hampshire,332301,R0,T2_NH_A1-4_B2-3-5,1-4,2-3-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+34,NJ,New Jersey,342301,R0,T2_NJ_A3-4_B1-2-5,3-4,1-2-5,1,0,0,0,,1,YES,COMPLETE,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+35,NM,New Mexico,352201,R0,T2_NM_A1-4_B2-3-5,1-4,2-3-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+32,NV,Nevada,322301,R0,T2_NV_A2-5_B1-3-4,2-5,1-3-4,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+36,NY,New York,362301,R0,T2_NY_A1-3_B2-4-5,1-3,2-4-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+39,OH,Ohio,392301,R0,T2_OH_A1-4_B2-3-5,1-4,2-3-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+40,OK,Oklahoma,402301,R0,T2_OK_A2-4_B1-3-5,2-4,1-3-5,1,0,0,0,,1,YES,COMPLETE,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+41,OR,Oregon,412301,R0,T2_OR_A1-2_B3-4-5,1-2,3-4-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+42,PA,Pennsylvania,422301,R0,T2_PA_A1-4_B2-3-5,1-4,2-3-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+44,RI,Rhode Island,442301,R0,T2_RI_A4-5_B1-2-3,4-5,1-2-3,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+45,SC,South Carolina,452301,R0,T2_SC_A2-5_B1-3-4,2-5,1-3-4,1,0,0,0,,1,YES,COMPLETE,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+46,SD,South Dakota,462301,R0,T2_SD_A2-4_B1-3-5,2-4,1-3-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+47,TN,Tennessee,472301,R0,T2_TN_A1-2_B3-4-5,1-2,3-4-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+48,TX,Texas,482301,R0,T2_TX_A2-5_B1-3-4,2-5,1-3-4,1,0,0,0,,1,YES,COMPLETE,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+49,UT,Utah,492201,R0,T2_UT_A1-4_B2-3-5,1-4,2-3-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+51,VA,Virginia,512301,R0,T2_VA_A2-5_B1-3-4,2-5,1-3-4,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+50,VT,Vermont,502301,R0,T2_VT_A2-4_B1-3-5,2-4,1-3-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+53,WA,Washington,532301,R0,T2_WA_A4-5_B1-2-3,4-5,1-2-3,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+55,WI,Wisconsin,552301,R0,T2_WI_A1-2_B3-4-5,1-2,3-4-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
+54,WV,West Virginia,542301,R2,T2_WV_A3-5_B1-2-4,3-5,1-2-4,1,1,0,1,4,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R2; within-class rank 1 by frozen balance/time/tie tuple
+56,WY,Wyoming,562301,R0,T2_WY_A1-3_B2-4-5,1-3,2-4-5,1,0,0,0,,1,YES,PARTIAL,DESIGN_COMPLETE,NOT_DECIDED,lowest available repair class R0; within-class rank 1 by frozen balance/time/tie tuple
