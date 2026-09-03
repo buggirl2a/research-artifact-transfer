@@ -1,0 +1,60 @@
+{
+  "contract_id": "Q1_D09C_T2_BOUNDED_COMPLETION_CONTRACT_v01",
+  "contract_sha256": "6a9955890c43d518a2bddac27e889eda908c4a32cbc87dae43604c7c2c7b1885",
+  "date": "2026-09-03",
+  "frame_id": "T2",
+  "frame_definition": "2023 reporting frame for 45 states plus 2022 MT/NM/UT",
+  "required_evaluation_type": "EXPVOL",
+  "required_new_component_evalids": {"CA": 62301, "OR": 412301, "WA": 532301},
+  "panels": [1, 2, 3, 4, 5],
+  "fold_A_panel_count": 2,
+  "fold_B_panel_count": 3,
+  "candidate_count_per_state": 10,
+  "symmetric_coarsening_rule": "If either fold has zero sample in any parent poststratum, collapse both folds and every parent poststratum in that same estimation unit to one estimation-unit design block.",
+  "true_block_rule": "Candidate is blocked if either fold has zero sample after estimation-unit-level symmetric coarsening.",
+  "population_area_rule": "Use POP_STRATUM.EXPNS * POP_STRATUM.P2POINTCNT and preserve the exact sum without an area-recovery threshold.",
+  "calibration_relative_tolerance": 1e-8,
+  "ranking": {
+    "comparison": "strict lexicographic; no closeness or recovery threshold",
+    "priority_1_design_validity": [
+      "candidate_design_valid descending",
+      "true_eu_level_block_count ascending",
+      "area_preservation_failure_count ascending",
+      "unresolved_design_key_count ascending"
+    ],
+    "priority_2_design_balance": [
+      "area_weighted_effective_block_imbalance ascending",
+      "max_effective_block_imbalance ascending",
+      "area_weighted_estimation_unit_imbalance ascending",
+      "absolute_fold_A_plot_share_minus_0_4 ascending"
+    ],
+    "priority_3_temporal_balance": [
+      "temporal_center_abs_diff_years ascending",
+      "temporal_distribution_l1_distance ascending",
+      "temporal_sd_abs_diff_years ascending"
+    ],
+    "tie_break": "ascending A-panel tuple"
+  },
+  "primary_estimator": "fold-specific TI",
+  "ma_role": "sensitivity feasibility only",
+  "full_evaluation_expns_reuse_allowed": false,
+  "survey_statecd_invyr_uniqueness_required": false,
+  "or_assignment_plot_mismatch_treatment": "retain when PLT_CN resolves; report exact ledger",
+  "prohibited_data": [
+    "TREE",
+    "species outcomes",
+    "abundance",
+    "detection",
+    "occupancy",
+    "D08C2",
+    "range geometry",
+    "Little",
+    "WCVP",
+    "R1/R2",
+    "World 0",
+    "traits",
+    "phylogeny",
+    "climate",
+    "real Q1"
+  ]
+}

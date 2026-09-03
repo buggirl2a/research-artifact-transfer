@@ -1,0 +1,158 @@
+{
+  "audit_id": "D09C_T2_INDEPENDENT_VALIDATION_v01",
+  "date": "2026-09-03",
+  "mode": "output-only independent verification; no FIADB query and no species data",
+  "status": "PASS",
+  "check_count": 14,
+  "checks": [
+    {
+      "check": "required_output_rows",
+      "status": "PASS",
+      "observed": {
+        "frame": 48,
+        "candidates": 480,
+        "tops": 48,
+        "ma": 96
+      },
+      "expected": {
+        "frame": 48,
+        "candidates": 480,
+        "tops": 48,
+        "ma": 96
+      }
+    },
+    {
+      "check": "frame_evalids_real",
+      "status": "PASS",
+      "observed": 48,
+      "expected": 48
+    },
+    {
+      "check": "new_evalids_exact",
+      "status": "PASS",
+      "observed": {
+        "CA": 62301,
+        "OR": 412301,
+        "WA": 532301
+      },
+      "expected": {
+        "CA": 62301,
+        "OR": 412301,
+        "WA": 532301
+      }
+    },
+    {
+      "check": "five_panel_and_ten_candidate_closure",
+      "status": "PASS",
+      "observed": "all rows",
+      "expected": "five panels; ten candidates"
+    },
+    {
+      "check": "ranking_reproduces_exactly",
+      "status": "PASS",
+      "observed": 48,
+      "expected": 48
+    },
+    {
+      "check": "single_true_block",
+      "status": "PASS",
+      "observed": {
+        "valid": 47,
+        "blocked": [
+          "WV"
+        ]
+      },
+      "expected": {
+        "valid": 47,
+        "blocked": [
+          "WV"
+        ]
+      }
+    },
+    {
+      "check": "mechanical_top_coarsening_states",
+      "status": "PASS",
+      "observed": [
+        "CA",
+        "OR",
+        "WA",
+        "WV"
+      ],
+      "expected": [
+        "CA",
+        "OR",
+        "WA",
+        "WV"
+      ]
+    },
+    {
+      "check": "coarsening_preserves_area",
+      "status": "PASS",
+      "observed": 56,
+      "expected": "all rows"
+    },
+    {
+      "check": "ti_47_state_fold_closure",
+      "status": "PASS",
+      "observed": {
+        "states": 47,
+        "rows": 5080
+      },
+      "expected": {
+        "states": 47,
+        "folds_each": 2
+      }
+    },
+    {
+      "check": "ma_counts",
+      "status": "PASS",
+      "observed": {
+        "COMPLETE": 16,
+        "PARTIAL": 31,
+        "UNAVAILABLE": 1
+      },
+      "expected": {
+        "COMPLETE": 16,
+        "PARTIAL": 31,
+        "UNAVAILABLE": 1
+      }
+    },
+    {
+      "check": "wv_exact_block_evidence",
+      "status": "PASS",
+      "observed": 10,
+      "expected": 10
+    },
+    {
+      "check": "or_exact_four_retained",
+      "status": "PASS",
+      "observed": [
+        "24470021010900",
+        "24385743010900",
+        "24385837010900",
+        "24359830010900"
+      ],
+      "expected": "four unique resolved PLT_CN"
+    },
+    {
+      "check": "builder_qc_all_pass",
+      "status": "PASS",
+      "observed": {
+        "PASS": 22
+      },
+      "expected": {
+        "PASS": 22
+      }
+    },
+    {
+      "check": "status_allowlists",
+      "status": "PASS",
+      "observed": [
+        "DESIGN_BLOCKED_ESTIMATION_UNIT_UNSAMPLED",
+        "DESIGN_COMPLETE",
+        "DESIGN_COMPLETE_WITH_SYMMETRIC_COARSENING"
+      ],
+      "expected": "contract state allowlist"
+    }
+  ]
+}

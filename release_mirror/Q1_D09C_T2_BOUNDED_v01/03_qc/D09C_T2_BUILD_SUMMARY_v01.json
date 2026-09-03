@@ -1,0 +1,40 @@
+{
+  "contract_id": "Q1_D09C_T2_BOUNDED_COMPLETION_CONTRACT_v01",
+  "nationwide_status": "DESIGN_BLOCKED",
+  "complete_expvol_states": 48,
+  "input_block_states": [],
+  "states_with_legal_2v3_design": 47,
+  "selected_coarsening_state_count": 4,
+  "selected_coarsening_states": [
+    "CA",
+    "OR",
+    "WA",
+    "WV"
+  ],
+  "valid_selected_coarsening_state_count": 3,
+  "valid_selected_coarsening_states": [
+    "CA",
+    "OR",
+    "WA"
+  ],
+  "true_eu_block_states": [
+    "WV"
+  ],
+  "ti_closed_states": 47,
+  "ma_state_counts": {
+    "COMPLETE": 16,
+    "PARTIAL": 31,
+    "UNAVAILABLE": 1
+  },
+  "wv_audit_rows": 10,
+  "or_mismatch_rows": 4,
+  "candidate_rows": 480,
+  "ti_design_rows": 5080,
+  "coarsening_audit_rows": 56,
+  "qc_status_counts": {
+    "PASS": 22
+  },
+  "runtime_seconds": 3.249,
+  "prohibited_data_read": [],
+  "downstream_tasks_run": []
+}

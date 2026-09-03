@@ -1,0 +1,97 @@
+state_fips,state_abbr,candidate_id,fold,selected_panels,effective_design_block_count,panel_by_effective_block_count,empty_panel_block_count,sparse_panel_block_count_n_lt_2,ma_fold_feasibility,ma_role,ma_used_to_select_primary_design,reason,ma_state_feasibility
+01,AL,T2_AL_A3-4_B1-2-5,A,3-4,25,50,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+01,AL,T2_AL_A3-4_B1-2-5,B,1-2-5,25,75,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+05,AR,T2_AR_A1-2_B3-4-5,A,1-2,28,56,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+05,AR,T2_AR_A1-2_B3-4-5,B,3-4-5,28,84,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+04,AZ,T2_AZ_A1-3_B2-4-5,A,1-3,75,150,0,1,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,PARTIAL
+04,AZ,T2_AZ_A1-3_B2-4-5,B,2-4-5,75,225,2,10,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+06,CA,T2_CA_A2-4_B1-3-5,A,2-4,180,360,14,58,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+06,CA,T2_CA_A2-4_B1-3-5,B,1-3-5,180,540,22,74,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+08,CO,T2_CO_A2-4_B1-3-5,A,2-4,222,444,7,31,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+08,CO,T2_CO_A2-4_B1-3-5,B,1-3-5,222,666,12,41,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+09,CT,T2_CT_A4-5_B1-2-3,A,4-5,8,16,0,2,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+09,CT,T2_CT_A4-5_B1-2-3,B,1-2-3,8,24,0,1,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+10,DE,T2_DE_A3-5_B1-2-4,A,3-5,7,14,0,1,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+10,DE,T2_DE_A3-5_B1-2-4,B,1-2-4,7,21,0,2,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+12,FL,T2_FL_A3-4_B1-2-5,A,3-4,24,48,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+12,FL,T2_FL_A3-4_B1-2-5,B,1-2-5,24,72,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+13,GA,T2_GA_A3-5_B1-2-4,A,3-5,23,46,0,1,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+13,GA,T2_GA_A3-5_B1-2-4,B,1-2-4,23,69,0,1,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+19,IA,T2_IA_A1-4_B2-3-5,A,1-4,29,58,3,10,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+19,IA,T2_IA_A1-4_B2-3-5,B,2-3-5,29,87,4,9,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+16,ID,T2_ID_A1-4_B2-3-5,A,1-4,147,294,4,15,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+16,ID,T2_ID_A1-4_B2-3-5,B,2-3-5,147,441,9,31,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+17,IL,T2_IL_A3-5_B1-2-4,A,3-5,27,54,1,4,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+17,IL,T2_IL_A3-5_B1-2-4,B,1-2-4,27,81,1,5,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+18,IN,T2_IN_A3-5_B1-2-4,A,3-5,34,68,5,12,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+18,IN,T2_IN_A3-5_B1-2-4,B,1-2-4,34,102,1,15,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+20,KS,T2_KS_A1-5_B2-3-4,A,1-5,22,44,1,5,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+20,KS,T2_KS_A1-5_B2-3-4,B,2-3-4,22,66,0,5,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,PARTIAL
+21,KY,T2_KY_A2-3_B1-4-5,A,2-3,29,58,0,1,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+21,KY,T2_KY_A2-3_B1-4-5,B,1-4-5,29,87,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+22,LA,T2_LA_A3-5_B1-2-4,A,3-5,26,52,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+22,LA,T2_LA_A3-5_B1-2-4,B,1-2-4,26,78,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+25,MA,T2_MA_A2-4_B1-3-5,A,2-4,10,20,0,1,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,PARTIAL
+25,MA,T2_MA_A2-4_B1-3-5,B,1-3-5,10,30,1,2,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+24,MD,T2_MD_A1-5_B2-3-4,A,1-5,25,50,1,5,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+24,MD,T2_MD_A1-5_B2-3-4,B,2-3-4,25,75,1,4,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+23,ME,T2_ME_A1-5_B2-3-4,A,1-5,63,126,1,9,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+23,ME,T2_ME_A1-5_B2-3-4,B,2-3-4,63,189,3,12,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+26,MI,T2_MI_A2-4_B1-3-5,A,2-4,57,114,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+26,MI,T2_MI_A2-4_B1-3-5,B,1-3-5,57,171,0,5,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+27,MN,T2_MN_A2-3_B1-4-5,A,2-3,57,114,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+27,MN,T2_MN_A2-3_B1-4-5,B,1-4-5,57,171,0,2,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+29,MO,T2_MO_A4-5_B1-2-3,A,4-5,46,92,1,6,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+29,MO,T2_MO_A4-5_B1-2-3,B,1-2-3,46,138,4,11,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+28,MS,T2_MS_A4-5_B1-2-3,A,4-5,21,42,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+28,MS,T2_MS_A4-5_B1-2-3,B,1-2-3,21,63,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+30,MT,T2_MT_A2-4_B1-3-5,A,2-4,230,460,7,34,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+30,MT,T2_MT_A2-4_B1-3-5,B,1-3-5,230,690,13,51,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+37,NC,T2_NC_A4-5_B1-2-3,A,4-5,22,44,1,1,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+37,NC,T2_NC_A4-5_B1-2-3,B,1-2-3,22,66,0,2,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,PARTIAL
+38,ND,T2_ND_A1-5_B2-3-4,A,1-5,9,18,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+38,ND,T2_ND_A1-5_B2-3-4,B,2-3-4,9,27,0,3,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+31,NE,T2_NE_A1-5_B2-3-4,A,1-5,15,30,0,2,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,PARTIAL
+31,NE,T2_NE_A1-5_B2-3-4,B,2-3-4,15,45,1,3,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+33,NH,T2_NH_A1-4_B2-3-5,A,1-4,18,36,2,3,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+33,NH,T2_NH_A1-4_B2-3-5,B,2-3-5,18,54,0,2,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,PARTIAL
+34,NJ,T2_NJ_A3-4_B1-2-5,A,3-4,11,22,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+34,NJ,T2_NJ_A3-4_B1-2-5,B,1-2-5,11,33,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+35,NM,T2_NM_A1-4_B2-3-5,A,1-4,157,314,3,18,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+35,NM,T2_NM_A1-4_B2-3-5,B,2-3-5,157,471,3,15,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+32,NV,T2_NV_A2-5_B1-3-4,A,2-5,60,120,1,4,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+32,NV,T2_NV_A2-5_B1-3-4,B,1-3-4,60,180,1,6,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+36,NY,T2_NY_A1-3_B2-4-5,A,1-3,74,148,5,13,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+36,NY,T2_NY_A1-3_B2-4-5,B,2-4-5,74,222,8,27,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+39,OH,T2_OH_A1-4_B2-3-5,A,1-4,46,92,3,9,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+39,OH,T2_OH_A1-4_B2-3-5,B,2-3-5,46,138,4,16,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+40,OK,T2_OK_A2-4_B1-3-5,A,2-4,26,52,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+40,OK,T2_OK_A2-4_B1-3-5,B,1-3-5,26,78,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+41,OR,T2_OR_A4-5_B1-2-3,A,4-5,122,244,2,15,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+41,OR,T2_OR_A4-5_B1-2-3,B,1-2-3,122,366,7,31,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+42,PA,T2_PA_A1-4_B2-3-5,A,1-4,61,122,4,13,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+42,PA,T2_PA_A1-4_B2-3-5,B,2-3-5,61,183,10,24,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+44,RI,T2_RI_A4-5_B1-2-3,A,4-5,8,16,1,1,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+44,RI,T2_RI_A4-5_B1-2-3,B,1-2-3,8,24,0,2,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,PARTIAL
+45,SC,T2_SC_A2-5_B1-3-4,A,2-5,13,26,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+45,SC,T2_SC_A2-5_B1-3-4,B,1-3-4,13,39,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+46,SD,T2_SD_A2-4_B1-3-5,A,2-4,18,36,1,2,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+46,SD,T2_SD_A2-4_B1-3-5,B,1-3-5,18,54,1,4,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+47,TN,T2_TN_A1-2_B3-4-5,A,1-2,21,42,0,0,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,PARTIAL
+47,TN,T2_TN_A1-2_B3-4-5,B,3-4-5,21,63,1,1,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+48,TX,T2_TX_A2-5_B1-3-4,A,2-5,34,68,0,1,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+48,TX,T2_TX_A2-5_B1-3-4,B,1-3-4,34,102,0,2,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,COMPLETE
+49,UT,T2_UT_A1-4_B2-3-5,A,1-4,135,270,3,13,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+49,UT,T2_UT_A1-4_B2-3-5,B,2-3-5,135,405,5,20,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+51,VA,T2_VA_A2-5_B1-3-4,A,2-5,26,52,2,6,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+51,VA,T2_VA_A2-5_B1-3-4,B,1-3-4,26,78,3,6,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+50,VT,T2_VT_A2-4_B1-3-5,A,2-4,17,34,2,3,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+50,VT,T2_VT_A2-4_B1-3-5,B,1-3-5,17,51,1,3,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+53,WA,T2_WA_A1-3_B2-4-5,A,1-3,73,146,1,13,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+53,WA,T2_WA_A1-3_B2-4-5,B,2-4-5,73,219,2,14,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+55,WI,T2_WI_A1-2_B3-4-5,A,1-2,62,124,2,4,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+55,WI,T2_WI_A1-2_B3-4-5,B,3-4-5,62,186,0,4,COMPLETE,SENSITIVITY_FEASIBILITY_ONLY,NO,All selected panel-by-block cells represented,PARTIAL
+56,WY,T2_WY_A1-3_B2-4-5,A,1-3,97,194,1,17,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+56,WY,T2_WY_A1-3_B2-4-5,B,2-4-5,97,291,6,19,PARTIAL,SENSITIVITY_FEASIBILITY_ONLY,NO,Some single panels lack effective-block support; TI remains closed,PARTIAL
+54,WV,T2_WV_A3-5_B1-2-4,A,3-5,26,52,1,4,UNAVAILABLE,SENSITIVITY_FEASIBILITY_ONLY,NO,Mechanical top candidate has an estimation-unit-level unsampled fold; primary design is blocked.,UNAVAILABLE
+54,WV,T2_WV_A3-5_B1-2-4,B,1-2-4,26,78,5,7,UNAVAILABLE,SENSITIVITY_FEASIBILITY_ONLY,NO,Mechanical top candidate has an estimation-unit-level unsampled fold; primary design is blocked.,UNAVAILABLE
