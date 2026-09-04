@@ -1,0 +1,17 @@
+﻿QC_ID,CHECK,STATUS,EVIDENCE_OR_METHOD,BLOCKING,NOTES
+QC01,Frozen v9.5 Field Guide identity/hash present in prior project freeze,PASS_IDENTITY,Local path + SHA256 09279b80db8b4d516599f621b7bda851fcf727825eeecfe93bc65d6071a2d1e7,NO,Bytes not reread in this runtime.
+QC02,Frozen FIADB v9.4 guide identity/hash present in prior project freeze,PASS_IDENTITY,Local path + SHA256 ec735ead3852ba6dbb65cb7257b4f8e0795d4c641be4d625ed81ce64eeba2833,NO,Bytes not reread in this runtime.
+QC03,Master/Mainland/NFS P2/3 exclusion semantics,PASS,Official national Field Guide + PNW regional manuals,NO,State alone explicitly insufficient.
+QC04,PLOT.MANUAL visit-version semantics,PASS,FIADB v9.4 PLOT 2.4.27,NO,Exact version must drive list authority.
+QC05,PLOT.DESIGNCD semantics,PASS,FIADB v9.4 PLOT 2.4.17,NO,Design identity only; not a species-list selector.
+QC06,SURVEY.RSCD distinguished from NFS exclusion region,PASS,FIADB v9.4 SURVEY 2.1.7,NO,RSCD values are FIA work units.
+QC07,Historical NFS exclusion list is version-stable,FAIL_EXPECTED,FIADB v9.1 update notes show additions/deletions/reassignments,YES,Requires version-matched authority.
+QC08,Current REF_SPECIES retains historical geographic/manual applicability flags,FAIL_EXPECTED,FIADB v9.2 update tables show deletions including work-unit flags and MANUAL_START/MANUAL_END,YES,Current REF_SPECIES cannot reconstruct full historical applicability.
+QC09,Official current Tree Species List route located,PASS_ROUTE_ONLY,FIA DataMart -> usfs-public.box.com/v/FIA-TreeSpeciesList,NO,Current list alone does not close 2017-2023.
+QC10,Current Tree Species List raw bytes frozen by this task,NOT_PERFORMED_NOT_CLOSURE_SUFFICIENT,Box route identified; runtime download failed; current asset alone insufficient,NO,No substitute or secondary copy promoted to authority.
+QC11,Exact visit-level office-assigned NFS region resolvable from documented public FIADB field,BLOCK,PNW manuals expose operational downloaded code; no public PLOT/PLOTSNAP mapping found in v9.4 documentation,YES,Do not infer from state or RSCD.
+QC12,Version-matched historical list/exclusion matrices frozen for every target PLOT.MANUAL,BLOCK,Target 2017-2023 spans multiple guide versions; not all versioned matrices are frozen here,YES,Required before nationwide 0/1 instantiation.
+QC13,DRC/woodland taxa treated as automatic ineligible,PASS_NEGATIVE,Official FIA forest definitions + Field Guide,NO,They are tally tree species measured at DRC; eligibility remains list/region dependent.
+QC14,D08C2 v01 survivor result used to tune rules,PASS_NO,Not accessed,NO,Scientific boundary preserved.
+QC15,Corrected D08C2 executed,PASS_NO,Not run,NO,STOP before computation.
+QC16,Final status,INPUT_BLOCKED_REQUIRED_OFFICIAL_ASSET_MISSING,Blockers QC11 and QC12,YES,Semantics closed; operational authority incomplete.
