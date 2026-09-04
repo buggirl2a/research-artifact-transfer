@@ -1,0 +1,7 @@
+{
+  "task_id": "D10A_REAL_LAYOUT_NONORACLE_OBSERVATION_CALIBRATION_v01",
+  "terminal_status": "CALIBRATION_COMPLETE_READY_FOR_MAINLINE_MODEL_FREEZE",
+  "scientific_pass_fail": "NOT_DEFINED",
+  "model_selected": false,
+  "real_q1_run": false
+}

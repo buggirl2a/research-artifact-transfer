@@ -1,0 +1,18 @@
+{
+  "task_id": "D10A_REAL_LAYOUT_NONORACLE_OBSERVATION_CALIBRATION_v01",
+  "status": "PASS",
+  "zip_path": "C:\\range_paper\\10_archive\\d10a_real_layout_nonoracle_v01\\Q1_D10A_REAL_LAYOUT_NONORACLE_OBSERVATION_CALIBRATION_REPRODUCIBLE_v01.zip",
+  "zip_bytes": 98141367,
+  "zip_sha256": "20e5d3ed33df6414b72a6e679d5349f3b10fe6397ce73f98b51d0bcc96033013",
+  "deterministic_rebuild_sha256": "20e5d3ed33df6414b72a6e679d5349f3b10fe6397ce73f98b51d0bcc96033013",
+  "deterministic_rebuild_match": true,
+  "member_count": 35,
+  "expected_member_count": 35,
+  "zip_test_bad_member": null,
+  "member_hash_failures": [],
+  "package_file_hash_failures": [],
+  "package_sha256_rows": 34,
+  "independent_scientific_file_validation": "PASS",
+  "artifact_tool_tabular_validation": "PASS",
+  "terminal_status": "CALIBRATION_COMPLETE_READY_FOR_MAINLINE_MODEL_FREEZE"
+}

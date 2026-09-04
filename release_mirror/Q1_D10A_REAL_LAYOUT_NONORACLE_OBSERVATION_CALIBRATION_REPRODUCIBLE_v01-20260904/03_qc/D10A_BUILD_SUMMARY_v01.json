@@ -1,0 +1,27 @@
+{
+  "f0_plot_visits": 338619,
+  "legitimate_opportunities": 134846,
+  "cells_50km": 3011,
+  "fold_A_opportunities": 53765,
+  "fold_B_opportunities": 81081,
+  "cells_with_A_opportunity": 2855,
+  "cells_with_B_opportunity": 2913,
+  "manual_groups": [
+    "9.0",
+    "7.0",
+    "8.0",
+    "9.2",
+    "9.1",
+    "6.0"
+  ],
+  "design_groups": [
+    "1",
+    "501",
+    "502"
+  ],
+  "largest_graph_component_cells": 2997,
+  "synthetic_species": 72,
+  "support_result_rows": 2592,
+  "leakage_result_rows": 180,
+  "terminal_status": "CALIBRATION_COMPLETE_READY_FOR_MAINLINE_MODEL_FREEZE"
+}

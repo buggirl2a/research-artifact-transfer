@@ -1,0 +1,196 @@
+{
+  "task_id": "D10A_REAL_LAYOUT_NONORACLE_OBSERVATION_CALIBRATION_v01",
+  "validation_status": "PASS",
+  "terminal_status": "CALIBRATION_COMPLETE_READY_FOR_MAINLINE_MODEL_FREEZE",
+  "checks": [
+    {
+      "check_id": "EXECUTABLE_FORBIDDEN_IDENTITY_TOKEN",
+      "observed": 0,
+      "expected": 0,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "EXECUTABLE_SQL_ALLOWLIST_DECLARED",
+      "observed": "cond;plot;pop_plot_stratum_assgn;subplot",
+      "expected": "four species-blind tables",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "LAYOUT_ROW_COUNT",
+      "observed": 338619,
+      "expected": 338619,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "LAYOUT_UNIQUE_PLOT_KEYS",
+      "observed": 338619,
+      "expected": 338619,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "LAYOUT_LEGITIMATE_OPPORTUNITIES",
+      "observed": 134846,
+      "expected": 134846,
+      "status": "PASS",
+      "details": "{\"A\": 53765, \"B\": 81081}"
+    },
+    {
+      "check_id": "LAYOUT_50KM_CELL_RULE_FAILURES",
+      "observed": 0,
+      "expected": 0,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "LAYOUT_FORBIDDEN_RESULT_COLUMNS",
+      "observed": "",
+      "expected": "none",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "SYNTHETIC_MANIFEST_ROWS",
+      "observed": 432,
+      "expected": 432,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "SYNTHETIC_SPECIES_COUNT",
+      "observed": 72,
+      "expected": 72,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "SYNTHETIC_WORLD_REGIME_CLOSURE",
+      "observed": 6,
+      "expected": 6,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "PAIRED_SUPPORT_SIZE_IDENTITY",
+      "observed": true,
+      "expected": true,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "SUPPORT_RESULT_ROWS",
+      "observed": 2592,
+      "expected": 2592,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "SUPPORT_RESULT_UNIQUE_KEYS",
+      "observed": 2592,
+      "expected": 2592,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "SUPPORT_FINITE_METRICS",
+      "observed": 0,
+      "expected": 0,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "SUPPORT_BOUNDED_METRICS",
+      "observed": 0,
+      "expected": 0,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "LEAKAGE_RESULT_ROWS",
+      "observed": 180,
+      "expected": 180,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "LEAKAGE_UNIQUE_KEYS",
+      "observed": 180,
+      "expected": 180,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "LEAKAGE_COVERAGE_BOUNDS",
+      "observed": 0,
+      "expected": 0,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "MODEL_COMPARISON_ROWS",
+      "observed": 36,
+      "expected": 36,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "NO_MODEL_SELECTED",
+      "observed": 0,
+      "expected": 0,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "NO_SCIENTIFIC_PASS_FAIL",
+      "observed": 0,
+      "expected": 0,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "POSTERIOR_CELL_ROWS",
+      "observed": 7475328,
+      "expected": 7475328,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "POSTERIOR_PROBABILITY_BOUNDS",
+      "observed": 0,
+      "expected": 0,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "POSTERIOR_HISTORY_COUNT_BOUNDS",
+      "observed": 0,
+      "expected": 0,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "POSTERIOR_POSITIVE_PINNING",
+      "observed": 0,
+      "expected": 0,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "BLOCKING_INPUT_FAILURES",
+      "observed": 0,
+      "expected": 0,
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check_id": "DECLARED_NONBLOCKING_E2C_MISMATCH",
+      "observed": 1,
+      "expected": 1,
+      "status": "PASS",
+      "details": ""
+    }
+  ]
+}
