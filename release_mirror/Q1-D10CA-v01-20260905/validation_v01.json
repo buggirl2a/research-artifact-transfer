@@ -1,0 +1,22 @@
+{
+  "task_id": "D10C_A_FIA_ABUNDANCE_ESTIMATOR_AUTHORITY_CLOSURE_v01",
+  "terminal_status": "ABUNDANCE_ESTIMATOR_AUTHORITY_CLOSED_READY_FOR_D10C",
+  "zip_path": "C:\\range_paper\\10_archive\\d10ca\\D10CA_v01.zip",
+  "zip_bytes": 7092335,
+  "zip_sha256": "c8f73406f7f192b8f124add3cb0ded7ea65474e8d72d752e37dc557a08588865",
+  "zip_member_count": 18,
+  "zip_test_bad_member": null,
+  "crosswalk_rows": 338619,
+  "f0_rows": 338619,
+  "states": 48,
+  "c1_c9_and_deep_checks_all_pass": true,
+  "permanent_plot_overlap": 0,
+  "all_5752_block_fold_counts_match": true,
+  "input_identity_all_pass": true,
+  "max_local_absolute_path_chars": 70,
+  "max_zip_member_path_chars": 44,
+  "path_limit_lt_256": true,
+  "tree_spcd_queried": false,
+  "d10c_run": false,
+  "network_used": false
+}
