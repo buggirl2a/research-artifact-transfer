@@ -1,0 +1,8 @@
+{
+  "task_id": "D10C_FIA_DESIGN_BASED_ABUNDANCE_MEASUREMENT_CALIBRATION_v01",
+  "terminal_status": "INPUT_BLOCKED_ABUNDANCE_ESTIMATOR_AUTHORITY_FAILURE",
+  "scientific_pass_fail": "NOT_DEFINED",
+  "abundance_model_selected": false,
+  "synthetic_calibration_run": false,
+  "real_q1_run": false
+}

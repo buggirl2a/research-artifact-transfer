@@ -1,0 +1,21 @@
+{
+  "task_id": "D10C_FIA_DESIGN_BASED_ABUNDANCE_MEASUREMENT_CALIBRATION_v01",
+  "terminal_status": "INPUT_BLOCKED_ABUNDANCE_ESTIMATOR_AUTHORITY_FAILURE",
+  "input_packages": 3,
+  "input_internal_members_checked": 88,
+  "authority_gap_checks": 10,
+  "authority_gap_failures": 7,
+  "d09c_ti_rows": 5752,
+  "d09c_partition_rows": 48,
+  "embedded_raw_assignment_state_coverage": [
+    "CA",
+    "OR",
+    "WA"
+  ],
+  "synthetic_calibration_run": false,
+  "a0_a1_a2_outputs_run": false,
+  "downstream_audit_run": false,
+  "network_used": false,
+  "real_species_read": false,
+  "real_q1_run": false
+}

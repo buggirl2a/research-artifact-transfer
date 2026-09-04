@@ -1,0 +1,10 @@
+{
+  "task_id": "D10C_FIA_DESIGN_BASED_ABUNDANCE_MEASUREMENT_CALIBRATION_v01",
+  "gate": "exact frozen abundance-estimator authority before any synthetic calibration",
+  "required_join": "F0 PLT_CN -> selected final effective design block -> fold-specific TI weight -> real-branch plot contribution",
+  "substitute_estimators_authorized": false,
+  "local_unpacked_fia_tables_authorized": false,
+  "network_acquisition_authorized": false,
+  "scientific_pass_fail_defined": false,
+  "blocked_terminal_status": "INPUT_BLOCKED_ABUNDANCE_ESTIMATOR_AUTHORITY_FAILURE"
+}

@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "library": "@oai/artifact-tool",
+  "files_checked": 6,
+  "results": [
+    {
+      "file": "Q1_D10C_ESTIMATOR_AUTHORITY_GAP_AUDIT_v01.csv",
+      "status": "PASS",
+      "rowCount": 11,
+      "columnCount": 6,
+      "inspection_chars": 1225
+    },
+    {
+      "file": "Q1_D10C_REQUIRED_OUTPUT_DISPOSITION_v01.csv",
+      "status": "PASS",
+      "rowCount": 17,
+      "columnCount": 4,
+      "inspection_chars": 1187
+    },
+    {
+      "file": "REGISTRY_DELTA_v01.csv",
+      "status": "PASS",
+      "rowCount": 9,
+      "columnCount": 12,
+      "inspection_chars": 235
+    },
+    {
+      "file": "D10C_INDEPENDENT_VALIDATION_CHECKS_v01.csv",
+      "status": "PASS",
+      "rowCount": 16,
+      "columnCount": 4,
+      "inspection_chars": 714
+    },
+    {
+      "file": "D10C_INPUT_IDENTITY_v01.csv",
+      "status": "PASS",
+      "rowCount": 4,
+      "columnCount": 9,
+      "inspection_chars": 1223
+    },
+    {
+      "file": "D10C_INPUT_PACKAGE_MEMBER_INVENTORY_v01.csv",
+      "status": "PASS",
+      "rowCount": 89,
+      "columnCount": 7,
+      "inspection_chars": 1583
+    }
+  ]
+}

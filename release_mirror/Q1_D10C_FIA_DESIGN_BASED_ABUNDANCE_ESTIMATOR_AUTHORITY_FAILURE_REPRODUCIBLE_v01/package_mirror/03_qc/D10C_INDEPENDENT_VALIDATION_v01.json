@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "checks": 15,
+  "checks_passed": 15,
+  "terminal_status": "INPUT_BLOCKED_ABUNDANCE_ESTIMATOR_AUTHORITY_FAILURE",
+  "scientific_calibration_run": false
+}

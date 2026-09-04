@@ -1,0 +1,11 @@
+check_id,required_for_exact_A2,authority_available,status,observed_evidence,consequence
+FROZEN_48_STATE_PARTITIONS,YES,YES,PASS,partition_rows=48,AB/BA whole-panel identity is available
+FOLD_SPECIFIC_TI_BLOCK_WEIGHTS,YES,YES,PASS,ti_rows=5752; formula=effective block population area / actual fold sample count,Block-level point-estimator weights are available
+TI_TABLE_CONTAINS_PLOT_IDENTIFIER,YES,NO,FAIL,TI table is block-level and has no PLT_CN,Cannot attach each TI block weight to each F0 plot
+D10A_F0_LAYOUT_CONTAINS_DESIGN_BLOCK_KEY,YES,NO,FAIL,"D10A layout has plot_cn/cell_50km/fold but no stratum, estimation-unit, assignment, or effective-block key",D10A plot rows cannot be joined to D09C TI blocks
+NATIONWIDE_RAW_ASSIGNMENT_CROSSWALK,YES,NO,FAIL,"embedded POP_PLOT_STRATUM_ASSGN raw states=CA,OR,WA; coverage=3/48",Only CA/OR/WA can be reconstructed from embedded raw assignments
+AGGREGATE_LEDGER_IS_PLOT_BLOCK_CROSSWALK,YES,NO,FAIL,Panel/subpanel/year ledger has stratum_cn but no individual plot identifier; lineage audit has plot_visit_cns but no stratum/effective block,Two aggregate ledgers cannot be joined row-exactly without an unpublished mapping
+WV_MERGED_DOMAIN_PLOT_CROSSWALK,YES,NO,FAIL,Final package publishes merged block totals but not a nationwide plot-to-final-effective-block crosswalk,The R2 WV final block cannot be assigned to all relevant F0 plot rows from package outputs alone
+PARTIAL_EFFORT_ABUNDANCE_CONTRIBUTION_RULE,YES_IF_USED_BY_REAL_ESTIMATOR,NO,FAIL,D10A publishes partial_sampling_effort; D09C freezes TI block weights but no official partial-effort-to-abundance-response contribution rule,G3 cannot be implemented as the exact intended real branch
+EXACT_NATIONWIDE_PLOT_TO_WEIGHT_JOIN,YES,NO,FAIL,No shared package key closes PLT_CN -> selected effective_design_block_id -> fold-specific TI weight for 48 states,A2 is not constructible under frozen authority
+SUBSTITUTE_ESTIMATOR_AUTHORIZED,NO,NO,PASS,"Contract prohibits state-average weights, inverse plots per cell, simple means, raw counts, and ad hoc normalization",The branch must stop rather than fill the authority gap
