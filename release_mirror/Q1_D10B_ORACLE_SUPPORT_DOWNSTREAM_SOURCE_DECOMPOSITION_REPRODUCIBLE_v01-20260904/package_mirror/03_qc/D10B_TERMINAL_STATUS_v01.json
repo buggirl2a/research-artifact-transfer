@@ -1,0 +1,8 @@
+{
+  "task_id": "D10B_ORACLE_SUPPORT_DOWNSTREAM_SOURCE_DECOMPOSITION_v01",
+  "terminal_status": "DIAGNOSTIC_COMPLETE_READY_FOR_MAINLINE_SOURCE_ATTRIBUTION",
+  "scientific_pass_fail": "NOT_DEFINED",
+  "model_selected": false,
+  "repair_run": false,
+  "real_q1_run": false
+}

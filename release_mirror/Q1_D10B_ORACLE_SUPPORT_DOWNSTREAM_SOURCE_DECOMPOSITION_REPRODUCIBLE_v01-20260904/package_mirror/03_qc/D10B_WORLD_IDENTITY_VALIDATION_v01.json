@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "released_manifest_rows": 432,
+  "regenerated_manifest_rows": 432,
+  "exact_manifest_match": true,
+  "identity_rows_all_pass": true,
+  "support_and_abundance_hashes_exposed": true,
+  "l1_reconstruction_basis": "D10A_PUBLISHED_LAYOUT_ORDER_PLUS_FROZEN_CODE_AND_SEEDS"
+}

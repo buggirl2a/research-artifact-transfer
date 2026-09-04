@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "library": "@oai/artifact-tool",
+  "files_checked": 11,
+  "results": [
+    {
+      "file": "Q1_D10B_DIAGNOSTIC_SUMMARY_v01.csv",
+      "status": "PASS",
+      "rowCount": 31,
+      "columnCount": 32,
+      "inspection_chars": 239
+    },
+    {
+      "file": "Q1_D10B_L0_ORACLE_SUPPORT_LATENT_ABUNDANCE_RESULTS_v01.csv",
+      "status": "PASS",
+      "rowCount": 61,
+      "columnCount": 27,
+      "inspection_chars": 239
+    },
+    {
+      "file": "Q1_D10B_L1_ORACLE_SUPPORT_OBSERVED_ABUNDANCE_RESULTS_v01.csv",
+      "status": "PASS",
+      "rowCount": 61,
+      "columnCount": 27,
+      "inspection_chars": 239
+    },
+    {
+      "file": "Q1_D10B_L2_D10A_REFERENCE_RESULTS_v01.csv",
+      "status": "PASS",
+      "rowCount": 181,
+      "columnCount": 26,
+      "inspection_chars": 239
+    },
+    {
+      "file": "Q1_D10B_NULL_GAIN_SOURCE_DECOMPOSITION_v01.csv",
+      "status": "PASS",
+      "rowCount": 91,
+      "columnCount": 25,
+      "inspection_chars": 237
+    },
+    {
+      "file": "Q1_D10B_ORACLE_WORLD_IDENTITIES_v01.csv",
+      "status": "PASS",
+      "rowCount": 145,
+      "columnCount": 17,
+      "inspection_chars": 239
+    },
+    {
+      "file": "Q1_D10B_STRONG_NULL_SEPARATION_v01.csv",
+      "status": "PASS",
+      "rowCount": 151,
+      "columnCount": 33,
+      "inspection_chars": 241
+    },
+    {
+      "file": "REGISTRY_DELTA_v01.csv",
+      "status": "PASS",
+      "rowCount": 12,
+      "columnCount": 12,
+      "inspection_chars": 237
+    },
+    {
+      "file": "D10B_D10A_INPUT_IDENTITY_v01.csv",
+      "status": "PASS",
+      "rowCount": 36,
+      "columnCount": 4,
+      "inspection_chars": 1416
+    },
+    {
+      "file": "D10B_INDEPENDENT_POSTRUN_VALIDATION_CHECKS_v01.csv",
+      "status": "PASS",
+      "rowCount": 22,
+      "columnCount": 4,
+      "inspection_chars": 509
+    },
+    {
+      "file": "D10B_INDEPENDENT_VALIDATION_CHECKS_v01.csv",
+      "status": "PASS",
+      "rowCount": 20,
+      "columnCount": 4,
+      "inspection_chars": 542
+    }
+  ]
+}

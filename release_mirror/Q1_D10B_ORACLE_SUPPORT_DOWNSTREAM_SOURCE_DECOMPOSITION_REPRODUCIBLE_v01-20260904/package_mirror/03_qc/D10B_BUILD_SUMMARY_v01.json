@@ -1,0 +1,20 @@
+{
+  "task_id": "D10B_ORACLE_SUPPORT_DOWNSTREAM_SOURCE_DECOMPOSITION_v01",
+  "terminal_status": "DIAGNOSTIC_COMPLETE_READY_FOR_MAINLINE_SOURCE_ATTRIBUTION",
+  "d10a_outer_sha256": "20e5d3ed33df6414b72a6e679d5349f3b10fe6397ce73f98b51d0bcc96033013",
+  "synthetic_species": 72,
+  "identity_rows": 144,
+  "legitimate_opportunities": 134846,
+  "cells_50km": 3011,
+  "l0_rows": 60,
+  "l1_rows": 60,
+  "l2_rows": 180,
+  "decomposition_rows": 90,
+  "separation_rows": 150,
+  "summary_rows": 30,
+  "l1_zero_total_fallback_count": 0,
+  "elapsed_seconds": 41.81236171722412,
+  "network_used": false,
+  "real_species_read": false,
+  "real_q1_run": false
+}

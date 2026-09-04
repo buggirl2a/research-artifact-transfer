@@ -1,0 +1,29 @@
+{
+  "task_id": "D10B_ORACLE_SUPPORT_DOWNSTREAM_SOURCE_DECOMPOSITION_v01",
+  "authoritative_d10a_zip": "C:\\range_paper\\10_archive\\d10a_real_layout_nonoracle_v01\\Q1_D10A_REAL_LAYOUT_NONORACLE_OBSERVATION_CALIBRATION_REPRODUCIBLE_v01.zip",
+  "authoritative_d10a_sha256": "20e5d3ed33df6414b72a6e679d5349f3b10fe6397ce73f98b51d0bcc96033013",
+  "layers": {
+    "L0": "exact true support plus latent true abundance",
+    "L1": "exact true support plus observed target-fold abundance; B for AB and A for BA",
+    "L2": "direct aligned D10A M0/M1/M2 leakage-audit reference"
+  },
+  "source_decomposition": {
+    "comparator_component": "L0 PAIRED_NULL gain",
+    "abundance_observation_increment": "L1 minus L0 PAIRED_NULL gain",
+    "support_recovery_increment": "L2_Mx minus L1 PAIRED_NULL gain",
+    "interpretation": "diagnostic_not_causal"
+  },
+  "d10a_world0_gamma_grid": [0.0, 3.0, 0.2],
+  "d10a_geometry_ridge_alpha": 5.0,
+  "d10a_conformal_level": 0.9,
+  "d10a_sliced_wasserstein_directions": 32,
+  "d10a_sliced_wasserstein_quantiles": 31,
+  "d10a_split_seeds": [9042101, 9042102, 9042103, 9042104, 9042105],
+  "scientific_pass_fail_defined": false,
+  "model_selection_authorized": false,
+  "repair_authorized": false,
+  "real_species_authorized": false,
+  "real_q1_authorized": false,
+  "network_acquisition_authorized": false,
+  "terminal_status_success": "DIAGNOSTIC_COMPLETE_READY_FOR_MAINLINE_SOURCE_ATTRIBUTION"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "zip_path": "C:\\range_paper\\10_archive\\d10b_oracle_source_decomposition_v01\\Q1_D10B_ORACLE_SUPPORT_DOWNSTREAM_SOURCE_DECOMPOSITION_REPRODUCIBLE_v01.zip",
+  "zip_size_bytes": 98285008,
+  "zip_sha256": "cb041fca5897f31c8ea0bf2a3b29a262a5c83ef44bdfda9a37a0394cfc7cafeb",
+  "zip_member_count": 28,
+  "required_members_missing": [],
+  "checksum_mismatches": [],
+  "nested_d10a_sha256": "20e5d3ed33df6414b72a6e679d5349f3b10fe6397ce73f98b51d0bcc96033013",
+  "nested_d10a_identity": "PASS",
+  "deterministic_rebuild_sha256_match": true,
+  "independent_postrun_validation": "PASS",
+  "artifact_tool_tabular_validation": "PASS"
+}
