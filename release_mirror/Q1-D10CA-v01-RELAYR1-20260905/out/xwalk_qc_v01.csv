@@ -1,0 +1,10 @@
+﻿check_id,description,expected,observed_pass,failing_rows_or_units,status,notes
+C1,Exactly one selected A/B fold,338619,338619,0,PASS,Fold reproduced from final whole-panel partition
+C2,Exactly one final effective design block,338619,338619,0,PASS,Direct stratum-to-final-block mapping
+C3,Exactly one fold-specific TI weight,338619,338619,0,PASS,D09C final TI source-parent stratum expansion
+C4,Selected evaluation and state/panel identity match F0,338619,338619,0,PASS,No state/year/evaluation rewrite
+C5,No block outside selected evaluation,338619,338619,0,PASS,Evaluation included in TI join key
+C6,No duplicate conflicting assignment or weight,338619,338619,0,PASS,Exact duplicate raw rows are counted; conflicting variants fail
+C7,All 48 reporting states covered,48,48,0,PASS,01;04;05;06;08;09;10;12;13;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31;32;33;34;35;36;37;38;39;40;41;42;44;45;46;47;48;49;50;51;53;54;55;56
+C8,WV final merged-block logic reproduced,2,2,0,PASS,1778855759290487 and 1778855758290487 -> MERGED_EU:3+4
+C9,CA/OR/WA selected evaluations reproduced,3,3,0,PASS,CA:62301:PASS;OR:412301:PASS;WA:532301:PASS

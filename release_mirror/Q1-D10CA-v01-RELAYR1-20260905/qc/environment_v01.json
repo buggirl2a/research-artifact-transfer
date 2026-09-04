@@ -1,0 +1,12 @@
+{
+  "task_id": "D10C_A_FIA_ABUNDANCE_ESTIMATOR_AUTHORITY_CLOSURE_v01",
+  "created_utc": "2026-09-04T19:24:10.492559+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pandas": "3.0.1",
+  "sqlite": "3.53.1",
+  "network_used": false,
+  "tree_spcd_queried": false,
+  "d10c_run": false,
+  "path_policy": "Every local absolute path and ZIP member path must be under 256 characters."
+}

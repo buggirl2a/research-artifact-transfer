@@ -1,0 +1,4 @@
+﻿metric,value,status,path,notes
+windows_conservative_limit,256,REFERENCE,,User-requested ceiling; classic Win32 MAX_PATH is approximately 260 including terminator
+max_absolute_path_chars,70,PASS,C:\range_paper\10_archive\d10ca\pkg\qc\independent_validation_v01.json,All D10C-A delivery files
+max_zip_member_path_chars,44,PASS,D10CA_v01/qc/independent_validation_v01.json,All planned package members

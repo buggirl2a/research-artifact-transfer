@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "f0_rows": 338619,
+  "crosswalk_rows": 338619,
+  "unique_plt_cn": 338619,
+  "reconstructed_block_fold_groups": 5752,
+  "d09c_ti_block_fold_groups": 5752,
+  "block_join_both_groups": 5752,
+  "block_join_left_only_groups": 0,
+  "block_join_right_only_groups": 0,
+  "fold_sample_count_mismatch_groups": 0,
+  "positive_ti_weight_rows": 338619,
+  "positive_adj_factor_subp_rows": 338619,
+  "macro_breakpoint_rows": 42075,
+  "positive_adj_factor_macr_where_macro_breakpoint_rows": 42075,
+  "macro_adjustment_complete_where_required": true,
+  "permanent_plot_overlap": 0,
+  "wv_merged_rule_exact": true,
+  "western_overrides_exact": true,
+  "notes": "Independent aggregate reconstruction: every one of 5,752 D09C block×fold counts equals the crosswalk plot count."
+}

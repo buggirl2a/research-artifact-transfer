@@ -1,0 +1,455 @@
+# Q1 / D10C-A — FIA Abundance Estimator Authority Closure v01
+
+# FIA 多度估计器权威闭合 v01
+
+TASK_ID:
+
+`D10C_A_FIA_ABUNDANCE_ESTIMATOR_AUTHORITY_CLOSURE_v01`
+
+---
+
+## 0. 当前状态
+
+D10C 已在 estimator-authority gate（估计器权威门）正确停止：
+
+`INPUT_BLOCKED_ABUNDANCE_ESTIMATOR_AUTHORITY_FAILURE`
+
+这不是 scientific FAIL（科学失败）。
+
+阻断原因已经明确：
+
+1. D09C 有 5,752 条 effective-design-block × fold（有效设计块×折）TI 权重；
+2. 但缺全国逐样地：
+   `PLT_CN → final effective_design_block_id → fold-specific TI weight`
+   交叉表；
+3. D10A F0 layout（F0 布局）有 `plot_cn / cell_50km / fold`，但没有设计块键；
+4. partial effort（部分抽样努力量）如何进入正式 abundance contribution（多度贡献）尚未冻结；
+5. 因此 D10C A2 不得构造。
+
+本任务只补齐这一 authority chain（权威链）。
+
+**不得运行 D10C abundance calibration（多度校准）。**
+
+---
+
+# 1. Scientific purpose（科学目的）
+
+闭合正式 FIA abundance measurement branch（多度测量分支）所需的两项基础权威：
+
+### A. Nationwide plot-to-weight crosswalk（全国样地到权重交叉表）
+
+建立：
+
+`F0 PLT_CN`
+→
+`selected evaluation（选定评价）`
+→
+`original stratum / estimation unit（原始分层 / 估计单元）`
+→
+`D09C final effective design block（D09C最终有效设计块）`
+→
+`A/B fold`
+→
+`fold-specific TI weight（折特异TI权重）`
+
+### B. Formal abundance contribution rule（正式多度贡献规则）
+
+冻结：
+
+> 一个 FIA 样本树 / 样地，在真实 abundance branch（多度分支）中如何贡献到 50 km cell population mass（格子种群质量）。
+
+尤其必须明确：
+
+> partial condition / subplot effort（部分条件 / 子样地努力量）是否已经被 FIA 官方树木计量权重吸收，是否需要额外调整，还是只能作为 precision/QC metadata（精度/质量控制元数据）。
+
+---
+
+# 2. Authoritative frozen inputs（冻结权威输入）
+
+## D09C final design
+
+Canonical local package:
+
+`C:\range_paper\10_archive\d09c_t2_final_correction_v02\Q1_D09C_T2_FINAL_CORRECTION_REPRODUCIBLE_v02.zip`
+
+SHA-256:
+
+`07cb461121c71ef46990fea3e0cf9d8f139fd873234b9f57910ff10c7c33752f`
+
+Use at minimum:
+
+* `Q1_D09C_T2_FINAL_RULE_SELECTED_PARTITIONS_v02.csv`
+* `Q1_D09C_T2_FINAL_FOLD_SPECIFIC_TI_DESIGN_v02.csv`
+
+Preserve WV final merged block semantics exactly.
+
+---
+
+## Frozen national FIA raw authority
+
+`C:\range_paper\02_raw\FIA\SQLite_FIADB_ENTIRE.zip`
+
+SHA-256:
+
+`ec2e4caf2a92e6079c20483f4a5f08d5ec2e7c31f498045237896a6df7e1565e`
+
+Frozen extracted working DB already exists under the accepted D08C2 preflight authority.
+
+Use read-only.
+
+No network acquisition.
+
+---
+
+## CA / OR / WA authoritative supplements
+
+Use the already frozen CA/OR/WA design / observational gap assets already present under `C:\range_paper`.
+
+Do not redownload.
+
+---
+
+## Official FIA documentation
+
+FIADB Guide:
+
+`C:\range_paper\03_doc\FIA\wo-v9-4_Aug2025_UG_FIADB_database_description_NFI.pdf`
+
+SHA-256:
+
+`ec735ead3852ba6dbb65cb7257b4f8e0795d4c641be4d625ed81ce64eeba2833`
+
+National Field Guide:
+
+`C:\range_paper\03_doc\FIA\v9-5_sep2025_fg_nfi_natl.pdf`
+
+SHA-256:
+
+`09279b80db8b4d516599f621b7bda851fcf727825eeecfe93bc65d6071a2d1e7`
+
+---
+
+# 3. Nationwide plot-to-final-block reconstruction（全国样地到最终设计块重建）
+
+Work must determine whether the frozen national FIA tables permit a deterministic, authoritative reconstruction of:
+
+`PLT_CN`
+→
+selected reporting evaluation
+→
+stratum / estimation unit
+→
+D09C final effective design block
+→
+fold
+→
+TI weight.
+
+Primary source should include the appropriate frozen FIA assignment tables, especially:
+
+`POP_PLOT_STRATUM_ASSGN`
+
+and any other table strictly required by the frozen D09C design lineage.
+
+Do not infer block identity from:
+
+* coordinates；
+* nearest centroid；
+* state-average weight；
+* inverse number of plots；
+* matching only on state/year；
+* undocumented heuristics.
+
+WV must use the already frozen final merged effective-domain rule.
+
+CA / OR / WA must respect their frozen T2 reporting-state override assets.
+
+---
+
+# 4. Required crosswalk validity checks（交叉表有效性检查）
+
+For every F0 plot visit:
+
+### C1
+
+Exactly one selected A/B fold.
+
+### C2
+
+Exactly one final effective design block.
+
+### C3
+
+Exactly one fold-specific TI weight.
+
+### C4
+
+Selected evaluation and state/year identity match frozen F0.
+
+### C5
+
+No plot joins to a block outside its selected evaluation.
+
+### C6
+
+No duplicate conflicting weight assignment.
+
+### C7
+
+All 48 states covered.
+
+### C8
+
+WV merged-block logic exactly reproduced.
+
+### C9
+
+CA / OR / WA final selected evaluations exactly reproduced.
+
+---
+
+# 5. A/B permanent-plot independence QC（A/B 永久样地独立性质量控制）
+
+Add one species-blind QC.
+
+Using the strongest stable permanent-plot identity available in frozen FIA data, verify whether the same permanent FIA plot identity ever appears in both A and B folds.
+
+Return:
+
+* total unique permanent plots；
+* permanent plots only in A；
+* permanent plots only in B；
+* permanent plots appearing in both A and B；
+* offending identities if any.
+
+Expected scientific interpretation is NOT pre-frozen.
+
+If cross-fold permanent-plot overlap exists, report it exactly and STOP only if it contradicts the frozen whole-panel design identity.
+
+Do not silently deduplicate or repair.
+
+This QC is intended to document that A/B separates non-overlapping panel samples rather than merely odd/even measurement years.
+
+---
+
+# 6. Formal abundance contribution semantics（正式多度贡献语义）
+
+Work must determine from the frozen FIA data model and official documentation exactly how a qualifying live large-tree record contributes to the population-mass estimator.
+
+Target state remains:
+
+* live tree；
+* FIA large-tree / established-tree tally state；
+* DIA ≥ 5.0 inches；
+* DBH and DRC taxa retained.
+
+The audit must explicitly resolve the roles of, at minimum:
+
+* `TPA_UNADJ`
+* plot / subplot sampling geometry
+* condition assignment
+* condition proportion variables
+* fold-specific TI weight
+* any expansion / stratum quantities actually required.
+
+The final authority note must distinguish:
+
+### Tree-level contribution（树木层贡献）
+
+What is contributed by each qualifying TREE row?
+
+### Plot-level contribution（样地层贡献）
+
+How are multiple qualifying trees / conditions combined within a plot?
+
+### Cell-level estimator（格子层估计）
+
+How are weighted plot contributions aggregated into a 50 km cell population mass?
+
+### Species-level normalization（物种层归一化）
+
+How is cell mass converted to:
+
+`p_i(x)=M_i(x)/Σ_x M_i(x)`?
+
+---
+
+# 7. Partial-effort rule（部分抽样努力量规则）
+
+This is a hard authority question.
+
+Work must determine whether variables such as:
+
+* `CONDPROP_UNADJ`
+* `SUBPPROP_UNADJ`
+* `MACRPROP_UNADJ`
+* subplot sampling status
+* partial sampling flags
+
+are:
+
+### P1
+
+already incorporated into the official FIA tree expansion semantics；
+
+### P2
+
+required as an additional abundance contribution adjustment；
+
+or
+
+### P3
+
+not part of the point estimator and should be retained only as measurement precision / QC metadata.
+
+No fourth, invented rule is allowed.
+
+If the frozen official documentation and frozen data do not support a unique resolution:
+
+terminate:
+
+`INPUT_BLOCKED_PARTIAL_EFFORT_SEMANTIC_AUTHORITY_FAILURE`
+
+and return the exact unresolved alternatives.
+
+---
+
+# 8. No species outcomes（禁止真实物种结果）
+
+Absolutely forbidden:
+
+* TREE.SPCD-based real species analysis；
+* real 93-species abundance；
+* real support；
+* final cohort；
+* real Q1；
+* D10C A0/A1/A2 synthetic calibration；
+* M0/M1/M2；
+* support-recovery repair。
+
+Species identities are not required for this authority closure.
+
+If examining TREE schema or generic TREE fields is necessary to determine estimator semantics, it must remain species-blind.
+
+---
+
+# 9. Required outputs（必需输出）
+
+1. `Q1_D10C_A_NATIONWIDE_PLOT_TO_FINAL_BLOCK_CROSSWALK_v01.csv.gz`
+
+At minimum:
+
+* PLT_CN
+* STATECD
+* reporting year / evaluation identity
+* P2PANEL
+* final fold
+* original stratum identifier
+* original estimation-unit identifier if applicable
+* final effective_design_block_id
+* fold-specific TI weight
+* reconstruction authority fields
+* QC status
+
+2. `Q1_D10C_A_CROSSWALK_COMPLETENESS_QC_v01.csv`
+
+3. `Q1_D10C_A_AB_PERMANENT_PLOT_OVERLAP_QC_v01.csv`
+
+4. `Q1_D10C_A_ABUNDANCE_CONTRIBUTION_RULE_v01.md`
+
+Formal tree → plot → cell → species estimator semantics.
+
+5. `Q1_D10C_A_PARTIAL_EFFORT_AUTHORITY_v01.md`
+
+Explicit P1 / P2 / P3 resolution with frozen-source evidence.
+
+6. `Q1_D10C_A_ESTIMATOR_FORMULA_LEDGER_v01.csv`
+
+Machine-readable estimator components and source fields.
+
+7. `Q1_D10C_A_AUTHORITY_CLOSURE_SUMMARY_v01.csv`
+
+8. `Q1_D10C_A_RESULT_NOTE_v01.md`
+
+9. complete reproducibility code
+
+10. `SHA256SUMS.csv`
+
+11. Relay v0.2.2 native `TRANSFER_MANIFEST_v01.csv`
+
+12. `REGISTRY_DELTA_v01.csv`
+
+---
+
+# 10. Result note must answer（结果说明必须回答）
+
+### Q1
+
+Can every frozen F0 plot visit be assigned uniquely to its selected final effective design block and fold-specific TI weight?
+
+### Q2
+
+Is nationwide coverage complete across all 48 states?
+
+### Q3
+
+Does any permanent FIA plot identity appear in both A and B folds?
+
+### Q4
+
+What is the exact frozen abundance contribution formula from qualifying TREE row to 50-km population mass?
+
+### Q5
+
+What is the authoritative role of `TPA_UNADJ`?
+
+### Q6
+
+How should partial condition / subplot effort enter the abundance point estimator?
+
+### Q7
+
+Is the authority chain now sufficient to rerun D10C A2 exactly, without invented estimator choices?
+
+---
+
+# 11. Terminal statuses（允许终态）
+
+Only:
+
+`ABUNDANCE_ESTIMATOR_AUTHORITY_CLOSED_READY_FOR_D10C`
+（多度估计器权威闭合，可返回 D10C）
+
+`INPUT_BLOCKED_NATIONWIDE_PLOT_BLOCK_CROSSWALK_FAILURE`
+（全国样地—设计块交叉表无法闭合）
+
+`INPUT_BLOCKED_PARTIAL_EFFORT_SEMANTIC_AUTHORITY_FAILURE`
+（部分努力量语义权威无法闭合）
+
+`INPUT_BLOCKED_FROZEN_INPUT_IDENTITY_FAILURE`
+（冻结输入身份失败）
+
+`IMPLEMENTATION_BLOCKED`
+（实现阻断）
+
+No scientific PASS/FAIL.
+
+---
+
+# 12. STOP
+
+After authority closure/audit:
+
+STOP.
+
+Do NOT:
+
+* rerun D10C calibration；
+* generate A0/A1/A2；
+* repair support；
+* run real species；
+* run real Q1。
+
+Return to mainline.
+
+END

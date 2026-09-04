@@ -1,0 +1,11 @@
+﻿item,value,status,notes
+terminal_status,ABUNDANCE_ESTIMATOR_AUTHORITY_CLOSED_READY_FOR_D10C,ABUNDANCE_ESTIMATOR_AUTHORITY_CLOSED_READY_FOR_D10C,Authority closure only; not a scientific PASS/FAIL
+f0_plot_visits,338619,CLOSED,All frozen F0 rows
+crosswalk_rows,338619,CLOSED,One output row per F0 PLT_CN
+states,48,CLOSED,CONUS reporting states
+d09c_final_ti_rows,5752,VERIFIED,Frozen input
+unique_permanent_plots,338619,VERIFIED,STATECD:UNITCD:COUNTYCD:PLOT
+permanent_plots_in_both_folds,0,CLOSED,No silent repair
+partial_effort_resolution,official adjustment=P1; D10A derived effort=P3; no P2 multiplier,CLOSED,Unique documented resolution
+real_species_outcomes_read,0,CONFIRMED,TREE.SPCD never queried
+d10c_calibration_run,0,CONFIRMED,"No A0/A1/A2, M0/M1/M2, or real Q1"

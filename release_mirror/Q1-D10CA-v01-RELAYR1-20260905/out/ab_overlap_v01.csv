@@ -1,0 +1,5 @@
+﻿record_type,metric,value,permanent_plot_id,folds,visit_count,statecd,notes
+SUMMARY,total_unique_permanent_plots,338619,,,,,Stable FIA identity STATECD:UNITCD:COUNTYCD:PLOT
+SUMMARY,permanent_plots_only_A,135513,,A,,,
+SUMMARY,permanent_plots_only_B,203106,,B,,,
+SUMMARY,permanent_plots_both_A_B,0,,A;B,,,Zero is required to preserve frozen whole-panel identity

@@ -1,0 +1,11 @@
+﻿order,level,symbol,formula_or_rule,source_fields,role,authority
+1,tree_filter,I_t,STATUSCD=1 AND DIA>=5.0,TREE.STATUSCD;TREE.DIA;TREE.DIAHTCD,qualifying live large-tree / established-tree record; DBH and DRC retained,"Field Guide v9.5 PDF pp.145,582"
+2,tally_basis,b(t),MACR if numeric MACRO_BREAKPOINT_DIA exists and DIA reaches it; otherwise SUBP,PLOT.MACRO_BREAKPOINT_DIA;TREE.DIA;PLOT.DESIGNCD,select official adjustment factor,"Field Guide v9.5 PDF pp.41,145,582"
+3,tree,TPA_t,TREE.TPA_UNADJ,TREE.TPA_UNADJ,trees per acre represented by record; plot geometry already included,"FIADB Guide v9.4 PDF pp.28,185"
+4,stratum_adjustment,a_t,ADJ_FACTOR_MACR if b(t)=MACR else ADJ_FACTOR_SUBP,POP_STRATUM.ADJ_FACTOR_MACR;POP_STRATUM.ADJ_FACTOR_SUBP,official partial-nonsampling adjustment,FIADB Guide v9.4 PDF p.481
+5,condition,c(t),unique TREE.CONDID=COND.CONDID validation; no condition-proportion multiplier,TREE.PLT_CN;TREE.CONDID;COND.PLT_CN;COND.CONDID;COND.COND_STATUS_CD,assignment and accessible-forest integrity,"FIADB Guide v9.4 PDF pp.65,79,481"
+6,plot,Y_ij,sum_t I_t * TPA_UNADJ_t * a_t,TREE rows joined to original stratum,species-specific adjusted trees per acre at plot visit,"FIADB Guide v9.4 PDF pp.185,481"
+7,fold_weight,TI_hf,effective block population area / actual fold sample count,D09C final fold-specific TI design,acres per plot; replaces full-evaluation EXPNS,Frozen D09C final v02
+8,cell,M_if(x),"sum_{j in fold f,cell x} TI_hf * Y_ij",crosswalk.cell_50km;final block;fold;TI,50-km population mass,D10C-A frozen synthesis of official FIA and D09C
+9,species_normalization,p_if(x),"M_if(x)/sum_x M_if(x), if denominator>0",cell population masses,normalized spatial mass,D10C-A contract
+10,partial_effort_qc,e_j,not multiplied into point estimator,D10A.partial_sampling_flag;partial_sampling_effort;sampled_subplot_count,P3 precision/QC metadata only,"FIADB Guide v9.4 PDF pp.79,481"
