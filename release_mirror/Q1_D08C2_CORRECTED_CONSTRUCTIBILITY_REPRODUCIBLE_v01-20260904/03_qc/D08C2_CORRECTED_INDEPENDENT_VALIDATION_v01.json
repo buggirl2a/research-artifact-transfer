@@ -1,0 +1,148 @@
+{
+  "validation_status": "PASS",
+  "check_count": 18,
+  "pass_count": 18,
+  "fail_count": 0,
+  "provisional_status_counts": {
+    "D08C2_ELIGIBLE_FOR_OBSERVATION_AND_MEASUREMENT_GATE": 93,
+    "FAIL_D4_NO_POSITIVE_ENCOUNTER_A": 1,
+    "ONE_DIRECTION_ONLY_DIAGNOSTIC": 7
+  },
+  "checks": [
+    {
+      "check": "eligibility_exactly_101_unique",
+      "status": "PASS",
+      "observed": "rows=101;unique=101",
+      "expected": "101;101"
+    },
+    {
+      "check": "fold_exactly_202_unique",
+      "status": "PASS",
+      "observed": 202,
+      "expected": 202
+    },
+    {
+      "check": "fold_values_A_B",
+      "status": "PASS",
+      "observed": [
+        "A",
+        "B"
+      ],
+      "expected": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "check": "status_mechanically_reconstructed",
+      "status": "PASS",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "check": "eligible_exact_bidirectional_rule",
+      "status": "PASS",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "check": "no_final_cohort_flags",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "no_grid",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "no_abundance_or_occupancy_result",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "opportunity_48_state_x_2_fold",
+      "status": "PASS",
+      "observed": 96,
+      "expected": 96
+    },
+    {
+      "check": "opportunity_positive_each_state_fold",
+      "status": "PASS",
+      "observed": 96,
+      "expected": 96
+    },
+    {
+      "check": "effort_not_threshold",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "native_crosswalk_47_plus_alias",
+      "status": "PASS",
+      "observed": {
+        "EXACT_FULL_STATE_NAME": 47,
+        "AUTHORIZED_EXPLICIT_ALIAS": 1
+      },
+      "expected": {
+        "EXACT_FULL_STATE_NAME": 47,
+        "AUTHORIZED_EXPLICIT_ALIAS": 1
+      }
+    },
+    {
+      "check": "f0_or_mismatch_retained",
+      "status": "PASS",
+      "observed": 4,
+      "expected": 4
+    },
+    {
+      "check": "aggregation_includes_frozen_396",
+      "status": "PASS",
+      "observed": "rows=403;mapped=396",
+      "expected": "rows>=396;mapped=396"
+    },
+    {
+      "check": "unmapped_not_silently_dropped",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "input_qc_all_pass",
+      "status": "PASS",
+      "observed": {
+        "PASS": 82
+      },
+      "expected": {
+        "PASS": 82
+      }
+    },
+    {
+      "check": "exclusion_reasons_structural_only",
+      "status": "PASS",
+      "observed": 9,
+      "expected": "all structural"
+    },
+    {
+      "check": "task_status_pass",
+      "status": "PASS",
+      "observed": [
+        {
+          "check_id": "TASK_LEVEL_STATUS",
+          "stage": "FINAL",
+          "scope": "D08C2_CORRECTED_CONSTRUCTIBILITY_v01",
+          "expected": "PASS_READY_FOR_MAINLINE_OBSERVATION_GATE_AUDIT",
+          "observed": "PASS_READY_FOR_MAINLINE_OBSERVATION_GATE_AUDIT",
+          "status": "PASS",
+          "blocking": "YES",
+          "details": "Eligible-species count is descriptive and not a PASS criterion"
+        }
+      ],
+      "expected": "PASS_READY_FOR_MAINLINE_OBSERVATION_GATE_AUDIT"
+    }
+  ]
+}

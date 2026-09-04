@@ -1,0 +1,8 @@
+{
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "sqlite_version": "3.53.1",
+  "working_directory": "C:\\range_paper",
+  "database_path": "C:\\range_paper\\99_tmp\\d08c2_preflight_observational_authority_v01\\source_cache\\SQLite_FIADB_ENTIRE.db",
+  "network_used": false
+}

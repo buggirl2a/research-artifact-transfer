@@ -1,0 +1,23 @@
+{
+  "task_id": "D08C2_CORRECTED_CONSTRUCTIBILITY_v01",
+  "task_status": "PASS_READY_FOR_MAINLINE_OBSERVATION_GATE_AUDIT",
+  "starting_species_count": 101,
+  "provisional_status_counts": {
+    "D08C2_ELIGIBLE_FOR_OBSERVATION_AND_MEASUREMENT_GATE": 93,
+    "FAIL_D4_NO_POSITIVE_ENCOUNTER_A": 1,
+    "ONE_DIRECTION_ONLY_DIAGNOSTIC": 7
+  },
+  "eligible_species_count": 93,
+  "one_direction_only_count": 7,
+  "f0_plot_visit_count": 338619,
+  "legitimate_opportunity_plot_visit_count": 134846,
+  "retained_f0_live_large_tree_count": 2905049,
+  "aggregation_audit_rows": 403,
+  "exclusion_reason_rows": 9,
+  "f0_or_mismatch_rows": 4,
+  "blocking_qc_failures": 0,
+  "elapsed_seconds": 162.2093517780304,
+  "network_acquisition": "NONE",
+  "grid": "NONE",
+  "downstream_models": "NONE"
+}

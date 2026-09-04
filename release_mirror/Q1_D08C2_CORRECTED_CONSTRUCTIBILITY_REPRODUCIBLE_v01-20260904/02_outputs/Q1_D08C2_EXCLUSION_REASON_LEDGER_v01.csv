@@ -1,0 +1,10 @@
+reason_event_id,analysis_species_id,analysis_species_name,provisional_d08c2_status,stage,fold,structural_reason_code,event_count,details,result_threshold_used,final_cohort_decision
+EX0001,2615862,Acer leucoderme,ONE_DIRECTION_ONLY_DIAGNOSTIC,D4,A,FAIL_D4_NO_POSITIVE_ENCOUNTER_A,1,No qualifying accepted-species TREE encounter in a legitimate fold-A opportunity.,NO,NO
+EX0002,2701774,Carya floridana,ONE_DIRECTION_ONLY_DIAGNOSTIC,D4,B,FAIL_D4_NO_POSITIVE_ENCOUNTER_B,1,No qualifying accepted-species TREE encounter in a legitimate fold-B opportunity.,NO,NO
+EX0003,457903,Hesperocyparis bakeri,ONE_DIRECTION_ONLY_DIAGNOSTIC,D4,A,FAIL_D4_NO_POSITIVE_ENCOUNTER_A,1,No qualifying accepted-species TREE encounter in a legitimate fold-A opportunity.,NO,NO
+EX0004,457913,Hesperocyparis macrocarpa,ONE_DIRECTION_ONLY_DIAGNOSTIC,D4,A,FAIL_D4_NO_POSITIVE_ENCOUNTER_A,1,No qualifying accepted-species TREE encounter in a legitimate fold-A opportunity.,NO,NO
+EX0005,2329229,Juglans hindsii,ONE_DIRECTION_ONLY_DIAGNOSTIC,D4,B,FAIL_D4_NO_POSITIVE_ENCOUNTER_B,1,No qualifying accepted-species TREE encounter in a legitimate fold-B opportunity.,NO,NO
+EX0006,171657,Quercus arkansana,ONE_DIRECTION_ONLY_DIAGNOSTIC,D4,A,FAIL_D4_NO_POSITIVE_ENCOUNTER_A,1,No qualifying accepted-species TREE encounter in a legitimate fold-A opportunity.,NO,NO
+EX0007,174176,Quercus oglethorpensis,FAIL_D4_NO_POSITIVE_ENCOUNTER_A,D4,A,FAIL_D4_NO_POSITIVE_ENCOUNTER_A,1,No qualifying accepted-species TREE encounter in a legitimate fold-A opportunity.,NO,NO
+EX0008,174176,Quercus oglethorpensis,FAIL_D4_NO_POSITIVE_ENCOUNTER_A,D4,B,FAIL_D4_NO_POSITIVE_ENCOUNTER_B,1,No qualifying accepted-species TREE encounter in a legitimate fold-B opportunity.,NO,NO
+EX0009,2458798,Vaccinium arboreum,ONE_DIRECTION_ONLY_DIAGNOSTIC,D4,A,FAIL_D4_NO_POSITIVE_ENCOUNTER_A,1,No qualifying accepted-species TREE encounter in a legitimate fold-A opportunity.,NO,NO

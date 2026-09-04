@@ -1,0 +1,13 @@
+{
+  "validation_status": "PASS",
+  "zip_path": "C:\\range_paper\\10_archive\\d08c2_corrected_constructibility_v01\\Q1_D08C2_CORRECTED_CONSTRUCTIBILITY_REPRODUCIBLE_v01.zip",
+  "zip_size_bytes": 90480,
+  "zip_sha256": "dcba4d2b22ca8f7a8759d5525bb5a4482e66d4df678c0523cce5151f372ceb48",
+  "deterministic_rebuild_match": true,
+  "package_hash_failure_count": 0,
+  "package_hash_failures": [],
+  "zip_member_set_match": true,
+  "independent_validation_status": "PASS",
+  "task_status": "PASS_READY_FOR_MAINLINE_OBSERVATION_GATE_AUDIT",
+  "national_fiadb_downloaded_by_finalizer": false
+}

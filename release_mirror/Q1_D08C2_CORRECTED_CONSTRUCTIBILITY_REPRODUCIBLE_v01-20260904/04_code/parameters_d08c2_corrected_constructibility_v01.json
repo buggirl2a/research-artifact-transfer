@@ -1,0 +1,41 @@
+{
+  "task_id": "D08C2_CORRECTED_CONSTRUCTIBILITY_v01",
+  "expected_starting_species": 101,
+  "range_gate_class": "PASS_COARSE",
+  "national_fiadb_version": "FIADB_1.9.4.00",
+  "national_zip_expected_bytes": 15351832599,
+  "national_zip_expected_sha256": "ec2e4caf2a92e6079c20483f4a5f08d5ec2e7c31f498045237896a6df7e1565e",
+  "national_db_member": "SQLite_FIADB_ENTIRE.db",
+  "national_db_expected_bytes": 71565119488,
+  "range_gate_zip_expected_sha256": "717767f71216bca5fca3e7d43762c7fa026e7e799be162d05a68d3ab45bf4d50",
+  "d09c_zip_expected_sha256": "07cb461121c71ef46990fea3e0cf9d8f139fd873234b9f57910ff10c7c33752f",
+  "contract_expected_sha256": "041f57cb5d850e051a7dfc912a0678db1fdcd46df9efa75b7fcc5251dd15afc6",
+  "conus_state_codes": [1, 4, 5, 6, 8, 9, 10, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 44, 45, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56],
+  "override_state_codes": [6, 41, 53],
+  "override_state_abbreviations": {"6": "CA", "41": "OR", "53": "WA"},
+  "authorized_state_aliases": [
+    {
+      "fia_state_code": 44,
+      "fia_state_ab": "RI",
+      "fia_state_name": "Rhode Island",
+      "wcvp_area_code_l3": "RHO",
+      "wcvp_area_name": "Rhode I."
+    }
+  ],
+  "panels": [1, 2, 3, 4, 5],
+  "live_statuscd": 1,
+  "dia_min_inches": 5.0,
+  "sampled_plot_statuscd": 1,
+  "accessible_forest_cond_statuscd": 1,
+  "sampled_subplot_statuscd": 1,
+  "protocol_applicability_rule": "PLOT.DESIGNCD and PLOT.MANUAL are retained and nonblank; no value-specific threshold is imposed",
+  "relevant_subplot_rule": "sampled SUBPLOT links to at least one accessible forest CONDID via SUBPCOND, MACRCOND, or parsed CONDLIST",
+  "partial_sampling_rule": "allowed; effort metadata summarized, never thresholded",
+  "primary_eligibility_rule": "N_opp(A)>0 AND N_opp(B)>0 AND N_encounter_plot(A)>0 AND N_encounter_plot(B)>0",
+  "grid_policy": "NO_GRID_REQUIRED",
+  "real_q1_authorized": false,
+  "occupancy_model_authorized": false,
+  "support_gate_authorized": false,
+  "abundance_estimation_authorized": false,
+  "network_acquisition_authorized": false
+}
