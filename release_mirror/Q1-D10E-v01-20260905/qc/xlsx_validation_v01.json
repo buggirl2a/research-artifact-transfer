@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "library": "@oai/artifact-tool",
+  "workbook": "C:/range_paper/10_archive/d10e/pkg/out/audit_v01.xlsx",
+  "workbook_bytes": 75770,
+  "sheet_count": 12,
+  "gates": {
+    "twelve_sheets": true,
+    "summary_readback": true,
+    "k_ladder_readback": true,
+    "no_formula_errors": true,
+    "every_sheet_rendered": true
+  }
+}

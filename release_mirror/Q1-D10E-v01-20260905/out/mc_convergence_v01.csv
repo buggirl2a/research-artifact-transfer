@@ -1,0 +1,2 @@
+﻿realizations,pooled_separation_mean_pp,pooled_separation_mcse_pp,AB_separation_mean_pp,AB_separation_mcse_pp,BA_separation_mean_pp,BA_separation_mcse_pp,pooled_target_pp,orientation_target_pp,precision_reached,stop_reason
+200,-19.5093896526185,0.1687201020106007,-13.299176678478304,0.23604516974169687,-25.719602626758693,0.27969716893377405,0.25,0.5,YES,TARGET_REACHED

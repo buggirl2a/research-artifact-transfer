@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "workbook": "C:/range_paper/10_archive/d10e/pkg/out/audit_v01.xlsx",
+  "sheets": [
+    {
+      "sheet": "Summary",
+      "preview": "C:\\range_paper\\99_tmp\\d10e\\xlsx_builder\\previews\\Summary.png",
+      "size_bytes": 139997,
+      "sha256": "ae0e49ed71806ca41efea191dcedea39e458d0dd49d2b0103bebec9ab5ca9c57"
+    },
+    {
+      "sheet": "States",
+      "preview": "C:\\range_paper\\99_tmp\\d10e\\xlsx_builder\\previews\\States.png",
+      "size_bytes": 313154,
+      "sha256": "03f626d17e8399b4cd961213ed709e69b79721f1e6f3a865471b0674793304bb"
+    },
+    {
+      "sheet": "Decomposition",
+      "preview": "C:\\range_paper\\99_tmp\\d10e\\xlsx_builder\\previews\\Decomposition.png",
+      "size_bytes": 763709,
+      "sha256": "689337b344add5bedb7283fe40abd1531129a6eb730db2f8817be01e542f5d7e"
+    },
+    {
+      "sheet": "K ladder",
+      "preview": "C:\\range_paper\\99_tmp\\d10e\\xlsx_builder\\previews\\K_ladder.png",
+      "size_bytes": 654138,
+      "sha256": "4b6ec60c53fe5224761687484a377aa7aa7130b7b5e451721625c0539d52d9f7"
+    },
+    {
+      "sheet": "Map recovery",
+      "preview": "C:\\range_paper\\99_tmp\\d10e\\xlsx_builder\\previews\\Map_recovery.png",
+      "size_bytes": 616097,
+      "sha256": "1843198da02f3ccdbe4936e8b1f8374bbf63425fa378a716e82964eca1b6821e"
+    },
+    {
+      "sheet": "Uncertainty",
+      "preview": "C:\\range_paper\\99_tmp\\d10e\\xlsx_builder\\previews\\Uncertainty.png",
+      "size_bytes": 106263,
+      "sha256": "c82c29b9617d2b29d2104c8c7e4839b3b8fefe6583372f39c20b9afa5b7453e4"
+    },
+    {
+      "sheet": "Information",
+      "preview": "C:\\range_paper\\99_tmp\\d10e\\xlsx_builder\\previews\\Information.png",
+      "size_bytes": 739616,
+      "sha256": "c2bf83f784f77f9b6ce4578c77b81982b8a956943a57e88deacc502c66bf53ae"
+    },
+    {
+      "sheet": "Monte Carlo",
+      "preview": "C:\\range_paper\\99_tmp\\d10e\\xlsx_builder\\previews\\Monte_Carlo.png",
+      "size_bytes": 110193,
+      "sha256": "4ad7b37d5487653aca210276b02487968f96fb5e0a000cad438adee0cb4d05c6"
+    },
+    {
+      "sheet": "Stochastic hierarchy",
+      "preview": "C:\\range_paper\\99_tmp\\d10e\\xlsx_builder\\previews\\Stochastic_hierarchy.png",
+      "size_bytes": 120267,
+      "sha256": "505a748efb93f94ebd325b3f2d11c90e96242cb474e0be712d1a972c0c4488b8"
+    },
+    {
+      "sheet": "Checks",
+      "preview": "C:\\range_paper\\99_tmp\\d10e\\xlsx_builder\\previews\\Checks.png",
+      "size_bytes": 213607,
+      "sha256": "d9707878e1647ce84956d827e30777527a87d4694180b99cdc5e0e192d71fca3"
+    },
+    {
+      "sheet": "Inputs",
+      "preview": "C:\\range_paper\\99_tmp\\d10e\\xlsx_builder\\previews\\Inputs.png",
+      "size_bytes": 129179,
+      "sha256": "7228251f7a50f9d877857c33e6209c49a2561d88da985d45140a1f09e4412ebe"
+    },
+    {
+      "sheet": "Files",
+      "preview": "C:\\range_paper\\99_tmp\\d10e\\xlsx_builder\\previews\\Files.png",
+      "size_bytes": 345010,
+      "sha256": "7056f9b18948a0806cf51cd63beec717a00ca8de75b06e01b3b00faa1f82f984"
+    }
+  ]
+}

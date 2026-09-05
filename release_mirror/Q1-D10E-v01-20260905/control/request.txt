@@ -1,0 +1,821 @@
+# Q1 / D10E — Positive-Opportunity Abundance Measurement Noise Decomposition v01
+
+# 正观测机会域多度测量噪声分解 v01
+
+TASK_ID:
+
+`D10E_POSITIVE_OPPORTUNITY_ABUNDANCE_MEASUREMENT_NOISE_DECOMPOSITION_v01`
+
+---
+
+# 0. Mainline status
+
+# 主线状态
+
+D10D has completed:
+
+`ZERO_OPPORTUNITY_SOURCE_ATTRIBUTION_COMPLETE_READY_FOR_MAINLINE`
+
+Mainline scientific audit:
+
+* D10D computation / reproducibility: **ACCEPT**
+* zero-opportunity cells materially degrade abundance-map recovery: **SUPPORTED**
+* zero-opportunity cells as the primary source of Q1 sign reversal: **UNSUPPORTED / REJECTED**
+* target-fold measurable-domain restriction as sufficient repair: **NO**
+* common A∩B measurable-domain restriction as sufficient repair: **NO**
+* A2 FIA design-based point-estimator authority: **FROZEN**
+* abundance measurement Gate: **HOLD**
+* support recovery: **HOLD**
+* real species / real Q1: **HOLD**
+
+Critical D10D evidence:
+
+* full latent A0 separation: `+6.054 pp`
+* current A2 D0 separation: `−26.285 pp`
+* D1 oracle zero-opportunity fill: `−25.286 pp`
+* only approximately `3.09%` of the full D0→A0 separation gap was removed
+* D3 common-domain A2 separation: `−22.147 pp`
+* matching D3 latent reference: `+11.231 pp`
+* D3 residual distortion relative to matching latent reference: approximately `−33.378 pp`
+
+Therefore the next question is no longer whether zero-opportunity cells explain the sign reversal.
+
+The next question is:
+
+> **Does finite observation noise itself destroy the downstream geometry–abundance signal, or does the expected A2 measurement operator remain structurally biased even after random observation noise is averaged away?**
+
+---
+
+# 1. Scientific objective
+
+# 科学目标
+
+Under oracle support and the frozen A2 estimator, decompose the remaining downstream distortion into:
+
+1. **systematic measurement-operator distortion（系统性测量算子扭曲）**
+   arising from fixed FIA plot layout, weighting, finite spatial sampling configuration, and normalization even after observation-stage randomness is averaged away;
+
+versus
+
+2. **finite-sample stochastic distortion（有限样本随机扭曲）**
+   arising from random realized observations and the nonlinear transformation from estimated abundance maps to the final downstream Q1 statistic.
+
+The task is diagnostic only.
+
+Do NOT create or select a new abundance model.
+
+---
+
+# 2. Frozen authoritative inputs
+
+# 冻结权威输入
+
+## D10D
+
+Canonical package:
+
+`C:\range_paper\10_archive\d10d\D10D_v01.zip`
+
+SHA-256:
+
+`8efd2e9c5609de0fbb831c4aa268c1334a368569e7fc870b80e262a196bbeb42`
+
+Use its frozen:
+
+* D0 / D1 / D2 / D3 definitions；
+* D3 common A∩B measurable domain；
+* matching D3 latent reference；
+* downstream scoring；
+* synthetic identities；
+* STRONG / PAIRED_NULL worlds；
+* AB / BA orientations；
+* oracle support；
+* domain masks.
+
+Do not redefine D3.
+
+---
+
+## D10C resume
+
+`C:\range_paper\10_archive\d10cr\D10CR_v01.zip`
+
+SHA-256:
+
+`5ae34a71d50c8bea0809cef77d9835051926f3ea3455b41b2ed913860bab64b1`
+
+Use its frozen:
+
+* A0；
+* A1；
+* A2；
+* F0 real-layout synthetic observation structure；
+* synthetic generator；
+* observation regimes O1 / O2 / O3；
+* frozen realization identities where relevant；
+* abundance recovery metrics；
+* downstream machinery.
+
+---
+
+## D10C-A estimator authority
+
+`C:\range_paper\10_archive\d10ca\D10CA_v01.zip`
+
+SHA-256:
+
+`c8f73406f7f192b8f124add3cb0ded7ea65474e8d72d752e37dc557a08588865`
+
+A2 remains exactly:
+
+`TPA_UNADJ × basis-matched official ADJ_FACTOR × fold-specific TI`
+
+with the frozen normalization and partial-effort semantics.
+
+No A2 modification is authorized.
+
+---
+
+## D10B oracle reference
+
+Preserve the frozen oracle-support downstream definitions and scoring.
+
+Do not alter:
+
+* World 0；
+* paired-null；
+* geometry representation；
+* predictive-set definitions；
+* coverage definitions.
+
+---
+
+# 3. Primary diagnostic domain
+
+# 主要诊断空间域
+
+The **primary D10E diagnostic domain** is the already frozen D10D D3 common A∩B measurable domain.
+
+This is used only because it removes zero-opportunity domain mismatch from both orientations.
+
+It is NOT selected as the final real-data Q1 estimand.
+
+Frozen D3 identity:
+
+* retained cells: `2,757 / 3,011`
+* retained fraction: approximately `91.564%`
+
+For every primary D10E state:
+
+* restrict latent abundance to the D3 domain；
+* intersect oracle support with the same D3 domain；
+* derive geometry from that same restricted oracle support；
+* normalize abundance within the same domain；
+* use the D3 matching latent reference.
+
+Secondary full-domain reproduction may be run for qualitative confirmation, but the primary source decomposition must use D3.
+
+---
+
+# 4. First task: audit the synthetic observation stochastic hierarchy
+
+# 第一任务：审计合成观测随机层级
+
+Before running any decomposition, reconstruct from frozen D10A/D10C code and artifacts the exact stochastic hierarchy between:
+
+> latent abundance truth
+
+and
+
+> realized A2 plot observations.
+
+Identify every stochastic component separately.
+
+At minimum determine whether the generator contains distinct components such as:
+
+* fixed latent cell abundance；
+* deterministic FIA layout / plot effort；
+* plot-level latent heterogeneity or micro-noise；
+* stochastic encounter / count realization；
+* Poisson or other terminal count draw；
+* any additional random observation-stage term.
+
+Do NOT assume the hierarchy from memory or task wording.
+
+Create:
+
+`Q1_D10E_OBSERVATION_STOCHASTIC_HIERARCHY_v01.md`
+
+and a machine-readable ledger.
+
+For every random component record:
+
+* random variable；
+* conditioning variables；
+* distribution；
+* frozen parameter source；
+* whether it belongs to ecological latent truth or observation measurement；
+* whether it is redrawn in repeated-observation diagnostics；
+* whether it remains fixed.
+
+If the exact hierarchy cannot be reconstructed uniquely:
+
+terminate:
+
+`INPUT_BLOCKED_OBSERVATION_GENERATOR_DECOMPOSITION_AUTHORITY_FAILURE`
+
+Do not invent a decomposition.
+
+---
+
+# 5. Required measurement states
+
+# 必需测量状态
+
+The purpose is to separate systematic bias from finite-observation randomness.
+
+---
+
+## E0 — Matching latent reference
+
+## 匹配潜在真值参考
+
+Use D3 matching latent abundance and oracle support.
+
+This must reproduce approximately:
+
+`STRONG − PAIRED_NULL = +11.231 pp`
+
+under the frozen D3 downstream definition.
+
+E0 is the scientific reference.
+
+---
+
+## E1 — Current single-realization A2
+
+## 当前单次A2观测
+
+Reproduce D3 current A2 exactly.
+
+Expected frozen reference:
+
+approximately:
+
+`−22.147 pp`
+
+No changes.
+
+This is the current finite-realization baseline.
+
+---
+
+## E2 — Terminal conditional-mean observer
+
+## 终端条件期望观察器
+
+Remove only the **final stochastic observation draw** while holding all legitimate frozen upstream quantities fixed.
+
+Example only:
+
+If the frozen generator ultimately draws a Poisson count conditional on an intensity λ, replace the realized count with its exact conditional mean λ.
+
+Do NOT use this example if the actual generator differs.
+
+All earlier latent / observation-stage quantities that are upstream of the final draw must remain exactly as dictated by the audited stochastic hierarchy.
+
+Then apply the unchanged A2 estimator.
+
+Purpose:
+
+> isolate distortion caused specifically by the terminal random count realization.
+
+E2 is diagnostic only.
+
+---
+
+## E3 — Full observation-process expectation map
+
+## 完整观测过程期望地图
+
+Average over **all observation-stage stochastic components below the frozen ecological latent truth**, while holding fixed:
+
+* species latent abundance；
+* support；
+* FIA plot locations；
+* grid；
+* design weights；
+* A/B partition；
+* World identity.
+
+If the exact expectation can be derived analytically or deterministically from the frozen generator, use that exact expectation.
+
+Otherwise estimate it using repeated independent observation realizations under the convergence rules below.
+
+Produce expected unnormalized A2 cell masses:
+
+`E[M_hat(x) | latent truth, frozen FIA layout]`
+
+Then normalize the expected mass map only after expectation:
+
+`p_from_mean_mass(x) = E[M_hat(x)] / Σ E[M_hat(x)]`
+
+Run the frozen downstream Q1 machinery on this map.
+
+Purpose:
+
+> estimate the downstream behavior of the **expected A2 measurement operator** without finite-realization noise.
+
+---
+
+## E4 — Mean normalized map
+
+## 平均归一化地图
+
+For each independent observation realization:
+
+1. estimate A2 cell masses；
+2. normalize that realization to obtain `p_hat_r(x)`；
+3. average normalized maps across realizations:
+
+`mean_r[p_hat_r(x)]`.
+
+Run downstream analysis on this mean normalized map.
+
+Compare E4 with E3.
+
+Purpose:
+
+> isolate distortion caused by normalization nonlinearity.
+
+If E3 and E4 differ materially, document the source without repairing it.
+
+---
+
+## E5 — Expected downstream statistic over finite realizations
+
+## 有限观测下游统计量的期望
+
+For each independent observation realization:
+
+1. construct A2 map；
+2. normalize；
+3. run unchanged downstream scoring；
+4. record STRONG and PAIRED_NULL gains.
+
+Then estimate:
+
+`E[F(p_hat)]`
+
+where `F` denotes the frozen downstream Q1 functional.
+
+Compare:
+
+* `F(E[M_hat])` — E3；
+* `F(E[p_hat])` — E4；
+* `E[F(p_hat)]` — E5；
+* `F(p_truth)` — E0.
+
+This comparison is mandatory.
+
+Purpose:
+
+> quantify nonlinear / Jensen-type distortion introduced when a noisy abundance map is passed through the downstream Q1 functional.
+
+Do not label this as a formal Jensen effect unless the mathematical conditions support that terminology.
+
+---
+
+# 6. Core source decomposition
+
+# 核心来源分解
+
+For STRONG−PAIRED_NULL separation, quantify at minimum:
+
+### Component A — systematic measurement-operator distortion
+
+`E3 − E0`
+
+Interpretation:
+
+> distortion remaining after observation randomness is averaged away.
+
+---
+
+### Component B — normalization nonlinearity
+
+`E4 − E3`
+
+Interpretation:
+
+> difference induced by averaging normalized maps rather than normalizing the expected mass map.
+
+---
+
+### Component C — finite-realization downstream nonlinearity/noise
+
+`E5 − E4`
+
+Interpretation:
+
+> additional distortion introduced because the downstream statistic is evaluated on noisy finite realizations.
+
+---
+
+### Component D — current realization deviation
+
+`E1 − E5`
+
+Interpretation:
+
+> how unusual the particular frozen D10C realization is relative to the expected finite-realization behavior.
+
+Report all components separately for:
+
+* AB；
+* BA；
+* STRONG；
+* PAIRED_NULL；
+* O1 / O2 / O3 where applicable.
+
+No component may be silently merged with another.
+
+---
+
+# 7. Repeated-survey averaging ladder
+
+# 重复调查平均阶梯
+
+Create a purely diagnostic repeated-observation information ladder.
+
+For:
+
+`K = 1, 2, 4, 8, 16, 32`
+
+independent observation realizations of the same frozen species / world / FIA layout:
+
+1. estimate A2 unnormalized cell masses for each realization；
+2. average the K cell-mass maps；
+3. normalize only after averaging；
+4. run downstream scoring.
+
+For each K report:
+
+* map Hellinger error；
+* sliced-Wasserstein error；
+* STRONG gain；
+* PAIRED_NULL gain；
+* STRONG−PAIRED_NULL separation；
+* AB / BA difference；
+* coverage where meaningful.
+
+Purpose:
+
+> determine whether increasing effective observation information progressively restores the latent scientific signal.
+
+This is diagnostic.
+
+It does NOT imply repeated FIA surveys are available or proposed for the real analysis.
+
+---
+
+# 8. Monte Carlo numerical precision
+
+# 蒙特卡洛数值精度
+
+Where exact expectation is unavailable, use repeated independent simulations.
+
+Prefer paired random-number streams across matched STRONG / PAIRED_NULL comparisons where this preserves the frozen counterfactual identity and reduces Monte Carlo noise.
+
+Do not store every full plot-level realization unless necessary.
+
+Streaming / batch aggregation is allowed.
+
+Minimum:
+
+* 200 independent observation realizations for primary E3–E5 estimation.
+
+Continue in batches if required, up to 1,000 realizations, until numerical precision is adequate.
+
+Use computational convergence criteria, not scientific acceptance criteria.
+
+At minimum report Monte Carlo standard errors for:
+
+* pooled STRONG−PAIRED_NULL separation；
+* AB separation；
+* BA separation；
+* median Hellinger recovery.
+
+Target numerical precision:
+
+* pooled separation MCSE ≤ 0.25 pp；
+* orientation-specific separation MCSE ≤ 0.50 pp；
+
+or stop at 1,000 realizations and report the achieved precision.
+
+Failure to reach these numerical targets is not a scientific FAIL.
+
+---
+
+# 9. Positive-opportunity map recovery
+
+# 正观测机会域地图恢复
+
+Within D3 only, compare E0 / E1 / E2 / E3 / E4.
+
+At minimum report:
+
+* Hellinger distance；
+* sliced-Wasserstein distance；
+* cell-mass correlation；
+* bias；
+* relative bias；
+* RMSE；
+* relative RMSE；
+* entropy bias；
+* concentration bias where frozen definitions exist.
+
+The key question is:
+
+> can the **expected measurement map** recover the latent map even though a single realization cannot preserve the downstream Q1 signal?
+
+---
+
+# 10. Empirical uncertainty audit
+
+# 经验不确定性审计
+
+Use repeated observation realizations to quantify empirical variation of A2.
+
+Compare the empirical sampling distribution against the simple interval representation used in D10C.
+
+At minimum assess:
+
+* empirical cell-mass variance；
+* empirical 95% interval coverage；
+* current Poisson-style interval coverage；
+* variance ratio or equivalent dispersion diagnostic；
+* AB vs BA differences.
+
+Do NOT introduce or fit a new uncertainty model.
+
+Purpose:
+
+> determine whether D10C's undercoverage is explained by unrepresented observation-stage variability.
+
+---
+
+# 11. Information-amount diagnostics
+
+# 信息量诊断
+
+Using only frozen A/B identities, quantify how distortion varies with:
+
+* number of legal target-fold plots；
+* plots per occupied cell；
+* weighted effective sample information where directly supported；
+* support size；
+* abundance concentration；
+* A versus B target fold；
+* 2-panel versus 3-panel target-fold role.
+
+Do not convert these relationships into exclusion thresholds.
+
+Do not select species.
+
+The purpose is to understand whether BA's stronger distortion is consistent with lower effective abundance-measurement information.
+
+---
+
+# 12. Optional authority-gated panel-information extension
+
+# 可选的权威受限panel信息扩展
+
+Do NOT invent arbitrary 4-panel / 5-panel estimators.
+
+If — and only if — the frozen FIA/D09C/D10C-A authority permits an exact, non-ad-hoc design-based abundance estimator for additional whole-panel combinations without changing estimator semantics, Work may add a diagnostic panel-information ladder.
+
+If authority is not already sufficient, record:
+
+`NOT_ENTERED — ADDITIONAL PANEL ESTIMATOR AUTHORITY NOT FROZEN`
+
+and continue D10E.
+
+Lack of this optional extension must NOT block D10E.
+
+The mandatory information ladder is the repeated-survey K ladder above.
+
+---
+
+# 13. Required scientific questions
+
+# 结果必须回答的问题
+
+### Q1
+
+When terminal count randomness alone is removed, does E2 restore the correct STRONG > PAIRED_NULL direction?
+
+### Q2
+
+When the entire observation-stage stochastic process is averaged away, does E3 restore the correct direction?
+
+### Q3
+
+How close is the expected A2 abundance map E3 to latent truth E0?
+
+### Q4
+
+How much distortion is attributable to normalization nonlinearity, E4−E3?
+
+### Q5
+
+How much additional distortion arises because the downstream Q1 statistic is applied to finite noisy maps, E5−E4?
+
+### Q6
+
+Is the frozen D10C single realization E1 representative of the expected finite-realization behavior E5, or unusually adverse?
+
+### Q7
+
+Does repeated-survey averaging K=1→32 progressively recover STRONG−PAIRED_NULL separation toward E0?
+
+### Q8
+
+Is BA more distorted than AB primarily because the abundance target fold contains less effective information?
+
+### Q9
+
+Does the empirical sampling distribution explain the D10C Poisson-interval undercoverage?
+
+### Q10
+
+Does substantial systematic distortion remain even after observation randomness is averaged away?
+
+### Q11
+
+Is the evidence consistent with the next mainline action being:
+
+* uncertainty propagation around frozen A2；
+* revision of the abundance measurement operator；
+* or continued diagnostic HOLD?
+
+Work must NOT choose among these.
+
+---
+
+# 14. Decision logic reserved for mainline
+
+# 主线保留的决策逻辑
+
+Work must not assign these decisions.
+
+Mainline will interpret:
+
+### Pattern A
+
+If E3 / E4 recover the positive latent direction, but E5 / E1 are negative:
+
+> finite-sample stochasticity / nonlinear uncertainty propagation is strongly implicated.
+
+Likely next scientific direction:
+
+> retain A2 point-estimator authority and develop a non-oracle abundance-uncertainty propagation layer.
+
+---
+
+### Pattern B
+
+If E3 remains strongly negative relative to E0:
+
+> random sampling noise is insufficient to explain the problem.
+
+Likely implication:
+
+> the expected measurement operator itself is structurally unsuitable for preserving the Q1 target statistic.
+
+This would require mainline reconsideration before any uncertainty model is added.
+
+---
+
+### Pattern C
+
+If E3 is positive but materially attenuated, while E5 is negative:
+
+> both systematic measurement distortion and finite-sample uncertainty contribute.
+
+Mainline will determine the minimum necessary correction.
+
+These are interpretation templates only.
+
+Work must not issue the final classification.
+
+---
+
+# 15. Required outputs
+
+# 必需输出
+
+Produce at minimum:
+
+1. `Q1_D10E_OBSERVATION_STOCHASTIC_HIERARCHY_v01.md`
+2. machine-readable stochastic-component ledger
+3. E0 reproduction table
+4. E1 reproduction table
+5. E2 conditional-mean map and downstream summary
+6. E3 expected-mass map and downstream summary
+7. E4 mean-normalized-map summary
+8. E5 expected-finite-realization downstream summary
+9. source-decomposition table: E3−E0, E4−E3, E5−E4, E1−E5
+10. AB / BA decomposition table
+11. STRONG / PAIRED_NULL decomposition table
+12. repeated-survey K ladder table
+13. map-recovery comparison
+14. empirical uncertainty / coverage audit
+15. information-amount diagnostic table
+16. Monte Carlo convergence table
+17. figures necessary for mainline interpretation
+18. human-readable `audit_v01.xlsx` if useful
+19. `Q1_D10E_RESULT_NOTE_v01.md` answering Q1–Q11
+20. complete reproduction code
+21. deterministic validation report
+22. SHA256SUMS
+23. Relay v0.2.2 native `TRANSFER_MANIFEST_v01.csv`
+24. `REGISTRY_DELTA_v01.csv`
+25. delivery index
+
+Record diagnostics generously.
+
+Do not discard potentially useful supplementary or provenance material.
+
+---
+
+# 16. Absolute prohibitions
+
+# 绝对禁止
+
+Do NOT:
+
+* read real 93-species scientific outcomes；
+* construct real abundance maps；
+* construct real support；
+* run real Q1；
+* refit M0 / M1 / M2；
+* repair support recovery；
+* modify A2；
+* create A3 or another estimator；
+* smooth abundance maps；
+* interpolate missing cells；
+* change the real analysis domain；
+* select D3 as the final real-data domain；
+* use environmental predictors；
+* change 50-km primary grain；
+* change A/B assignment；
+* alter World 0；
+* alter paired-null；
+* alter R1 / R2；
+* create species exclusion thresholds；
+* select a final cohort；
+* fit a new uncertainty model；
+* choose the scientific next step.
+
+This task performs **decomposition only**.
+
+---
+
+# 17. Allowed terminal statuses
+
+# 允许终态
+
+Only:
+
+`ABUNDANCE_MEASUREMENT_NOISE_DECOMPOSITION_COMPLETE_READY_FOR_MAINLINE`
+
+`INPUT_BLOCKED_OBSERVATION_GENERATOR_DECOMPOSITION_AUTHORITY_FAILURE`
+
+`INPUT_BLOCKED_FROZEN_IDENTITY_FAILURE`
+
+`IMPLEMENTATION_BLOCKED`
+
+No scientific PASS / HOLD / FAIL.
+
+---
+
+# 18. STOP
+
+After completing E0–E5, repeated-survey diagnostics, empirical uncertainty audit and source decomposition:
+
+STOP.
+
+Do not proceed to:
+
+* abundance uncertainty model；
+* abundance estimator repair；
+* support recovery；
+* real species；
+* final cohort；
+* real World 0；
+* real Q1.
+
+Return all evidence to mainline.
+
+END

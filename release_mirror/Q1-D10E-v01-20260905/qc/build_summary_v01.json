@@ -1,0 +1,39 @@
+{
+  "task_id": "D10E_POSITIVE_OPPORTUNITY_ABUNDANCE_MEASUREMENT_NOISE_DECOMPOSITION_v01",
+  "terminal_status": "ABUNDANCE_MEASUREMENT_NOISE_DECOMPOSITION_COMPLETE_READY_FOR_MAINLINE",
+  "elapsed_seconds": 490.15465664863586,
+  "accepted_MC_realizations": 200,
+  "MC_stop_reason": "TARGET_REACHED",
+  "MC_pooled_separation_mcse_pp": 0.1687201020106007,
+  "MC_AB_separation_mcse_pp": 0.23604516974169687,
+  "MC_BA_separation_mcse_pp": 0.27969716893377405,
+  "state_pooled_separation_pp": {
+    "E0": 11.231045573323405,
+    "E1": -22.14654892655424,
+    "E2": 11.231045573323405,
+    "E3": 11.231045573323405,
+    "E4": 11.248034250119389,
+    "E5": -19.5093896526185
+  },
+  "source_components_pooled_separation_pp": {
+    "A_SYSTEMATIC_MEASUREMENT_OPERATOR": 0.0,
+    "B_NORMALIZATION_NONLINEARITY": 0.016988676795984148,
+    "C_FINITE_REALIZATION_DOWNSTREAM": -30.757423902737887,
+    "D_CURRENT_REALIZATION_DEVIATION": -2.6371592739357403
+  },
+  "E0_max_abs_reproduction_diff": 1.1368683772161603e-13,
+  "E1_max_abs_reproduction_diff": 1.1368683772161603e-13,
+  "E2_max_relative_cell_mass_error": 1.6077059521910866e-15,
+  "f0_rows": 338619,
+  "legal_opportunities": 134846,
+  "D3_cells": 2757,
+  "synthetic_species": 72,
+  "network_used": false,
+  "real_species_read": false,
+  "A2_modified": false,
+  "support_recovery_run": false,
+  "uncertainty_model_fitted": false,
+  "real_world0_run": false,
+  "real_q1_run": false,
+  "scientific_pass_hold_fail_assigned": false
+}

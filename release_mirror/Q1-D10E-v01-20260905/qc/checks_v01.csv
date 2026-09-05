@@ -1,0 +1,17 @@
+﻿check_id,status,observed,expected,notes
+INPUT_IDENTITIES,PASS,14,14,Outer SHA-256 and all applicable internal manifests
+F0_ROWS,PASS,338619,338619,Frozen D10A layout
+D3_CELLS,PASS,2757,2757,Frozen D10D D3
+SYNTHETIC_WORLDS,PASS,144,144,Frozen support and abundance hashes
+E0_REPRODUCTION,PASS,1.1368683772161603e-13,<=1e-10,D10D D3_A0_REF
+E1_REPRODUCTION,PASS,1.1368683772161603e-13,<=1e-10,D10D D3
+E2_CONDITIONAL_MEAN_IDENTITY,PASS,1.6077059521910866e-15,<=1e-10 relative,Poisson mean through unchanged A2
+E3_EXPECTATION_IDENTITY,PASS,0.0,0 within 1e-12,Exact positive-opportunity expectation
+MC_MINIMUM,PASS,200,>=200,TARGET_REACHED
+MC_STOP_RULE,PASS,TARGET_REACHED,TARGET_REACHED or MAX_1000,Computational precision only
+K_LADDER,PASS,"[1, 2, 4, 8, 16, 32]","[1, 2, 4, 8, 16, 32]",Non-overlapping blocks
+REGIME_INVARIANCE,PASS,O1=O2=O3 by construction,A2 independent of encounter regime,Oracle support
+REAL_SPECIES_READ,PASS,0,0,Synthetic IDs only
+A2_MODIFIED,PASS,0,0,Frozen formula used
+SUPPORT_RECOVERY_RUN,PASS,0,0,Oracle support only
+SCIENTIFIC_DISPOSITION_ASSIGNED,PASS,0,0,Mainline reserved
