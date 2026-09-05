@@ -1,0 +1,310 @@
+{
+  "task_id": "D10C_FIA_DESIGN_BASED_ABUNDANCE_MEASUREMENT_CALIBRATION_RESUME_v01",
+  "terminal_status": "ABUNDANCE_CALIBRATION_COMPLETE_READY_FOR_MAINLINE_FREEZE",
+  "validation_status": "PASS",
+  "scientific_pass_fail_assigned": false,
+  "row_counts": {
+    "out/truth_v01.csv": 17524,
+    "out/a0_v01.csv": 17524,
+    "out/a1_v01.csv": 35048,
+    "out/a2_v01.csv.gz": 35048,
+    "out/plot_obs_v01.csv.gz": 189932,
+    "out/cell_recovery_v01.csv.gz": 70096,
+    "out/recovery_metrics_v01.csv": 576,
+    "out/leakage_v01.csv.gz": 19504,
+    "out/downstream_v01.csv": 180,
+    "out/separation_v01.csv": 90,
+    "out/common_compare_v01.csv": 18,
+    "out/orientation_v01.csv": 25
+  },
+  "key_results": {
+    "median_hellinger_A1": 0.2994660300870352,
+    "median_hellinger_A2": 0.13294353494439515,
+    "median_sliced_wasserstein_km_A1": 26.199384704612047,
+    "median_sliced_wasserstein_km_A2": 4.087035912500022,
+    "strong_minus_paired_null_downstream_separation_pp": {
+      "A0": 6.05399724982147,
+      "A1": -127.88865001066259,
+      "A2": -26.285067058946254
+    },
+    "max_abs_A2_pooled_within_species_p_residual_r": 0.20792108740741067
+  },
+  "checks": [
+    {
+      "check_id": "REQUIRED_FILES",
+      "status": "PASS",
+      "observed": 22,
+      "expected": 22,
+      "notes": ""
+    },
+    {
+      "check_id": "INPUT_IDENTITIES",
+      "status": "PASS",
+      "observed": 7,
+      "expected": 7,
+      "notes": "bad_status=[]; bad_hash=[]"
+    },
+    {
+      "check_id": "BUILD_QC",
+      "status": "PASS",
+      "observed": 12,
+      "expected": 12,
+      "notes": "nonpass=[]"
+    },
+    {
+      "check_id": "ROWS_TRUTH_V01_CSV",
+      "status": "PASS",
+      "observed": 17524,
+      "expected": 17524,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_A0_V01_CSV",
+      "status": "PASS",
+      "observed": 17524,
+      "expected": 17524,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_A1_V01_CSV",
+      "status": "PASS",
+      "observed": 35048,
+      "expected": 35048,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_A2_V01_CSV_GZ",
+      "status": "PASS",
+      "observed": 35048,
+      "expected": 35048,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_PLOT_OBS_V01_CSV_GZ",
+      "status": "PASS",
+      "observed": 189932,
+      "expected": 189932,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_CELL_RECOVERY_V01_CSV_GZ",
+      "status": "PASS",
+      "observed": 70096,
+      "expected": 70096,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_RECOVERY_METRICS_V01_CSV",
+      "status": "PASS",
+      "observed": 576,
+      "expected": 576,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_LEAKAGE_V01_CSV_GZ",
+      "status": "PASS",
+      "observed": 19504,
+      "expected": 19504,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_DOWNSTREAM_V01_CSV",
+      "status": "PASS",
+      "observed": 180,
+      "expected": 180,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_SEPARATION_V01_CSV",
+      "status": "PASS",
+      "observed": 90,
+      "expected": 90,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_COMMON_COMPARE_V01_CSV",
+      "status": "PASS",
+      "observed": 18,
+      "expected": 18,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_ORIENTATION_V01_CSV",
+      "status": "PASS",
+      "observed": 25,
+      "expected": 25,
+      "notes": ""
+    },
+    {
+      "check_id": "SYNTHETIC_UNIVERSE",
+      "status": "PASS",
+      "observed": {
+        "species": 72,
+        "worlds": [
+          "PAIRED_NULL",
+          "STRONG"
+        ]
+      },
+      "expected": {
+        "species": 72,
+        "worlds": [
+          "PAIRED_NULL",
+          "STRONG"
+        ]
+      },
+      "notes": ""
+    },
+    {
+      "check_id": "A0_EXACT_TRUTH",
+      "status": "PASS",
+      "observed": 17524,
+      "expected": 17524,
+      "notes": ""
+    },
+    {
+      "check_id": "TRUTH_NORMALIZATION",
+      "status": "PASS",
+      "observed": 8.881784197001252e-16,
+      "expected": "<=1e-12",
+      "notes": ""
+    },
+    {
+      "check_id": "A2_NORMALIZATION",
+      "status": "PASS",
+      "observed": 8.881784197001252e-16,
+      "expected": "<=1e-12",
+      "notes": ""
+    },
+    {
+      "check_id": "A2_STRUCTURAL_ZERO_RULE",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0,
+      "notes": ""
+    },
+    {
+      "check_id": "A2_PLOT_TO_CELL_RECONSTRUCTION",
+      "status": "PASS",
+      "observed": 0.0,
+      "expected": "<=1e-6",
+      "notes": ""
+    },
+    {
+      "check_id": "NO_REAL_SPECIES_IDS",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0,
+      "notes": ""
+    },
+    {
+      "check_id": "RECOVERY_IMPROVEMENT_FACT",
+      "status": "PASS",
+      "observed": {
+        "A1_H": 0.2994660300870352,
+        "A2_H": 0.13294353494439515,
+        "A1_SW": 26.199384704612047,
+        "A2_SW": 4.087035912500022
+      },
+      "expected": "A2 lower than A1; descriptive only",
+      "notes": ""
+    },
+    {
+      "check_id": "DOWNSTREAM_SEPARATION_REPRODUCTION",
+      "status": "PASS",
+      "observed": {
+        "A0": 6.05399724982147,
+        "A1": -127.88865001066259,
+        "A2": -26.285067058946254
+      },
+      "expected": {
+        "A0": 6.05399724982147,
+        "A1": -127.88865001066259,
+        "A2": -26.285067058946254
+      },
+      "notes": ""
+    },
+    {
+      "check_id": "A2_POOLED_RESIDUAL_LEAKAGE_REPRODUCTION",
+      "status": "PASS",
+      "observed": {
+        "n": 16,
+        "max_abs_r": 0.20792108740741067
+      },
+      "expected": {
+        "n": 16,
+        "max_abs_r": 0.20792108740741067
+      },
+      "notes": ""
+    },
+    {
+      "check_id": "TERMINAL_STATUS",
+      "status": "PASS",
+      "observed": "ABUNDANCE_CALIBRATION_COMPLETE_READY_FOR_MAINLINE_FREEZE",
+      "expected": "ABUNDANCE_CALIBRATION_COMPLETE_READY_FOR_MAINLINE_FREEZE",
+      "notes": ""
+    },
+    {
+      "check_id": "SCOPE_FIREWALL",
+      "status": "PASS",
+      "observed": {
+        "network_used": false,
+        "real_species_read": false,
+        "support_recovery_run": false,
+        "real_q1_run": false
+      },
+      "expected": "all false",
+      "notes": ""
+    },
+    {
+      "check_id": "AUDIT_WORKBOOK",
+      "status": "PASS",
+      "observed": {
+        "bytes": 15536,
+        "renders": 5,
+        "postimport": "PASS"
+      },
+      "expected": "nonempty workbook; zero formula errors; 5 renders; post-import PASS",
+      "notes": ""
+    },
+    {
+      "check_id": "WINDOWS_PATH_LIMIT",
+      "status": "PASS",
+      "observed": {
+        "max_abs_chars": 69,
+        "max_abs_path": "C:\\range_paper\\10_archive\\d10cr\\pkg\\out\\audit_v01.xlsx.inspect.ndjson",
+        "max_member_chars": 33,
+        "max_member": "out/audit_v01.xlsx.inspect.ndjson"
+      },
+      "expected": "both <256",
+      "notes": ""
+    }
+  ],
+  "postpackage": {
+    "status": "PASS",
+    "zip_path": "C:\\range_paper\\10_archive\\d10cr\\D10CR_v01.zip",
+    "zip_size_bytes": 17917401,
+    "zip_sha256": "5ae34a71d50c8bea0809cef77d9835051926f3ea3455b41b2ed913860bab64b1",
+    "sidecar_path": "C:\\range_paper\\10_archive\\d10cr\\D10CR_v01.zip.sha256",
+    "member_count": 50,
+    "max_zip_member_chars": 33,
+    "max_zip_member": "out/audit_v01.xlsx.inspect.ndjson",
+    "checks": {
+      "zip_sha256_matches_sidecar": true,
+      "zip_integrity": true,
+      "internal_hash_manifest": true,
+      "deterministic_member_timestamps": true,
+      "zip_member_paths_lt_256": true,
+      "package_validation_pass": true
+    },
+    "hash_failures": [],
+    "size_failures": []
+  },
+  "package_path_qc": {
+    "status": "PASS",
+    "max_abs_chars": 69,
+    "max_abs_path": "C:\\range_paper\\10_archive\\d10cr\\pkg\\out\\audit_v01.xlsx.inspect.ndjson",
+    "max_member_chars": 33,
+    "max_member": "out/audit_v01.xlsx.inspect.ndjson",
+    "limit": 256
+  }
+}

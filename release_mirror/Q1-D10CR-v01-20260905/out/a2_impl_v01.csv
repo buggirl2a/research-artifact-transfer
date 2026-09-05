@@ -1,0 +1,9 @@
+﻿component,value,status,authority,notes
+species_total_mass,100000000.0,FROZEN,experiment contract,constant for every species and world
+synthetic_tree_statuscd,1,FROZEN,D10C-A target state,live
+synthetic_tree_dia_inches,5.0,FROZEN,experiment contract,large-tree threshold; below every numeric macro breakpoint (minimum 24 inches)
+tally_basis,SUBP,FROZEN,D10C-A basis rule,basis-matched ADJ_FACTOR_SUBP
+tpa_unadj,6.018046,FROZEN,D10C-A/FIADB,trees per acre per subplot record
+population_expansion,fold_specific_TI,FROZEN,D09C/D10C-A,full-evaluation EXPNS excluded
+partial_effort,observation opportunity and QC only,P3,D10C-A,no inverse-effort estimator multiplier
+zero_exposure_cell,estimate zero; retain truth and flag,FROZEN_LIMITATION,experiment contract,no interpolation or support restriction

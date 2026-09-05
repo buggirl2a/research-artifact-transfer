@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "renders": [
+    {
+      "sheet": "Summary",
+      "range": "A1:J37",
+      "file": "C:/range_paper/10_archive/d10cr/pkg/fig/summary_v01.png"
+    },
+    {
+      "sheet": "Recovery",
+      "range": "A1:H9",
+      "file": "C:/range_paper/10_archive/d10cr/pkg/fig/recovery_v01.png"
+    },
+    {
+      "sheet": "Downstream",
+      "range": "A1:M19",
+      "file": "C:/range_paper/10_archive/d10cr/pkg/fig/downstream_v01.png"
+    },
+    {
+      "sheet": "Leakage",
+      "range": "A1:F17",
+      "file": "C:/range_paper/10_archive/d10cr/pkg/fig/leakage_v01.png"
+    },
+    {
+      "sheet": "Checks",
+      "range": "A1:E13",
+      "file": "C:/range_paper/10_archive/d10cr/pkg/fig/checks_v01.png"
+    }
+  ]
+}

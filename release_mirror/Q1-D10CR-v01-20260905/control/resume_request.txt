@@ -1,0 +1,536 @@
+# Q1 / D10C — FIA Design-Based Abundance Measurement Calibration Resume v01
+
+# FIA 设计型多度测量校准恢复 v01
+
+TASK_ID:
+
+`D10C_FIA_DESIGN_BASED_ABUNDANCE_MEASUREMENT_CALIBRATION_RESUME_v01`
+
+---
+
+## 0. Mainline authorization（主线授权）
+
+Previous task:
+
+`D10C_FIA_DESIGN_BASED_ABUNDANCE_MEASUREMENT_CALIBRATION_v01`
+
+correctly terminated at:
+
+`INPUT_BLOCKED_ABUNDANCE_ESTIMATOR_AUTHORITY_FAILURE`
+
+No A0/A1/A2 calibration result was generated.
+
+The authority gap has now been closed by:
+
+`D10C_A_FIA_ABUNDANCE_ESTIMATOR_AUTHORITY_CLOSURE_v01`
+
+Terminal:
+
+`ABUNDANCE_ESTIMATOR_AUTHORITY_CLOSED_READY_FOR_D10C`
+
+Mainline audit:
+
+**ACCEPT**
+
+Therefore D10C is now authorized to resume from the previously blocked estimator-authority gate.
+
+This is **not a new scientific experiment**.
+
+Preserve the original D10C scientific contract exactly unless this instruction explicitly states otherwise.
+
+---
+
+# 1. Scientific question（科学问题）
+
+Under the frozen real F0 FIA sampling design, can finite sampled observations recover:
+
+1. 50-km cell population mass；
+2. normalized within-species population geography；
+
+without encoding sampling intensity, panel allocation, state design, or other observation-layout structure into the recovered abundance map?
+
+Central diagnostic question:
+
+> Does replacing D10A's broken raw-count aggregation with the frozen FIA design-based estimator restore the expected `STRONG > PAIRED_NULL` direction under oracle support?
+
+---
+
+# 2. Scope（范围）
+
+This task calibrates **abundance measurement only**.
+
+Use:
+
+**oracle support（真值支持域）**
+
+throughout the downstream source-decomposition test.
+
+Absolutely do not modify or evaluate support-recovery models.
+
+---
+
+# 3. Authoritative inputs（权威输入）
+
+## A. D10A real-layout synthetic calibration
+
+`Q1_D10A_REAL_LAYOUT_NONORACLE_OBSERVATION_CALIBRATION_REPRODUCIBLE_v01.zip`
+
+SHA-256:
+
+`20e5d3ed33df6414b72a6e679d5349f3b10fe6397ce73f98b51d0bcc96033013`
+
+Use its frozen:
+
+* F0 layout；
+* synthetic species identities；
+* latent spatial states；
+* STRONG / PAIRED_NULL regimes；
+* AB / BA orientations；
+* randomization identities / seeds where applicable；
+* observation-generator settings.
+
+Do not redesign the synthetic world.
+
+---
+
+## B. D10B source decomposition
+
+`Q1_D10B_ORACLE_SUPPORT_DOWNSTREAM_SOURCE_DECOMPOSITION_REPRODUCIBLE_v01.zip`
+
+SHA-256:
+
+`cb041fca5897f31c8ea0bf2a3b29a262a5c83ef44bdfda9a37a0394cfc7cafeb`
+
+Use as the frozen downstream reference.
+
+Especially preserve:
+
+* L0 = oracle support + latent-truth abundance；
+* L1 = oracle support + D10A sampled-abundance branch；
+
+and the previously observed STRONG / PAIRED_NULL separation behavior.
+
+Do not modify World 0 or paired-null construction.
+
+---
+
+## C. D09C frozen FIA design
+
+`C:\range_paper\10_archive\d09c_t2_final_correction_v02\Q1_D09C_T2_FINAL_CORRECTION_REPRODUCIBLE_v02.zip`
+
+SHA-256:
+
+`07cb461121c71ef46990fea3e0cf9d8f139fd873234b9f57910ff10c7c33752f`
+
+Preserve:
+
+* selected 48-state evaluations；
+* whole-panel A/B partitions；
+* final effective design blocks；
+* 5,752 block × fold TI rows；
+* WV merged semantics；
+* CA / OR / WA selected evaluation semantics.
+
+---
+
+## D. D10C-A authority closure — NEW REQUIRED AUTHORITY
+
+`C:\range_paper\10_archive\d10ca\D10CA_v01.zip`
+
+SHA-256:
+
+`c8f73406f7f192b8f124add3cb0ded7ea65474e8d72d752e37dc557a08588865`
+
+Authoritative components include:
+
+* `out/plot_block_xwalk_v01.csv.gz`
+* `out/abundance_rule_v01.md`
+* `out/partial_effort_v01.md`
+* `out/formula_ledger_v01.csv`
+* `out/xwalk_qc_v01.csv`
+* `out/ab_overlap_v01.csv`
+* `out/result_note_v01.md`
+
+This package closes:
+
+`PLT_CN`
+→ original selected stratum
+→ final effective design block
+→ fold
+→ fold-specific TI weight.
+
+---
+
+## E. Previous blocked D10C package
+
+Use the previous D10C authority-failure package as predecessor/audit authority where needed.
+
+ZIP SHA-256:
+
+`64693a8786b3acf981145d99c99a0831d6312605e0c1197dd50fd6684baf20af`
+
+Do not reinterpret its blocked outputs as scientific results.
+
+---
+
+# 4. Frozen abundance layers（冻结多度层）
+
+## A0 — Latent truth abundance（潜在真值多度）
+
+Original synthetic latent population geography.
+
+This is the truth reference.
+
+No measurement error.
+
+No estimator.
+
+---
+
+## A1 — Broken D10A raw-count observer（D10A错误原始计数观察器）
+
+Retain the exact D10A sampled-abundance construction as a **diagnostic negative reference only**.
+
+A1 is known not to represent the intended FIA design-based estimator.
+
+It must never be selected as the scientific estimator.
+
+Do not repair A1.
+
+---
+
+## A2 — Frozen FIA design-based estimator（冻结的FIA设计型估计器）
+
+A2 is the **sole candidate measurement estimator**.
+
+Use D10C-A authority exactly.
+
+For qualifying synthetic tree-equivalent contributions, reproduce the frozen estimator semantics:
+
+tree/record contribution:
+
+`TPA_UNADJ × basis-matched official ADJ_FACTOR`
+
+plot contribution:
+
+sum qualifying record contributions within plot visit.
+
+50-km cell population mass:
+
+sum across plot visits in the cell of:
+
+`fold-specific TI × plot contribution`
+
+Species/fold normalized population geography:
+
+`p_if(x) = M_if(x) / Σ_x M_if(x)`
+
+where the denominator is positive.
+
+Critical rules:
+
+* `EXPNS` is replaced by fold-specific TI and must not be multiplied again；
+* no plot-count divisor；
+* no state-average weight；
+* no inverse plots-per-cell correction；
+* no extra condition-proportion multiplier；
+* no inverse D10A partial-effort multiplier；
+* D10A partial-effort fields remain P3 precision/QC metadata only；
+* use the proper `ADJ_FACTOR_SUBP` / `ADJ_FACTOR_MACR` tally basis.
+
+If the synthetic observation representation cannot be mapped uniquely into these frozen estimator semantics without inventing a new scientific rule:
+
+STOP rather than improvise.
+
+---
+
+# 5. Experimental identity（实验身份）
+
+Preserve the original D10C/D10A synthetic experimental universe exactly:
+
+* 72 synthetic species；
+* STRONG；
+* PAIRED_NULL；
+* AB；
+* BA；
+* same F0 plot layout；
+* same 50-km grid；
+* same latent truth；
+* same synthetic realization identities / seeds where frozen；
+* same support truth；
+* same downstream R1/geometry/World-0 machinery used by D10B for bounded comparison.
+
+The only intended scientific contrast is:
+
+**A1 broken abundance measurement**
+versus
+**A2 correct design-based abundance measurement**.
+
+Do not change another stage at the same time.
+
+---
+
+# 6. Primary abundance-recovery audit（主要多度恢复审计）
+
+For A2 against A0, quantify at minimum:
+
+### Cell-level recovery
+
+* bias；
+* relative bias where mathematically defined；
+* RMSE；
+* calibration by true mass magnitude.
+
+### Map-level recovery
+
+Evaluate normalized population geography.
+
+Include at minimum:
+
+* compositional / Hellinger-type distance；
+* sliced-Wasserstein distance or the exact previously frozen transport metric；
+* any original D10C map-recovery metric already specified.
+
+Report distributions, not only grand means.
+
+Separate:
+
+* STRONG vs PAIRED_NULL；
+* AB vs BA.
+
+---
+
+# 7. Sampling-intensity leakage audit（抽样强度泄漏审计）
+
+Test whether A2 recovery errors or estimated normalized abundance retain systematic structure associated with observation design.
+
+Audit at minimum against:
+
+* number of sampled plots per cell；
+* legal sampling effort；
+* fold；
+* state；
+* `P2PANEL` where appropriate；
+* `MANUAL`；
+* `DESIGNCD`；
+* final effective design block or equivalent design grouping.
+
+Distinguish:
+
+1. legitimate precision variation；
+2. systematic bias；
+3. normalization-induced artifact；
+4. evidence that sampling intensity is being encoded into the estimated population geography.
+
+Do not use these variables to repair A2 in this task.
+
+They are audit variables only.
+
+---
+
+# 8. Oracle-support downstream preservation test（真值支持域下游保持检验）
+
+Use oracle support.
+
+Do not estimate support.
+
+For A0, A1 and A2, run the bounded D10B-compatible downstream analysis needed to answer:
+
+### D1
+
+Does PAIRED_NULL remain near the oracle null behavior under A2?
+
+### D2
+
+Does A2 restore the correct `STRONG > PAIRED_NULL` direction?
+
+### D3
+
+How much of the D10B L1 collapse is removed by replacing A1 with A2?
+
+### D4
+
+Are AB and BA qualitatively consistent?
+
+### D5
+
+Does A2 preserve genuine STRONG signal rather than merely suppressing all downstream signal?
+
+The comparison must be against the frozen D10B L0/L1 authority.
+
+Do not change:
+
+* R1；
+* World 0；
+* paired-null；
+* support；
+* geometry；
+* scoring definitions.
+
+---
+
+# 9. Interpretation discipline（解释纪律）
+
+Work must not declare A2 scientifically selected, accepted or rejected.
+
+Work reports evidence only.
+
+Mainline will classify the abundance-measurement Gate as:
+
+* PASS；
+* HOLD；
+* FAIL；
+* or bounded limitation.
+
+No new hard threshold may be invented.
+
+Where no pre-frozen acceptance threshold exists, report the complete quantitative behavior for mainline judgment.
+
+---
+
+# 10. Required direct comparisons（必需直接比较）
+
+At minimum provide:
+
+### A0 vs A1
+
+Reproduce/reference the broken measurement effect.
+
+### A0 vs A2
+
+Measure true design-based recovery.
+
+### A1 vs A2
+
+Quantify how much the estimator correction changes:
+
+* cell mass；
+* normalized geography；
+* sampling-intensity leakage；
+* downstream geometry gain；
+* STRONG–PAIRED_NULL separation.
+
+### D10B L0 vs D10B L1 vs D10C A2 downstream
+
+Provide a common comparison table wherever definitions are identical.
+
+---
+
+# 11. Required questions（结果必须回答）
+
+### Q1
+
+Can A2 recover 50-km cell population mass under the frozen F0 sampling design?
+
+### Q2
+
+Can A2 recover normalized within-species population geography?
+
+### Q3
+
+How much does A2 improve over the broken A1 raw-count observer?
+
+### Q4
+
+Does A2 exhibit material sampling-intensity leakage?
+
+### Q5
+
+Under oracle support, is PAIRED_NULL returned close to the oracle-null behavior?
+
+### Q6
+
+Under oracle support, is `STRONG > PAIRED_NULL` restored?
+
+### Q7
+
+Are AB and BA qualitatively consistent?
+
+### Q8
+
+Is the evidence sufficient for mainline to freeze the abundance-measurement branch before returning to support recovery?
+
+---
+
+# 12. Required outputs（必需输出）
+
+Produce a reproducible package containing at minimum:
+
+1. input-identity audit；
+2. A0/A1/A2 layer-definition ledger；
+3. A2 estimator implementation audit；
+4. cell-level abundance-recovery table；
+5. normalized-map recovery table；
+6. sampling-intensity leakage audit；
+7. oracle-support downstream comparison；
+8. STRONG vs PAIRED_NULL summary；
+9. AB vs BA consistency summary；
+10. D10B L0/L1/A2 common comparison table；
+11. result note answering Q1–Q8；
+12. figures/tables needed for mainline scientific audit；
+13. complete reproduction code；
+14. SHA256SUMS；
+15. `TRANSFER_MANIFEST_v01.csv` using Relay v0.2.2 native schema；
+16. `REGISTRY_DELTA_v01.csv`；
+17. deterministic validation report.
+
+Record all useful diagnostics generously even if they may later be removed from the paper.
+
+---
+
+# 13. Absolute prohibitions（绝对禁止）
+
+Do NOT:
+
+* read or analyze the real 93 species as scientific outcomes；
+* construct real species abundance maps；
+* estimate real species support；
+* change the 101 / 93 cohorts；
+* run real R1/R2；
+* run real World 0；
+* run real Q1；
+* refit M0/M1/M2；
+* repair support recovery；
+* design a new support model；
+* change paired-null；
+* change World 0；
+* alter A/B panel assignment；
+* alter the 50-km primary grid；
+* alter taxonomy；
+* choose a model winner；
+* create a new abundance estimator；
+* use A1 as a candidate estimator.
+
+---
+
+# 14. Allowed terminal statuses（允许终态）
+
+Only:
+
+`ABUNDANCE_CALIBRATION_COMPLETE_READY_FOR_MAINLINE_FREEZE`
+
+`INPUT_BLOCKED_ABUNDANCE_ESTIMATOR_AUTHORITY_FAILURE`
+
+`INPUT_BLOCKED_FROZEN_DESIGN_IDENTITY_FAILURE`
+
+`IMPLEMENTATION_BLOCKED`
+
+If blocked, STOP with exact evidence.
+
+---
+
+# 15. STOP
+
+After completing the abundance calibration package:
+
+STOP.
+
+Do not proceed to support-recovery repair.
+
+Do not proceed to real species.
+
+Do not proceed to real Q1.
+
+Return all results to mainline for scientific audit and next-stage authorization.
+
+END

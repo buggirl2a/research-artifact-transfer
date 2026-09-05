@@ -1,0 +1,4 @@
+﻿layer,status,population_mass,normalization,estimator_candidate,source
+A0,LATENT_TRUTH,T_i*p_i(x),exact D10A latent allocation,NO,D10A latent world
+A1,BROKEN_REFERENCE_ONLY,T_i times normalized D10A raw cell counts for diagnostic scale alignment,raw cell count / total raw count,NO,exact D10A released count generator
+A2,FROZEN_FIA_DESIGN_ESTIMATOR,sum TI*count*TPA_UNADJ*ADJ_FACTOR_SUBP,estimated cell mass / total estimated mass,SOLE_CANDIDATE,D10C-A authority closure

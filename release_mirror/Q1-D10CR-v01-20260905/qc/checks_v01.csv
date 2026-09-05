@@ -1,0 +1,13 @@
+﻿check_id,status,observed,expected,notes
+INPUT_HASHES,PASS,7,7,All frozen package/request/contract identities matched or were frozen at execution
+D10A_MANIFEST,PASS,432,432,Exact normalized manifest match
+D10B_WORLD_HASHES,PASS,144,144,"Support, abundance, A1, and split hashes"
+D10CA_C1_C9,PASS,9,9,Accepted authority
+F0_VISITS,PASS,338619,338619,Frozen F0
+LEGAL_OPPORTUNITIES,PASS,134846,134846,Exact D10A base opportunity rule
+SYNTHETIC_SPECIES,PASS,72,72,No real species
+D10B_L0_REPRODUCTION,PASS,1.4210854715202004e-14,<=1e-10,Numeric max absolute difference
+D10B_L1_REPRODUCTION,PASS,5.684341886080802e-14,<=1e-10,Numeric max absolute difference
+A2_POSITIVE_EXPOSURE_EXPECTATION,PASS,analytic identity,"E[Mhat|F0,micro]=M where exposure>0",Verified by frozen formula
+NO_REAL_SPECIES,PASS,0,0,TREE.SPCD never read
+NO_SUPPORT_RECOVERY,PASS,0,0,Oracle support only
