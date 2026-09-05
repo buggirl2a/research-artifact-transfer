@@ -1,0 +1,19 @@
+﻿check_id,status,observed,expected,notes
+INPUT_IDENTITIES,PASS,7,7,Outer hashes and D10CR internal manifest
+D10CR_INTERNAL_MEMBERS,PASS,49,49,All member hashes and sizes match
+F0_ROWS,PASS,338619,338619,Frozen D10A layout
+LEGAL_OPPORTUNITIES,PASS,134846,134846,Frozen legal opportunity rule
+CELLS_50KM,PASS,3011,3011,Fixed grain
+SYNTHETIC_WORLD_HASHES,PASS,144,144,Loaded from D10CR cell truth; generator not rerun
+A_ZERO_OPPORTUNITY_CELLS,PASS,156,156,BA target fold
+B_ZERO_OPPORTUNITY_CELLS,PASS,98,98,AB target fold
+D0_REPRODUCTION,PASS,1.7053025658242404e-13,<=1e-10,All common D10C A2 downstream numeric fields
+A0_REPRODUCTION,PASS,2.842170943040401e-14,<=1e-10,All common D10C A0 downstream numeric fields
+D1_POSITIVE_CELLS_UNCHANGED,PASS,0,0,Before normalization
+NORMALIZATION,PASS,ALL_STATE_MAPS,sum=1 within 1e-12,Enforced by normalize
+NO_EMPTY_RESTRICTED_SUPPORT,PASS,60,>0,D2 and D3
+DOWNSTREAM_ROWS,PASS,420,420,7 states x 2 worlds x 2 orientations x 5 splits x 3 regimes
+REAL_SPECIES_READ,PASS,0,0,Synthetic IDs only; TREE.SPCD not read
+SUPPORT_RECOVERY_RUN,PASS,0,0,Oracle support only
+NETWORK_USED,PASS,0,0,Frozen local packages only
+SCIENTIFIC_DISPOSITION_ASSIGNED,PASS,0,0,Quantitative attribution only

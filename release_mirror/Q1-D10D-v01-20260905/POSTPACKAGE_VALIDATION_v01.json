@@ -1,0 +1,21 @@
+{
+  "task_id": "D10D_ZERO_OPPORTUNITY_MEASURABLE_DOMAIN_SOURCE_ATTRIBUTION_v01",
+  "terminal_status": "ZERO_OPPORTUNITY_SOURCE_ATTRIBUTION_COMPLETE_READY_FOR_MAINLINE",
+  "postpackage_validation_status": "PASS",
+  "scientific_disposition": "NOT_ASSIGNED",
+  "zip_path": "C:\\range_paper\\10_archive\\d10d\\D10D_v01.zip",
+  "zip_size_bytes": 4144072,
+  "zip_sha256": "8efd2e9c5609de0fbb831c4aa268c1334a368569e7fc870b80e262a196bbeb42",
+  "zip_member_count": 51,
+  "zip_member_set_and_hashes_match_disk": true,
+  "zip_failures": [],
+  "deterministic_repeat_sha256": "8efd2e9c5609de0fbb831c4aa268c1334a368569e7fc870b80e262a196bbeb42",
+  "deterministic_repeat_match": true,
+  "sidecar_exact": true,
+  "internal_validation_status": "PASS",
+  "xlsx_validation_status": "PASS",
+  "max_absolute_path_chars": 66,
+  "max_zip_member_path_chars": 40,
+  "windows_path_limit_check": "PASS",
+  "boundary": "Synthetic diagnostic only; no scientific disposition, real species, estimator repair, support repair, real World 0, or real Q1."
+}

@@ -1,0 +1,32 @@
+{
+  "task_id": "D10D_ZERO_OPPORTUNITY_MEASURABLE_DOMAIN_SOURCE_ATTRIBUTION_v01",
+  "terminal_status": "ZERO_OPPORTUNITY_SOURCE_ATTRIBUTION_COMPLETE_READY_FOR_MAINLINE",
+  "f0_rows": 338619,
+  "legal_opportunities": 134846,
+  "cells_50km": 3011,
+  "A_opportunity_cells": 2855,
+  "B_opportunity_cells": 2913,
+  "common_opportunity_cells": 2757,
+  "synthetic_species": 72,
+  "D0_max_abs_reproduction_diff": 1.7053025658242404e-13,
+  "A0_max_abs_reproduction_diff": 2.842170943040401e-14,
+  "downstream_rows": 420,
+  "test_detail_rows": 2240,
+  "state_separation_pp_median": {
+    "A0_REF": 6.05399724982147,
+    "D0": -26.285067058946254,
+    "D1": -25.286054891159072,
+    "D2": -27.032620863446166,
+    "D2_A0_REF": 4.635440260146493,
+    "D3": -22.146548926554246,
+    "D3_A0_REF": 11.231045573323405
+  },
+  "D1_fraction_full_gap_removed_from_pooled_medians": 0.030891808069917814,
+  "network_used": false,
+  "real_species_read": false,
+  "support_recovery_run": false,
+  "abundance_model_repair_run": false,
+  "real_world0_run": false,
+  "real_q1_run": false,
+  "scientific_pass_hold_fail_assigned": false
+}

@@ -1,0 +1,371 @@
+{
+  "task_id": "D10D_ZERO_OPPORTUNITY_MEASURABLE_DOMAIN_SOURCE_ATTRIBUTION_v01",
+  "validation_status": "PASS",
+  "validation_scope": "independent post-computation validation of frozen D10D outputs",
+  "scientific_disposition": "NOT_ASSIGNED",
+  "checks_total": 44,
+  "checks_pass": 44,
+  "checks_fail": 0,
+  "max_absolute_path_chars": 66,
+  "max_package_member_path_chars": 31,
+  "manual_visual_workbook_review": {
+    "status": "PASS",
+    "sheets_reviewed": [
+      "Summary",
+      "State Results",
+      "Attribution",
+      "Domain",
+      "Truncation",
+      "Relationships",
+      "Checks"
+    ],
+    "notes": "All seven rendered sheets reviewed after final export; titles, tables, charts, alignment, and visible labels are legible."
+  },
+  "checks": [
+    {
+      "check_id": "ROWS_attrib_summary_v01.csv",
+      "status": "PASS",
+      "observed": 7,
+      "expected": 7,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_attribution_v01.csv",
+      "status": "PASS",
+      "observed": 42,
+      "expected": 42,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_common_v01.csv",
+      "status": "PASS",
+      "observed": 42,
+      "expected": 42,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_d0_repro_v01.csv",
+      "status": "PASS",
+      "observed": 60,
+      "expected": 60,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_domain_cells_v01.csv",
+      "status": "PASS",
+      "observed": 3011,
+      "expected": 3011,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_domain_dist_v01.csv",
+      "status": "PASS",
+      "observed": 24,
+      "expected": 24,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_domain_summary_v01.csv",
+      "status": "PASS",
+      "observed": 6,
+      "expected": 6,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_downstream_v01.csv",
+      "status": "PASS",
+      "observed": 420,
+      "expected": 420,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_map_metrics_v01.csv",
+      "status": "PASS",
+      "observed": 1152,
+      "expected": 1152,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_orientation_v01.csv",
+      "status": "PASS",
+      "observed": 147,
+      "expected": 147,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_relationships_v01.csv",
+      "status": "PASS",
+      "observed": 80,
+      "expected": 80,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_separation_v01.csv",
+      "status": "PASS",
+      "observed": 210,
+      "expected": 210,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_species_domain_v01.csv",
+      "status": "PASS",
+      "observed": 576,
+      "expected": 576,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_split_attrib_v01.csv",
+      "status": "PASS",
+      "observed": 10,
+      "expected": 10,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_trunc_frontier_v01.csv",
+      "status": "PASS",
+      "observed": 108,
+      "expected": 108,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_zero_cells_v01.csv",
+      "status": "PASS",
+      "observed": 254,
+      "expected": 254,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_zero_dist_v01.csv",
+      "status": "PASS",
+      "observed": 4,
+      "expected": 4,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_zero_species_v01.csv",
+      "status": "PASS",
+      "observed": 288,
+      "expected": 288,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_d1_cells_v01.csv.gz",
+      "status": "PASS",
+      "observed": 35048,
+      "expected": 35048,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_domain_layers_v01.csv.gz",
+      "status": "PASS",
+      "observed": 70096,
+      "expected": 70096,
+      "notes": ""
+    },
+    {
+      "check_id": "ROWS_test_detail_v01.csv.gz",
+      "status": "PASS",
+      "observed": 2240,
+      "expected": 2240,
+      "notes": ""
+    },
+    {
+      "check_id": "BUILD_CHECKS_ALL_PASS",
+      "status": "PASS",
+      "observed": {
+        "PASS": 18
+      },
+      "expected": "18 PASS",
+      "notes": ""
+    },
+    {
+      "check_id": "AUTHORITATIVE_INPUT_IDENTITIES",
+      "status": "PASS",
+      "observed": "all match",
+      "expected": "all hash-addressed inputs match",
+      "notes": ""
+    },
+    {
+      "check_id": "COMMON_FACTORIAL_COVERAGE",
+      "status": "PASS",
+      "observed": 42,
+      "expected": 42,
+      "notes": ""
+    },
+    {
+      "check_id": "DOWNSTREAM_FACTORIAL_UNIQUE",
+      "status": "PASS",
+      "observed": 420,
+      "expected": 420,
+      "notes": ""
+    },
+    {
+      "check_id": "DOWNSTREAM_ONLY_FROZEN_FACTORS",
+      "status": "PASS",
+      "observed": "frozen factors only",
+      "expected": "2 worlds x 2 orientations x 3 regimes",
+      "notes": ""
+    },
+    {
+      "check_id": "D0_INTERNAL_REPRODUCTION",
+      "status": "PASS",
+      "observed": 0.0,
+      "expected": "<=1e-12",
+      "notes": ""
+    },
+    {
+      "check_id": "D1_POSITIVE_CELLS_IDENTICAL_TO_D0",
+      "status": "PASS",
+      "observed": 0.0,
+      "expected": "<=1e-15 before normalization",
+      "notes": ""
+    },
+    {
+      "check_id": "D1_ZERO_CELLS_FILLED_FROM_LATENT",
+      "status": "PASS",
+      "observed": 0.0,
+      "expected": "<=1e-15 before normalization",
+      "notes": ""
+    },
+    {
+      "check_id": "D1_NORMALIZED",
+      "status": "PASS",
+      "observed": 8.881784197001252e-16,
+      "expected": "<=1e-12",
+      "notes": ""
+    },
+    {
+      "check_id": "DOMAIN_CELL_COUNTS",
+      "status": "PASS",
+      "observed": [
+        2855,
+        2913,
+        2757,
+        254
+      ],
+      "expected": [
+        2855,
+        2913,
+        2757,
+        254
+      ],
+      "notes": ""
+    },
+    {
+      "check_id": "DOMAIN_LOGIC_EXACT",
+      "status": "PASS",
+      "observed": true,
+      "expected": true,
+      "notes": ""
+    },
+    {
+      "check_id": "RESTRICTED_MAPS_NORMALIZED",
+      "status": "PASS",
+      "observed": 8.881784197001252e-16,
+      "expected": "<=1e-12",
+      "notes": ""
+    },
+    {
+      "check_id": "EXCLUDED_DOMAIN_MASS_ZERO",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0,
+      "notes": ""
+    },
+    {
+      "check_id": "SYNTHETIC_SPECIES_ONLY",
+      "status": "PASS",
+      "observed": [
+        72,
+        "SYN001",
+        "SYN072"
+      ],
+      "expected": [
+        72,
+        "SYN001",
+        "SYN072"
+      ],
+      "notes": ""
+    },
+    {
+      "check_id": "FROZEN_ATTRIBUTION_VALUES",
+      "status": "PASS",
+      "observed": 0.0,
+      "expected": "<=1e-12",
+      "notes": ""
+    },
+    {
+      "check_id": "NO_SCIENTIFIC_DISPOSITION",
+      "status": "PASS",
+      "observed": [
+        "NOT_ASSIGNED"
+      ],
+      "expected": [
+        "NOT_ASSIGNED"
+      ],
+      "notes": ""
+    },
+    {
+      "check_id": "RESULT_NOTE_Q1_Q8",
+      "status": "PASS",
+      "observed": true,
+      "expected": true,
+      "notes": ""
+    },
+    {
+      "check_id": "RESULT_NOTE_STOP_BOUNDARY",
+      "status": "PASS",
+      "observed": "present",
+      "expected": "explicit STOP and no-real-Q1 boundary",
+      "notes": ""
+    },
+    {
+      "check_id": "XLSX_POSTIMPORT_VALIDATION",
+      "status": "PASS",
+      "observed": {
+        "seven_sheets": true,
+        "title_readback": true,
+        "d0_readback": true,
+        "no_formula_errors": true
+      },
+      "expected": "all PASS",
+      "notes": ""
+    },
+    {
+      "check_id": "XLSX_SEVEN_SHEETS_RENDERED",
+      "status": "PASS",
+      "observed": 7,
+      "expected": 7,
+      "notes": ""
+    },
+    {
+      "check_id": "BOUNDARY_FLAGS_FALSE",
+      "status": "PASS",
+      "observed": {
+        "network_used": false,
+        "real_species_read": false,
+        "support_recovery_run": false,
+        "abundance_model_repair_run": false,
+        "real_world0_run": false,
+        "real_q1_run": false,
+        "scientific_pass_hold_fail_assigned": false
+      },
+      "expected": "all false",
+      "notes": ""
+    },
+    {
+      "check_id": "TERMINAL_STATUS",
+      "status": "PASS",
+      "observed": "ZERO_OPPORTUNITY_SOURCE_ATTRIBUTION_COMPLETE_READY_FOR_MAINLINE",
+      "expected": "ZERO_OPPORTUNITY_SOURCE_ATTRIBUTION_COMPLETE_READY_FOR_MAINLINE",
+      "notes": ""
+    },
+    {
+      "check_id": "WINDOWS_PATH_LENGTH",
+      "status": "PASS",
+      "observed": 66,
+      "expected": "<256",
+      "notes": ""
+    }
+  ]
+}

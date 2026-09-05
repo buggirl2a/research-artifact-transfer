@@ -1,0 +1,476 @@
+# Q1 / D10D — Zero-Opportunity and Measurable-Domain Source Attribution v01
+
+# 零观测机会与可测域来源归因 v01
+
+TASK_ID:
+
+`D10D_ZERO_OPPORTUNITY_MEASURABLE_DOMAIN_SOURCE_ATTRIBUTION_v01`
+
+---
+
+## 0. Mainline status（主线状态）
+
+D10C resume completed with:
+
+`ABUNDANCE_CALIBRATION_COMPLETE_READY_FOR_MAINLINE_FREEZE`
+
+Mainline scientific audit:
+
+* computational / reproducibility status: **ACCEPT**
+* A2 estimator authority and implementation: **ACCEPT / FROZEN**
+* abundance measurement Gate: **HOLD**
+* support recovery: **HOLD**
+* real species / real Q1: **HOLD**
+
+Reason:
+
+A2 substantially improved abundance-map recovery relative to A1, but oracle-support downstream `STRONG − PAIRED_NULL` separation remained negative.
+
+Frozen observed medians:
+
+* A0 / latent truth: `+6.054 pp`
+* A1 broken observer: approximately `−127.889 pp`
+* A2 design-based estimator: approximately `−26.285 pp`
+* A2 AB: `−17.889 pp`
+* A2 BA: `−34.681 pp`
+
+D10C also identified fold-specific zero-opportunity cells:
+
+* AB target fold: 98 cells
+* BA target fold: 156 cells
+
+Some synthetic species place substantial true abundance mass in zero-opportunity cells.
+
+The next task must determine whether this structural observation-domain mismatch is the main source of the remaining downstream sign reversal.
+
+---
+
+# 1. Scientific question（科学问题）
+
+Under oracle support and the frozen A2 abundance estimator:
+
+> How much of the remaining `STRONG − PAIRED_NULL` sign reversal is attributable specifically to target-fold zero-opportunity cells and to mismatch between the biological support domain and the fold-specific measurable domain?
+
+This is a **source-attribution diagnostic**.
+
+It is not authorization to invent or select a new abundance estimator.
+
+---
+
+# 2. Frozen authoritative inputs（冻结权威输入）
+
+## D10C resume
+
+Canonical local package:
+
+`C:\range_paper\10_archive\d10cr\D10CR_v01.zip`
+
+SHA-256:
+
+`5ae34a71d50c8bea0809cef77d9835051926f3ea3455b41b2ed913860bab64b1`
+
+Use its frozen:
+
+* A0
+* A1
+* A2
+* synthetic species
+* STRONG / PAIRED_NULL worlds
+* AB / BA orientations
+* oracle support
+* 50-km grid
+* downstream geometry machinery
+* World 0
+* scoring definitions
+* realization identities / seeds
+* target-fold opportunity information
+
+Do not regenerate a new synthetic universe.
+
+---
+
+## D10C-A estimator authority
+
+`C:\range_paper\10_archive\d10ca\D10CA_v01.zip`
+
+SHA-256:
+
+`c8f73406f7f192b8f124add3cb0ded7ea65474e8d72d752e37dc557a08588865`
+
+A2 estimator remains frozen.
+
+Do not alter:
+
+* `TPA_UNADJ`
+* basis-matched `ADJ_FACTOR`
+* fold-specific TI
+* normalization rule
+* partial-effort semantics.
+
+---
+
+## D10B oracle reference
+
+Use the frozen D10B L0 oracle-support + latent-truth reference as the clean downstream target.
+
+Do not change its World 0 or scoring definitions.
+
+---
+
+# 3. General rule（总规则）
+
+This task must isolate **observation-domain effects**.
+
+Do NOT simultaneously change:
+
+* abundance estimator；
+* support estimator；
+* geometry representation；
+* World 0；
+* paired-null；
+* grid grain；
+* A/B partitions；
+* synthetic generator.
+
+Only domain handling may vary as explicitly defined below.
+
+---
+
+# 4. Required diagnostic states（必需诊断状态）
+
+## D0 — Current A2 baseline（当前A2基线）
+
+Reproduce the frozen current A2 downstream result exactly.
+
+No changes.
+
+Purpose:
+
+reference state.
+
+---
+
+## D1 — Oracle zero-opportunity fill diagnostic
+
+## 真值零机会填补诊断
+
+For every target-fold 50-km cell with zero legal observation opportunity:
+
+replace only that cell's A2 estimated abundance mass with its frozen A0 latent-truth mass.
+
+All positive-opportunity cells must retain their original A2 estimates unchanged.
+
+Then renormalize species/fold population geography.
+
+Use the same oracle support and downstream machinery.
+
+This is a **diagnostic only**.
+
+It is NOT a candidate real-data method.
+
+Purpose:
+
+> determine how much of A2's remaining downstream distortion would disappear if zero-opportunity cells were perfectly known.
+
+Report explicitly that D1 is oracle-assisted and cannot be used on real data.
+
+---
+
+## D2 — Target-fold measurable-domain diagnostic
+
+## 目标折可测域诊断
+
+For each orientation separately:
+
+### AB
+
+Define the measurable abundance domain as 50-km cells with at least one legal B-fold observation opportunity.
+
+### BA
+
+Define the measurable abundance domain as 50-km cells with at least one legal A-fold observation opportunity.
+
+Restrict BOTH:
+
+* A0 latent-truth abundance；
+* A2 abundance；
+
+to that target-fold measurable domain.
+
+Renormalize both on exactly the same restricted domain.
+
+Oracle support used in geometry/downstream analysis must also be intersected with the same target-fold measurable spatial domain before geometry is derived.
+
+Do not use full-support geometry with truncated abundance.
+
+Purpose:
+
+> test whether A2 is scientifically faithful when estimand and measurement domain are made identical orientation by orientation.
+
+---
+
+## D3 — Common dual-fold measurable domain
+
+## A/B共同可测域诊断
+
+Construct one fixed 50-km domain:
+
+> cells with at least one legal A-fold observation opportunity AND at least one legal B-fold observation opportunity.
+
+This domain must be species-blind and outcome-blind.
+
+Use the exact same common domain for:
+
+* AB；
+* BA；
+* STRONG；
+* PAIRED_NULL；
+* all synthetic species.
+
+For each species/world/orientation:
+
+1. intersect oracle support with the common measurable domain；
+2. derive geometry from this restricted support；
+3. restrict A0 abundance to the same domain；
+4. restrict A2 abundance to the same domain；
+5. renormalize within that domain；
+6. run the unchanged downstream World-0/scoring machinery.
+
+Purpose:
+
+> determine whether a single pre-definable A/B-common estimand domain restores correct signal direction and AB/BA consistency without imputation or a new abundance model.
+
+D3 is still diagnostic in this task.
+
+Mainline alone may later decide whether such a domain is scientifically acceptable for the real Q1 estimand.
+
+---
+
+# 5. Domain-cost audit（研究域损失审计）
+
+For D2 and especially D3, quantify exactly what is lost by restricting the spatial domain.
+
+At minimum report:
+
+* total 50-km F0 cells；
+* A-opportunity cells；
+* B-opportunity cells；
+* A∩B common-opportunity cells；
+* cells removed from each orientation；
+* fraction of F0 cells retained；
+* FIA-sampled area / design-area representation retained where constructible from frozen design authority；
+* per synthetic species:
+
+  * original oracle-support cells；
+  * retained support cells；
+  * fraction retained；
+  * latent truth mass retained；
+  * fraction of species with severe support truncation；
+  * distribution of lost truth-mass fraction.
+
+Do not invent a hard acceptable-loss threshold.
+
+Return full distributions for mainline judgment.
+
+---
+
+# 6. Zero-opportunity attribution audit（零机会来源归因）
+
+For each species/world/orientation quantify:
+
+* number of zero-opportunity support cells；
+* fraction of support cells zero-opportunity；
+* latent truth abundance mass in those cells；
+* maximum / median / quantiles of lost truth-mass fraction；
+* relationship between zero-opportunity truth-mass fraction and:
+
+  * A2 Hellinger error；
+  * sliced-Wasserstein error；
+  * downstream geometry-gain distortion；
+  * STRONG−PAIRED_NULL distortion.
+
+This is attribution only.
+
+Do not fit a corrective abundance model.
+
+---
+
+# 7. Required downstream comparisons（必需下游比较）
+
+For each of:
+
+* D0 current A2；
+* D1 oracle fill；
+* D2 target-fold measurable domain；
+* D3 common dual-fold measurable domain；
+* A0/L0 oracle reference；
+
+report:
+
+### STRONG geometry gain
+
+### PAIRED_NULL geometry gain
+
+### STRONG − PAIRED_NULL separation
+
+### predictive-set gain
+
+### coverage
+
+### AB vs BA consistency
+
+Preserve the frozen D10B/D10C scoring definitions exactly.
+
+---
+
+# 8. Key causal/source-attribution questions（关键归因问题）
+
+The result note must answer:
+
+### Q1
+
+How much of current A2 sign reversal disappears under oracle filling of zero-opportunity cells?
+
+### Q2
+
+Does restricting A0 and A2 to each target fold's genuinely measurable domain restore `STRONG > PAIRED_NULL`?
+
+### Q3
+
+Does using one fixed A∩B common measurable domain restore `STRONG > PAIRED_NULL`?
+
+### Q4
+
+Does D3 materially improve AB/BA agreement?
+
+### Q5
+
+How much biological/support domain and latent abundance mass is lost under D3?
+
+### Q6
+
+Is the zero-opportunity problem sufficient to explain the majority of the A2 downstream distortion?
+
+### Q7
+
+After zero-opportunity/domain mismatch is removed, does substantial residual distortion remain in positive-opportunity cells?
+
+### Q8
+
+Is evidence sufficient for mainline to choose among:
+
+* keeping the current full-domain estimand；
+* redefining Q1 on a common measurable domain；
+* developing an additional abundance measurement model；
+* or continuing HOLD?
+
+Work must not choose among these.
+
+---
+
+# 9. Interpretation categories（解释类别）
+
+Work may report quantitative evidence but must not assign final scientific disposition.
+
+Mainline will classify the zero-opportunity issue as one of:
+
+* dominant source；
+* material partial source；
+* bounded source；
+* unsupported as primary source.
+
+No threshold may be invented.
+
+---
+
+# 10. Required outputs（必需输出）
+
+Produce at minimum:
+
+1. input identity audit；
+2. D0 reproduction table；
+3. zero-opportunity cell inventory；
+4. per-species zero-opportunity truth-mass audit；
+5. D1 oracle-fill abundance layers / summaries；
+6. D2 target-fold domain definition and audit；
+7. D3 common-domain definition and audit；
+8. domain-retention / truncation summary；
+9. D0/D1/D2/D3 downstream common comparison；
+10. AB/BA consistency table；
+11. STRONG vs PAIRED_NULL separation table；
+12. zero-opportunity distortion attribution table；
+13. figures needed for mainline interpretation；
+14. result note answering Q1–Q8；
+15. complete reproduction code；
+16. deterministic validation；
+17. SHA256SUMS；
+18. Relay v0.2.2 `TRANSFER_MANIFEST_v01.csv`；
+19. `REGISTRY_DELTA_v01.csv`；
+20. human-readable audit workbook if useful.
+
+Record diagnostics generously.
+
+Do not delete potentially useful supplementary or provenance material merely because it may not appear in the final paper.
+
+---
+
+# 11. Absolute prohibitions（绝对禁止）
+
+Do NOT:
+
+* read real 93-species outcomes；
+* construct real abundance；
+* construct real support；
+* run real Q1；
+* modify final cohort；
+* modify taxonomy；
+* refit M0/M1/M2；
+* repair support；
+* invent a new abundance estimator；
+* spatially interpolate zero-opportunity abundance；
+* smooth A2；
+* use environmental covariates；
+* change World 0；
+* change paired-null；
+* change R1/R2；
+* change A/B panel assignment；
+* change 50-km primary grid；
+* define a final real-data measurable-domain rule；
+* declare D3 as the selected final estimand.
+
+This task is diagnostic only.
+
+---
+
+# 12. Allowed terminal statuses（允许终态）
+
+Only:
+
+`ZERO_OPPORTUNITY_SOURCE_ATTRIBUTION_COMPLETE_READY_FOR_MAINLINE`
+
+`INPUT_BLOCKED_FROZEN_IDENTITY_FAILURE`
+
+`IMPLEMENTATION_BLOCKED`
+
+No scientific PASS/HOLD/FAIL.
+
+---
+
+# 13. STOP
+
+After completing D0/D1/D2/D3 source attribution:
+
+STOP.
+
+Do not proceed to:
+
+* abundance-model repair；
+* support recovery；
+* real species；
+* final cohort；
+* real World 0；
+* real Q1.
+
+Return to mainline.
+
+END

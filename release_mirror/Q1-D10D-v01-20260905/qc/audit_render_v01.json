@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "renders": [
+    {
+      "sheet": "Summary",
+      "range": "A1:L36",
+      "file": "C:/range_paper/10_archive/d10d/pkg/fig/summary_v01.png"
+    },
+    {
+      "sheet": "State Results",
+      "range": "A1:N20",
+      "file": "C:/range_paper/10_archive/d10d/pkg/fig/state_results_v01.png"
+    },
+    {
+      "sheet": "Attribution",
+      "range": "A1:K26",
+      "file": "C:/range_paper/10_archive/d10d/pkg/fig/attribution_v01.png"
+    },
+    {
+      "sheet": "Domain",
+      "range": "A1:O10",
+      "file": "C:/range_paper/10_archive/d10d/pkg/fig/domain_v01.png"
+    },
+    {
+      "sheet": "Truncation",
+      "range": "A1:M35",
+      "file": "C:/range_paper/10_archive/d10d/pkg/fig/truncation_v01.png"
+    },
+    {
+      "sheet": "Relationships",
+      "range": "A1:K24",
+      "file": "C:/range_paper/10_archive/d10d/pkg/fig/relationships_v01.png"
+    },
+    {
+      "sheet": "Checks",
+      "range": "A1:F22",
+      "file": "C:/range_paper/10_archive/d10d/pkg/fig/checks_v01.png"
+    }
+  ]
+}
