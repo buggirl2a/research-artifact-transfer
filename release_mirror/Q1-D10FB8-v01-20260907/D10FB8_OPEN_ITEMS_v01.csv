@@ -1,0 +1,7 @@
+item_id,topic,status,required_action,why_open
+O01,PROJECT_SPECIFIC_CONTRACT_FREEZE,OPEN_MAINLINE_ONLY,Q1 mainline must decide whether to freeze the two-level rule.,B8 tests constructibility and visible identity only; it does not authorize a grouping contract.
+O02,STATISTICAL_QUALIFICATION_THRESHOLDS,NOT_DEFINED,"If mainline requires thresholds, define them prospectively outside B8.","B8 was prohibited from inventing minimum plots, residual df, poststrata, or EU counts."
+O03,POOLING_WEIGHT_AND_VARIANCE_OPERATOR,OPEN,Define and qualify any later variance-only pseudo-strata estimator separately.,"No donor, grouping, weighting, variance, or covariance calculation was performed."
+O04,MANUAL_REGIME_SEMANTICS,RECORDED_NOT_ADJUDICATED,Use the design inventory if mainline later requires protocol-version restrictions.,MANUAL variation was reported but not treated as an invented incompatibility threshold.
+O05,WA_DESIGNCD_501_502,NO_B8_TARGET_CASE,Do not generalize B8 target findings to WA; retain B7's 501/502 warning.,"None of the 13 B7-isolated target cases is in WA, so B8 did not create a WA variance pool."
+O06,D10F_C,NOT_AUTHORIZED,STOP and return to Q1 mainline.,B8 is a bounded local identity preflight only.
