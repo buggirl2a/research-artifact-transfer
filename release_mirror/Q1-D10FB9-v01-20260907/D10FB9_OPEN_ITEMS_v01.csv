@@ -1,0 +1,6 @@
+item_id,topic,status,required_action,why_open
+O01,FINAL_CONTRACT_AUTHORITY,OPEN_MAINLINE_ONLY,"Q1 mainline may accept, revise, or reject the B9 core filter.",B9 tests one project-specific candidate and does not freeze the final grouping rule.
+O02,COMPATIBILITY_FOLLOWUP_FIELDS,DESCRIPTIVE_ONLY,Review audit rows flagged COMPATIBILITY_FOLLOWUP_CANDIDATE if mainline wants additional restrictions.,"MANUAL, regional manual, SAMP_METHOD, PLOT_STATUS, KINDCD, SUBPANEL, measurement year, and NF/regional fields were not hard filters."
+O03,STATISTICAL_SUFFICIENCY,NOT_QUALIFIED,Prospectively define and test any minimum information criteria in a later authorized stage.,B9 uses only existence of at least one matched non-singleton poststratum.
+O04,SYNTHETIC_QUALIFICATION,NOT_AUTHORIZED_BY_B9,Q1 mainline decides whether to authorize a later synthetic qualification stage.,No synthetic run or variance implementation was performed.
+O05,D10F_C,NOT_AUTHORIZED,STOP and return to Q1 mainline.,B9 is a bounded constructibility preflight.
