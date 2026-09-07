@@ -1,0 +1,2 @@
+interface,candidate_id,check_status,domain_1,domain_2,var_domain_1,var_domain_2,cov_domain_1_domain_2,var_union,union_identity_residual,notes
+singleton variance-only pseudo-strata,,NOT_RUN_BLOCKED_AT_CONSTRUCTIBILITY,,,,,,,,Covariance qualification is conditional on an authority-frozen grouping rule.

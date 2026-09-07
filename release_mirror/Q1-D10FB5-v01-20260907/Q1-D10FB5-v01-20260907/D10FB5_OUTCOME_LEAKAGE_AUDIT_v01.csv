@@ -1,0 +1,7 @@
+audit_id,interface,resource_or_action,access_count,status,notes
+L01,both,real 93-species outcome rows,0,PASS,"No TREE/SPCD, abundance, support, map, STRONG, PAIRED_NULL, R1/R2, World 0, real Q1, or cohort file opened."
+L02,singleton,cross_fold_target_outcome_access,0,PASS,No grouping map was constructed; opposite-fold target outcomes were not read.
+L03,singleton,candidate selection by synthetic performance,0,PASS,No singleton candidate existed; no coverage-based method shopping occurred.
+L04,WV,real outcome use in qualification,0,PASS,Only deterministic synthetic_y defined in the reproduction script was used.
+L05,both,external network/search,0,PASS,B4 local authority package was the sole authority source.
+L06,both,production D10F-C implementation,0,PASS,"No national variance/covariance, replicate maps, normalization covariance, or real uncertainty propagation was created."

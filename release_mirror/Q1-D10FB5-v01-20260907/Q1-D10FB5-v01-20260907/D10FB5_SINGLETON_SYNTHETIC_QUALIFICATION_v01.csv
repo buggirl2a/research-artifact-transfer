@@ -1,0 +1,2 @@
+interface,candidate_id,qualification_status,regime,fold,full_n_h,grouping_type,replicates,empirical_sampling_variance,candidate_estimated_variance,estimated_to_empirical_variance_ratio,variance_estimate_bias,nominal_95_coverage,coverage_mcse,notes
+singleton variance-only pseudo-strata,,NOT_RUN_BLOCKED_AT_CONSTRUCTIBILITY,,,,,0,,,,,,,No authority-determined singleton assignment or finite candidate set exists; no performance-based rule selection was permitted.

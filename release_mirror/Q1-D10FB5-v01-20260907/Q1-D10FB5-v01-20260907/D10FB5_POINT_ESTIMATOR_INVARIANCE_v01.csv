@@ -1,0 +1,3 @@
+interface,rows_checked,point_coefficient_before_definition,point_coefficient_after_definition,exact_equal_rows,point_estimator_modified,status,notes
+24 singleton poststrata,24,Frozen D09C fold-specific TI coefficient,Same coefficient; no pseudo-stratum rule instantiated,24,NO,PASS_NO_POINT_EDIT_BUT_VARIANCE_RULE_BLOCKED,No-op equality preserves A2 but does not qualify a singleton variance interface.
+WV_EU_3_4 combined-population representation,13,Current frozen pooled coefficient from B3,A_U/n after defining WV_EU_3_4 as the pre-estimation union,13,NO,PASS_EXACT_COEFFICIENT_IDENTITY,Only the statistical interpretation changes. Source EU3/EU4 coefficients are not substituted.
