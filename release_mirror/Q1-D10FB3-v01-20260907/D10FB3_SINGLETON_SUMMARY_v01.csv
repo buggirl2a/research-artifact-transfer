@@ -1,0 +1,32 @@
+summary_section,metric,category,value,expected,status,notes
+RECOVERY,singleton_cases,ALL,24,24,PASS,One row per block×fold with n_h=1.
+RECOVERY,final_effective_blocks,ALL,22,22,PASS,Matches D10F-B.
+RECOVERY,states,ALL,11,11,PASS,Matches D10F-B.
+RECOVERY,aggregate_mismatch,D10F_B,0,0,PASS,24 cases / 22 blocks / 11 states recovered exactly.
+CLASSIFICATION,case_count,FOLD_INDUCED_SPARSE,24,,PASS,Only permitted classification labels are used.
+CLASSIFICATION,case_count,SOURCE_SPARSE_OR_SPECIAL_EXCEPTION,0,,PASS,Only permitted classification labels are used.
+CLASSIFICATION,case_count,UNRESOLVED_IDENTITY,0,,PASS,Only permitted classification labels are used.
+FULL_EVALUATION_N_H_DISTRIBUTION,case_count,2,4,,PASS,All recovered full-evaluation counts exceed one.
+FULL_EVALUATION_N_H_DISTRIBUTION,case_count,3,2,,PASS,All recovered full-evaluation counts exceed one.
+FULL_EVALUATION_N_H_DISTRIBUTION,case_count,4,4,,PASS,All recovered full-evaluation counts exceed one.
+FULL_EVALUATION_N_H_DISTRIBUTION,case_count,5,2,,PASS,All recovered full-evaluation counts exceed one.
+FULL_EVALUATION_N_H_DISTRIBUTION,case_count,7,1,,PASS,All recovered full-evaluation counts exceed one.
+FULL_EVALUATION_N_H_DISTRIBUTION,case_count,9,3,,PASS,All recovered full-evaluation counts exceed one.
+FULL_EVALUATION_N_H_DISTRIBUTION,case_count,11,4,,PASS,All recovered full-evaluation counts exceed one.
+FULL_EVALUATION_N_H_DISTRIBUTION,case_count,12,3,,PASS,All recovered full-evaluation counts exceed one.
+FULL_EVALUATION_N_H_DISTRIBUTION,case_count,13,1,,PASS,All recovered full-evaluation counts exceed one.
+AB_SPLIT_PATTERN,singleton_case_count,FOLD_INDUCED_SPARSE|A=1|B=1,4,,PASS,Pattern is counted at the 24 case-row level.
+AB_SPLIT_PATTERN,singleton_case_count,FOLD_INDUCED_SPARSE|A=1|B=2,2,,PASS,Pattern is counted at the 24 case-row level.
+AB_SPLIT_PATTERN,singleton_case_count,FOLD_INDUCED_SPARSE|A=1|B=3,4,,PASS,Pattern is counted at the 24 case-row level.
+AB_SPLIT_PATTERN,singleton_case_count,FOLD_INDUCED_SPARSE|A=1|B=4,2,,PASS,Pattern is counted at the 24 case-row level.
+AB_SPLIT_PATTERN,singleton_case_count,FOLD_INDUCED_SPARSE|A=1|B=6,1,,PASS,Pattern is counted at the 24 case-row level.
+AB_SPLIT_PATTERN,singleton_case_count,FOLD_INDUCED_SPARSE|A=1|B=8,3,,PASS,Pattern is counted at the 24 case-row level.
+AB_SPLIT_PATTERN,singleton_case_count,FOLD_INDUCED_SPARSE|A=1|B=10,4,,PASS,Pattern is counted at the 24 case-row level.
+AB_SPLIT_PATTERN,singleton_case_count,FOLD_INDUCED_SPARSE|A=1|B=11,3,,PASS,Pattern is counted at the 24 case-row level.
+AB_SPLIT_PATTERN,singleton_case_count,FOLD_INDUCED_SPARSE|A=1|B=12,1,,PASS,Pattern is counted at the 24 case-row level.
+CLASS_BY_SINGLETON_FOLD,case_count,FOLD_INDUCED_SPARSE|fold=A,22,,PASS,Current singleton fold only.
+CLASS_BY_SINGLETON_FOLD,case_count,FOLD_INDUCED_SPARSE|fold=B,2,,PASS,Current singleton fold only.
+CLASS_BY_SINGLETON_FOLD,case_count,SOURCE_SPARSE_OR_SPECIAL_EXCEPTION|fold=A,0,,PASS,Current singleton fold only.
+CLASS_BY_SINGLETON_FOLD,case_count,SOURCE_SPARSE_OR_SPECIAL_EXCEPTION|fold=B,0,,PASS,Current singleton fold only.
+CLASS_BY_SINGLETON_FOLD,case_count,UNRESOLVED_IDENTITY|fold=A,0,,PASS,Current singleton fold only.
+CLASS_BY_SINGLETON_FOLD,case_count,UNRESOLVED_IDENTITY|fold=B,0,,PASS,Current singleton fold only.
