@@ -1,0 +1,9 @@
+provenance_id,object,scientific_status,source,sha256,notes
+P01,"A/B, A2, B9 route and 50-km primary grain",FROZEN,accepted Q1 design governance,,Not modified
+P02,B11 covariance algebra,ACCEPTED EVIDENCE,C:\range_paper\10_archive\d10fb11_v01\Q1_D10F_B11_v01.zip,ee6888a47762aaa966afaeffddd2569500f0f8271745263b763711348d761624,Within-member centering retained
+P03,B12 v01_1 whole covariance qualification,ACCEPTED EVIDENCE,C:\range_paper\10_archive\d10fb12_v01_1\Q1_D10F_B12_v01_1.zip,d009bf50225ca3c2f483e08fe17f22312f93c9a28f36786abae8729fde3a21ab,Baseline reconstructed; D10F-C remains HOLD
+P04,B12 task-local cache,ACCEPTED EVIDENCE,C:\range_paper\99_tmp\d10fb12_v01\cache\b12_cache.sqlite,0daf80d098546d61aecd8e75701f5174d9f6fd4452ce4a1b257651d45c9d2953,logical=e85168819a7954f9f1ead69f1554e29c193ba9ef369c7c2793b4587d5f8dd416; fingerprint=5d0a9dbaf55045c20bdab107f061c477fe77106d100bc95681a6dfebd1eeb7bd; read-only
+P05,Q1 direct97 and multi-code identity projection,ACCEPTED DERIVED PROJECTION EVIDENCE,C:\range_paper\10_archive\q1_b12_q1_cohort_projection_v01\Q1_B12_Q1_COHORT_PROJECTION_v01.zip,70d34c6905a9d76675943ae03182feae719340d159ca6b69b68b9b9d089f227e,Subgroup-only; no method/threshold selection
+P06,B13 component transport diagnostics,B13 EMPIRICAL DIAGNOSTIC EVIDENCE,Q1_D10F_B13_v01_WORK_COMPONENT_TRANSPORTABILITY_DIAGNOSTIC,3b0d008e4fd9f34f56a1435e77208a9cb54685f3b78b496aa13461a28e1f338e,Exact T=W+B; no regularization; not a production estimator
+P07,Future scale/shape or component-sharing model,HYPOTHESIS / DESIGN CANDIDATE,Q1_D10F_B13_v01_WORK_COMPONENT_TRANSPORTABILITY_DIAGNOSTIC,,Recommendation only; not implemented
+P08,Production covariance solution and D10F-C,OPEN,Q1 mainline authority,,No production pass in B13

@@ -1,0 +1,7 @@
+item_id,topic,status,evidence,mainline_action
+OPEN_01,D10F-C,HOLD,B13 diagnoses components but does not qualify a production covariance estimator,Review component evidence; do not infer PASS
+OPEN_02,SCALE_SHAPE_SEPARATION,OPEN,Oracle-scale result is diagnostic only,"If authorized, predeclare a separate scale/normalized-shape investigation"
+OPEN_03,WITHIN_CELL_IDENTIFIABILITY,OPEN,50-km replication audit retained per target/pool,Resolve reference-strength limits before residual borrowing
+OPEN_04,BETWEEN_CELL_MODEL,OPEN,B includes both cell occurrence and between-cell mean differences,Do not label B pure allocation; consider domain-aware future work only after authorization
+OPEN_05,Q1_MULTI_SPCD,OPEN,Three accepted multi-code species retained code-level only,Formal species-level recomputation requires separate authority
+OPEN_06,ACTUAL24,LIMITED,FULL5 n=2-13; secondary evidence only,"Never use as truth, tuning, filtering, or A/B correction"

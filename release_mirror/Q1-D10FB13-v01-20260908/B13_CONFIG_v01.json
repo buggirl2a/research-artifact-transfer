@@ -1,0 +1,33 @@
+{
+  "algebra_abs_tolerance": 1e-12,
+  "algebra_relative_tolerance": 1e-09,
+  "builder_version": "1.0.1",
+  "component_names": {
+    "B": "BETWEEN_CELL_ALLOCATION_MEAN_SCATTER",
+    "T": "TOTAL_SAMPLE_SCATTER",
+    "W": "WITHIN_CELL_OBSERVED_RESIDUAL_SCATTER"
+  },
+  "components": [
+    "T",
+    "W",
+    "B"
+  ],
+  "diagnostic_grains_km": [
+    100,
+    200
+  ],
+  "families_primary": [
+    "DOMAIN_ONE_HOT",
+    "GENERIC_Y"
+  ],
+  "new_tree_source_scan_rows": 0,
+  "pool_centering": "WITHIN_MEMBER_THEN_SUM_NUMERATORS_OVER_SUM_DF",
+  "primary_grain_km": 50,
+  "psd_basis": "ANALYTIC_FINITE_SAMPLE_SCATTER_CONSTRUCTION_WITH_UNCANCELLED_EXPANSION_SCALE_NUMERIC_QC",
+  "psd_numeric_action": "DIAGNOSTIC_NORM_ROUNDOFF_CLAMP_ONLY_NO_MATRIX_MODIFICATION",
+  "q1_calculation_rows": 0,
+  "q1_direct97_scope": "SPECIES_Y_CANDIDATE_50KM",
+  "regularization": "NONE",
+  "split_identity": "FROZEN_B12_SPLIT_BALANCED_HASH_B12_SPLIT_4_REPLICATES",
+  "task": "Q1_D10F_B13_v01_WORK_COMPONENT_TRANSPORTABILITY_DIAGNOSTIC"
+}

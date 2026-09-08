@@ -1,0 +1,13 @@
+check_id,expected,observed,status,evidence
+STAGE_P_COMPLETE_BEFORE_REFERENCE_OPEN,True,True,PASS,3b0d008e4fd9f34f56a1435e77208a9cb54685f3b78b496aa13461a28e1f338e
+PLANNED_EQUALS_SEALED,1517064,1517064,PASS,component seal registry
+SEALED_EQUALS_STAGE_S_VERIFIED,1517064,1517064,PASS,all generic/domain grains; direct97 candidate 50km; actual24
+STAGE_S_FAILED_OBJECTS,0,0,PASS,hard-stop digest comparisons
+TARGET_REFERENCE_OPEN_AFTER_TARGET_SEALS_VERIFIED,True,True,PASS,target member/full5 loaded only after verify_target_seals
+TARGET_MEMBER_LEAK,0,0,PASS,accepted B9 cache join
+FULL5_ROLE,FULL5_LIMITED_REFERENCE,FULL5_LIMITED_REFERENCE,PASS,24 cases; no truth/tuning/filter/correction
+Q1_PROJECTION_ROLE,SUBGROUP_ONLY,SUBGROUP_ONLY,PASS,does not define primary component method or thresholds
+DIRECT97_SCOPE,CANDIDATE_50KM_PREDECLARED,CANDIDATE_50KM_PREDECLARED,PASS,"all 450080 pool objects explicitly sealed, including zeros"
+MULTI_SPCD_COMBINATION,0,0,PASS,three accepted species retained code-level only
+NEW_TREE_SOURCE_SCAN_ROWS,0,0,PASS,read-only B12 cache
+Q1_CALCULATION_ROWS,0,0,PASS,no support outcome or Q1 statistic
