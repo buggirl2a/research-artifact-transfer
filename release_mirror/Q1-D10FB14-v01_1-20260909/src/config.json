@@ -1,0 +1,14 @@
+{
+  "task_id": "Q1_D10F_B14_v01_1_WORK_OBSERVED_STATE_ALIGNED_MIXTURE_STRESS_CORRECTION",
+  "builder_version": "1.0.0",
+  "parent_b14_sha256": "01be93dee2184a44ca89f72016d459cdf0792038d6d19d1536aafe4535371208",
+  "parent_seal_sha256": "99ee459e4640c29ac96549d6de8973783102aae6ae2d0b9724dd15be4818f27c",
+  "primary_weighting": "TARGET_EQUAL_THEN_PLOT_EQUAL",
+  "secondary_weighting": "EVENT_EQUAL",
+  "minimum_raw_opportunities": 100,
+  "minimum_contributing_targets": 10,
+  "target_n_bands": ["N_2_4", "N_5_9", "N_10_24", "N_25_99", "N_GE_100"],
+  "matching_hierarchy": ["H1_SAME_FOLD_ROUTE_TI_BAND", "H2_SAME_FOLD_TI_BAND", "H3_SAME_TI_BAND", "H4_ALL"],
+  "upload_target": "mirror",
+  "D10F_C": "HOLD"
+}

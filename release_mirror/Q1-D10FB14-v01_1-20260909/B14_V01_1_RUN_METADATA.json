@@ -1,0 +1,122 @@
+{
+  "AB_cases": 2,
+  "B14_v01_scientific_disposition_adopted_by_mainline": false,
+  "BA_cases": 22,
+  "D10F_C": "HOLD",
+  "actual_application_summary": {
+    "positive_FIA_SPCD": "22",
+    "positive_case_id": "S24",
+    "positive_match_level": "H4_ALL",
+    "positive_max": 0.9559649231842995,
+    "positive_mean": 0.049772543279747804,
+    "positive_observed_tv": 0.012672747696756779,
+    "positive_p95": 0.22801588374405032,
+    "positive_species_cases": 1,
+    "positive_species_name": "Abies procera",
+    "zero_mix_p95_nonzero_count": 0,
+    "zero_species_cases": 2327
+  },
+  "actual_cases": 24,
+  "actual_design_match_summary": {
+    "case_count": 24,
+    "positive_match_counts": {
+      "H1_SAME_FOLD_ROUTE_TI_BAND": 9,
+      "H2_SAME_FOLD_TI_BAND": 1,
+      "H3_SAME_TI_BAND": 0,
+      "H4_ALL": 14
+    },
+    "zero_match_counts": {
+      "H1_SAME_FOLD_ROUTE_TI_BAND": 18,
+      "H2_SAME_FOLD_TI_BAND": 5,
+      "H3_SAME_TI_BAND": 1,
+      "H4_ALL": 0
+    },
+    "zero_mix_mean_max": 0.0003358901271212151,
+    "zero_mix_mean_min": 1.1512191780261237e-05,
+    "zero_mix_p95_zero_case_count": 24
+  },
+  "application": {
+    "actual_positive_species_cases": 1,
+    "actual_zero_species_cases": 2327,
+    "application_rows": 11639,
+    "parquet_sha256": "88d4af91b5e1a793b5052897dc8de802f2b336baf6f36026fc4aebe7d193b319"
+  },
+  "builder_version": "1.0.0",
+  "calibration": {
+    "event_universe": 26138299,
+    "implicit_z0_events": 24849363,
+    "materialized_events": 1288936,
+    "pseudo_targets": 4640,
+    "selected_positive_events": 95550,
+    "target_weight_sum_max_abs_error": 1.1102230246251565e-16,
+    "zplus_events": 1193386
+  },
+  "calibration_seal_sha256": "7ec797cd643018e999b289b87f408d9fdae59af464f2a0c1ac2d77ed16de37fe",
+  "context_extremeness_audit": "NOT_LAUNCHED",
+  "direct_species": 97,
+  "finalized_utc": "2026-09-08T22:16:22.261804+00:00",
+  "no_automatic_archive": true,
+  "observed_max_tv": 0.012672747696756779,
+  "parent_history_rewritten": false,
+  "phase_D": "NOT_APPLICABLE",
+  "preflight": {
+    "NEW_TREE_SOURCE_SCAN_ROWS": 0,
+    "Q1_CALCULATION_ROWS": 0,
+    "cache_counts": {
+      "actual": 24,
+      "pseudo": 4640,
+      "species": 402
+    },
+    "identities": {
+      "b12": {
+        "path": "C:\\range_paper\\10_archive\\d10fb12_v01_1\\Q1_D10F_B12_v01_1.zip",
+        "sha256": "d009bf50225ca3c2f483e08fe17f22312f93c9a28f36786abae8729fde3a21ab",
+        "size_bytes": 94374676
+      },
+      "b13": {
+        "path": "C:\\range_paper\\10_archive\\d10fb13_v01\\Q1_D10F_B13_v01.zip",
+        "sha256": "c3898021cfe71ae0ea7b307be3907c8598dc1d1744f04e37d5ee0fc9d74807d9",
+        "size_bytes": 99366965
+      },
+      "cache": {
+        "path": "C:\\range_paper\\99_tmp\\d10fb12_v01\\cache\\b12_cache.sqlite",
+        "sha256": "0daf80d098546d61aecd8e75701f5174d9f6fd4452ce4a1b257651d45c9d2953",
+        "size_bytes": 742010880
+      },
+      "d10ca": {
+        "path": "C:\\range_paper\\10_archive\\d10ca\\D10CA_v01.zip",
+        "sha256": "c8f73406f7f192b8f124add3cb0ded7ea65474e8d72d752e37dc557a08588865",
+        "size_bytes": 7092335
+      },
+      "parent": {
+        "path": "C:\\range_paper\\05_qc\\d10fb14_v01_work_singleton_uncertainty_materiality_stress\\Q1_D10F_B14_v01.zip",
+        "sha256": "01be93dee2184a44ca89f72016d459cdf0792038d6d19d1536aafe4535371208",
+        "size_bytes": 5303712
+      },
+      "q1_projection": {
+        "path": "C:\\range_paper\\10_archive\\q1_b12_q1_cohort_projection_v01\\Q1_B12_Q1_COHORT_PROJECTION_v01.zip",
+        "sha256": "70d34c6905a9d76675943ae03182feae719340d159ca6b69b68b9b9d089f227e",
+        "size_bytes": 1611766
+      },
+      "singleton_audit": {
+        "path": "C:\\range_paper\\10_archive\\q1_singleton_materiality_v01\\Q1_SINGLETON_MATERIALITY_AUDIT_v01.zip",
+        "sha256": "e85da191519ac8ed033c46ac78257c1c7e515976fd87a0d99511093bd0d8e007",
+        "size_bytes": 71431
+      },
+      "substrate": {
+        "path": "C:\\range_paper\\10_archive\\q1_fia_substrate_v01_1\\Q1_FIA_SUBSTRATE_v01_1.zip",
+        "sha256": "1dbd8cf3fdb9fdbd25945ed70af64e1c739ec78f10f24ec4866128c38d5d946e",
+        "size_bytes": 281705902
+      }
+    },
+    "parent_commit": "d19ae55793587fa29ec9c675d0d26bca418e4741",
+    "parent_internal_rows": 28,
+    "parent_seal_sha256": "99ee459e4640c29ac96549d6de8973783102aae6ae2d0b9724dd15be4818f27c",
+    "parent_status": "ACCEPTED_EMPIRICAL_STRESS_EVIDENCE",
+    "support_rows": 0
+  },
+  "recommendation": "LOCALIZED_SPECIES_LEVEL_SENSITIVITY",
+  "run_completed_utc": "2026-09-08T22:14:46.116938+00:00",
+  "task_id": "Q1_D10F_B14_v01_1_WORK_OBSERVED_STATE_ALIGNED_MIXTURE_STRESS_CORRECTION",
+  "task_status": "B14_V01_1_MIXTURE_CORRECTION_COMPLETE"
+}

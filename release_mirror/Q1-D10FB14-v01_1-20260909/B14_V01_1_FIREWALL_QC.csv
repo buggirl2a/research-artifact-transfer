@@ -1,0 +1,13 @@
+﻿check_id,observed,status
+PARENT_NOT_REWRITTEN,B14 v01 remains accepted evidence,PASS
+NO_B14_RERUN,Parent pseudo Parquet reused,PASS
+NO_B13_RERUN,B13 accepted identity only,PASS
+NO_TREE_RESCAN,0 rows,PASS
+NO_SUPPORT,0 rows,PASS
+NO_REAL_Q1,0 rows,PASS
+NO_NEW_ESTIMATOR,No estimator/model constructed,PASS
+NO_INDEPENDENCE_ASSUMPTION,No products/binomial/Monte Carlo joint draws,PASS
+ACTUAL_OUTCOME_FIREWALL,Seal 7ec797cd643018e999b289b87f408d9fdae59af464f2a0c1ac2d77ed16de37fe precedes parse,PASS
+NO_OUTPUT_DRIVEN_RECALIBRATION,Frozen match/weight/tier rules unchanged,PASS
+CONTEXT_AUDIT_NOT_LAUNCHED,Recommendation only if later needed,PASS
+D10F_C,HOLD,PASS

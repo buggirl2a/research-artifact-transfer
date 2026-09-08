@@ -1,0 +1,19 @@
+﻿check_id,expected,observed,status,detail
+PARENT_B14_ZIP_SHA,01be93dee2184a44ca89f72016d459cdf0792038d6d19d1536aafe4535371208,01be93dee2184a44ca89f72016d459cdf0792038d6d19d1536aafe4535371208,PASS,Parent unchanged.
+PARENT_B14_SEAL_SHA,99ee459e4640c29ac96549d6de8973783102aae6ae2d0b9724dd15be4818f27c,99ee459e4640c29ac96549d6de8973783102aae6ae2d0b9724dd15be4818f27c,PASS,Accepted parent calibration seal.
+PSEUDO_TARGET_IDENTITY,4640,4640,PASS,B12 scoreable pseudo targets.
+DIRECT97_IDENTITY,97,97,PASS,No species exclusion.
+ACTUAL24_IDENTITY,24,24,PASS,Design identity frozen before outcomes.
+ZERO_DENOMINATOR_STATES,Z0_PLUS_ZPLUS,Z0_PLUS_ZPLUS,PASS,Z0=24849363; Z+=1193386
+LEGACY_ZPLUS_COUNT,1193386,1193386,PASS,Parent materialized selected-zero/target-positive count.
+TARGET_ZERO_EXACT_ZERO,24849363,24849363,PASS,Structural Z0 mass enters mixture at TV=0.
+STATE_CALIBRATION_SEPARATION,Y_ZERO_NEVER_Y_POSITIVE,PASS,PASS,Separate frozen populations and tier names.
+TARGET_EQUAL_WEIGHT_SUM,0,1.1102230246251565e-16,PASS,Each target totals one across 97 species and n plots.
+EVENT_EQUAL_PARENT_REPRODUCTION,0.07939577565931182,0.07939577565931182,PASS,"Median, p90, p95, max all exact within tolerance."
+SEAL_BEFORE_ACTUAL_OUTCOME_PARSE,0,0,PASS,7ec797cd643018e999b289b87f408d9fdae59af464f2a0c1ac2d77ed16de37fe
+ACTUAL_STATE_PARTITION,2327 ZERO + 1 POSITIVE,2327 ZERO + 1 POSITIVE,PASS,Actual state selects but does not alter calibration.
+NO_SUPPORT,0,0,PASS,No support data used.
+NO_Q1,0,0,PASS,No real Q1 calculation.
+NO_TREE_RESCAN,0,0,PASS,Parent pseudo event reuse only.
+NO_NEW_ESTIMATOR,YES,YES,PASS,No covariance/distributional model.
+NO_SPECIES_EXCLUSION,97,97,PASS,All direct97 retained.
