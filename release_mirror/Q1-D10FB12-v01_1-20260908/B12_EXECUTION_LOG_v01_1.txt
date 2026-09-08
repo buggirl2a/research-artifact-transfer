@@ -1,0 +1,188 @@
+TASK=Q1_D10F_B12_v01_1_WORK_COVARIANCE_QUALIFICATION_CLOSURE
+START_EPOCH=1788866947.8561547
+COARSE_NEGATIVE_INDEX_FLOOR_TESTS=PASS
+CACHE_AND_PARENT_VERIFICATION=PASS
+STAGE_P_SEAL targets=1/4664 objects=404 elapsed_s=0
+STAGE_P_SEAL targets=616/4664 objects=250048 elapsed_s=10
+STAGE_P_SEAL targets=1202/4664 objects=487964 elapsed_s=20
+STAGE_P_SEAL targets=1848/4664 objects=750240 elapsed_s=30
+STAGE_P_SEAL targets=2457/4664 objects=997494 elapsed_s=40
+STAGE_P_SEAL targets=3079/4664 objects=1250026 elapsed_s=50
+STAGE_P_SEAL targets=3691/4664 objects=1498426 elapsed_s=60
+STAGE_P_SEAL targets=4041/4664 objects=1640526 elapsed_s=70
+STAGE_P_SEAL targets=4452/4664 objects=1807392 elapsed_s=80
+STAGE_S_SCORE targets=1/4640 verified_objects=406 species_joint=8 elapsed_s=0
+STAGE_S_SCORE targets=38/4640 verified_objects=15428 species_joint=613 elapsed_s=10
+STAGE_S_SCORE targets=73/4640 verified_objects=29638 species_joint=1380 elapsed_s=20
+STAGE_S_SCORE targets=115/4640 verified_objects=46690 species_joint=1852 elapsed_s=30
+STAGE_S_SCORE targets=159/4640 verified_objects=64554 species_joint=1965 elapsed_s=40
+STAGE_S_SCORE targets=205/4640 verified_objects=83230 species_joint=2080 elapsed_s=50
+STAGE_S_SCORE targets=249/4640 verified_objects=101094 species_joint=2225 elapsed_s=61
+STAGE_S_SCORE targets=294/4640 verified_objects=119364 species_joint=2378 elapsed_s=71
+STAGE_S_SCORE targets=339/4640 verified_objects=137634 species_joint=2513 elapsed_s=81
+STAGE_S_SCORE targets=382/4640 verified_objects=155092 species_joint=2646 elapsed_s=91
+STAGE_S_SCORE targets=416/4640 verified_objects=168896 species_joint=3194 elapsed_s=101
+STAGE_S_SCORE targets=457/4640 verified_objects=185542 species_joint=3644 elapsed_s=111
+STAGE_S_SCORE targets=496/4640 verified_objects=201376 species_joint=4239 elapsed_s=122
+STAGE_S_SCORE targets=534/4640 verified_objects=216804 species_joint=4551 elapsed_s=132
+STAGE_S_SCORE targets=570/4640 verified_objects=231420 species_joint=5346 elapsed_s=142
+STAGE_S_SCORE targets=604/4640 verified_objects=245224 species_joint=6133 elapsed_s=152
+STAGE_S_SCORE targets=639/4640 verified_objects=259434 species_joint=6478 elapsed_s=162
+STAGE_S_SCORE targets=675/4640 verified_objects=274050 species_joint=7413 elapsed_s=172
+STAGE_S_SCORE targets=713/4640 verified_objects=289478 species_joint=8223 elapsed_s=182
+STAGE_S_SCORE targets=749/4640 verified_objects=304094 species_joint=8824 elapsed_s=192
+STAGE_S_SCORE targets=791/4640 verified_objects=321146 species_joint=9292 elapsed_s=202
+STAGE_S_SCORE targets=836/4640 verified_objects=339416 species_joint=9734 elapsed_s=212
+STAGE_S_SCORE targets=875/4640 verified_objects=355250 species_joint=10204 elapsed_s=222
+STAGE_S_SCORE targets=918/4640 verified_objects=372708 species_joint=10504 elapsed_s=232
+STAGE_S_SCORE targets=958/4640 verified_objects=388948 species_joint=11080 elapsed_s=242
+STAGE_S_SCORE targets=996/4640 verified_objects=404376 species_joint=11640 elapsed_s=253
+STAGE_S_SCORE targets=1031/4640 verified_objects=418586 species_joint=12542 elapsed_s=263
+STAGE_S_SCORE targets=1070/4640 verified_objects=434420 species_joint=13270 elapsed_s=273
+STAGE_S_SCORE targets=1107/4640 verified_objects=449442 species_joint=13974 elapsed_s=283
+STAGE_S_SCORE targets=1150/4640 verified_objects=466900 species_joint=14081 elapsed_s=294
+STAGE_S_SCORE targets=1189/4640 verified_objects=482734 species_joint=14145 elapsed_s=304
+STAGE_S_SCORE targets=1230/4640 verified_objects=499380 species_joint=14232 elapsed_s=314
+STAGE_S_SCORE targets=1264/4640 verified_objects=513184 species_joint=14286 elapsed_s=324
+STAGE_S_SCORE targets=1313/4640 verified_objects=533078 species_joint=14400 elapsed_s=334
+STAGE_S_SCORE targets=1359/4640 verified_objects=551754 species_joint=14559 elapsed_s=344
+STAGE_S_SCORE targets=1397/4640 verified_objects=567182 species_joint=14663 elapsed_s=354
+STAGE_S_SCORE targets=1437/4640 verified_objects=583422 species_joint=14756 elapsed_s=365
+STAGE_S_SCORE targets=1477/4640 verified_objects=599662 species_joint=14828 elapsed_s=375
+STAGE_S_SCORE targets=1515/4640 verified_objects=615090 species_joint=14942 elapsed_s=385
+STAGE_S_SCORE targets=1555/4640 verified_objects=631330 species_joint=15042 elapsed_s=395
+STAGE_S_SCORE targets=1590/4640 verified_objects=645540 species_joint=15235 elapsed_s=405
+STAGE_S_SCORE targets=1630/4640 verified_objects=661780 species_joint=15311 elapsed_s=415
+STAGE_S_SCORE targets=1669/4640 verified_objects=677614 species_joint=15404 elapsed_s=426
+STAGE_S_SCORE targets=1710/4640 verified_objects=694260 species_joint=15503 elapsed_s=436
+STAGE_S_SCORE targets=1750/4640 verified_objects=710500 species_joint=15739 elapsed_s=446
+STAGE_S_SCORE targets=1796/4640 verified_objects=729176 species_joint=15855 elapsed_s=456
+STAGE_S_SCORE targets=1837/4640 verified_objects=745822 species_joint=15989 elapsed_s=466
+STAGE_S_SCORE targets=1886/4640 verified_objects=765716 species_joint=16116 elapsed_s=476
+STAGE_S_SCORE targets=1930/4640 verified_objects=783580 species_joint=16229 elapsed_s=486
+STAGE_S_SCORE targets=1972/4640 verified_objects=800632 species_joint=16400 elapsed_s=496
+STAGE_S_SCORE targets=2013/4640 verified_objects=817278 species_joint=16553 elapsed_s=506
+STAGE_S_SCORE targets=2056/4640 verified_objects=834736 species_joint=16671 elapsed_s=516
+STAGE_S_SCORE targets=2098/4640 verified_objects=851788 species_joint=17184 elapsed_s=527
+STAGE_S_SCORE targets=2138/4640 verified_objects=868028 species_joint=17518 elapsed_s=537
+STAGE_S_SCORE targets=2180/4640 verified_objects=885080 species_joint=18216 elapsed_s=547
+STAGE_S_SCORE targets=2218/4640 verified_objects=900508 species_joint=18963 elapsed_s=557
+STAGE_S_SCORE targets=2251/4640 verified_objects=913906 species_joint=19457 elapsed_s=567
+STAGE_S_SCORE targets=2292/4640 verified_objects=930552 species_joint=19892 elapsed_s=577
+STAGE_S_SCORE targets=2330/4640 verified_objects=945980 species_joint=20389 elapsed_s=587
+STAGE_S_SCORE targets=2368/4640 verified_objects=961408 species_joint=21024 elapsed_s=598
+STAGE_S_SCORE targets=2404/4640 verified_objects=976024 species_joint=21388 elapsed_s=608
+STAGE_S_SCORE targets=2439/4640 verified_objects=990234 species_joint=21558 elapsed_s=618
+STAGE_S_SCORE targets=2479/4640 verified_objects=1006474 species_joint=21928 elapsed_s=628
+STAGE_S_SCORE targets=2519/4640 verified_objects=1022714 species_joint=22360 elapsed_s=638
+STAGE_S_SCORE targets=2559/4640 verified_objects=1038954 species_joint=23097 elapsed_s=648
+STAGE_S_SCORE targets=2596/4640 verified_objects=1053976 species_joint=23826 elapsed_s=658
+STAGE_S_SCORE targets=2630/4640 verified_objects=1067780 species_joint=24499 elapsed_s=669
+STAGE_S_SCORE targets=2664/4640 verified_objects=1081584 species_joint=25270 elapsed_s=679
+STAGE_S_SCORE targets=2694/4640 verified_objects=1093764 species_joint=25802 elapsed_s=689
+STAGE_S_SCORE targets=2730/4640 verified_objects=1108380 species_joint=25986 elapsed_s=699
+STAGE_S_SCORE targets=2769/4640 verified_objects=1124214 species_joint=26095 elapsed_s=709
+STAGE_S_SCORE targets=2813/4640 verified_objects=1142078 species_joint=26209 elapsed_s=719
+STAGE_S_SCORE targets=2854/4640 verified_objects=1158724 species_joint=26333 elapsed_s=729
+STAGE_S_SCORE targets=2894/4640 verified_objects=1174964 species_joint=26490 elapsed_s=739
+STAGE_S_SCORE targets=2935/4640 verified_objects=1191610 species_joint=26609 elapsed_s=749
+STAGE_S_SCORE targets=2978/4640 verified_objects=1209068 species_joint=26749 elapsed_s=759
+STAGE_S_SCORE targets=3017/4640 verified_objects=1224902 species_joint=26896 elapsed_s=769
+STAGE_S_SCORE targets=3060/4640 verified_objects=1242360 species_joint=27058 elapsed_s=780
+STAGE_S_SCORE targets=3101/4640 verified_objects=1259006 species_joint=27245 elapsed_s=790
+STAGE_S_SCORE targets=3139/4640 verified_objects=1274434 species_joint=27479 elapsed_s=800
+STAGE_S_SCORE targets=3180/4640 verified_objects=1291080 species_joint=28090 elapsed_s=810
+STAGE_S_SCORE targets=3219/4640 verified_objects=1306914 species_joint=28366 elapsed_s=820
+STAGE_S_SCORE targets=3255/4640 verified_objects=1321510 species_joint=28585 elapsed_s=831
+STAGE_S_SCORE targets=3293/4640 verified_objects=1336886 species_joint=29132 elapsed_s=841
+STAGE_S_SCORE targets=3336/4640 verified_objects=1354344 species_joint=29232 elapsed_s=851
+STAGE_S_SCORE targets=3377/4640 verified_objects=1370990 species_joint=29315 elapsed_s=861
+STAGE_S_SCORE targets=3421/4640 verified_objects=1388854 species_joint=29430 elapsed_s=871
+STAGE_S_SCORE targets=3464/4640 verified_objects=1406312 species_joint=29529 elapsed_s=881
+STAGE_S_SCORE targets=3502/4640 verified_objects=1421740 species_joint=30095 elapsed_s=891
+STAGE_S_SCORE targets=3540/4640 verified_objects=1437168 species_joint=30841 elapsed_s=902
+STAGE_S_SCORE targets=3576/4640 verified_objects=1451784 species_joint=31010 elapsed_s=912
+STAGE_S_SCORE targets=3612/4640 verified_objects=1466400 species_joint=31167 elapsed_s=922
+STAGE_S_SCORE targets=3654/4640 verified_objects=1483452 species_joint=31249 elapsed_s=932
+STAGE_S_SCORE targets=3706/4640 verified_objects=1504564 species_joint=31387 elapsed_s=942
+STAGE_S_SCORE targets=3742/4640 verified_objects=1519180 species_joint=31498 elapsed_s=952
+STAGE_S_SCORE targets=3770/4640 verified_objects=1530548 species_joint=31547 elapsed_s=963
+STAGE_S_SCORE targets=3798/4640 verified_objects=1541916 species_joint=31601 elapsed_s=973
+STAGE_S_SCORE targets=3827/4640 verified_objects=1553690 species_joint=31754 elapsed_s=983
+STAGE_S_SCORE targets=3856/4640 verified_objects=1565464 species_joint=31867 elapsed_s=993
+STAGE_S_SCORE targets=3892/4640 verified_objects=1580080 species_joint=32098 elapsed_s=1004
+STAGE_S_SCORE targets=3929/4640 verified_objects=1595102 species_joint=32341 elapsed_s=1014
+STAGE_S_SCORE targets=3966/4640 verified_objects=1610124 species_joint=32453 elapsed_s=1024
+STAGE_S_SCORE targets=4001/4640 verified_objects=1624334 species_joint=32593 elapsed_s=1034
+STAGE_S_SCORE targets=4036/4640 verified_objects=1638544 species_joint=32731 elapsed_s=1044
+STAGE_S_SCORE targets=4062/4640 verified_objects=1649100 species_joint=32842 elapsed_s=1054
+STAGE_S_SCORE targets=4088/4640 verified_objects=1659656 species_joint=32951 elapsed_s=1064
+STAGE_S_SCORE targets=4114/4640 verified_objects=1670212 species_joint=33022 elapsed_s=1074
+STAGE_S_SCORE targets=4140/4640 verified_objects=1680768 species_joint=33186 elapsed_s=1084
+STAGE_S_SCORE targets=4167/4640 verified_objects=1691730 species_joint=33308 elapsed_s=1094
+STAGE_S_SCORE targets=4203/4640 verified_objects=1706346 species_joint=33462 elapsed_s=1105
+STAGE_S_SCORE targets=4244/4640 verified_objects=1722992 species_joint=33553 elapsed_s=1115
+STAGE_S_SCORE targets=4290/4640 verified_objects=1741668 species_joint=33667 elapsed_s=1125
+STAGE_S_SCORE targets=4334/4640 verified_objects=1759532 species_joint=33772 elapsed_s=1135
+STAGE_S_SCORE targets=4378/4640 verified_objects=1777396 species_joint=33888 elapsed_s=1145
+STAGE_S_SCORE targets=4424/4640 verified_objects=1796072 species_joint=34013 elapsed_s=1155
+STAGE_S_SCORE targets=4468/4640 verified_objects=1813936 species_joint=34138 elapsed_s=1166
+STAGE_S_SCORE targets=4510/4640 verified_objects=1830988 species_joint=34280 elapsed_s=1176
+STAGE_S_SCORE targets=4557/4640 verified_objects=1850070 species_joint=34438 elapsed_s=1186
+STAGE_S_SCORE targets=4602/4640 verified_objects=1868340 species_joint=34599 elapsed_s=1196
+STAGE_S_SUMMARY_CHECKPOINT_SHA256=5a4e429bbed7e68fe9ca2ac89cf1539af60fc5697af5b9d891bc76b0cc5b772a
+ACTUAL24_SCORE target=A::S01 seals_verified=404 full5_n=12
+ACTUAL24_SCORE target=A::S02 seals_verified=404 full5_n=12
+ACTUAL24_SCORE target=A::S03 seals_verified=404 full5_n=12
+ACTUAL24_SCORE target=A::S04 seals_verified=404 full5_n=9
+ACTUAL24_SCORE target=A::S05 seals_verified=404 full5_n=13
+ACTUAL24_SCORE target=A::S06 seals_verified=404 full5_n=9
+ACTUAL24_SCORE target=A::S07 seals_verified=404 full5_n=4
+ACTUAL24_SCORE target=A::S08 seals_verified=404 full5_n=3
+ACTUAL24_SCORE target=A::S09 seals_verified=404 full5_n=5
+ACTUAL24_SCORE target=A::S10 seals_verified=404 full5_n=2
+ACTUAL24_SCORE target=A::S11 seals_verified=404 full5_n=2
+ACTUAL24_SCORE target=A::S12 seals_verified=404 full5_n=11
+ACTUAL24_SCORE target=A::S13 seals_verified=404 full5_n=7
+ACTUAL24_SCORE target=A::S14 seals_verified=404 full5_n=2
+ACTUAL24_SCORE target=A::S15 seals_verified=404 full5_n=2
+ACTUAL24_SCORE target=A::S16 seals_verified=404 full5_n=11
+ACTUAL24_SCORE target=A::S17 seals_verified=404 full5_n=4
+ACTUAL24_SCORE target=A::S18 seals_verified=404 full5_n=4
+ACTUAL24_SCORE target=A::S19 seals_verified=404 full5_n=4
+ACTUAL24_SCORE target=A::S20 seals_verified=404 full5_n=3
+ACTUAL24_SCORE target=A::S21 seals_verified=404 full5_n=5
+ACTUAL24_SCORE target=A::S22 seals_verified=404 full5_n=11
+ACTUAL24_SCORE target=A::S23 seals_verified=404 full5_n=11
+ACTUAL24_SCORE target=A::S24 seals_verified=404 full5_n=9
+STAGE_S_VERIFIED=1893464
+FAILED_OBJECTS=0
+FINISH_ANALYSIS_EPOCH=1788868248.6865375
+RESUME_AFTER_PSEUDO_EPOCH=1788868370.9653723
+ACTUAL24_SCORE target=A::S01 seals_verified=404 full5_n=12
+ACTUAL24_SCORE target=A::S02 seals_verified=404 full5_n=12
+ACTUAL24_SCORE target=A::S03 seals_verified=404 full5_n=12
+ACTUAL24_SCORE target=A::S04 seals_verified=404 full5_n=9
+ACTUAL24_SCORE target=A::S05 seals_verified=404 full5_n=13
+ACTUAL24_SCORE target=A::S06 seals_verified=404 full5_n=9
+ACTUAL24_SCORE target=A::S07 seals_verified=404 full5_n=4
+ACTUAL24_SCORE target=A::S08 seals_verified=404 full5_n=3
+ACTUAL24_SCORE target=A::S09 seals_verified=404 full5_n=5
+ACTUAL24_SCORE target=A::S10 seals_verified=404 full5_n=2
+ACTUAL24_SCORE target=A::S11 seals_verified=404 full5_n=2
+ACTUAL24_SCORE target=A::S12 seals_verified=404 full5_n=11
+ACTUAL24_SCORE target=A::S13 seals_verified=404 full5_n=7
+ACTUAL24_SCORE target=A::S14 seals_verified=404 full5_n=2
+ACTUAL24_SCORE target=A::S15 seals_verified=404 full5_n=2
+ACTUAL24_SCORE target=A::S16 seals_verified=404 full5_n=11
+ACTUAL24_SCORE target=A::S17 seals_verified=404 full5_n=4
+ACTUAL24_SCORE target=A::S18 seals_verified=404 full5_n=4
+ACTUAL24_SCORE target=A::S19 seals_verified=404 full5_n=4
+ACTUAL24_SCORE target=A::S20 seals_verified=404 full5_n=3
+ACTUAL24_SCORE target=A::S21 seals_verified=404 full5_n=5
+ACTUAL24_SCORE target=A::S22 seals_verified=404 full5_n=11
+ACTUAL24_SCORE target=A::S23 seals_verified=404 full5_n=11
+ACTUAL24_SCORE target=A::S24 seals_verified=404 full5_n=9
+STAGE_S_VERIFIED=1893464
+FAILED_OBJECTS=0
+FINISH_ANALYSIS_EPOCH=1788868372.646257

@@ -1,0 +1,1537 @@
+{
+  "actual24": {
+    "failed_objects": 0,
+    "row_count": 24,
+    "verified_objects": 9696
+  },
+  "coarse_summary": {
+    "ALL": {
+      "100": {
+        "cov_frob": {
+          "median": 0.615013456861755,
+          "n": 4640,
+          "p90": 1.0408969929625467
+        },
+        "lead": {
+          "median": 0.26979277751320363,
+          "n": 4640,
+          "p90": 1.9327518171690885
+        },
+        "overlap": {
+          "median": 0.7071750321750322,
+          "n": 4640,
+          "p90": 0.9144153111346975
+        },
+        "tv": {
+          "median": 0.2928249678249678,
+          "n": 4640,
+          "p90": 0.8756646009008094
+        }
+      },
+      "200": {
+        "cov_frob": {
+          "median": 0.608901739289406,
+          "n": 4640,
+          "p90": 3.282999027498508
+        },
+        "lead": {
+          "median": 0.2083645435270665,
+          "n": 4640,
+          "p90": 1.2610112314130584
+        },
+        "overlap": {
+          "median": 0.8321379947486143,
+          "n": 4640,
+          "p90": 1.0
+        },
+        "tv": {
+          "median": 0.16786200525138578,
+          "n": 4640,
+          "p90": 0.7450706737120214
+        }
+      },
+      "50": {
+        "cov_frob": {
+          "median": 0.7700866285764356,
+          "n": 4640,
+          "p90": 1.003647803137308
+        },
+        "lead": {
+          "median": 0.4441496864585377,
+          "n": 4640,
+          "p90": 2.697352098962772
+        },
+        "overlap": {
+          "median": 0.5583621772031626,
+          "n": 4640,
+          "p90": 0.7941176470588235
+        },
+        "tv": {
+          "median": 0.4416378227968374,
+          "n": 4640,
+          "p90": 0.9485249649639821
+        }
+      }
+    },
+    "LEVEL1": {
+      "100": {
+        "cov_frob": {
+          "median": 0.5860242293395961,
+          "n": 4397,
+          "p90": 1.0263712172333004
+        },
+        "lead": {
+          "median": 0.25335804947891616,
+          "n": 4397,
+          "p90": 1.8566395694418185
+        },
+        "overlap": {
+          "median": 0.7232704402515723,
+          "n": 4397,
+          "p90": 0.9176313871540309
+        },
+        "tv": {
+          "median": 0.2767295597484277,
+          "n": 4397,
+          "p90": 0.8527949065286812
+        }
+      },
+      "200": {
+        "cov_frob": {
+          "median": 0.5697044818052477,
+          "n": 4397,
+          "p90": 2.127245203314886
+        },
+        "lead": {
+          "median": 0.19472472713451627,
+          "n": 4397,
+          "p90": 1.2602015740021617
+        },
+        "overlap": {
+          "median": 0.8478870017727455,
+          "n": 4397,
+          "p90": 1.0
+        },
+        "tv": {
+          "median": 0.15211299822725452,
+          "n": 4397,
+          "p90": 0.7092956792334516
+        }
+      },
+      "50": {
+        "cov_frob": {
+          "median": 0.7463420806376392,
+          "n": 4397,
+          "p90": 1.0014146131931543
+        },
+        "lead": {
+          "median": 0.41043370186131983,
+          "n": 4397,
+          "p90": 2.5315909816274025
+        },
+        "overlap": {
+          "median": 0.5764705882352941,
+          "n": 4397,
+          "p90": 0.7967811822045231
+        },
+        "tv": {
+          "median": 0.4235294117647058,
+          "n": 4397,
+          "p90": 0.9380300091864857
+        }
+      }
+    },
+    "LEVEL2": {
+      "100": {
+        "cov_frob": {
+          "median": 0.9697906336496357,
+          "n": 243,
+          "p90": 540357243583271.7
+        },
+        "lead": {
+          "median": 1.621629524517369,
+          "n": 243,
+          "p90": 2.491695510498614
+        },
+        "overlap": {
+          "median": 0.14537107880642694,
+          "n": 243,
+          "p90": 0.35786125603546637
+        },
+        "tv": {
+          "median": 0.854628921193573,
+          "n": 243,
+          "p90": 0.9589519601036722
+        }
+      },
+      "200": {
+        "cov_frob": {
+          "median": 0.9441063945611242,
+          "n": 243,
+          "p90": 1031737240848268.9
+        },
+        "lead": {
+          "median": 0.7824539785891844,
+          "n": 243,
+          "p90": 1.3221624027114889
+        },
+        "overlap": {
+          "median": 0.33108960875052584,
+          "n": 243,
+          "p90": 0.6282348888358905
+        },
+        "tv": {
+          "median": 0.6689103912494742,
+          "n": 243,
+          "p90": 0.914702379628414
+        }
+      },
+      "50": {
+        "cov_frob": {
+          "median": 0.9830149942565141,
+          "n": 243,
+          "p90": 1.038408875306938
+        },
+        "lead": {
+          "median": 2.724217113038967,
+          "n": 243,
+          "p90": 3.5864161987042866
+        },
+        "overlap": {
+          "median": 0.06778194404384194,
+          "n": 243,
+          "p90": 0.19568298128729603
+        },
+        "tv": {
+          "median": 0.932218055956158,
+          "n": 243,
+          "p90": 0.9829470792020069
+        }
+      }
+    }
+  },
+  "descriptive_summary": [
+    {
+      "interpretation": "DESCRIPTIVE_SIGNAL_CONFOUNDED_BY_ROUTE_GEOGRAPHY_DF_OVERLAP_AND_IMBALANCE",
+      "level1_count": 1455,
+      "level2_count": 58,
+      "median_domain_cov_relative_frobenius": 0.6152638414416338,
+      "median_domain_cov_transport_to_noise": 0.9295994140227146,
+      "median_domain_overlap": 0.68125,
+      "median_generic_joint_relative_frobenius": 0.9945202068544203,
+      "median_generic_joint_transport_to_noise": 1.153248043236644,
+      "median_group_size_ratio_pool_to_target": 3.7794117647058822,
+      "median_parent_generic_abs_log_ratio": 1.0142854400140182,
+      "median_pool_df": 166.0,
+      "median_target_df": 39.0,
+      "relation_class": "EXACT_SET_MATCH",
+      "state_count": 44,
+      "target_count": 1513,
+      "variable": "MANUAL"
+    },
+    {
+      "interpretation": "DESCRIPTIVE_SIGNAL_CONFOUNDED_BY_ROUTE_GEOGRAPHY_DF_OVERLAP_AND_IMBALANCE",
+      "level1_count": 2940,
+      "level2_count": 185,
+      "median_domain_cov_relative_frobenius": 0.8522438725403914,
+      "median_domain_cov_transport_to_noise": 0.9230914887669545,
+      "median_domain_overlap": 0.472926267281106,
+      "median_generic_joint_relative_frobenius": 0.9995671777927854,
+      "median_generic_joint_transport_to_noise": 1.0170149069248144,
+      "median_group_size_ratio_pool_to_target": 13.8,
+      "median_parent_generic_abs_log_ratio": 1.0935502087734756,
+      "median_pool_df": 193.0,
+      "median_target_df": 11.0,
+      "relation_class": "PARTIAL_OVERLAP",
+      "state_count": 38,
+      "target_count": 3125,
+      "variable": "MANUAL"
+    },
+    {
+      "interpretation": "DESCRIPTIVE_SIGNAL_CONFOUNDED_BY_ROUTE_GEOGRAPHY_DF_OVERLAP_AND_IMBALANCE",
+      "level1_count": 2,
+      "level2_count": 0,
+      "median_domain_cov_relative_frobenius": 1.2633051703642586,
+      "median_domain_cov_transport_to_noise": NaN,
+      "median_domain_overlap": 0.25,
+      "median_generic_joint_relative_frobenius": 3.864061300896085,
+      "median_generic_joint_transport_to_noise": NaN,
+      "median_group_size_ratio_pool_to_target": 1.0416666666666665,
+      "median_parent_generic_abs_log_ratio": 1.5378995890368818,
+      "median_pool_df": 2.5,
+      "median_target_df": 2.5,
+      "relation_class": "DISJOINT",
+      "state_count": 1,
+      "target_count": 2,
+      "variable": "MANUAL"
+    },
+    {
+      "interpretation": "DESCRIPTIVE_SIGNAL_CONFOUNDED_BY_ROUTE_GEOGRAPHY_DF_OVERLAP_AND_IMBALANCE",
+      "level1_count": 0,
+      "level2_count": 0,
+      "median_domain_cov_relative_frobenius": NaN,
+      "median_domain_cov_transport_to_noise": NaN,
+      "median_domain_overlap": NaN,
+      "median_generic_joint_relative_frobenius": NaN,
+      "median_generic_joint_transport_to_noise": NaN,
+      "median_group_size_ratio_pool_to_target": NaN,
+      "median_parent_generic_abs_log_ratio": NaN,
+      "median_pool_df": NaN,
+      "median_target_df": NaN,
+      "relation_class": "MISSING_SIDE",
+      "state_count": 0,
+      "target_count": 0,
+      "variable": "MANUAL"
+    },
+    {
+      "interpretation": "DESCRIPTIVE_SIGNAL_CONFOUNDED_BY_ROUTE_GEOGRAPHY_DF_OVERLAP_AND_IMBALANCE",
+      "level1_count": 2494,
+      "level2_count": 110,
+      "median_domain_cov_relative_frobenius": 0.7793693092358706,
+      "median_domain_cov_transport_to_noise": 0.8837878175035564,
+      "median_domain_overlap": 0.5526665774088455,
+      "median_generic_joint_relative_frobenius": 0.998403933582626,
+      "median_generic_joint_transport_to_noise": 0.9993222585193813,
+      "median_group_size_ratio_pool_to_target": 7.604166666666666,
+      "median_parent_generic_abs_log_ratio": 0.9202545782225668,
+      "median_pool_df": 309.5,
+      "median_target_df": 20.0,
+      "relation_class": "EXACT_SET_MATCH",
+      "state_count": 44,
+      "target_count": 2604,
+      "variable": "REGIONAL_MANUAL"
+    },
+    {
+      "interpretation": "DESCRIPTIVE_SIGNAL_CONFOUNDED_BY_ROUTE_GEOGRAPHY_DF_OVERLAP_AND_IMBALANCE",
+      "level1_count": 1902,
+      "level2_count": 133,
+      "median_domain_cov_relative_frobenius": 0.7616085020022457,
+      "median_domain_cov_transport_to_noise": 1.0418236598464665,
+      "median_domain_overlap": 0.5618788788382753,
+      "median_generic_joint_relative_frobenius": 0.9994771891073602,
+      "median_generic_joint_transport_to_noise": 1.148055474629091,
+      "median_group_size_ratio_pool_to_target": 7.809523809523809,
+      "median_parent_generic_abs_log_ratio": 1.3403393116107198,
+      "median_pool_df": 122.0,
+      "median_target_df": 13.0,
+      "relation_class": "PARTIAL_OVERLAP",
+      "state_count": 27,
+      "target_count": 2035,
+      "variable": "REGIONAL_MANUAL"
+    },
+    {
+      "interpretation": "DESCRIPTIVE_SIGNAL_CONFOUNDED_BY_ROUTE_GEOGRAPHY_DF_OVERLAP_AND_IMBALANCE",
+      "level1_count": 0,
+      "level2_count": 0,
+      "median_domain_cov_relative_frobenius": NaN,
+      "median_domain_cov_transport_to_noise": NaN,
+      "median_domain_overlap": NaN,
+      "median_generic_joint_relative_frobenius": NaN,
+      "median_generic_joint_transport_to_noise": NaN,
+      "median_group_size_ratio_pool_to_target": NaN,
+      "median_parent_generic_abs_log_ratio": NaN,
+      "median_pool_df": NaN,
+      "median_target_df": NaN,
+      "relation_class": "DISJOINT",
+      "state_count": 0,
+      "target_count": 0,
+      "variable": "REGIONAL_MANUAL"
+    },
+    {
+      "interpretation": "DESCRIPTIVE_SIGNAL_CONFOUNDED_BY_ROUTE_GEOGRAPHY_DF_OVERLAP_AND_IMBALANCE",
+      "level1_count": 1,
+      "level2_count": 0,
+      "median_domain_cov_relative_frobenius": 0.9577978563379842,
+      "median_domain_cov_transport_to_noise": NaN,
+      "median_domain_overlap": 0.10828729281767956,
+      "median_generic_joint_relative_frobenius": 1.38648725521658,
+      "median_generic_joint_transport_to_noise": NaN,
+      "median_group_size_ratio_pool_to_target": 301.6666666666667,
+      "median_parent_generic_abs_log_ratio": 0.6464474933375777,
+      "median_pool_df": 842.0,
+      "median_target_df": 2.0,
+      "relation_class": "MISSING_SIDE",
+      "state_count": 1,
+      "target_count": 1,
+      "variable": "REGIONAL_MANUAL"
+    },
+    {
+      "interpretation": "DESCRIPTIVE_SIGNAL_CONFOUNDED_BY_ROUTE_GEOGRAPHY_DF_OVERLAP_AND_IMBALANCE",
+      "level1_count": 2329,
+      "level2_count": 125,
+      "median_domain_cov_relative_frobenius": 0.7135918517013642,
+      "median_domain_cov_transport_to_noise": 0.8955827746752048,
+      "median_domain_overlap": 0.6091902632886239,
+      "median_generic_joint_relative_frobenius": 1.11065202726579,
+      "median_generic_joint_transport_to_noise": 1.2237985846634585,
+      "median_group_size_ratio_pool_to_target": 6.115794143744454,
+      "median_parent_generic_abs_log_ratio": 1.1698669511685644,
+      "median_pool_df": 212.0,
+      "median_target_df": 23.0,
+      "relation_class": "EXACT_SET_MATCH",
+      "state_count": 44,
+      "target_count": 2454,
+      "variable": "SAMP_METHOD_CD"
+    },
+    {
+      "interpretation": "DESCRIPTIVE_SIGNAL_CONFOUNDED_BY_ROUTE_GEOGRAPHY_DF_OVERLAP_AND_IMBALANCE",
+      "level1_count": 2044,
+      "level2_count": 118,
+      "median_domain_cov_relative_frobenius": 0.8204873104641363,
+      "median_domain_cov_transport_to_noise": 0.9752157445979628,
+      "median_domain_overlap": 0.5,
+      "median_generic_joint_relative_frobenius": 0.9839286278374982,
+      "median_generic_joint_transport_to_noise": 0.9554819242636801,
+      "median_group_size_ratio_pool_to_target": 11.075,
+      "median_parent_generic_abs_log_ratio": 0.9552473913409958,
+      "median_pool_df": 164.0,
+      "median_target_df": 11.0,
+      "relation_class": "PARTIAL_OVERLAP",
+      "state_count": 43,
+      "target_count": 2162,
+      "variable": "SAMP_METHOD_CD"
+    },
+    {
+      "interpretation": "DESCRIPTIVE_SIGNAL_CONFOUNDED_BY_ROUTE_GEOGRAPHY_DF_OVERLAP_AND_IMBALANCE",
+      "level1_count": 24,
+      "level2_count": 0,
+      "median_domain_cov_relative_frobenius": 0.9023834530377727,
+      "median_domain_cov_transport_to_noise": 1.415259173771548,
+      "median_domain_overlap": 0.507422969187675,
+      "median_generic_joint_relative_frobenius": 1.0,
+      "median_generic_joint_transport_to_noise": 0.7312607472410988,
+      "median_group_size_ratio_pool_to_target": 3.5,
+      "median_parent_generic_abs_log_ratio": NaN,
+      "median_pool_df": 38.0,
+      "median_target_df": 10.0,
+      "relation_class": "DISJOINT",
+      "state_count": 6,
+      "target_count": 24,
+      "variable": "SAMP_METHOD_CD"
+    },
+    {
+      "interpretation": "DESCRIPTIVE_SIGNAL_CONFOUNDED_BY_ROUTE_GEOGRAPHY_DF_OVERLAP_AND_IMBALANCE",
+      "level1_count": 0,
+      "level2_count": 0,
+      "median_domain_cov_relative_frobenius": NaN,
+      "median_domain_cov_transport_to_noise": NaN,
+      "median_domain_overlap": NaN,
+      "median_generic_joint_relative_frobenius": NaN,
+      "median_generic_joint_transport_to_noise": NaN,
+      "median_group_size_ratio_pool_to_target": NaN,
+      "median_parent_generic_abs_log_ratio": NaN,
+      "median_pool_df": NaN,
+      "median_target_df": NaN,
+      "relation_class": "MISSING_SIDE",
+      "state_count": 0,
+      "target_count": 0,
+      "variable": "SAMP_METHOD_CD"
+    },
+    {
+      "interpretation": "DESCRIPTIVE_SIGNAL_CONFOUNDED_BY_ROUTE_GEOGRAPHY_DF_OVERLAP_AND_IMBALANCE",
+      "level1_count": 941,
+      "level2_count": 17,
+      "median_domain_cov_relative_frobenius": 0.5787143829832356,
+      "median_domain_cov_transport_to_noise": 0.8870626878735601,
+      "median_domain_overlap": 0.7038346127385351,
+      "median_generic_joint_relative_frobenius": 0.9710765552786735,
+      "median_generic_joint_transport_to_noise": 1.0442634253045644,
+      "median_group_size_ratio_pool_to_target": 3.1445993031358883,
+      "median_parent_generic_abs_log_ratio": 0.8070143566486112,
+      "median_pool_df": 152.0,
+      "median_target_df": 45.0,
+      "relation_class": "EXACT_SET_MATCH",
+      "state_count": 42,
+      "target_count": 958,
+      "variable": "MEASYEAR"
+    },
+    {
+      "interpretation": "DESCRIPTIVE_SIGNAL_CONFOUNDED_BY_ROUTE_GEOGRAPHY_DF_OVERLAP_AND_IMBALANCE",
+      "level1_count": 3454,
+      "level2_count": 226,
+      "median_domain_cov_relative_frobenius": 0.819777921467834,
+      "median_domain_cov_transport_to_noise": 0.9371679345312321,
+      "median_domain_overlap": 0.5026367535976113,
+      "median_generic_joint_relative_frobenius": 1.0,
+      "median_generic_joint_transport_to_noise": 1.0647523091899713,
+      "median_group_size_ratio_pool_to_target": 11.267857142857142,
+      "median_parent_generic_abs_log_ratio": 1.1203700870725957,
+      "median_pool_df": 192.0,
+      "median_target_df": 13.0,
+      "relation_class": "PARTIAL_OVERLAP",
+      "state_count": 44,
+      "target_count": 3680,
+      "variable": "MEASYEAR"
+    },
+    {
+      "interpretation": "DESCRIPTIVE_SIGNAL_CONFOUNDED_BY_ROUTE_GEOGRAPHY_DF_OVERLAP_AND_IMBALANCE",
+      "level1_count": 2,
+      "level2_count": 0,
+      "median_domain_cov_relative_frobenius": 1.2633051703642586,
+      "median_domain_cov_transport_to_noise": NaN,
+      "median_domain_overlap": 0.25,
+      "median_generic_joint_relative_frobenius": 3.864061300896085,
+      "median_generic_joint_transport_to_noise": NaN,
+      "median_group_size_ratio_pool_to_target": 1.0416666666666665,
+      "median_parent_generic_abs_log_ratio": 1.5378995890368818,
+      "median_pool_df": 2.5,
+      "median_target_df": 2.5,
+      "relation_class": "DISJOINT",
+      "state_count": 1,
+      "target_count": 2,
+      "variable": "MEASYEAR"
+    },
+    {
+      "interpretation": "DESCRIPTIVE_SIGNAL_CONFOUNDED_BY_ROUTE_GEOGRAPHY_DF_OVERLAP_AND_IMBALANCE",
+      "level1_count": 0,
+      "level2_count": 0,
+      "median_domain_cov_relative_frobenius": NaN,
+      "median_domain_cov_transport_to_noise": NaN,
+      "median_domain_overlap": NaN,
+      "median_generic_joint_relative_frobenius": NaN,
+      "median_generic_joint_transport_to_noise": NaN,
+      "median_group_size_ratio_pool_to_target": NaN,
+      "median_parent_generic_abs_log_ratio": NaN,
+      "median_pool_df": NaN,
+      "median_target_df": NaN,
+      "relation_class": "MISSING_SIDE",
+      "state_count": 0,
+      "target_count": 0,
+      "variable": "MEASYEAR"
+    }
+  ],
+  "generated_utc_epoch": 1788868372.942213,
+  "input_verification": {
+    "cache_logical_rows": 529475,
+    "cache_logical_sha256": "e85168819a7954f9f1ead69f1554e29c193ba9ef369c7c2793b4587d5f8dd416",
+    "cache_schema": [
+      {
+        "rows": 5,
+        "sql": "CREATE TABLE cache_meta(key TEXT PRIMARY KEY,value TEXT)",
+        "table": "cache_meta"
+      },
+      {
+        "rows": 7696,
+        "sql": "CREATE TABLE member(member_id TEXT PRIMARY KEY,STATECD INTEGER,EVALID TEXT,fold TEXT,source_eu TEXT,parent TEXT,core_id TEXT,n INTEGER,df INTEGER)",
+        "table": "member"
+      },
+      {
+        "rows": 7696,
+        "sql": "CREATE TABLE member_generic_stats(member_id TEXT PRIMARY KEY,n INTEGER,df INTEGER,sum_y REAL,sumsq_y REAL,scalar_ss REAL,raw_mean REAL,cell_counts_json TEXT,cell_sum_json TEXT,cell_sumsq_json TEXT,proj_ss_json TEXT,domain_proj_ss_json TEXT)",
+        "table": "member_generic_stats"
+      },
+      {
+        "rows": 338619,
+        "sql": "CREATE TABLE member_plot(member_id TEXT,PLT_CN TEXT,cell_id TEXT,PRIMARY KEY(member_id,PLT_CN))",
+        "table": "member_plot"
+      },
+      {
+        "rows": 269224,
+        "sql": "CREATE TABLE member_species_cell(member_id TEXT,SPCD TEXT,cell_id TEXT,sum_y REAL,sumsq_y REAL,positive_count INTEGER,PRIMARY KEY(member_id,SPCD,cell_id))",
+        "table": "member_species_cell"
+      },
+      {
+        "rows": 88143,
+        "sql": "CREATE TABLE member_species_stats(member_id TEXT,SPCD TEXT,sum_y REAL,sumsq_y REAL,positive_count INTEGER,scalar_ss REAL,proj_ss_json TEXT,PRIMARY KEY(member_id,SPCD))",
+        "table": "member_species_stats"
+      },
+      {
+        "rows": 338619,
+        "sql": "CREATE TABLE plot_design(PLT_CN TEXT PRIMARY KEY,member_id TEXT,STATECD INTEGER,EVALID TEXT,fold TEXT,source_eu TEXT,parent TEXT,core_id TEXT,cell_id TEXT,adj_subp REAL,adj_macr REAL,macro_breakpoint REAL,MANUAL TEXT,SAMP_METHOD_CD TEXT,MEASYEAR TEXT,regional_manual_json TEXT)",
+        "table": "plot_design"
+      },
+      {
+        "rows": 338619,
+        "sql": "CREATE TABLE plot_generic(PLT_CN TEXT PRIMARY KEY,member_id TEXT,cell_id TEXT,y REAL)",
+        "table": "plot_generic"
+      },
+      {
+        "rows": 529475,
+        "sql": "CREATE TABLE plot_species(PLT_CN TEXT,member_id TEXT,cell_id TEXT,SPCD TEXT,y REAL,PRIMARY KEY(PLT_CN,SPCD))",
+        "table": "plot_species"
+      },
+      {
+        "rows": 9268,
+        "sql": "CREATE TABLE pool_generic_pred(target_id TEXT,pool_role TEXT,target_type TEXT,pool_df INTEGER,pool_plots INTEGER,pred_generic_var REAL,raw_uncentered_var REAL,generic_joint_proj_json TEXT,domain_proj_json TEXT,pool_cell_counts_json TEXT,pool_cell_sum_json TEXT,pool_cell_sumsq_json TEXT,cov_object_digest TEXT,PRIMARY KEY(target_id,pool_role))",
+        "table": "pool_generic_pred"
+      },
+      {
+        "rows": 321584,
+        "sql": "CREATE TABLE pool_membership(target_id TEXT,pool_role TEXT,member_id TEXT,n_g INTEGER,df_g INTEGER,PRIMARY KEY(target_id,pool_role,member_id))",
+        "table": "pool_membership"
+      },
+      {
+        "rows": 138367,
+        "sql": "CREATE TABLE pool_species_pred(target_id TEXT,SPCD TEXT,pred_scalar_var REAL,pred_proj_json TEXT,pool_df INTEGER,PRIMARY KEY(target_id,SPCD))",
+        "table": "pool_species_pred"
+      },
+      {
+        "rows": 402,
+        "sql": "CREATE TABLE species_universe(SPCD TEXT PRIMARY KEY)",
+        "table": "species_universe"
+      },
+      {
+        "rows": 5753,
+        "sql": "CREATE TABLE target(target_id TEXT PRIMARY KEY,target_type TEXT,case_id TEXT,STATECD INTEGER,EVALID TEXT,fold TEXT,source_eu TEXT,parent TEXT,target_member_id TEXT,route TEXT,target_n INTEGER,target_df INTEGER,pool_strata INTEGER,pool_plots INTEGER,pool_df INTEGER,reference_strength TEXT,validation_status TEXT,core_id TEXT)",
+        "table": "target"
+      }
+    ],
+    "cache_schema_sha256": "0cf6d9e54dd3c7f6314132b3884f779f5d60f9b021e40622c379336084ad8679",
+    "identities": {
+      "b11_zip": "ee6888a47762aaa966afaeffddd2569500f0f8271745263b763711348d761624",
+      "cache_file": "0daf80d098546d61aecd8e75701f5174d9f6fd4452ce4a1b257651d45c9d2953",
+      "parent_zip": "202b7a475a7aeb3dfe35749d70fccb076729dea79e8a75fcafb63c83c800c433",
+      "substrate_zip": "1dbd8cf3fdb9fdbd25945ed70af64e1c739ec78f10f24ec4866128c38d5d946e"
+    },
+    "old_stage_p_seals": [
+      {
+        "artifact": "B12_POOL_MEMBERSHIP_v01.parquet",
+        "expected_rows": 321584,
+        "expected_sha256": "46276d2aea5d9a8b59e5e081c28c3c4324828346b70419dbe6472582c36fb27b",
+        "observed_rows": 321584,
+        "observed_sha256": "46276d2aea5d9a8b59e5e081c28c3c4324828346b70419dbe6472582c36fb27b",
+        "status": "PASS"
+      },
+      {
+        "artifact": "B12_POOL_PREDICTIONS_GENERIC_v01.parquet",
+        "expected_rows": 9268,
+        "expected_sha256": "0ccb4a33621ddd83ec30e57588592e1e5653300c93fddaf9dadbf3f38a551b78",
+        "observed_rows": 9268,
+        "observed_sha256": "0ccb4a33621ddd83ec30e57588592e1e5653300c93fddaf9dadbf3f38a551b78",
+        "status": "PASS"
+      },
+      {
+        "artifact": "B12_POOL_PREDICTIONS_SPECIES_v01.parquet",
+        "expected_rows": 138367,
+        "expected_sha256": "56f32055bf1a87fef2db6d7516867d1f50ecc44407c5fb10a70a21b4f8d4b0e8",
+        "observed_rows": 138367,
+        "observed_sha256": "56f32055bf1a87fef2db6d7516867d1f50ecc44407c5fb10a70a21b4f8d4b0e8",
+        "status": "PASS"
+      }
+    ],
+    "parent_meta": {
+      "Q1_calculation_count": 0,
+      "TREE_rows_read_or_returned": 4727482,
+      "actual24_count": 24,
+      "builder_version": "1.0.2",
+      "cache_logical_digest": "e85168819a7954f9f1ead69f1554e29c193ba9ef369c7c2793b4587d5f8dd416",
+      "cache_schema": "SQLite task-local; plot_design/plot_species/plot_generic/member sufficient statistics/prediction cache; not canonical",
+      "cpu_count": 16,
+      "fia_spcd_count": 402,
+      "finished_utc": "2026-09-08T08:17:28.344040+00:00",
+      "full5_reference_role": "FULL5_LIMITED_REFERENCE only",
+      "input_fingerprint": "5d0a9dbaf55045c20bdab107f061c477fe77106d100bc95681a6dfebd1eeb7bd",
+      "national_TREE_query_count": 4,
+      "numpy_version": "2.4.4",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "plot_species_aggregates": 529475,
+      "prediction_seals_unchanged": true,
+      "pseudo_target_count": 5729,
+      "pseudo_target_scored": 4640,
+      "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+      "scoring_registry": [
+        {
+          "checkpoint": "C:\\range_paper\\99_tmp\\d10fb12_v01\\checkpoints\\DOMAIN.json",
+          "completed": "YES",
+          "output_files": "B12_DOMAIN_TRANSPORTABILITY_v01.parquet|B12_DOMAIN_OVERLAP_WARNINGS_v01.csv",
+          "phase": "DOMAIN",
+          "planned": "YES"
+        },
+        {
+          "checkpoint": "C:\\range_paper\\99_tmp\\d10fb12_v01\\checkpoints\\GENERIC.json",
+          "completed": "YES",
+          "output_files": "B12_GENERIC_RESIDUAL_TRANSPORT_v01.parquet|B12_NEGATIVE_CONTROLS_v01.csv",
+          "phase": "GENERIC",
+          "planned": "YES"
+        },
+        {
+          "checkpoint": "C:\\range_paper\\99_tmp\\d10fb12_v01\\checkpoints\\SPECIES.json",
+          "completed": "YES",
+          "output_files": "B12_SPECIES_SCALAR_TRANSPORT_v01.parquet|B12_SPECIES_REFERENCE_STATUS_v01.parquet|B12_SPECIES_JOINT_TRANSPORT_v01.parquet|B12_TRANSPORT_DECOMPOSITION_v01.parquet",
+          "phase": "SPECIES",
+          "planned": "YES"
+        },
+        {
+          "checkpoint": "C:\\range_paper\\99_tmp\\d10fb12_v01\\checkpoints\\ACTUAL24.json",
+          "completed": "YES",
+          "output_files": "B12_ACTUAL24_FULL5_REFERENCE_v01.parquet",
+          "phase": "ACTUAL24",
+          "planned": "YES"
+        }
+      ],
+      "source_scan_time_included": true,
+      "stage_p_prediction_count": 147635,
+      "started_utc": "2026-09-08T07:22:45.374144+00:00",
+      "support_analysis_count": 0,
+      "task": "Q1_D10F_B12_REAL_DATA_TRANSPORTABILITY_QUALIFICATION_v01",
+      "taxonomy_tag_status": {
+        "matching_mapping_tables": 0,
+        "package_path": "C:\\range_paper\\10_archive\\range_gate0_v02_corrected\\Q1_RANGE_GATE0_V02_CORRECTED_GEOGRAPHIC_SEMANTICS_REPRODUCIBLE_v01.zip",
+        "reason": "Could not uniquely identify SPCD + Range Gate class table",
+        "status": "NOT_RESOLVED_LOCALLY"
+      },
+      "total_runtime_seconds": 3282.9698960781097,
+      "unresolved_open_item_count": 5,
+      "worker_count": 14
+    },
+    "protected": {
+      "actual24": 24,
+      "actual_level1": 11,
+      "actual_level2": 13,
+      "fia_spcd": 402,
+      "level1": 4397,
+      "level2": 243,
+      "pseudo_heterogeneous": 1089,
+      "pseudo_scoreable": 4640,
+      "pseudo_total": 5729,
+      "target_member_leak": 0,
+      "target_positive_pool_positive": 48723,
+      "target_positive_pool_zero": 7200,
+      "target_species_var_positive": 55923
+    }
+  },
+  "mainline_authority_retained": true,
+  "numpy": "2.4.4",
+  "protected_reconciliation": [
+    {
+      "item": "pseudo_target_total",
+      "logical_relation": "UNCHANGED",
+      "notes": "Parent scalar/domain-profile evidence preserved; covariance closure is additive.",
+      "status": "PASS",
+      "v01_1_observed": 5729,
+      "v01_protected": 5729
+    },
+    {
+      "item": "pseudo_scoreable",
+      "logical_relation": "UNCHANGED",
+      "notes": "Parent scalar/domain-profile evidence preserved; covariance closure is additive.",
+      "status": "PASS",
+      "v01_1_observed": 4640,
+      "v01_protected": 4640
+    },
+    {
+      "item": "pseudo_heterogeneous_unscoreable",
+      "logical_relation": "UNCHANGED",
+      "notes": "Parent scalar/domain-profile evidence preserved; covariance closure is additive.",
+      "status": "PASS",
+      "v01_1_observed": 1089,
+      "v01_protected": 1089
+    },
+    {
+      "item": "pseudo_level1",
+      "logical_relation": "UNCHANGED",
+      "notes": "Parent scalar/domain-profile evidence preserved; covariance closure is additive.",
+      "status": "PASS",
+      "v01_1_observed": 4397,
+      "v01_protected": 4397
+    },
+    {
+      "item": "pseudo_level2",
+      "logical_relation": "UNCHANGED",
+      "notes": "Parent scalar/domain-profile evidence preserved; covariance closure is additive.",
+      "status": "PASS",
+      "v01_1_observed": 243,
+      "v01_protected": 243
+    },
+    {
+      "item": "actual_singleton_total",
+      "logical_relation": "UNCHANGED",
+      "notes": "Parent scalar/domain-profile evidence preserved; covariance closure is additive.",
+      "status": "PASS",
+      "v01_1_observed": 24,
+      "v01_protected": 24
+    },
+    {
+      "item": "actual_level1",
+      "logical_relation": "UNCHANGED",
+      "notes": "Parent scalar/domain-profile evidence preserved; covariance closure is additive.",
+      "status": "PASS",
+      "v01_1_observed": 11,
+      "v01_protected": 11
+    },
+    {
+      "item": "actual_level2",
+      "logical_relation": "UNCHANGED",
+      "notes": "Parent scalar/domain-profile evidence preserved; covariance closure is additive.",
+      "status": "PASS",
+      "v01_1_observed": 13,
+      "v01_protected": 13
+    },
+    {
+      "item": "fia_spcd",
+      "logical_relation": "UNCHANGED",
+      "notes": "Parent scalar/domain-profile evidence preserved; covariance closure is additive.",
+      "status": "PASS",
+      "v01_1_observed": 402,
+      "v01_protected": 402
+    },
+    {
+      "item": "target_member_leak",
+      "logical_relation": "UNCHANGED",
+      "notes": "Parent scalar/domain-profile evidence preserved; covariance closure is additive.",
+      "status": "PASS",
+      "v01_1_observed": 0,
+      "v01_protected": 0
+    },
+    {
+      "item": "target_species_variance_positive",
+      "logical_relation": "UNCHANGED",
+      "notes": "Parent scalar/domain-profile evidence preserved; covariance closure is additive.",
+      "status": "PASS",
+      "v01_1_observed": 55923,
+      "v01_protected": 55923
+    },
+    {
+      "item": "target_positive_pool_positive",
+      "logical_relation": "UNCHANGED",
+      "notes": "Parent scalar/domain-profile evidence preserved; covariance closure is additive.",
+      "status": "PASS",
+      "v01_1_observed": 48723,
+      "v01_protected": 48723
+    },
+    {
+      "item": "target_positive_pool_zero",
+      "logical_relation": "UNCHANGED",
+      "notes": "Parent scalar/domain-profile evidence preserved; covariance closure is additive.",
+      "status": "PASS",
+      "v01_1_observed": 7200,
+      "v01_protected": 7200
+    }
+  ],
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "q1_calculation_rows": 0,
+  "row_counts": {
+    "B12_ACTUAL24_CORRECTED_COVARIANCE_v01_1.parquet": 24,
+    "B12_COARSE_SPATIAL_TRANSPORT_v01_1.parquet": 27840,
+    "B12_COVARIANCE_SPECTRAL_QC_v01_1.parquet": 88240,
+    "B12_COVARIANCE_TRANSPORT_v01_1.parquet": 44120,
+    "B12_COV_REFERENCE_NOISE_v01_1.parquet": 44120,
+    "B12_FULL_COV_PREDICTION_SEAL_v01_1.parquet": 1893464,
+    "B12_TRANSPORT_DECOMPOSITION_v01_1.parquet": 1865280,
+    "B12_TRANSPORT_VS_REFERENCE_NOISE_v01_1.parquet": 44120
+  },
+  "scientific_recommendation": "UNCHANGED_D10F_C_HOLD_AND_SEPARATELY_AUTHORIZED_NARROWER_METHOD_INVESTIGATION",
+  "short_id": "D10F-B12-v01_1-WORK",
+  "sqlite": "3.49.1",
+  "stage_p": {
+    "class_counts": {
+      "CANDIDATE:DOMAIN": 4664,
+      "CANDIDATE:GENERIC_JOINT": 4664,
+      "CANDIDATE:SPECIES_JOINT": 1874928,
+      "NC1_INCOMPATIBLE:DOMAIN": 4604,
+      "NC1_INCOMPATIBLE:GENERIC_JOINT": 4604
+    },
+    "finished_epoch": 1788867037.4459138,
+    "planned_objects": 1893464,
+    "registry_logical_sha256": "05c7e5cabd53d043812e8340caf36f9ad8d4c462775512b864abc1119a356504",
+    "registry_sha256_before_scoring": "b14c50f9904e91b49186c1fe96e788921904239530267c32c0f821ecbccbc894",
+    "seal_index_sha256": "6233f09d6f13fc4c575d8af7e65b88c602100a0273622a79d4996c46df48dbef",
+    "sealed_objects": 1893464,
+    "species_universe": 402,
+    "stage_p_completed_before_target_reference_open": true
+  },
+  "stage_s": {
+    "class_counts": {
+      "TARGET_POSITIVE_POOL_POSITIVE": 48723,
+      "TARGET_POSITIVE_POOL_ZERO": 7200,
+      "TARGET_ZERO_POOL_POSITIVE": 88241,
+      "TARGET_ZERO_POOL_ZERO": 1721116
+    },
+    "coarse_summary": {
+      "ALL": {
+        "100": {
+          "cov_frob": {
+            "median": 0.615013456861755,
+            "n": 4640,
+            "p90": 1.0408969929625467
+          },
+          "lead": {
+            "median": 0.26979277751320363,
+            "n": 4640,
+            "p90": 1.9327518171690885
+          },
+          "overlap": {
+            "median": 0.7071750321750322,
+            "n": 4640,
+            "p90": 0.9144153111346975
+          },
+          "tv": {
+            "median": 0.2928249678249678,
+            "n": 4640,
+            "p90": 0.8756646009008094
+          }
+        },
+        "200": {
+          "cov_frob": {
+            "median": 0.608901739289406,
+            "n": 4640,
+            "p90": 3.282999027498508
+          },
+          "lead": {
+            "median": 0.2083645435270665,
+            "n": 4640,
+            "p90": 1.2610112314130584
+          },
+          "overlap": {
+            "median": 0.8321379947486143,
+            "n": 4640,
+            "p90": 1.0
+          },
+          "tv": {
+            "median": 0.16786200525138578,
+            "n": 4640,
+            "p90": 0.7450706737120214
+          }
+        },
+        "50": {
+          "cov_frob": {
+            "median": 0.7700866285764356,
+            "n": 4640,
+            "p90": 1.003647803137308
+          },
+          "lead": {
+            "median": 0.4441496864585377,
+            "n": 4640,
+            "p90": 2.697352098962772
+          },
+          "overlap": {
+            "median": 0.5583621772031626,
+            "n": 4640,
+            "p90": 0.7941176470588235
+          },
+          "tv": {
+            "median": 0.4416378227968374,
+            "n": 4640,
+            "p90": 0.9485249649639821
+          }
+        }
+      },
+      "LEVEL1": {
+        "100": {
+          "cov_frob": {
+            "median": 0.5860242293395961,
+            "n": 4397,
+            "p90": 1.0263712172333004
+          },
+          "lead": {
+            "median": 0.25335804947891616,
+            "n": 4397,
+            "p90": 1.8566395694418185
+          },
+          "overlap": {
+            "median": 0.7232704402515723,
+            "n": 4397,
+            "p90": 0.9176313871540309
+          },
+          "tv": {
+            "median": 0.2767295597484277,
+            "n": 4397,
+            "p90": 0.8527949065286812
+          }
+        },
+        "200": {
+          "cov_frob": {
+            "median": 0.5697044818052477,
+            "n": 4397,
+            "p90": 2.127245203314886
+          },
+          "lead": {
+            "median": 0.19472472713451627,
+            "n": 4397,
+            "p90": 1.2602015740021617
+          },
+          "overlap": {
+            "median": 0.8478870017727455,
+            "n": 4397,
+            "p90": 1.0
+          },
+          "tv": {
+            "median": 0.15211299822725452,
+            "n": 4397,
+            "p90": 0.7092956792334516
+          }
+        },
+        "50": {
+          "cov_frob": {
+            "median": 0.7463420806376392,
+            "n": 4397,
+            "p90": 1.0014146131931543
+          },
+          "lead": {
+            "median": 0.41043370186131983,
+            "n": 4397,
+            "p90": 2.5315909816274025
+          },
+          "overlap": {
+            "median": 0.5764705882352941,
+            "n": 4397,
+            "p90": 0.7967811822045231
+          },
+          "tv": {
+            "median": 0.4235294117647058,
+            "n": 4397,
+            "p90": 0.9380300091864857
+          }
+        }
+      },
+      "LEVEL2": {
+        "100": {
+          "cov_frob": {
+            "median": 0.9697906336496357,
+            "n": 243,
+            "p90": 540357243583271.7
+          },
+          "lead": {
+            "median": 1.621629524517369,
+            "n": 243,
+            "p90": 2.491695510498614
+          },
+          "overlap": {
+            "median": 0.14537107880642694,
+            "n": 243,
+            "p90": 0.35786125603546637
+          },
+          "tv": {
+            "median": 0.854628921193573,
+            "n": 243,
+            "p90": 0.9589519601036722
+          }
+        },
+        "200": {
+          "cov_frob": {
+            "median": 0.9441063945611242,
+            "n": 243,
+            "p90": 1031737240848268.9
+          },
+          "lead": {
+            "median": 0.7824539785891844,
+            "n": 243,
+            "p90": 1.3221624027114889
+          },
+          "overlap": {
+            "median": 0.33108960875052584,
+            "n": 243,
+            "p90": 0.6282348888358905
+          },
+          "tv": {
+            "median": 0.6689103912494742,
+            "n": 243,
+            "p90": 0.914702379628414
+          }
+        },
+        "50": {
+          "cov_frob": {
+            "median": 0.9830149942565141,
+            "n": 243,
+            "p90": 1.038408875306938
+          },
+          "lead": {
+            "median": 2.724217113038967,
+            "n": 243,
+            "p90": 3.5864161987042866
+          },
+          "overlap": {
+            "median": 0.06778194404384194,
+            "n": 243,
+            "p90": 0.19568298128729603
+          },
+          "tv": {
+            "median": 0.932218055956158,
+            "n": 243,
+            "p90": 0.9829470792020069
+          }
+        }
+      }
+    },
+    "failed_objects": 0,
+    "psd_counts": {
+      "DOMAIN:SEALED_PREDICTION:NUMERIC_TOLERANCE": 2708,
+      "DOMAIN:SEALED_PREDICTION:PASS": 1932,
+      "DOMAIN:TARGET_REFERENCE:NUMERIC_TOLERANCE": 3471,
+      "DOMAIN:TARGET_REFERENCE:PASS": 1169,
+      "GENERIC_JOINT:SEALED_PREDICTION:NUMERIC_TOLERANCE": 2222,
+      "GENERIC_JOINT:SEALED_PREDICTION:PASS": 2418,
+      "GENERIC_JOINT:TARGET_REFERENCE:NUMERIC_TOLERANCE": 2065,
+      "GENERIC_JOINT:TARGET_REFERENCE:PASS": 2575,
+      "SPECIES_JOINT:SEALED_PREDICTION:NUMERIC_TOLERANCE": 6469,
+      "SPECIES_JOINT:SEALED_PREDICTION:PASS": 28371,
+      "SPECIES_JOINT:TARGET_REFERENCE:NUMERIC_TOLERANCE": 10803,
+      "SPECIES_JOINT:TARGET_REFERENCE:PASS": 24037
+    },
+    "scoring_counts": {
+      "DOMAIN": 4640,
+      "GENERIC_JOINT": 4640,
+      "SPECIES_JOINT": 34840
+    },
+    "verified_objects": 1883768
+  },
+  "subgroup_summary": [
+    {
+      "candidate_better_domain_cov_fraction": 0.9398349261511729,
+      "candidate_better_domain_profile_fraction": 0.9995655951346655,
+      "candidate_better_generic_joint_fraction": 0.6198957428323197,
+      "candidate_better_scalar_fraction": 0.5357142857142857,
+      "domain_cov_noise_comparable_count": 3667,
+      "generic_joint_noise_comparable_count": 3163,
+      "group_type": "ALL",
+      "group_value": "ALL",
+      "interval_status": "DESCRIPTIVE_CONTINUOUS_EVIDENCE_NO_HARD_PASS_THRESHOLD",
+      "median_domain_cov_projection_abs_log_ratio": 0.15369666745100705,
+      "median_domain_cov_relative_frobenius": 0.7700866285764356,
+      "median_domain_cov_transport_to_noise": 0.9256419505555985,
+      "median_generic_joint_projection_abs_log_ratio": 1.4062904734617803,
+      "median_generic_joint_relative_frobenius": 0.9989239178580203,
+      "median_generic_joint_transport_to_noise": 1.060851574798516,
+      "median_parent_domain_overlap": 0.5583621772031626,
+      "median_parent_domain_tv": 0.4416378227968374,
+      "median_parent_generic_abs_log_ratio": 1.0703107839878896,
+      "median_pool_df": 184.0,
+      "median_target_species_joint_median_relative_frobenius": 1.0041147054526067,
+      "median_target_species_joint_transport_to_noise": 0.7392054650797704,
+      "nc1_comparable_count_domain_cov": 4604,
+      "nc1_comparable_count_domain_profile": 4604,
+      "nc1_comparable_count_generic_joint": 4604,
+      "nc1_comparable_count_scalar": 3920,
+      "p90_domain_cov_relative_frobenius": 1.003647803137308,
+      "p90_generic_joint_relative_frobenius": 17.88645854830566,
+      "species_joint_scored_count": 34840,
+      "target_count": 4640
+    },
+    {
+      "candidate_better_domain_cov_fraction": 0.9398444647758463,
+      "candidate_better_domain_profile_fraction": 0.9995425434583715,
+      "candidate_better_generic_joint_fraction": 0.6235132662397073,
+      "candidate_better_scalar_fraction": 0.531407368142062,
+      "domain_cov_noise_comparable_count": 3511,
+      "generic_joint_noise_comparable_count": 3053,
+      "group_type": "ROUTE",
+      "group_value": "LEVEL1",
+      "interval_status": "DESCRIPTIVE_CONTINUOUS_EVIDENCE_NO_HARD_PASS_THRESHOLD",
+      "median_domain_cov_projection_abs_log_ratio": 0.15092690458055408,
+      "median_domain_cov_relative_frobenius": 0.7463420806376392,
+      "median_domain_cov_transport_to_noise": 0.9230490216675425,
+      "median_generic_joint_projection_abs_log_ratio": 1.4050192016490468,
+      "median_generic_joint_relative_frobenius": 0.9984203961369608,
+      "median_generic_joint_transport_to_noise": 1.0658598166620619,
+      "median_parent_domain_overlap": 0.5764705882352941,
+      "median_parent_domain_tv": 0.4235294117647058,
+      "median_parent_generic_abs_log_ratio": 1.067248693434916,
+      "median_pool_df": 170.0,
+      "median_target_species_joint_median_relative_frobenius": 1.0044464189584825,
+      "median_target_species_joint_transport_to_noise": 0.745007483253623,
+      "nc1_comparable_count_domain_cov": 4372,
+      "nc1_comparable_count_domain_profile": 4372,
+      "nc1_comparable_count_generic_joint": 4372,
+      "nc1_comparable_count_scalar": 3773,
+      "p90_domain_cov_relative_frobenius": 1.0014146131931543,
+      "p90_generic_joint_relative_frobenius": 17.905404874121515,
+      "species_joint_scored_count": 34056,
+      "target_count": 4397
+    },
+    {
+      "candidate_better_domain_cov_fraction": 0.9396551724137931,
+      "candidate_better_domain_profile_fraction": 1.0,
+      "candidate_better_generic_joint_fraction": 0.5517241379310345,
+      "candidate_better_scalar_fraction": 0.6462585034013606,
+      "domain_cov_noise_comparable_count": 156,
+      "generic_joint_noise_comparable_count": 110,
+      "group_type": "ROUTE",
+      "group_value": "LEVEL2",
+      "interval_status": "DESCRIPTIVE_CONTINUOUS_EVIDENCE_NO_HARD_PASS_THRESHOLD",
+      "median_domain_cov_projection_abs_log_ratio": 0.2137091950702471,
+      "median_domain_cov_relative_frobenius": 0.9830149942565141,
+      "median_domain_cov_transport_to_noise": 1.012330877906064,
+      "median_generic_joint_projection_abs_log_ratio": 1.482307194053078,
+      "median_generic_joint_relative_frobenius": 1.0440239586127547,
+      "median_generic_joint_transport_to_noise": 0.8539871028491031,
+      "median_parent_domain_overlap": 0.06778194404384194,
+      "median_parent_domain_tv": 0.932218055956158,
+      "median_parent_generic_abs_log_ratio": 1.2196606567564123,
+      "median_pool_df": 2477.0,
+      "median_target_species_joint_median_relative_frobenius": 1.0019917573153352,
+      "median_target_species_joint_transport_to_noise": 0.671825612169927,
+      "nc1_comparable_count_domain_cov": 232,
+      "nc1_comparable_count_domain_profile": 232,
+      "nc1_comparable_count_generic_joint": 232,
+      "nc1_comparable_count_scalar": 147,
+      "p90_domain_cov_relative_frobenius": 1.038408875306938,
+      "p90_generic_joint_relative_frobenius": 15.4417466559007,
+      "species_joint_scored_count": 784,
+      "target_count": 243
+    },
+    {
+      "candidate_better_domain_cov_fraction": 0.9221272554605888,
+      "candidate_better_domain_profile_fraction": 0.9990503323836657,
+      "candidate_better_generic_joint_fraction": 0.597340930674264,
+      "candidate_better_scalar_fraction": 0.49148936170212765,
+      "domain_cov_noise_comparable_count": 390,
+      "generic_joint_noise_comparable_count": 364,
+      "group_type": "REFERENCE_STRENGTH",
+      "group_value": "R2",
+      "interval_status": "DESCRIPTIVE_CONTINUOUS_EVIDENCE_NO_HARD_PASS_THRESHOLD",
+      "median_domain_cov_projection_abs_log_ratio": 0.2518992274039806,
+      "median_domain_cov_relative_frobenius": 0.9430306103940347,
+      "median_domain_cov_transport_to_noise": 0.7733247017333983,
+      "median_generic_joint_projection_abs_log_ratio": 1.139779411386001,
+      "median_generic_joint_relative_frobenius": 1.0,
+      "median_generic_joint_transport_to_noise": 0.7770032805178855,
+      "median_parent_domain_overlap": 0.33585858585858586,
+      "median_parent_domain_tv": 0.6641414141414141,
+      "median_parent_generic_abs_log_ratio": 1.0376752036990091,
+      "median_pool_df": 192.0,
+      "median_target_species_joint_median_relative_frobenius": 1.0004411362454604,
+      "median_target_species_joint_transport_to_noise": 0.6579823394226592,
+      "nc1_comparable_count_domain_cov": 1053,
+      "nc1_comparable_count_domain_profile": 1053,
+      "nc1_comparable_count_generic_joint": 1053,
+      "nc1_comparable_count_scalar": 940,
+      "p90_domain_cov_relative_frobenius": 1.0188173018342441,
+      "p90_generic_joint_relative_frobenius": 4.893160601901386,
+      "species_joint_scored_count": 3371,
+      "target_count": 1057
+    },
+    {
+      "candidate_better_domain_cov_fraction": 0.9302949061662198,
+      "candidate_better_domain_profile_fraction": 1.0,
+      "candidate_better_generic_joint_fraction": 0.645218945487042,
+      "candidate_better_scalar_fraction": 0.4969939879759519,
+      "domain_cov_noise_comparable_count": 1115,
+      "generic_joint_noise_comparable_count": 1014,
+      "group_type": "REFERENCE_STRENGTH",
+      "group_value": "R3",
+      "interval_status": "DESCRIPTIVE_CONTINUOUS_EVIDENCE_NO_HARD_PASS_THRESHOLD",
+      "median_domain_cov_projection_abs_log_ratio": 0.1743533871447779,
+      "median_domain_cov_relative_frobenius": 0.8228151762035979,
+      "median_domain_cov_transport_to_noise": 0.8302455220401286,
+      "median_generic_joint_projection_abs_log_ratio": 1.2943869416485545,
+      "median_generic_joint_relative_frobenius": 0.9951472143573108,
+      "median_generic_joint_transport_to_noise": 0.897151927660303,
+      "median_parent_domain_overlap": 0.5,
+      "median_parent_domain_tv": 0.5,
+      "median_parent_generic_abs_log_ratio": 1.0202150729096893,
+      "median_pool_df": 168.5,
+      "median_target_species_joint_median_relative_frobenius": 1.0002181622636268,
+      "median_target_species_joint_transport_to_noise": 0.6778526159031126,
+      "nc1_comparable_count_domain_cov": 1119,
+      "nc1_comparable_count_domain_profile": 1119,
+      "nc1_comparable_count_generic_joint": 1119,
+      "nc1_comparable_count_scalar": 998,
+      "p90_domain_cov_relative_frobenius": 1.0090986622694205,
+      "p90_generic_joint_relative_frobenius": 8.019186493272471,
+      "species_joint_scored_count": 6046,
+      "target_count": 1128
+    },
+    {
+      "candidate_better_domain_cov_fraction": 0.9666329625884732,
+      "candidate_better_domain_profile_fraction": 1.0,
+      "candidate_better_generic_joint_fraction": 0.6481294236602629,
+      "candidate_better_scalar_fraction": 0.5237515225334958,
+      "domain_cov_noise_comparable_count": 997,
+      "generic_joint_noise_comparable_count": 842,
+      "group_type": "REFERENCE_STRENGTH",
+      "group_value": "R4",
+      "interval_status": "DESCRIPTIVE_CONTINUOUS_EVIDENCE_NO_HARD_PASS_THRESHOLD",
+      "median_domain_cov_projection_abs_log_ratio": 0.1280364879879355,
+      "median_domain_cov_relative_frobenius": 0.6626674721407153,
+      "median_domain_cov_transport_to_noise": 0.9230490216675425,
+      "median_generic_joint_projection_abs_log_ratio": 1.5008885929802085,
+      "median_generic_joint_relative_frobenius": 0.98095587746609,
+      "median_generic_joint_transport_to_noise": 1.0832918952023691,
+      "median_parent_domain_overlap": 0.6368706942236355,
+      "median_parent_domain_tv": 0.3631293057763646,
+      "median_parent_generic_abs_log_ratio": 1.0846408039369604,
+      "median_pool_df": 156.0,
+      "median_target_species_joint_median_relative_frobenius": 1.001617928896772,
+      "median_target_species_joint_transport_to_noise": 0.7434264493181294,
+      "nc1_comparable_count_domain_cov": 989,
+      "nc1_comparable_count_domain_profile": 989,
+      "nc1_comparable_count_generic_joint": 989,
+      "nc1_comparable_count_scalar": 821,
+      "p90_domain_cov_relative_frobenius": 0.982038568597451,
+      "p90_generic_joint_relative_frobenius": 16.604846303369506,
+      "species_joint_scored_count": 8183,
+      "target_count": 1002
+    },
+    {
+      "candidate_better_domain_cov_fraction": 0.9715271786022434,
+      "candidate_better_domain_profile_fraction": 1.0,
+      "candidate_better_generic_joint_fraction": 0.6082830025884383,
+      "candidate_better_scalar_fraction": 0.6263498920086393,
+      "domain_cov_noise_comparable_count": 1165,
+      "generic_joint_noise_comparable_count": 943,
+      "group_type": "REFERENCE_STRENGTH",
+      "group_value": "R5",
+      "interval_status": "DESCRIPTIVE_CONTINUOUS_EVIDENCE_NO_HARD_PASS_THRESHOLD",
+      "median_domain_cov_projection_abs_log_ratio": 0.06291677766831638,
+      "median_domain_cov_relative_frobenius": 0.6037988769557281,
+      "median_domain_cov_transport_to_noise": 1.2583323609888284,
+      "median_generic_joint_projection_abs_log_ratio": 1.74803014350727,
+      "median_generic_joint_relative_frobenius": 1.041662278257115,
+      "median_generic_joint_transport_to_noise": 1.5114491919463602,
+      "median_parent_domain_overlap": 0.6899807938540333,
+      "median_parent_domain_tv": 0.31001920614596673,
+      "median_parent_generic_abs_log_ratio": 1.1627547972977306,
+      "median_pool_df": 226.0,
+      "median_target_species_joint_median_relative_frobenius": 1.2150438542876512,
+      "median_target_species_joint_transport_to_noise": 0.9507527392671955,
+      "nc1_comparable_count_domain_cov": 1159,
+      "nc1_comparable_count_domain_profile": 1159,
+      "nc1_comparable_count_generic_joint": 1159,
+      "nc1_comparable_count_scalar": 926,
+      "p90_domain_cov_relative_frobenius": 0.9666426052412289,
+      "p90_generic_joint_relative_frobenius": 64.901577299001,
+      "species_joint_scored_count": 16964,
+      "target_count": 1165
+    },
+    {
+      "candidate_better_domain_cov_fraction": 0.923154701718908,
+      "candidate_better_domain_profile_fraction": 0.9989888776541962,
+      "candidate_better_generic_joint_fraction": 0.6036400404448938,
+      "candidate_better_scalar_fraction": 0.49002217294900224,
+      "domain_cov_noise_comparable_count": 366,
+      "generic_joint_noise_comparable_count": 346,
+      "group_type": "ROUTE_X_REFERENCE",
+      "group_value": "LEVEL1|R2",
+      "interval_status": "DESCRIPTIVE_CONTINUOUS_EVIDENCE_NO_HARD_PASS_THRESHOLD",
+      "median_domain_cov_projection_abs_log_ratio": 0.2522582398810473,
+      "median_domain_cov_relative_frobenius": 0.9284693585233967,
+      "median_domain_cov_transport_to_noise": 0.772679827663526,
+      "median_generic_joint_projection_abs_log_ratio": 1.139088791519245,
+      "median_generic_joint_relative_frobenius": 1.0,
+      "median_generic_joint_transport_to_noise": 0.7805526614471878,
+      "median_parent_domain_overlap": 0.37037037037037035,
+      "median_parent_domain_tv": 0.6296296296296297,
+      "median_parent_generic_abs_log_ratio": 1.005887337922151,
+      "median_pool_df": 164.0,
+      "median_target_species_joint_median_relative_frobenius": 1.0004137262018875,
+      "median_target_species_joint_transport_to_noise": 0.658670321868905,
+      "nc1_comparable_count_domain_cov": 989,
+      "nc1_comparable_count_domain_profile": 989,
+      "nc1_comparable_count_generic_joint": 989,
+      "nc1_comparable_count_scalar": 902,
+      "p90_domain_cov_relative_frobenius": 1.0164853752403609,
+      "p90_generic_joint_relative_frobenius": 4.758848946463783,
+      "species_joint_scored_count": 3229,
+      "target_count": 991
+    },
+    {
+      "candidate_better_domain_cov_fraction": 0.9256434699714013,
+      "candidate_better_domain_profile_fraction": 1.0,
+      "candidate_better_generic_joint_fraction": 0.6444232602478551,
+      "candidate_better_scalar_fraction": 0.4915254237288136,
+      "domain_cov_noise_comparable_count": 1040,
+      "generic_joint_noise_comparable_count": 955,
+      "group_type": "ROUTE_X_REFERENCE",
+      "group_value": "LEVEL1|R3",
+      "interval_status": "DESCRIPTIVE_CONTINUOUS_EVIDENCE_NO_HARD_PASS_THRESHOLD",
+      "median_domain_cov_projection_abs_log_ratio": 0.17557995401686785,
+      "median_domain_cov_relative_frobenius": 0.7913707457686412,
+      "median_domain_cov_transport_to_noise": 0.8170929638004375,
+      "median_generic_joint_projection_abs_log_ratio": 1.3083080836744534,
+      "median_generic_joint_relative_frobenius": 0.9951724902598047,
+      "median_generic_joint_transport_to_noise": 0.8984399711223032,
+      "median_parent_domain_overlap": 0.5238095238095237,
+      "median_parent_domain_tv": 0.4761904761904762,
+      "median_parent_generic_abs_log_ratio": 1.0370396949068417,
+      "median_pool_df": 148.0,
+      "median_target_species_joint_median_relative_frobenius": 1.0000533534117255,
+      "median_target_species_joint_transport_to_noise": 0.6805599760986505,
+      "nc1_comparable_count_domain_cov": 1049,
+      "nc1_comparable_count_domain_profile": 1049,
+      "nc1_comparable_count_generic_joint": 1049,
+      "nc1_comparable_count_scalar": 944,
+      "p90_domain_cov_relative_frobenius": 1.0094414341364544,
+      "p90_generic_joint_relative_frobenius": 8.01352418944967,
+      "species_joint_scored_count": 5537,
+      "target_count": 1053
+    },
+    {
+      "candidate_better_domain_cov_fraction": 0.9667013527575442,
+      "candidate_better_domain_profile_fraction": 1.0,
+      "candidate_better_generic_joint_fraction": 0.6493236212278877,
+      "candidate_better_scalar_fraction": 0.5181023720349563,
+      "domain_cov_noise_comparable_count": 968,
+      "generic_joint_noise_comparable_count": 821,
+      "group_type": "ROUTE_X_REFERENCE",
+      "group_value": "LEVEL1|R4",
+      "interval_status": "DESCRIPTIVE_CONTINUOUS_EVIDENCE_NO_HARD_PASS_THRESHOLD",
+      "median_domain_cov_projection_abs_log_ratio": 0.1276853651528143,
+      "median_domain_cov_relative_frobenius": 0.6539229723324922,
+      "median_domain_cov_transport_to_noise": 0.9184268617158364,
+      "median_generic_joint_projection_abs_log_ratio": 1.4820787943704907,
+      "median_generic_joint_relative_frobenius": 0.9779369694684803,
+      "median_generic_joint_transport_to_noise": 1.0808917472844606,
+      "median_parent_domain_overlap": 0.6431159420289855,
+      "median_parent_domain_tv": 0.3568840579710145,
+      "median_parent_generic_abs_log_ratio": 1.083530343247841,
+      "median_pool_df": 152.0,
+      "median_target_species_joint_median_relative_frobenius": 1.001617928896772,
+      "median_target_species_joint_transport_to_noise": 0.7444896471898871,
+      "nc1_comparable_count_domain_cov": 961,
+      "nc1_comparable_count_domain_profile": 961,
+      "nc1_comparable_count_generic_joint": 961,
+      "nc1_comparable_count_scalar": 801,
+      "p90_domain_cov_relative_frobenius": 0.9768594054372982,
+      "p90_generic_joint_relative_frobenius": 16.487098787489536,
+      "species_joint_scored_count": 8082,
+      "target_count": 973
+    },
+    {
+      "candidate_better_domain_cov_fraction": 0.9708222811671088,
+      "candidate_better_domain_profile_fraction": 1.0,
+      "candidate_better_generic_joint_fraction": 0.6127320954907162,
+      "candidate_better_scalar_fraction": 0.6214442013129103,
+      "domain_cov_noise_comparable_count": 1137,
+      "generic_joint_noise_comparable_count": 931,
+      "group_type": "ROUTE_X_REFERENCE",
+      "group_value": "LEVEL1|R5",
+      "interval_status": "DESCRIPTIVE_CONTINUOUS_EVIDENCE_NO_HARD_PASS_THRESHOLD",
+      "median_domain_cov_projection_abs_log_ratio": 0.06155712539513476,
+      "median_domain_cov_relative_frobenius": 0.5963802292869944,
+      "median_domain_cov_transport_to_noise": 1.2404852223813343,
+      "median_generic_joint_projection_abs_log_ratio": 1.7443078755007224,
+      "median_generic_joint_relative_frobenius": 1.0283696123465935,
+      "median_generic_joint_transport_to_noise": 1.5114491919463602,
+      "median_parent_domain_overlap": 0.6942619959861339,
+      "median_parent_domain_tv": 0.3057380040138661,
+      "median_parent_generic_abs_log_ratio": 1.1353524898165457,
+      "median_pool_df": 218.0,
+      "median_target_species_joint_median_relative_frobenius": 1.2193806456267744,
+      "median_target_species_joint_transport_to_noise": 0.9526506602256869,
+      "nc1_comparable_count_domain_cov": 1131,
+      "nc1_comparable_count_domain_profile": 1131,
+      "nc1_comparable_count_generic_joint": 1131,
+      "nc1_comparable_count_scalar": 914,
+      "p90_domain_cov_relative_frobenius": 0.9477718796000902,
+      "p90_generic_joint_relative_frobenius": 64.97023388091708,
+      "species_joint_scored_count": 16955,
+      "target_count": 1137
+    },
+    {
+      "candidate_better_domain_cov_fraction": 0.90625,
+      "candidate_better_domain_profile_fraction": 1.0,
+      "candidate_better_generic_joint_fraction": 0.5,
+      "candidate_better_scalar_fraction": 0.5263157894736842,
+      "domain_cov_noise_comparable_count": 24,
+      "generic_joint_noise_comparable_count": 18,
+      "group_type": "ROUTE_X_REFERENCE",
+      "group_value": "LEVEL2|R2",
+      "interval_status": "DESCRIPTIVE_CONTINUOUS_EVIDENCE_NO_HARD_PASS_THRESHOLD",
+      "median_domain_cov_projection_abs_log_ratio": 0.24845139073900457,
+      "median_domain_cov_relative_frobenius": 0.9836509120714847,
+      "median_domain_cov_transport_to_noise": 0.8031111853594901,
+      "median_generic_joint_projection_abs_log_ratio": 1.2421075991156934,
+      "median_generic_joint_relative_frobenius": 1.0122801938938253,
+      "median_generic_joint_transport_to_noise": 0.7680195946158509,
+      "median_parent_domain_overlap": 0.0637937993028802,
+      "median_parent_domain_tv": 0.9362062006971197,
+      "median_parent_generic_abs_log_ratio": 1.3776459225502369,
+      "median_pool_df": 2243.0,
+      "median_target_species_joint_median_relative_frobenius": 1.0014094994576956,
+      "median_target_species_joint_transport_to_noise": 0.6087687586520444,
+      "nc1_comparable_count_domain_cov": 64,
+      "nc1_comparable_count_domain_profile": 64,
+      "nc1_comparable_count_generic_joint": 64,
+      "nc1_comparable_count_scalar": 38,
+      "p90_domain_cov_relative_frobenius": 1.1654612503709485,
+      "p90_generic_joint_relative_frobenius": 15.727800060718772,
+      "species_joint_scored_count": 142,
+      "target_count": 66
+    },
+    {
+      "candidate_better_domain_cov_fraction": 1.0,
+      "candidate_better_domain_profile_fraction": 1.0,
+      "candidate_better_generic_joint_fraction": 0.6571428571428571,
+      "candidate_better_scalar_fraction": 0.5925925925925926,
+      "domain_cov_noise_comparable_count": 75,
+      "generic_joint_noise_comparable_count": 59,
+      "group_type": "ROUTE_X_REFERENCE",
+      "group_value": "LEVEL2|R3",
+      "interval_status": "DESCRIPTIVE_CONTINUOUS_EVIDENCE_NO_HARD_PASS_THRESHOLD",
+      "median_domain_cov_projection_abs_log_ratio": 0.15308736655008554,
+      "median_domain_cov_relative_frobenius": 0.9721615697252213,
+      "median_domain_cov_transport_to_noise": 0.9738403388114406,
+      "median_generic_joint_projection_abs_log_ratio": 0.9063642963243059,
+      "median_generic_joint_relative_frobenius": 0.993836859360937,
+      "median_generic_joint_transport_to_noise": 0.8470200508201222,
+      "median_parent_domain_overlap": 0.1,
+      "median_parent_domain_tv": 0.9,
+      "median_parent_generic_abs_log_ratio": 0.8526659046656355,
+      "median_pool_df": 2322.0,
+      "median_target_species_joint_median_relative_frobenius": 1.004818364509303,
+      "median_target_species_joint_transport_to_noise": 0.6729549260086103,
+      "nc1_comparable_count_domain_cov": 70,
+      "nc1_comparable_count_domain_profile": 70,
+      "nc1_comparable_count_generic_joint": 70,
+      "nc1_comparable_count_scalar": 54,
+      "p90_domain_cov_relative_frobenius": 1.00022043471516,
+      "p90_generic_joint_relative_frobenius": 9.039678417860477,
+      "species_joint_scored_count": 509,
+      "target_count": 75
+    },
+    {
+      "candidate_better_domain_cov_fraction": 0.9642857142857143,
+      "candidate_better_domain_profile_fraction": 1.0,
+      "candidate_better_generic_joint_fraction": 0.6071428571428571,
+      "candidate_better_scalar_fraction": 0.75,
+      "domain_cov_noise_comparable_count": 29,
+      "generic_joint_noise_comparable_count": 21,
+      "group_type": "ROUTE_X_REFERENCE",
+      "group_value": "LEVEL2|R4",
+      "interval_status": "DESCRIPTIVE_CONTINUOUS_EVIDENCE_NO_HARD_PASS_THRESHOLD",
+      "median_domain_cov_projection_abs_log_ratio": 0.14383651192303218,
+      "median_domain_cov_relative_frobenius": 0.9773742598086239,
+      "median_domain_cov_transport_to_noise": 1.3945609180730134,
+      "median_generic_joint_projection_abs_log_ratio": 1.6184135153497778,
+      "median_generic_joint_relative_frobenius": 1.484536411171621,
+      "median_generic_joint_transport_to_noise": 1.2521778585841863,
+      "median_parent_domain_overlap": 0.11784511784511785,
+      "median_parent_domain_tv": 0.8821548821548821,
+      "median_parent_generic_abs_log_ratio": 1.515255074211379,
+      "median_pool_df": 3466.0,
+      "median_target_species_joint_median_relative_frobenius": 1.001613110376355,
+      "median_target_species_joint_transport_to_noise": 0.6962195533824191,
+      "nc1_comparable_count_domain_cov": 28,
+      "nc1_comparable_count_domain_profile": 28,
+      "nc1_comparable_count_generic_joint": 28,
+      "nc1_comparable_count_scalar": 20,
+      "p90_domain_cov_relative_frobenius": 1.008253182802995,
+      "p90_generic_joint_relative_frobenius": 18.81848305234859,
+      "species_joint_scored_count": 101,
+      "target_count": 29
+    },
+    {
+      "candidate_better_domain_cov_fraction": 1.0,
+      "candidate_better_domain_profile_fraction": 1.0,
+      "candidate_better_generic_joint_fraction": 0.42857142857142855,
+      "candidate_better_scalar_fraction": 1.0,
+      "domain_cov_noise_comparable_count": 28,
+      "generic_joint_noise_comparable_count": 12,
+      "group_type": "ROUTE_X_REFERENCE",
+      "group_value": "LEVEL2|R5",
+      "interval_status": "DESCRIPTIVE_CONTINUOUS_EVIDENCE_NO_HARD_PASS_THRESHOLD",
+      "median_domain_cov_projection_abs_log_ratio": 0.2977646452774223,
+      "median_domain_cov_relative_frobenius": 0.997836477577174,
+      "median_domain_cov_transport_to_noise": 3.1608382964380963,
+      "median_generic_joint_projection_abs_log_ratio": 2.6010337523470577,
+      "median_generic_joint_relative_frobenius": 2.4132420455937487,
+      "median_generic_joint_transport_to_noise": 1.319026282546264,
+      "median_parent_domain_overlap": 0.025721157337111306,
+      "median_parent_domain_tv": 0.9742788426628887,
+      "median_parent_generic_abs_log_ratio": 1.886083766084238,
+      "median_pool_df": 5835.5,
+      "median_target_species_joint_median_relative_frobenius": 1.000003295470551,
+      "median_target_species_joint_transport_to_noise": 0.5481140999699636,
+      "nc1_comparable_count_domain_cov": 28,
+      "nc1_comparable_count_domain_profile": 28,
+      "nc1_comparable_count_generic_joint": 28,
+      "nc1_comparable_count_scalar": 12,
+      "p90_domain_cov_relative_frobenius": 1.0050801057824619,
+      "p90_generic_joint_relative_frobenius": 44.852440328906276,
+      "species_joint_scored_count": 9,
+      "target_count": 28
+    }
+  ],
+  "support_analysis_rows": 0,
+  "task": "Q1_D10F_B12_v01_1_WORK_COVARIANCE_QUALIFICATION_CLOSURE"
+}

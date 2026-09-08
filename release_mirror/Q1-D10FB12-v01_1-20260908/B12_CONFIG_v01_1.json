@@ -1,0 +1,21 @@
+{
+  "cache_identity": "sha256:0daf80d098546d61aecd8e75701f5174d9f6fd4452ce4a1b257651d45c9d2953|logical:e85168819a7954f9f1ead69f1554e29c193ba9ef369c7c2793b4587d5f8dd416|fingerprint:5d0a9dbaf55045c20bdab107f061c477fe77106d100bc95681a6dfebd1eeb7bd",
+  "diagnostic_grains_km": [
+    100,
+    200
+  ],
+  "domain_constant_projection_excluded_as_exact_null": true,
+  "eigensolver": "numpy.linalg.eigvalsh exact symmetric",
+  "float_serialization": "python_float_hex_ieee754_binary64",
+  "generic_and_species_constant_projection": true,
+  "negative_index_parent_rule": "Python // mathematical floor",
+  "new_tree_source_scan_rows": 0,
+  "parent_sha256": "202b7a475a7aeb3dfe35749d70fccb076729dea79e8a75fcafb63c83c800c433",
+  "primary_grain_km": 50,
+  "projection_count_random_pm1": 32,
+  "regularization": "NONE",
+  "species_joint_scoring_rule": "target_n>=4 AND target_positive_count>=2 AND (target_scalar_var>0 OR pool_scalar_var>0)",
+  "split_half_replicates": 4,
+  "split_min_target_n": 8,
+  "task": "Q1_D10F_B12_v01_1_WORK_COVARIANCE_QUALIFICATION_CLOSURE"
+}

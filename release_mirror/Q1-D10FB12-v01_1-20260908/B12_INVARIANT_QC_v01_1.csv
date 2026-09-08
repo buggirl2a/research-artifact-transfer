@@ -1,0 +1,18 @@
+check,expected,observed,status,independent_evidence
+PSEUDO_TOTAL,5729,5729,PASS,final counters/cache query/exact matrix eigensolver
+PSEUDO_SCOREABLE,4640,4640,PASS,final counters/cache query/exact matrix eigensolver
+PSEUDO_HETEROGENEOUS,1089,1089,PASS,final counters/cache query/exact matrix eigensolver
+LEVEL1,4397,4397,PASS,final counters/cache query/exact matrix eigensolver
+LEVEL2,243,243,PASS,final counters/cache query/exact matrix eigensolver
+ACTUAL24,24,24,PASS,final counters/cache query/exact matrix eigensolver
+FIA_SPCD,402,402,PASS,final counters/cache query/exact matrix eigensolver
+DECOMPOSITION_ROWS,1865280,1865280,PASS,final counters/cache query/exact matrix eigensolver
+TARGET_POSITIVE_POOL_POSITIVE,48723,48723,PASS,final counters/cache query/exact matrix eigensolver
+TARGET_POSITIVE_POOL_ZERO,7200,7200,PASS,final counters/cache query/exact matrix eigensolver
+STAGE_P_PLANNED,1893464,1893464,PASS,final counters/cache query/exact matrix eigensolver
+STAGE_S_VERIFIED,1893464,1893464,PASS,final counters/cache query/exact matrix eigensolver
+STAGE_S_FAILED,0,0,PASS,final counters/cache query/exact matrix eigensolver
+MATERIAL_PSD_FAIL,0,0,PASS,final counters/cache query/exact matrix eigensolver
+NEW_TREE_SOURCE_SCAN_ROWS,0,0,PASS,final counters/cache query/exact matrix eigensolver
+SUPPORT_ANALYSIS_ROWS,0,0,PASS,final counters/cache query/exact matrix eigensolver
+Q1_CALCULATION_ROWS,0,0,PASS,final counters/cache query/exact matrix eigensolver

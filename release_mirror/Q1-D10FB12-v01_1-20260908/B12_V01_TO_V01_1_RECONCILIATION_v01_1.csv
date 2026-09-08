@@ -1,0 +1,14 @@
+item,v01_protected,v01_1_observed,logical_relation,status,notes
+pseudo_target_total,5729,5729,UNCHANGED,PASS,Parent scalar/domain-profile evidence preserved; covariance closure is additive.
+pseudo_scoreable,4640,4640,UNCHANGED,PASS,Parent scalar/domain-profile evidence preserved; covariance closure is additive.
+pseudo_heterogeneous_unscoreable,1089,1089,UNCHANGED,PASS,Parent scalar/domain-profile evidence preserved; covariance closure is additive.
+pseudo_level1,4397,4397,UNCHANGED,PASS,Parent scalar/domain-profile evidence preserved; covariance closure is additive.
+pseudo_level2,243,243,UNCHANGED,PASS,Parent scalar/domain-profile evidence preserved; covariance closure is additive.
+actual_singleton_total,24,24,UNCHANGED,PASS,Parent scalar/domain-profile evidence preserved; covariance closure is additive.
+actual_level1,11,11,UNCHANGED,PASS,Parent scalar/domain-profile evidence preserved; covariance closure is additive.
+actual_level2,13,13,UNCHANGED,PASS,Parent scalar/domain-profile evidence preserved; covariance closure is additive.
+fia_spcd,402,402,UNCHANGED,PASS,Parent scalar/domain-profile evidence preserved; covariance closure is additive.
+target_member_leak,0,0,UNCHANGED,PASS,Parent scalar/domain-profile evidence preserved; covariance closure is additive.
+target_species_variance_positive,55923,55923,UNCHANGED,PASS,Parent scalar/domain-profile evidence preserved; covariance closure is additive.
+target_positive_pool_positive,48723,48723,UNCHANGED,PASS,Parent scalar/domain-profile evidence preserved; covariance closure is additive.
+target_positive_pool_zero,7200,7200,UNCHANGED,PASS,Parent scalar/domain-profile evidence preserved; covariance closure is additive.

@@ -1,0 +1,6 @@
+item_id,topic,status,evidence,mainline_action
+OPEN_01,MAINLINE_DISPOSITION,OPEN,Corrected B12 covariance evidence complete,Judge HOLD versus separately authorized narrower investigation
+OPEN_02,FULL_COVARIANCE_TRANSPORT,OPEN,Continuous discrepancy and reference-noise distributions retained,Do not infer production qualification from this Work package
+OPEN_03,FACTORIZATION_HYPOTHESIS,DESIGN CANDIDATE,Absolute domain and abundance residual transport remain separable evidence axes,Authorize a new task if investigation is desired; none implemented here
+OPEN_04,DESCRIPTIVE_IDENTITIES,OPEN,Associations remain confounded by route/geography/df/overlap/imbalance,Do not convert MANUAL/SAMP_METHOD/MEASYEAR into B9 hard filters from B12 alone
+OPEN_05,Q1_TAXONOMY_MAPPING,OPEN,402 outcome-unselected FIA codes are not the strict 101 Q1 candidates,Use an independently accepted mapping only if future authority requires it
