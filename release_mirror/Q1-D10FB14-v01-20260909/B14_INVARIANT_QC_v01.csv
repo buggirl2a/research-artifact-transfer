@@ -1,0 +1,19 @@
+﻿check_id,expected,observed,status,detail
+INPUT_SHA_EXACT,7/7 exact,7/7 exact,PASS,All accepted outer artifact hashes matched.
+D10CA_BLOCK_FOLD_IDENTITY,5752 pass,5752 pass,PASS,Unique TI/area/denominator and n*TI=area.
+DIRECT97_IDENTITY,97,97,PASS,Single-SPCD direct primary species only.
+ACTUAL24_IDENTITY_UNCHANGED,24,24,PASS,"Accepted case IDs, folds, routes, plots, cells, and TI reconciled to B12/D10CA."
+TI_APPLIED_EXACTLY_ONCE,YES,YES,PASS,Cached y is unexpanded and every mass multiplication uses one D10CA fold-specific TI.
+PSEUDO_TARGETS,4640,4640,PASS,All scoreable pseudo targets.
+PSEUDO_EVENT_UNIVERSE,26138299,26138299,PASS,Materialized plus implicit exact zeros.
+PSEUDO_EVENT_PARTITION,26138299,26138299,PASS,No event loss.
+NULL_MEASURE_COLLAPSE_POLICY,RETAIN_AS_MAXIMAL_BOUND,2257,PASS,TV=1 conservative boundary; status is explicit in event Parquet.
+ACTUAL_INDIVIDUAL_ROWS,6984,6984,PASS,24x97x3.
+ACTUAL_ENVELOPE_ROWS,582,582,PASS,2 directions x97x3.
+ACTUAL_READ_AFTER_SEAL,YES,YES,PASS,99ee459e4640c29ac96549d6de8973783102aae6ae2d0b9724dd15be4818f27c
+PSEUDO_PARQUET_FOOTER,PAR1,PAR1,PASS,d85bec74166d2f79da36bf0e939499c49dc81c901ade1b7a6a5ffb6da3e74ea0
+ACTUAL_PARQUET_FOOTER,PAR1,PAR1,PASS,ead0aa293e6cf9e3ddf628628ec08b99556542ae0bea62ae915332f1f4bced6a
+NEW_TREE_SOURCE_SCAN_ROWS,0,0,PASS,Accepted cache only.
+Q1_CALCULATION_ROWS,0,0,PASS,No real-Q1 calculation.
+SUPPORT_DATA_ROWS,0,0,PASS,No support data accessed.
+ACTUAL_OUTCOMES_DO_NOT_CHANGE_STRESS_DEFINITIONS,SEALED_BEFORE_READ,99ee459e4640c29ac96549d6de8973783102aae6ae2d0b9724dd15be4818f27c,PASS,"Matching hierarchy, TI bands, tiers, and aggregation rule fixed in seal."

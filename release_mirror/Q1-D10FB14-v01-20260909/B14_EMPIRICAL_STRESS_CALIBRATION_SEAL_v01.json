@@ -1,0 +1,60 @@
+{
+  "actual24_outcome_rows_read_before_seal": 0,
+  "builder_version": "1.0.0",
+  "calibration_population": "SELECTED_Y_EXACT_ZERO_AND_TARGET_STRATUM_SPECIES_MASS_POSITIVE",
+  "direct_species_count": 97,
+  "direct_species_sha256": "79c42e09804582512056f801ff5bcd12b921b1f8cf1a140f84fca0e696f79709",
+  "implicit_zero_rule": "Target-stratum species sum zero implies every retained-plot pseudo replacement and both perturbation metrics are exactly zero; retain in counts/quantiles without physical Parquet rows.",
+  "matching_hierarchy": [
+    "H1_SAME_FOLD_ROUTE_TI_BAND",
+    "H2_SAME_FOLD_TI_BAND",
+    "H3_SAME_TI_BAND",
+    "H4_ALL"
+  ],
+  "minimum_group_n": 100,
+  "multiple_singleton_rule": "CONSERVATIVE_NO_CANCELLATION_BOUND",
+  "phase": "AFTER_PHASE_B_BEFORE_ACTUAL24_OUTCOME_READ",
+  "pseudo_event_identity": {
+    "event_status_counts": {
+      "MAXIMAL_DEGENERACY_BOUND_TOTAL_MASS_COLLAPSE": 2257,
+      "PASS": 1286679
+    },
+    "event_universe": 26138299,
+    "implicit_exact_zero_events": 24849363,
+    "materialized_events": 1288936,
+    "maximal_total_mass_collapse_events": 2257,
+    "member_vs_full_block_area_max_abs_difference_descriptive": 56232.600000000006,
+    "merged_effective_block_component_targets": 2,
+    "parquet_rows": 1288936,
+    "parquet_sha256": "d85bec74166d2f79da36bf0e939499c49dc81c901ade1b7a6a5ffb6da3e74ea0",
+    "positive_target_species_pairs": 10662,
+    "target_coefficient_sum_identity_max_abs_error": 0.0,
+    "target_plot_rows": 269467,
+    "targets": 4640,
+    "whole_effective_block_targets": 4638,
+    "zero_selected_target_positive_events": 1193386
+  },
+  "seal_id": "B14_EMPIRICAL_STRESS_CALIBRATION_SEAL_v01",
+  "sealed_files": {
+    "B14_HIGH_TI_STRESS_SUMMARY_v01.csv": "14e1ced6e05de1dbf383baaeb5639f6ddcd73a575ceecad94d6b321a6c324f35",
+    "B14_PSEUDO_SINGLETON_EVENT_LEVEL_v01.parquet": "d85bec74166d2f79da36bf0e939499c49dc81c901ade1b7a6a5ffb6da3e74ea0",
+    "B14_PSEUDO_SINGLETON_STRESS_SUMMARY_v01.csv": "3d8e6897d25c592caef00addc6bc2ffa48a8896b1aeb294e289086db409be96e",
+    "B14_ZERO_SELECTED_PLOT_STRESS_v01.csv": "cfdaa7da6982e440cb42a7360024a2f80cdb24b89ff7be4f704bb255317073aa"
+  },
+  "sealed_utc": "2026-09-08T19:12:47.777452+00:00",
+  "ti_band_definition": {
+    "population": "FULL_5752_BLOCK_FOLD_DISTRIBUTION",
+    "q95": 24138.348874046515,
+    "q99": 40835.08999999998,
+    "rules": [
+      "LT_P95",
+      "P95_TO_LT_P99",
+      "GE_P99"
+    ]
+  },
+  "tiers": {
+    "E_EMPIRICAL_MAX": "sealed empirical maximum",
+    "E_OBSERVED": "actual point-mass exact omission after seal",
+    "E_P95": "sealed empirical p95"
+  }
+}

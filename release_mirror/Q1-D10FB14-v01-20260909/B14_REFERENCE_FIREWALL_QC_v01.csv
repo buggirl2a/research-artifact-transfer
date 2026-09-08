@@ -1,0 +1,10 @@
+﻿check_id,observed,status
+NO_NEW_ESTIMATOR,No estimator constructed or promoted,PASS
+NO_SUPPORT_ANALYSIS,No support analysis executed,PASS
+NO_REAL_Q1,Q1 calculation rows=0,PASS
+NO_D10F_C,D10F-C remains HOLD,PASS
+OUTCOME_INDEPENDENT_CALIBRATION,Seal 99ee459e4640c29ac96549d6de8973783102aae6ae2d0b9724dd15be4818f27c precedes first actual24 outcome read,PASS
+NO_SPECIES_EXCLUSION,All 24x97 retained for all 3 tiers,PASS
+MULTI_CODE_FIREWALL,"3 multi-SPCD species retained only as cohort context, never combined",PASS
+NO_ARBITRARY_PASS_THRESHOLD,Continuous metrics and fold-discrepancy comparisons only,PASS
+PHASE_D_DEFAULT_SKIP,SKIPPED; no inconclusive identification trigger,PASS

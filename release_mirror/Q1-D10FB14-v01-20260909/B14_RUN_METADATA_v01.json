@@ -1,0 +1,130 @@
+{
+  "actual": {
+    "accepted_direct_mass_rows": 194,
+    "calibration_match_usage_cases": {
+      "H1_SAME_FOLD_ROUTE_TI_BAND": 9,
+      "H2_SAME_FOLD_TI_BAND": 1,
+      "H4_ALL": 14
+    },
+    "envelope_rows": 582,
+    "first_actual_outcome_read_after_seal": true,
+    "individual_rows": 6984,
+    "parquet_rows": 7566,
+    "parquet_sha256": "ead0aa293e6cf9e3ddf628628ec08b99556542ae0bea62ae915332f1f4bced6a"
+  },
+  "baseline_plot_species_rows": 529475,
+  "builder_version": "1.0.0",
+  "calibration_seal_sha256": "99ee459e4640c29ac96549d6de8973783102aae6ae2d0b9724dd15be4818f27c",
+  "d10ca": {
+    "band_counts": {
+      "GE_P99": 58,
+      "LT_P95": 5464,
+      "P95_TO_LT_P99": 230
+    },
+    "group_rows": 5752,
+    "plot_rows": 338619,
+    "q95": 24138.348874046515,
+    "q99": 40835.08999999998
+  },
+  "d10f_c_status": "HOLD",
+  "direct_species_count": 97,
+  "event_storage_rule": "Only target-positive species events materialized; target-zero species events are IMPLICIT_EXACT_ZERO and retained in every universe count and quantile denominator.",
+  "finalized_utc": "2026-09-08T19:13:07.923497+00:00",
+  "measurement_formula": "sum(fold_specific_ti * cached_unexpanded_y); cached y = sum(TPA_UNADJ * basis-matched ADJ_FACTOR); no EXPNS; TI exactly once",
+  "multi_species_context_count": 3,
+  "no_automatic_archive": true,
+  "phase_D": "SKIPPED",
+  "phase_D_reason": "Empirical identification and sealed application completed.",
+  "preflight": {
+    "cache_counts": {
+      "member": 7696,
+      "member_plot": 338619,
+      "plot_design": 338619,
+      "plot_generic": 338619,
+      "plot_species": 529475,
+      "species_universe": 402,
+      "target": 5753
+    },
+    "cache_fingerprint": "5d0a9dbaf55045c20bdab107f061c477fe77106d100bc95681a6dfebd1eeb7bd",
+    "cache_integrity": "ok",
+    "cache_logical_recomputed_sha256": "e85168819a7954f9f1ead69f1554e29c193ba9ef369c7c2793b4587d5f8dd416",
+    "cache_logical_rows": 529475,
+    "cache_logical_sha256": "e85168819a7954f9f1ead69f1554e29c193ba9ef369c7c2793b4587d5f8dd416",
+    "identities": {
+      "b12": {
+        "path": "C:\\range_paper\\10_archive\\d10fb12_v01_1\\Q1_D10F_B12_v01_1.zip",
+        "sha256": "d009bf50225ca3c2f483e08fe17f22312f93c9a28f36786abae8729fde3a21ab",
+        "size_bytes": 94374676
+      },
+      "b13": {
+        "path": "C:\\range_paper\\10_archive\\d10fb13_v01\\Q1_D10F_B13_v01.zip",
+        "sha256": "c3898021cfe71ae0ea7b307be3907c8598dc1d1744f04e37d5ee0fc9d74807d9",
+        "size_bytes": 99366965
+      },
+      "cache": {
+        "path": "C:\\range_paper\\99_tmp\\d10fb12_v01\\cache\\b12_cache.sqlite",
+        "sha256": "0daf80d098546d61aecd8e75701f5174d9f6fd4452ce4a1b257651d45c9d2953",
+        "size_bytes": 742010880
+      },
+      "d10ca": {
+        "path": "C:\\range_paper\\10_archive\\d10ca\\D10CA_v01.zip",
+        "sha256": "c8f73406f7f192b8f124add3cb0ded7ea65474e8d72d752e37dc557a08588865",
+        "size_bytes": 7092335
+      },
+      "q1_projection": {
+        "path": "C:\\range_paper\\10_archive\\q1_b12_q1_cohort_projection_v01\\Q1_B12_Q1_COHORT_PROJECTION_v01.zip",
+        "sha256": "70d34c6905a9d76675943ae03182feae719340d159ca6b69b68b9b9d089f227e",
+        "size_bytes": 1611766
+      },
+      "singleton_audit": {
+        "path": "C:\\range_paper\\10_archive\\q1_singleton_materiality_v01\\Q1_SINGLETON_MATERIALITY_AUDIT_v01.zip",
+        "sha256": "e85da191519ac8ed033c46ac78257c1c7e515976fd87a0d99511093bd0d8e007",
+        "size_bytes": 71431
+      },
+      "substrate": {
+        "path": "C:\\range_paper\\10_archive\\q1_fia_substrate_v01_1\\Q1_FIA_SUBSTRATE_v01_1.zip",
+        "sha256": "1dbd8cf3fdb9fdbd25945ed70af64e1c739ec78f10f24ec4866128c38d5d946e",
+        "size_bytes": 281705902
+      }
+    },
+    "internal_manifest_rows": {
+      "b12": 24,
+      "b13": 29,
+      "q1_projection": 20,
+      "singleton_audit": 27
+    },
+    "new_tree_source_scan_rows": 0,
+    "protected": {
+      "actual24": 24,
+      "pseudo_scoreable": 4640
+    },
+    "q1_calculation_rows": 0,
+    "substrate_nonextraction_reason": "Accepted singleton audit already reconciled D10CA coefficients to canonical substrate; B14 uses frozen D10CA xwalk and accepted identities without a redundant 2.034 GB extraction.",
+    "substrate_sqlite_extracted": false
+  },
+  "pseudo": {
+    "event_status_counts": {
+      "MAXIMAL_DEGENERACY_BOUND_TOTAL_MASS_COLLAPSE": 2257,
+      "PASS": 1286679
+    },
+    "event_universe": 26138299,
+    "implicit_exact_zero_events": 24849363,
+    "materialized_events": 1288936,
+    "maximal_total_mass_collapse_events": 2257,
+    "member_vs_full_block_area_max_abs_difference_descriptive": 56232.600000000006,
+    "merged_effective_block_component_targets": 2,
+    "parquet_rows": 1288936,
+    "parquet_sha256": "d85bec74166d2f79da36bf0e939499c49dc81c901ade1b7a6a5ffb6da3e74ea0",
+    "positive_target_species_pairs": 10662,
+    "target_coefficient_sum_identity_max_abs_error": 0.0,
+    "target_plot_rows": 269467,
+    "targets": 4640,
+    "whole_effective_block_targets": 4638,
+    "zero_selected_target_positive_events": 1193386
+  },
+  "run_completed_utc": "2026-09-08T19:12:55.377304+00:00",
+  "run_started_utc": "see execution.log",
+  "scientific_evidence_category": "MATERIAL_SINGLETON_UNCERTAINTY_REMAINS",
+  "task_id": "Q1_D10F_B14_v01_WORK_SINGLETON_UNCERTAINTY_MATERIALITY_STRESS_AUDIT",
+  "task_status": "B14_MATERIALITY_STRESS_COMPLETE"
+}

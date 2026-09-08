@@ -1,0 +1,16 @@
+{
+  "task_id": "Q1_D10F_B14_v01_WORK_SINGLETON_UNCERTAINTY_MATERIALITY_STRESS_AUDIT",
+  "builder_version": "1.0.0",
+  "direct_species_count": 97,
+  "scoreable_pseudo_targets": 4640,
+  "actual_singleton_cases": 24,
+  "pseudo_event_universe": 26138299,
+  "minimum_calibration_group_n": 100,
+  "ti_band_population": "FULL_5752_BLOCK_FOLD_DISTRIBUTION",
+  "ti_band_rules": ["LT_P95", "P95_TO_LT_P99", "GE_P99"],
+  "matching_hierarchy": ["H1_SAME_FOLD_ROUTE_TI_BAND", "H2_SAME_FOLD_TI_BAND", "H3_SAME_TI_BAND", "H4_ALL"],
+  "stress_tiers": ["E_OBSERVED", "E_P95", "E_EMPIRICAL_MAX"],
+  "multiple_singleton_rule": "CONSERVATIVE_NO_CANCELLATION_BOUND",
+  "transfer_upload_target": "mirror",
+  "d10f_c_status": "HOLD"
+}

@@ -1,0 +1,4 @@
+﻿item_id,owner,item,blocking_for_B14,blocking_for_D10F_C,status
+MAINLINE_DISPOSITION,MAINLINE,Review continuous B14 stress evidence relative to A/B fold discrepancy before any covariance decision.,NO,YES,OPEN
+ESTIMATOR_SELECTION,MAINLINE,"B14 does not select, promote, or certify an estimator.",NO,YES,OPEN
+PHASE_D,B14,No Phase D escalation was run because empirical identification completed.,NO,NO,SKIPPED_BY_DESIGN
