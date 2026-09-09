@@ -1,0 +1,53 @@
+{
+  "accepted_layer1_sha256": "d2935fa9e2c7dd754fbdd8151ba2f093675e3772fefe260336daa308adcaeb72",
+  "authorization_sha256": "223d9b294cf86e8ea1cd7a0c80dade6cdf83b9f0926c27bd01c128f494c7faab",
+  "binding_fingerprint": "3fa4d207eee7ee9757f5d5722afba091b244a0545ef54a3e8c00fe8098a894a5",
+  "builder_source_sha256": "71c2e685866a446c6a1f625f1103e230066f795c6050bf9f5794843be471d430",
+  "builder_version": "v01_1.0.0",
+  "execution_date": "2026-09-09",
+  "freeze_authority": "MAINLINE_ONLY",
+  "fresh_layer1_full_hash_performed": false,
+  "layer2_database_sha256": "0e696c3ca58a2aae7bbbf2106723e05c50628d8196199bea9c507acdbef1dbfd",
+  "layer2_row_counts": {
+    "condition_opportunity_source": 405427,
+    "f0_linkage": 338619,
+    "plot_opportunity_source": 334387,
+    "subplot_condition_relation": 1384227,
+    "subplot_opportunity_source": 1337548
+  },
+  "layer2_schema_fingerprint": "aee5430cded27a0c2a31ca802ecd5d95e9cf4bdfbdd29816f8133d89d30553de",
+  "layer3": {
+    "A_rows": 135513,
+    "B_rows": 203106,
+    "direct_opportunity_fully_classified": 19578,
+    "explicitly_unresolved": 118910,
+    "f0_rows": 338619,
+    "fully_classified": 219709,
+    "layer2_status": "LAYER2_CANDIDATE_READY_WITH_EXPLICIT_UNRESOLVED_FIELDS",
+    "no_direct_opportunity_fully_classified": 200131,
+    "opportunity_unresolved": 118910,
+    "positive_breakpoint_count": 37843,
+    "positive_breakpoint_gt_5_count": 37843,
+    "scientific_disposition": "CANDIDATE_OPERATOR_COMPLETE_WITH_BOUNDED_UNRESOLVED_STATES"
+  },
+  "layer3_rule_fingerprint": "84bef3e5f0103d0b28f080fa461577559e8c715314c68f58dfcd94d82c7e24ba",
+  "runtime": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "sqlite": "3.53.1"
+  },
+  "source_binding_mode": "INHERITED_ACCEPTED_FULL_HASH_BINDING",
+  "species_firewall": {
+    "abundance_calculation_rows": 0,
+    "internet_access": 0,
+    "q1_calculation_rows": 0,
+    "spcd_selected_rows": 0,
+    "species_nondetection_calculation_rows": 0,
+    "species_outcome_rows_read_for_analysis": 0,
+    "species_support_calculation_rows": 0,
+    "tree_table_queries": 0
+  },
+  "stop_boundary": "RETURN_TO_MAINLINE",
+  "task_class": "WORK_METHOD_DEFINITION_BUILD_QUALIFICATION_AND_LAYERED_SOURCE_CONSOLIDATION",
+  "task_id": "Q1_FIA_SUPPORT_LEGAL_OBSERVATION_OPPORTUNITY_OPERATOR_v01_1_WORK"
+}

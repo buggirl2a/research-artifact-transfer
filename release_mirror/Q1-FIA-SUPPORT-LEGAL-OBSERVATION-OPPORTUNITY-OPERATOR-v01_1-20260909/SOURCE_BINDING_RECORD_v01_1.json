@@ -1,0 +1,22 @@
+{
+  "accepted_binding_authority": "SUBSTRATE_SOURCE_MANIFEST_v01_1.csv plus accepted Local audit source-QC record",
+  "accepted_full_sha256": "d2935fa9e2c7dd754fbdd8151ba2f093675e3772fefe260336daa308adcaeb72",
+  "accepted_size_bytes": 71565119488,
+  "builder_source_sha256": "71c2e685866a446c6a1f625f1103e230066f795c6050bf9f5794843be471d430",
+  "builder_version": "v01_1.0.0",
+  "current_size_bytes": 71565119488,
+  "exists": true,
+  "filesystem_ctime_ns": 1788458505228001800,
+  "filesystem_mtime_ns": 1788458776452662000,
+  "fresh_full_hash_performed": false,
+  "fresh_full_hash_triggered": false,
+  "layer": "LAYER_1_BOUND_SOURCE",
+  "path": "C:\\range_paper\\99_tmp\\d08c2_preflight_observational_authority_v01\\source_cache\\SQLite_FIADB_ENTIRE.db",
+  "path_match": true,
+  "read_intent": "READ_ONLY",
+  "replacement_or_provenance_anomaly_observed": false,
+  "size_match": true,
+  "source_binding_mode": "INHERITED_ACCEPTED_FULL_HASH_BINDING",
+  "status": "PASS_INHERITED_ACCEPTED_FULL_HASH_BINDING",
+  "task_id": "Q1_FIA_SUPPORT_LEGAL_OBSERVATION_OPPORTUNITY_OPERATOR_v01_1_WORK"
+}

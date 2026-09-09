@@ -1,0 +1,39 @@
+table_name,ordinal,column_name,sqlite_type,not_null,primary_key_position,default_value,scientific_scope,species_blind
+f0_linkage,1,PLT_CN,TEXT,0,1,,frozen linkage,YES
+f0_linkage,2,permanent_plot_id,TEXT,0,0,,frozen linkage,YES
+f0_linkage,3,plot_visit_identity,TEXT,1,0,,frozen linkage,YES
+f0_linkage,4,fold,TEXT,1,0,,frozen linkage,YES
+f0_linkage,5,STATECD,INTEGER,0,0,,frozen linkage,YES
+f0_linkage,6,EVALID,TEXT,0,0,,frozen linkage,YES
+f0_linkage,7,source_eu,TEXT,0,0,,frozen linkage,YES
+f0_linkage,8,DESIGNCD_FROZEN,TEXT,0,0,,frozen linkage,YES
+f0_linkage,9,MANUAL_FROZEN,TEXT,0,0,,frozen linkage,YES
+f0_linkage,10,substrate_source_table,TEXT,1,0,,frozen linkage,YES
+f0_linkage,11,substrate_source_key,TEXT,1,0,,frozen linkage,YES
+plot_opportunity_source,1,SOURCE_PLOT_CN,TEXT,0,1,,source-native legal-opportunity field/key,YES
+plot_opportunity_source,2,PLT_CN,TEXT,1,0,,source-native legal-opportunity field/key,YES
+plot_opportunity_source,3,PLOT_STATUS_CD,,0,0,,source-native legal-opportunity field/key,YES
+plot_opportunity_source,4,PLOT_NONSAMPLE_REASN_CD,,0,0,,source-native legal-opportunity field/key,YES
+plot_opportunity_source,5,SAMP_METHOD_CD,,0,0,,source-native legal-opportunity field/key,YES
+plot_opportunity_source,6,SUBP_EXAMINE_CD,,0,0,,source-native legal-opportunity field/key,YES
+plot_opportunity_source,7,MACRO_BREAKPOINT_DIA,,0,0,,source-native legal-opportunity field/key,YES
+plot_opportunity_source,8,DESIGNCD,,0,0,,source-native legal-opportunity field/key,YES
+plot_opportunity_source,9,MANUAL,,0,0,,source-native legal-opportunity field/key,YES
+subplot_opportunity_source,1,SOURCE_SUBPLOT_CN,TEXT,0,1,,source-native legal-opportunity field/key,YES
+subplot_opportunity_source,2,PLT_CN,TEXT,1,0,,source-native legal-opportunity field/key,YES
+subplot_opportunity_source,3,SUBP,,0,0,,source-native legal-opportunity field/key,YES
+subplot_opportunity_source,4,SUBP_STATUS_CD,,0,0,,source-native legal-opportunity field/key,YES
+subplot_opportunity_source,5,POINT_NONSAMPLE_REASN_CD,,0,0,,source-native legal-opportunity field/key,YES
+condition_opportunity_source,1,SOURCE_COND_CN,TEXT,0,1,,source-native legal-opportunity field/key,YES
+condition_opportunity_source,2,PLT_CN,TEXT,1,0,,source-native legal-opportunity field/key,YES
+condition_opportunity_source,3,CONDID,,0,0,,source-native legal-opportunity field/key,YES
+condition_opportunity_source,4,COND_STATUS_CD,,0,0,,source-native legal-opportunity field/key,YES
+condition_opportunity_source,5,COND_NONSAMPLE_REASN_CD,,0,0,,source-native legal-opportunity field/key,YES
+condition_opportunity_source,6,PROP_BASIS,,0,0,,source-native legal-opportunity field/key,YES
+condition_opportunity_source,7,CONDPROP_UNADJ,,0,0,,source-native legal-opportunity field/key,YES
+condition_opportunity_source,8,SUBPPROP_UNADJ,,0,0,,source-native legal-opportunity field/key,YES
+condition_opportunity_source,9,MACRPROP_UNADJ,,0,0,,source-native legal-opportunity field/key,YES
+subplot_condition_relation,1,SOURCE_SUBP_COND_CN,TEXT,0,1,,source-native legal-opportunity field/key,YES
+subplot_condition_relation,2,PLT_CN,TEXT,1,0,,source-native legal-opportunity field/key,YES
+subplot_condition_relation,3,SUBP,,0,0,,source-native legal-opportunity field/key,YES
+subplot_condition_relation,4,CONDID,,0,0,,source-native legal-opportunity field/key,YES

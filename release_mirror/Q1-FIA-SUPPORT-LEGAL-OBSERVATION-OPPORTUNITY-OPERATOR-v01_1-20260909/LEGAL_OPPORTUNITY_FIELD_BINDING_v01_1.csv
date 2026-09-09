@@ -1,0 +1,17 @@
+field_or_key,layer1_table,required_role,necessity,accepted_authority,operator_treatment,layer2_location,provenance_class
+PLT_CN / PLOT.CN,PLOT,F0-to-source visit identity,REQUIRED,S03; LNK01,exact join key; never dropped,f0_linkage.PLT_CN; plot_opportunity_source.SOURCE_PLOT_CN,FROZEN + LAYER 1 BOUND SOURCE
+fold / EVALID / STATECD / source_eu,frozen substrate linkage,F0/A/B and evaluation audit identity,REQUIRED,frozen F0 contract,retained unchanged,f0_linkage,FROZEN
+PLOT_STATUS_CD,PLOT,plot sampled/forest opportunity gate,REQUIRED,S03; O01-O04,codes 1/2/3 retained and interpreted; missing explicit,plot_opportunity_source,ACCEPTED EVIDENCE
+PLOT_NONSAMPLE_REASN_CD,PLOT,plot nonresponse provenance,REQUIRED_CONTEXT,S03; C14,retained; not converted to a species zero,plot_opportunity_source,ACCEPTED EVIDENCE
+SAMP_METHOD_CD,PLOT,field versus remote gate,REQUIRED,S04; O05-O06,code 1 field; code 2 no direct tree opportunity; missing explicit,plot_opportunity_source,ACCEPTED EVIDENCE
+SUBP_EXAMINE_CD,PLOT,direct versus inferred spatial extent,REQUIRED,S04; O07-O08,code 1 limits direct scope to subplot 1; code 4 describes all four,plot_opportunity_source,ACCEPTED EVIDENCE
+MACRO_BREAKPOINT_DIA,PLOT,diameter-dependent tally frame,REQUIRED,S04; O15; C04; C08,positive value creates diameter frame; no positive value remains unresolved,plot_opportunity_source,ACCEPTED EVIDENCE + OPEN / UNRESOLVED
+DESIGNCD / MANUAL,PLOT,design/manual audit identity,REQUIRED_CONTEXT,S04; C16,retained for decision-relevant stratification; not used to infer absent breakpoint,plot_opportunity_source,ACCEPTED EVIDENCE
+SUBPLOT.CN / SUBP,SUBPLOT,source subplot identity and direct element,REQUIRED,S09; LNK02,source key and element number retained,subplot_opportunity_source,LAYER 1 BOUND SOURCE
+SUBP_STATUS_CD,SUBPLOT,sampled accessible element status,REQUIRED,S09; O12-O14,code 1 is direct sampled accessible; 2/3 are not direct forest opportunities,subplot_opportunity_source,ACCEPTED EVIDENCE
+POINT_NONSAMPLE_REASN_CD,SUBPLOT,element nonresponse provenance,REQUIRED_CONTEXT,S09; C14,retained; not converted to a species zero,subplot_opportunity_source,ACCEPTED EVIDENCE
+COND.CN / CONDID,COND,source condition identity,REQUIRED,S06; LNK03,source and within-plot condition keys retained,condition_opportunity_source,LAYER 1 BOUND SOURCE
+COND_STATUS_CD,COND,accessible forest portion gate,REQUIRED,S06-S07; O09-O11,only code 1 can contribute direct Q1 forest opportunity,condition_opportunity_source,ACCEPTED EVIDENCE
+COND_NONSAMPLE_REASN_CD,COND,condition nonresponse provenance,REQUIRED_CONTEXT,S07; C14,retained; never promoted to nondetection,condition_opportunity_source,ACCEPTED EVIDENCE
+PROP_BASIS / CONDPROP_UNADJ / SUBPPROP_UNADJ / MACRPROP_UNADJ,COND,condition/frame representation,REQUIRED_FOR_FRAME,S08; C08; C13,retained as representation metadata only; never multiplied into A2,condition_opportunity_source,ACCEPTED EVIDENCE
+SUBP_COND.CN / PLT_CN / SUBP / CONDID,SUBP_COND,sampled element to condition relationship,REQUIRED_RELATION,LNK06-LNK07,structural link only; no species outcome,subplot_condition_relation,LAYER 1 BOUND SOURCE + ACCEPTED EVIDENCE

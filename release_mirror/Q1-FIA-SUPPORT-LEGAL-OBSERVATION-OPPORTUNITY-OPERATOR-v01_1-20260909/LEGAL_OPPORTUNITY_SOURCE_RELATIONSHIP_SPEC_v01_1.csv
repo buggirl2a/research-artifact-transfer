@@ -1,0 +1,6 @@
+relationship_id,from_object,from_key,to_object,to_key,cardinality_expected,operator_use,required,authority
+R01,frozen F0 plot visit,f0_linkage.PLT_CN,Layer 1 PLOT,plot_opportunity_source.SOURCE_PLOT_CN,1:1,bind every F0 visit to source-native plot status/method/frame fields,YES,frozen F0 contract; S03; LNK01
+R02,plot visit,PLT_CN,subplots,subplot_opportunity_source.PLT_CN,1:many,identify directly examined element status,YES,S09; LNK02
+R03,plot visit,PLT_CN,conditions,condition_opportunity_source.PLT_CN,1:many,retain accessible/nonsampled/nonforest condition states and frame basis,YES,S06-S08; LNK03
+R04,subplot,PLT_CN + SUBP,condition,PLT_CN + CONDID via subplot_condition_relation,many:many link records,confirm accessible condition is linked to a sampled direct element,YES,LNK06-LNK07
+R05,plot breakpoint,PLOT.MACRO_BREAKPOINT_DIA,condition representation,COND.PROP_BASIS + MACRPROP_UNADJ,plot:condition-many,resolve diameter-specific subplot/macroplot opportunity frame,YES_FOR_POSITIVE_BREAKPOINT,S04; S08; C04; C08

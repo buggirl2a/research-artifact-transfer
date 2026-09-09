@@ -1,0 +1,10 @@
+metric,value,required_value,status,evidence
+SPECIES_OUTCOME_ROWS_READ_FOR_ANALYSIS,0,0,PASS,builder contains no TREE/SPCD/species outcome query; no network operation
+SPCD_SELECTED_ROWS,0,0,PASS,builder contains no TREE/SPCD/species outcome query; no network operation
+SPECIES_SUPPORT_CALCULATION_ROWS,0,0,PASS,builder contains no TREE/SPCD/species outcome query; no network operation
+SPECIES_NONDETECTION_CALCULATION_ROWS,0,0,PASS,builder contains no TREE/SPCD/species outcome query; no network operation
+Q1_CALCULATION_ROWS,0,0,PASS,builder contains no TREE/SPCD/species outcome query; no network operation
+ABUNDANCE_CALCULATION_ROWS,0,0,PASS,builder contains no TREE/SPCD/species outcome query; no network operation
+INTERNET_ACCESS,0,0,PASS,builder contains no TREE/SPCD/species outcome query; no network operation
+TREE_TABLE_QUERIES,0,0,PASS,"fixed Layer 1 table allow-list is PLOT,SUBPLOT,COND,SUBP_COND"
+LAYER2_SPECIES_COLUMNS,0,0,PASS,schema audit contains no SPCD or species-identity/outcome column

@@ -1,0 +1,80 @@
+{
+  "A_rows": 135513,
+  "B_rows": 203106,
+  "builder_source_sha256": "71c2e685866a446c6a1f625f1103e230066f795c6050bf9f5794843be471d430",
+  "checkpoint": "LAYER3_COMPLETE",
+  "class_counts": {
+    "DIRECT_FIELD_OPPORTUNITY_ALL_FOUR_SAMPLED_SPLIT_FRAME": 17185,
+    "DIRECT_FIELD_OPPORTUNITY_PARTIAL_ELEMENTS_SPLIT_FRAME": 2393,
+    "NO_DIRECT_OPPORTUNITY_PLOT_STATUS_3": 21,
+    "NO_Q1_FOREST_OPPORTUNITY_PLOT_STATUS_2": 19457,
+    "REMOTE_INFORMATION_NO_DIRECT_TREE_OPPORTUNITY": 180653,
+    "UNRESOLVED_DIAMETER_FRAME_NO_POSITIVE_BREAKPOINT": 114678,
+    "UNRESOLVED_PLOT_SOURCE_BINDING": 4232
+  },
+  "classification_sha256": "60925ab336bff4673845d6c2186d7b6d14334faec5bde8884ace6dc532690704",
+  "completion_marker": "COMPLETE",
+  "direct_opportunity_fully_classified": 19578,
+  "explicitly_unresolved": 118910,
+  "f0_rows": 338619,
+  "frame_counts": {
+    "FRAME_UNRESOLVED_NO_POSITIVE_BREAKPOINT": 300776,
+    "SUBPLOT_MACRO_SPLIT_AT_BREAKPOINT": 37843
+  },
+  "fully_classified": 219709,
+  "layer2_sha256": "0e696c3ca58a2aae7bbbf2106723e05c50628d8196199bea9c507acdbef1dbfd",
+  "layer2_status": "LAYER2_CANDIDATE_READY_WITH_EXPLICIT_UNRESOLVED_FIELDS",
+  "no_direct_opportunity_fully_classified": 200131,
+  "nonnumeric_breakpoint_count": 0,
+  "nonpositive_breakpoint_count": 0,
+  "opportunity_unresolved": 118910,
+  "output_sha256": {
+    "LEGAL_OPPORTUNITY_A_B_SUMMARY_v01_1.csv": "cd6d64dc0a53dff8c0ac759adfb65c062c5661e43872c664b8351fd96728d585",
+    "LEGAL_OPPORTUNITY_DIAMETER_FRAME_RULES_v01_1.csv": "b34c569a778ea9f3d7c268048fe8939870fe5627580d74ecb6ed41cb10a30be1",
+    "LEGAL_OPPORTUNITY_F0_CLASSIFICATION_SUMMARY_v01_1.csv": "9f22cbf48bc7b82a1a5a1378ca72ef30b589a6e0fb94ede822b9ecee1802f449",
+    "LEGAL_OPPORTUNITY_F0_CLASSIFICATION_v01_1.csv.gz": "60925ab336bff4673845d6c2186d7b6d14334faec5bde8884ace6dc532690704",
+    "LEGAL_OPPORTUNITY_STATE_DICTIONARY_v01_1.csv": "f42af734277cb7a11c8680e464756e75bd34b339abf397032eb0a512254ffc44",
+    "LEGAL_OPPORTUNITY_UNRESOLVED_STATES_v01_1.csv": "6b7818de34c9fb23d759448eb0332b7e89ed6d3f6137b881b79c87144d3eb13b"
+  },
+  "positive_breakpoint_count": 37843,
+  "positive_breakpoint_gt_5_count": 37843,
+  "positive_breakpoint_le_5_count": 0,
+  "reused": false,
+  "rule_fingerprint": "84bef3e5f0103d0b28f080fa461577559e8c715314c68f58dfcd94d82c7e24ba",
+  "scientific_disposition": "CANDIDATE_OPERATOR_COMPLETE_WITH_BOUNDED_UNRESOLVED_STATES",
+  "source_code_distributions": {
+    "COND_STATUS_CD": {
+      "1": 160750,
+      "2": 226055,
+      "3": 2563,
+      "4": 10766,
+      "5": 5293
+    },
+    "PLOT_STATUS_CD": {
+      "1": 134256,
+      "2": 200086,
+      "3": 45,
+      "<MISSING>": 4232
+    },
+    "PROP_BASIS": {
+      "MACR": 49144,
+      "SUBP": 356283
+    },
+    "SAMP_METHOD_CD": {
+      "1": 153734,
+      "2": 180653,
+      "<MISSING>": 4232
+    },
+    "SUBP_EXAMINE_CD": {
+      "1": 136355,
+      "4": 198032,
+      "<MISSING>": 4232
+    },
+    "SUBP_STATUS_CD": {
+      "1": 485042,
+      "2": 845325,
+      "3": 7181
+    }
+  },
+  "task_id": "Q1_FIA_SUPPORT_LEGAL_OBSERVATION_OPPORTUNITY_OPERATOR_v01_1_WORK"
+}

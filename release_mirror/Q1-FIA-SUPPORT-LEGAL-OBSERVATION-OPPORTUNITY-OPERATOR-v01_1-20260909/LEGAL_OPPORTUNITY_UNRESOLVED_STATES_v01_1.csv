@@ -1,0 +1,7 @@
+summary_level,fold,unresolved_reason,count,denominator_f0,fraction_f0,denominator_unresolved,fraction_unresolved,required_treatment
+ALL,ALL,UNRESOLVED_DIAMETER_FRAME_NO_POSITIVE_BREAKPOINT,114678,338619,0.33866380799659795,118910,0.9644100580270794,retain explicit state; mainline decides bounded propagation/refinement
+FOLD,A,UNRESOLVED_DIAMETER_FRAME_NO_POSITIVE_BREAKPOINT,45738,135513,0.33751743375174337,46684,0.9797360980207351,retain explicit state; mainline decides bounded propagation/refinement
+FOLD,B,UNRESOLVED_DIAMETER_FRAME_NO_POSITIVE_BREAKPOINT,68940,203106,0.33942867271277066,72226,0.9545039182565835,retain explicit state; mainline decides bounded propagation/refinement
+ALL,ALL,UNRESOLVED_PLOT_SOURCE_BINDING,4232,338619,0.012497822035975535,118910,0.035589941972920695,retain explicit state; mainline decides bounded propagation/refinement
+FOLD,A,UNRESOLVED_PLOT_SOURCE_BINDING,946,135513,0.006980880063167372,46684,0.020263901979264844,retain explicit state; mainline decides bounded propagation/refinement
+FOLD,B,UNRESOLVED_PLOT_SOURCE_BINDING,3286,203106,0.016178744104063888,72226,0.045496081743416496,retain explicit state; mainline decides bounded propagation/refinement

@@ -1,0 +1,6 @@
+layer2_table,layer2_source_key,source_layer,source_table,source_key,traceability_rule,status
+f0_linkage,PLT_CN,FROZEN FIA SUBSTRATE,plot_visit_design_core,PLT_CN,exact retained key; joins Layer 1 PLOT.CN,PASS
+plot_opportunity_source,SOURCE_PLOT_CN,LAYER 1 BOUND SOURCE,PLOT,CN,byte-preserved source key; PLT_CN duplicate supports F0 join,PASS
+subplot_opportunity_source,SOURCE_SUBPLOT_CN,LAYER 1 BOUND SOURCE,SUBPLOT,CN,byte-preserved source key and PLT_CN,PASS
+condition_opportunity_source,SOURCE_COND_CN,LAYER 1 BOUND SOURCE,COND,CN,byte-preserved source key and PLT_CN/CONDID,PASS
+subplot_condition_relation,SOURCE_SUBP_COND_CN,LAYER 1 BOUND SOURCE,SUBP_COND,CN,byte-preserved source key and PLT_CN/SUBP/CONDID,PASS

@@ -1,0 +1,10 @@
+record_type,fold,frame_state,diameter_domain,count,denominator,fraction,operator_effect,provenance_class
+RULE,ALL,SUBPLOT_MACRO_SPLIT_AT_BREAKPOINT,5<=DIA<breakpoint => subplot; DIA>=breakpoint => macroplot,,,,defines opportunity frame only; no support/abundance calculation,PROJECT-INDUCED CANDIDATE LAYER 3 OPERATOR
+RULE,ALL,MACRO_FRAME_ALL_TARGET_DIAMETERS,positive breakpoint<=5 => all DIA>=5 in macroplot frame,,,,defines opportunity frame only; no support/abundance calculation,PROJECT-INDUCED CANDIDATE LAYER 3 OPERATOR
+RULE,ALL,FRAME_UNRESOLVED_NO_POSITIVE_BREAKPOINT,DIA>=5 frame unresolved; absent positive breakpoint is not interpreted as subplot-only,,,,retains unresolved frame,OPEN / UNRESOLVED
+OBSERVED_F0,ALL,FRAME_UNRESOLVED_NO_POSITIVE_BREAKPOINT,,300776,338619,0.8882431287080761,descriptive frame-state coverage; species-blind,LOCAL/WORK DERIVED QUALIFICATION EVIDENCE
+OBSERVED_F0,ALL,SUBPLOT_MACRO_SPLIT_AT_BREAKPOINT,,37843,338619,0.11175687129192396,descriptive frame-state coverage; species-blind,LOCAL/WORK DERIVED QUALIFICATION EVIDENCE
+OBSERVED_F0,A,FRAME_UNRESOLVED_NO_POSITIVE_BREAKPOINT,,119663,135513,0.8830370517957686,descriptive frame-state coverage; species-blind,LOCAL/WORK DERIVED QUALIFICATION EVIDENCE
+OBSERVED_F0,A,SUBPLOT_MACRO_SPLIT_AT_BREAKPOINT,,15850,135513,0.11696294820423132,descriptive frame-state coverage; species-blind,LOCAL/WORK DERIVED QUALIFICATION EVIDENCE
+OBSERVED_F0,B,FRAME_UNRESOLVED_NO_POSITIVE_BREAKPOINT,,181113,203106,0.8917166405719181,descriptive frame-state coverage; species-blind,LOCAL/WORK DERIVED QUALIFICATION EVIDENCE
+OBSERVED_F0,B,SUBPLOT_MACRO_SPLIT_AT_BREAKPOINT,,21993,203106,0.10828335942808189,descriptive frame-state coverage; species-blind,LOCAL/WORK DERIVED QUALIFICATION EVIDENCE

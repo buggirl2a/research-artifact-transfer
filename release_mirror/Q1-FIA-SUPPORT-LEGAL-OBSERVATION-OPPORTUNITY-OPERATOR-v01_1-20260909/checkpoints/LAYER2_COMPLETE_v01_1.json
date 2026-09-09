@@ -1,0 +1,32 @@
+{
+  "binding_fingerprint": "3fa4d207eee7ee9757f5d5722afba091b244a0545ef54a3e8c00fe8098a894a5",
+  "builder_source_sha256": "ff4bcbf47e85500d6bf082dfcfe30db136d618c3b81eb111614c4c1c29a90393",
+  "checkpoint": "LAYER2_COMPLETE",
+  "completion_marker": "COMPLETE",
+  "database_path": "C:\\range_paper\\05_qc\\q1_fia_support_legal_opportunity_operator_v01_1_work\\Q1_FIA_SUPPORT_MEASUREMENT_SUBSTRATE_CANDIDATE_v01_1.sqlite",
+  "database_sha256": "0e696c3ca58a2aae7bbbf2106723e05c50628d8196199bea9c507acdbef1dbfd",
+  "integrity_check": "ok",
+  "last_validation_builder_source_sha256": "71c2e685866a446c6a1f625f1103e230066f795c6050bf9f5794843be471d430",
+  "layer2_build_fingerprint": "62e1a041ec72be83337d388560b623e751889573276df6fb588766b011616bc4",
+  "original_builder_source_sha256": "ff4bcbf47e85500d6bf082dfcfe30db136d618c3b81eb111614c4c1c29a90393",
+  "orphan_counts": {
+    "condition_opportunity_source": 0,
+    "plot_opportunity_source": 0,
+    "subplot_condition_relation": 0,
+    "subplot_opportunity_source": 0
+  },
+  "prior_binding_fingerprint": "3fa4d207eee7ee9757f5d5722afba091b244a0545ef54a3e8c00fe8098a894a5",
+  "reuse_validation": "REUSED_AFTER_V01_1_VALIDATION: protected inputs, Layer1 restart metadata, schema fingerprint, database SHA, row counts, and integrity_check all passed",
+  "reused": true,
+  "row_counts": {
+    "condition_opportunity_source": 405427,
+    "f0_linkage": 338619,
+    "plot_opportunity_source": 334387,
+    "subplot_condition_relation": 1384227,
+    "subplot_opportunity_source": 1337548
+  },
+  "schema_fingerprint": "aee5430cded27a0c2a31ca802ecd5d95e9cf4bdfbdd29816f8133d89d30553de",
+  "scientific_scope": "species-blind source-native legal-opportunity fields and required keys only",
+  "source_binding_mode": "INHERITED_ACCEPTED_FULL_HASH_BINDING",
+  "task_id": "Q1_FIA_SUPPORT_LEGAL_OBSERVATION_OPPORTUNITY_OPERATOR_v01_1_WORK"
+}
